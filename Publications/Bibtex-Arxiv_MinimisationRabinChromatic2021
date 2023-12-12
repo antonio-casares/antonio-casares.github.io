@@ -1,0 +1,9 @@
+@article{Casares2021Chromatic,
+  author    = {Antonio Casares},
+  title     = {On the Minimisation of Transition-Based {R}abin Automata and the Chromatic Memory Requirements of {M}uller Conditions},
+  journal   = {CoRR},
+  volume    = {abs/2105.12009},
+  year      = {2021},
+  url       = {https://arxiv.org/abs/2105.12009}
+}
+

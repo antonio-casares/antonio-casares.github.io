@@ -1,0 +1,9 @@
+@inproceedings{CDMRS22PracticalACD,
+  author = {Antonio Casares and Alexandre Duret-Lutz and Klara J.
+		  Meyer and Florian Renkin and Salomon Sickert},
+  title = {Practical Applications of the Alternating Cycle
+		  Decomposition},
+  booktitle = {TACAS},
+  year = {2022},
+  series = {Lecture Notes in Computer Science}
+}

@@ -1,0 +1,9 @@
+@InProceedings{BCRV22HalfPosBuchi,
+	author =	{Bouyer, Patricia and Casares, Antonio and Randour, Mickael and Vandenhove, Pierre},
+	title =	{Half-Positional Objectives Recognized by Deterministic {B}\"{u}chi Automata},
+	booktitle =	{CONCUR},
+	pages =	{20:1--20:18},
+	year =	{2022},
+	volume =	{243},
+	doi =		{10.4230/LIPIcs.CONCUR.2022.20}
+}

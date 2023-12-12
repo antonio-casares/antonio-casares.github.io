@@ -1,0 +1,8 @@
+@phdthesis{Casares23PhD,
+	author       = {Antonio Casares},
+	title        = {Structural properties of automata over infinite words and memory for games (Propri{\'{e}}t{\'{e}}s structurelles des automates sur les mots infinis et m{\'{e}}moire pour les jeux)},
+	school       = {Universit{\'{e}} de Bordeaux, France},
+	year         = {2023},
+	url          = {https://theses.hal.science/tel-04314678}
+}
+

@@ -1,0 +1,12 @@
+@inproceedings{CCL22GFGRabin,
+  author    = {Antonio Casares and
+               Thomas Colcombet and
+               Karoliina Lehtinen},
+  title     = {On the Size of Good-For-Games {R}abin Automata and Its Link with the Memory in {M}uller Games},
+  booktitle = {ICALP},
+  volume    = {229},
+  pages     = {117:1--117:20},
+  year      = {2022},
+  doi       = {10.4230/LIPIcs.ICALP.2022.117}
+}
+

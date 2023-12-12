@@ -1,0 +1,11 @@
+@InProceedings{Casares2021Chromatic,
+  author ={Casares, Antonio},
+  title ={On the Minimisation of Transition-Based {R}abin Automata and the Chromatic Memory Requirements of {M}uller Conditions},
+  booktitle ={CSL},
+  pages ={12:1--12:17},
+  year ={2022},
+  volume ={216},
+  doi ={10.4230/LIPIcs.CSL.2022.12}
+}
+
+

@@ -1,0 +1,9 @@
+@InProceedings{CCF2021OptimalTransformations,
+  author =	{Casares, Antonio and Colcombet, Thomas and Fijalkow, Nathana\"{e}l},
+  title =	{Optimal Transformations of Games and Automata Using {M}uller Conditions},
+  booktitle =	{ICALP},
+  pages =	{123:1--123:14},
+  year =	{2021},
+  volume =	{198},
+  doi =		{10.4230/LIPIcs.ICALP.2021.123}
+}

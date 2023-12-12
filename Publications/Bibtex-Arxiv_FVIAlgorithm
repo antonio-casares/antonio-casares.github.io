@@ -1,0 +1,13 @@
+@article{CO21FVI,
+	author       = {Antonio Casares and
+	Pierre Ohlmann},
+	title        = {Fast value iteration for energy games},
+	journal      = {{CoRR}},
+	volume       = {abs/2110.07346},
+	year         = {2021},
+	url          = {https://arxiv.org/abs/2110.07346},
+	doi 		 = {10.48550/arXiv.2110.07346},
+	eprinttype    = {arXiv},
+	eprint       = {2110.07346}
+}
+

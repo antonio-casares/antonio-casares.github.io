@@ -1,0 +1,13 @@
+@article{CCFL23FromMtoP,
+	author       = {Antonio Casares and
+	Thomas Colcombet and
+	Nathana{\"{e}}l Fijalkow and
+	Karoliina Lehtinen},
+	title        = {From {M}uller to Parity and {R}abin Automata: {O}ptimal Transformations Preserving (History\mbox{-)}Determinism},
+	journal      = {{CoRR}},
+	volume       = {abs/2305.04323},
+	year         = {2023},
+	url          = {https://doi.org/10.48550/arXiv.2305.04323},
+	doi          = {10.48550/arXiv.2305.04323},
+	eprinttype    = {arXiv}
+}

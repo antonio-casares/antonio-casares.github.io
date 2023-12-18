@@ -1,0 +1,152 @@
+{
+  "version": 0.9,
+  "presentation": "Antonio-meets'Slajdomat",
+  "slideDict": {
+    "warsawa": "warsawa",
+    "new_slide": "main",
+    "bordeaux": "bordeaux",
+    "defense": "defense",
+    "reussi": "reussi"
+  },
+  "tree": {
+    "type": "child",
+    "name": "main",
+    "id": "new_slide",
+    "merged": false,
+    "children": [
+      {
+        "type": "show",
+        "id": "Bordeaux,_Nov_2023",
+        "name": "Bordeaux, Nov 2023",
+        "merged": false,
+        "keywords": [
+          "Bordeaux, Nov 2023"
+        ],
+        "eventId": "4",
+        "disabled": false
+      },
+      {
+        "type": "child",
+        "name": "bordeaux",
+        "id": "bordeaux",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "In_Bordeaux",
+            "name": "In Bordeaux",
+            "merged": false,
+            "keywords": [
+              "In Bordeaux"
+            ],
+            "eventId": "3",
+            "disabled": false
+          },
+          {
+            "type": "child",
+            "name": "defense",
+            "id": "defense",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "Slajdomat",
+                "name": "Slajdomat",
+                "merged": false,
+                "keywords": [
+                  "Slajdomat"
+                ],
+                "eventId": "2",
+                "disabled": false
+              }
+            ],
+            "keywords": [
+              "defense"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "child",
+            "name": "reussi",
+            "id": "reussi",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "Group_10",
+                "name": "jury-happy",
+                "merged": false,
+                "keywords": [
+                  "The jury is happy because slajdomat is great",
+                  "jury-happy"
+                ],
+                "eventId": "2",
+                "disabled": false
+              }
+            ],
+            "keywords": [
+              "reussi"
+            ],
+            "eventId": "2"
+          }
+        ],
+        "keywords": [
+          "bordeaux"
+        ],
+        "eventId": "1"
+      },
+      {
+        "type": "show",
+        "id": "antonio-goes-w",
+        "name": "antonio-goes-w",
+        "merged": false,
+        "keywords": [
+          "Antonio can go to Warsaw",
+          "antonio-goes-w"
+        ],
+        "eventId": "6",
+        "disabled": false
+      },
+      {
+        "type": "show",
+        "id": "Warsaw,_Dec_2023",
+        "name": "Warsaw, Dec 2023",
+        "merged": false,
+        "keywords": [
+          "Warsaw, Dec 2023"
+        ],
+        "eventId": "5",
+        "disabled": false
+      },
+      {
+        "type": "child",
+        "name": "warsawa",
+        "id": "warsawa",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "Party_at_the_villa",
+            "name": "Party at the villa",
+            "merged": false,
+            "keywords": [
+              "Party at the villa"
+            ],
+            "eventId": "3",
+            "disabled": false
+          }
+        ],
+        "keywords": [
+          "warsawa"
+        ],
+        "eventId": "2"
+      }
+    ],
+    "keywords": [
+      "Antonio meets Slajdomat",
+      "main"
+    ],
+    "eventId": "root"
+  },
+  "soundDict": {}
+}

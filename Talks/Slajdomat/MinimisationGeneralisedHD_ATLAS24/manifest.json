@@ -1,0 +1,1640 @@
+{
+  "version": 3.1,
+  "presentation": "MinimisationGeneralisedHD-ATLAS24",
+  "slideDict": {
+    "new_slide": "new_slide",
+    "Buchi_automata": "Buchi_automata",
+    "Minimisation_Results": "Minimisation_Results",
+    "Minimisation_HD_coBuchi": "Minimisation_HD_coBuchi",
+    "def_HD": "def_HD",
+    "generalised_Buchi": "generalised_Buchi",
+    "HD_automata": "HD_automata",
+    "Degeneralisation": "Degeneralisation",
+    "Min_coBuchi": "Min_coBuchi",
+    "Min_generalised_coBuchi": "Min_generalised_coBuchi",
+    "reduction_technique": "reduction_technique",
+    "proof_theorem": "proof_theorem"
+  },
+  "tree": {
+    "type": "child",
+    "name": "main",
+    "id": "new_slide",
+    "enabled": "enabled",
+    "merged": false,
+    "children": [
+      {
+        "type": "child",
+        "name": "Buchi automata",
+        "id": "Buchi_automata",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "Group_3",
+            "enabled": "enabled",
+            "name": "appears infinitely often",
+            "merged": false,
+            "keywords": [
+              "Accept a run if",
+              "appears infinitely often"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "Text2",
+            "enabled": "enabled",
+            "name": "\\mathcal{A}",
+            "merged": false,
+            "keywords": [
+              "\\mathcal{A}"
+            ],
+            "eventId": "20"
+          },
+          {
+            "type": "show",
+            "id": "Group_16",
+            "enabled": "enabled",
+            "name": "Words containing ‘aa’ infinitely often",
+            "merged": true,
+            "keywords": [
+              "Words containing ‘aa’ infinitely often"
+            ],
+            "eventId": "18"
+          },
+          {
+            "type": "show",
+            "id": "coB_chi_Automaton",
+            "enabled": "enabled",
+            "name": "coBüchi Automaton",
+            "merged": false,
+            "keywords": [
+              "coBüchi Automaton"
+            ],
+            "eventId": "5"
+          },
+          {
+            "type": "show",
+            "id": "buchi_automaton2",
+            "enabled": "enabled",
+            "name": "coB-automaton",
+            "merged": true,
+            "keywords": [
+              "a",
+              "b",
+              "coB-automaton"
+            ],
+            "eventId": "6"
+          },
+          {
+            "type": "show",
+            "id": "Group_4",
+            "enabled": "enabled",
+            "name": "appears finitely often",
+            "merged": true,
+            "keywords": [
+              "Accept a run if",
+              "appears finitely often"
+            ],
+            "eventId": "7"
+          },
+          {
+            "type": "show",
+            "id": "Text3",
+            "enabled": "enabled",
+            "name": "\\mathcal{B}",
+            "merged": true,
+            "keywords": [
+              "\\mathcal{B}"
+            ],
+            "eventId": "21"
+          },
+          {
+            "type": "show",
+            "id": "Group_17",
+            "enabled": "enabled",
+            "name": "Words containing ‘aa’ finitely often",
+            "merged": false,
+            "keywords": [
+              "Words containing ‘aa’ finitely often"
+            ],
+            "eventId": "19"
+          },
+          {
+            "type": "show",
+            "id": "Transition_based_",
+            "enabled": "enabled",
+            "name": "Transition-based!",
+            "merged": false,
+            "keywords": [
+              "Transition-based!"
+            ],
+            "eventId": "11"
+          },
+          {
+            "type": "show",
+            "id": "_More_about_trans_based_stuff_on_Friday_",
+            "enabled": "enabled",
+            "name": "(More about trans-based stuff on Friday)",
+            "merged": false,
+            "keywords": [
+              "(More about trans-based stuff on Friday)"
+            ],
+            "eventId": "12"
+          },
+          {
+            "type": "show",
+            "id": "WE_WANT_TO_MINIMISE_THEM_",
+            "enabled": "enabled",
+            "name": "WE WANT TO MINIMISE THEM!",
+            "merged": false,
+            "keywords": [
+              "WE WANT TO MINIMISE THEM!"
+            ],
+            "eventId": "13"
+          },
+          {
+            "type": "show",
+            "id": "Group_14",
+            "enabled": "enabled",
+            "name": "For deterministic automata, the minimisation problem is equivalent for Büchi and coBüchi automata.",
+            "merged": false,
+            "keywords": [
+              "Remark.",
+              "For deterministic automata, the minimisation problem is equivalent for Büchi and coBüchi automata."
+            ],
+            "eventId": "14"
+          },
+          {
+            "type": "hide",
+            "id": "WE_WANT_TO_MINIMISE_THEM_",
+            "enabled": "enabled",
+            "name": "WE WANT TO MINIMISE THEM!",
+            "merged": false,
+            "keywords": [
+              "WE WANT TO MINIMISE THEM!"
+            ],
+            "eventId": "15"
+          },
+          {
+            "type": "hide",
+            "id": "Transition_based_",
+            "enabled": "enabled",
+            "name": "Transition-based!",
+            "merged": true,
+            "keywords": [
+              "Transition-based!"
+            ],
+            "eventId": "16"
+          },
+          {
+            "type": "hide",
+            "id": "_More_about_trans_based_stuff_on_Friday_",
+            "enabled": "enabled",
+            "name": "(More about trans-based stuff on Friday)",
+            "merged": true,
+            "keywords": [
+              "(More about trans-based stuff on Friday)"
+            ],
+            "eventId": "17"
+          }
+        ],
+        "keywords": [
+          "a",
+          "b",
+          "Büchi Automaton",
+          "Words containing ‘aa’ finitely often",
+          "Buchi automata"
+        ],
+        "eventId": "1",
+        "originalParams": {
+          "Group_3": {
+            "opacity": 1
+          },
+          "coB_chi_Automaton": {
+            "opacity": 1
+          },
+          "buchi_automaton2": {
+            "opacity": 1
+          },
+          "Group_4": {
+            "opacity": 1
+          },
+          "Transition_based_": {
+            "opacity": 1
+          },
+          "_More_about_trans_based_stuff_on_Friday_": {
+            "opacity": 1
+          },
+          "WE_WANT_TO_MINIMISE_THEM_": {
+            "opacity": 1
+          },
+          "Group_14": {
+            "opacity": 1
+          },
+          "Group_16": {
+            "opacity": 1
+          },
+          "Group_17": {
+            "opacity": 1
+          },
+          "Text2": {
+            "opacity": 1
+          },
+          "Text3": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "Minimisation-Results",
+        "id": "Minimisation_Results",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "Minimisation_of_state_based_B_chi_automata_is_NP_complete_",
+            "enabled": "enabled",
+            "name": "Minimisation of state-based Büchi automata is NP-complete.",
+            "merged": false,
+            "keywords": [
+              "Minimisation of state-based Büchi automata is NP-complete."
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "hide",
+            "id": "Minimisation_of_B_chi_automata_is_NP_complete_",
+            "enabled": "enabled",
+            "name": "Minimisation of Büchi automata is NP-complete.",
+            "merged": true,
+            "keywords": [
+              "Minimisation of Büchi automata is NP-complete."
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "show",
+            "id": "thm_AK19",
+            "enabled": "enabled",
+            "name": "thm-AK19",
+            "merged": false,
+            "keywords": [
+              "Minimisation of state-based Büchi automata is NP-complete.",
+              "Theorem (Abu Radi - Kupferman ‘19)",
+              "thm-AK19"
+            ],
+            "eventId": "5"
+          },
+          {
+            "type": "child",
+            "name": "HD-automata",
+            "id": "HD_automata",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "No_guessing_is_allowed_",
+                "enabled": "enabled",
+                "name": "No guessing is allowed!",
+                "merged": false,
+                "keywords": [
+                  "No guessing is allowed!"
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "show",
+                "id": "Group_18",
+                "enabled": "enabled",
+                "name": "automaton",
+                "merged": false,
+                "keywords": [
+                  "a,c",
+                  "a,b",
+                  "a",
+                  "c",
+                  "b",
+                  "automaton"
+                ],
+                "eventId": "4"
+              },
+              {
+                "type": "show",
+                "id": "Group_19",
+                "enabled": "enabled",
+                "name": "language",
+                "merged": false,
+                "keywords": [
+                  "Finitely often ‘b’ or finitely often ‘c’",
+                  "language"
+                ],
+                "eventId": "5"
+              },
+              {
+                "type": "show",
+                "id": "Group_49",
+                "enabled": "enabled",
+                "name": "HD (co)Büchi automata are as expressive as deterministic (co)Büchi automata.",
+                "merged": false,
+                "keywords": [
+                  "Theorem (Kuperberg-Skrzypczak ‘15)",
+                  "HD (co)Büchi automata are as expressive as deterministic (co)Büchi automata, but can be exponentially smaller.",
+                  "HD (co)Büchi automata are as expressive as deterministic (co)Büchi automata."
+                ],
+                "eventId": "6"
+              }
+            ],
+            "keywords": [
+              "An automaton is history-deterministic (HD) if we can correctly resolve its non-determinism based exclusively on the past.",
+              "Def.",
+              "HD-automata"
+            ],
+            "eventId": "7",
+            "originalParams": {
+              "No_guessing_is_allowed_": {
+                "opacity": 1
+              },
+              "Group_18": {
+                "opacity": 1
+              },
+              "Group_19": {
+                "opacity": 1
+              },
+              "Group_49": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "show",
+            "id": "rmk",
+            "enabled": "enabled",
+            "name": "rmk",
+            "merged": false,
+            "keywords": [
+              "Rmk.",
+              "The minimisation problem is not equivalent for HD Büchi and HD coBüchi automata.",
+              "rmk"
+            ],
+            "eventId": "8"
+          }
+        ],
+        "keywords": [
+          "Minimisation of Büchi automata is NP-complete.",
+          "Theorem (Schewe ‘09)",
+          "Minimisation-Results"
+        ],
+        "eventId": "2",
+        "originalParams": {
+          "Minimisation_of_B_chi_automata_is_NP_complete_": {
+            "opacity": 1
+          },
+          "Minimisation_of_state_based_B_chi_automata_is_NP_complete_": {
+            "opacity": 1
+          },
+          "thm_AK19": {
+            "opacity": 1
+          },
+          "rmk": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "show",
+        "id": "Contributions2",
+        "enabled": "enabled",
+        "name": "Complexity",
+        "merged": false,
+        "keywords": [
+          "Complexity"
+        ],
+        "eventId": "19"
+      },
+      {
+        "type": "show",
+        "id": "table",
+        "enabled": "enabled",
+        "name": "table",
+        "merged": true,
+        "keywords": [
+          "Büchi",
+          "coBüchi",
+          "deterministic",
+          "HD",
+          "table"
+        ],
+        "eventId": "4"
+      },
+      {
+        "type": "show",
+        "id": "Group_164",
+        "enabled": "enabled",
+        "name": "PTIME-HD-coB",
+        "merged": false,
+        "keywords": [
+          "(AK’19)",
+          "PTIME",
+          "PTIME-HD-coB"
+        ],
+        "eventId": "18"
+      },
+      {
+        "type": "show",
+        "id": "Group_16",
+        "enabled": "enabled",
+        "name": "?-det",
+        "merged": false,
+        "keywords": [
+          "?",
+          "?-det"
+        ],
+        "eventId": "6"
+      },
+      {
+        "type": "show",
+        "id": "_2",
+        "enabled": "enabled",
+        "name": "?-HD-Buchi",
+        "merged": true,
+        "keywords": [
+          "?-HD-Buchi"
+        ],
+        "eventId": "7"
+      },
+      {
+        "type": "show",
+        "id": "What_about_automata_with_other_acceptance_conditions_",
+        "enabled": "enabled",
+        "name": "What about automata with other acceptance conditions?",
+        "merged": false,
+        "keywords": [
+          "What about automata with other acceptance conditions?"
+        ],
+        "eventId": "8"
+      },
+      {
+        "type": "child",
+        "name": "generalised-Buchi",
+        "id": "generalised_Buchi",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "Group_41",
+            "enabled": "enabled",
+            "name": "C = { , , ... , }",
+            "merged": false,
+            "keywords": [
+              "C = { , , ... , }",
+              "1",
+              "k",
+              "2"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "See_all_colours_infinitely_often",
+            "enabled": "enabled",
+            "name": "See all colours infinitely often",
+            "merged": true,
+            "keywords": [
+              "See all colours infinitely often"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "show",
+            "id": "Group_40",
+            "enabled": "enabled",
+            "name": "C = { , , ... , }",
+            "merged": false,
+            "keywords": [
+              "C = { , , ... , }",
+              "1",
+              "2",
+              "k"
+            ],
+            "eventId": "9"
+          },
+          {
+            "type": "show",
+            "id": "See_at_least_one_colour_only_finitely_often",
+            "enabled": "enabled",
+            "name": "See at least one colour only finitely often",
+            "merged": true,
+            "keywords": [
+              "See at least one colour only finitely often"
+            ],
+            "eventId": "6"
+          },
+          {
+            "type": "show",
+            "id": "automaton",
+            "enabled": "enabled",
+            "name": "automaton",
+            "merged": false,
+            "keywords": [
+              "b",
+              "a",
+              "1",
+              "2",
+              "automaton"
+            ],
+            "eventId": "7"
+          },
+          {
+            "type": "show",
+            "id": "Group_19",
+            "enabled": "enabled",
+            "name": "language",
+            "merged": false,
+            "keywords": [
+              "Finitely often ‘aa’ or finitely often ‘ab’",
+              "language"
+            ],
+            "eventId": "8"
+          }
+        ],
+        "keywords": [
+          "Büchi Automaton",
+          "coBüchi Automaton",
+          "generalised-Buchi"
+        ],
+        "eventId": "9",
+        "originalParams": {
+          "coB_chi_Automaton": {
+            "opacity": 1
+          },
+          "Group_41": {
+            "opacity": 1
+          },
+          "See_all_colours_infinitely_often": {
+            "opacity": 1
+          },
+          "See_at_least_one_colour_only_finitely_often": {
+            "opacity": 1
+          },
+          "automaton": {
+            "opacity": 1
+          },
+          "Group_19": {
+            "opacity": 1
+          },
+          "Group_40": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "Degeneralisation",
+        "id": "Degeneralisation",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "Group_42",
+            "enabled": "enabled",
+            "name": "Generalised coBüchi Size n",
+            "merged": false,
+            "keywords": [
+              "Generalised coBüchi k colours n states",
+              "coBüchi k × n states",
+              "degeneralisation",
+              "Generalised coBüchi Size n"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "automaton2",
+            "enabled": "enabled",
+            "name": "automaton",
+            "merged": false,
+            "keywords": [
+              "b",
+              "a",
+              "1",
+              "2",
+              "automaton"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "Group_43",
+            "enabled": "enabled",
+            "name": "Copy 1",
+            "merged": false,
+            "keywords": [
+              "b",
+              "a",
+              "Copy 1",
+              "Copy 2"
+            ],
+            "eventId": "3"
+          }
+        ],
+        "keywords": [
+          "Remark.",
+          "Generalised (co)Büchi ≃ (co)Büchi",
+          "Degeneralisation"
+        ],
+        "eventId": "20",
+        "originalParams": {
+          "Group_42": {
+            "opacity": 1
+          },
+          "automaton2": {
+            "opacity": 1
+          },
+          "Group_43": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "show",
+        "id": "Contributions",
+        "enabled": "enabled",
+        "name": "Contributions",
+        "merged": false,
+        "keywords": [
+          "Contributions"
+        ],
+        "eventId": "10"
+      },
+      {
+        "type": "show",
+        "id": "table2",
+        "enabled": "enabled",
+        "name": "table",
+        "merged": true,
+        "keywords": [
+          "gen-Büchi",
+          "gen-coBüchi",
+          "deterministic",
+          "HD",
+          "table"
+        ],
+        "eventId": "11"
+      },
+      {
+        "type": "show",
+        "id": "PTIME2",
+        "enabled": "enabled",
+        "name": "PTIME",
+        "merged": false,
+        "keywords": [
+          "PTIME"
+        ],
+        "eventId": "12"
+      },
+      {
+        "type": "show",
+        "id": "NP_comp_",
+        "enabled": "enabled",
+        "name": "NP-comp.",
+        "merged": false,
+        "keywords": [
+          "NP-comp."
+        ],
+        "eventId": "13"
+      },
+      {
+        "type": "show",
+        "id": "NP_comp_2",
+        "enabled": "enabled",
+        "name": "NP-comp.",
+        "merged": true,
+        "keywords": [
+          "NP-comp."
+        ],
+        "eventId": "14"
+      },
+      {
+        "type": "show",
+        "id": "NP_comp_3",
+        "enabled": "enabled",
+        "name": "NP-comp.",
+        "merged": true,
+        "keywords": [
+          "NP-comp."
+        ],
+        "eventId": "15"
+      },
+      {
+        "type": "show",
+        "id": "Group_162",
+        "enabled": "enabled",
+        "name": "NP upper bound quite hard to obtain!",
+        "merged": false,
+        "keywords": [
+          "NP upper bound quite hard to obtain!"
+        ],
+        "eventId": "16"
+      },
+      {
+        "type": "show",
+        "id": "Group_163",
+        "enabled": "enabled",
+        "name": "Rest of the talk",
+        "merged": false,
+        "keywords": [
+          "Rest of the talk"
+        ],
+        "eventId": "17"
+      },
+      {
+        "type": "show",
+        "id": "Text",
+        "enabled": "enabled",
+        "name": "Minimal coBüchi automaton",
+        "merged": false,
+        "keywords": [
+          "Minimal coBüchi automaton"
+        ],
+        "eventId": "21"
+      },
+      {
+        "type": "child",
+        "name": "Min coBuchi",
+        "id": "Min_coBuchi",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "automaton",
+            "enabled": "enabled",
+            "name": "automaton",
+            "merged": false,
+            "keywords": [
+              "a",
+              "b",
+              "a,c",
+              "b,c",
+              "c",
+              "automaton"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "coB_transitions_dark",
+            "enabled": "enabled",
+            "name": "coB-transitions-dark",
+            "merged": true,
+            "keywords": [
+              "a",
+              "b",
+              "c",
+              "coB-transitions-dark"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "hide",
+            "id": "coB_transitions_dark",
+            "enabled": "enabled",
+            "name": "coB-transitions-dark",
+            "merged": false,
+            "keywords": [
+              "coB-transitions-dark"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "coB_transitions_light",
+            "enabled": "enabled",
+            "name": "coB-transitions-light",
+            "merged": true,
+            "keywords": [
+              "a",
+              "b",
+              "c",
+              "coB-transitions-light"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "show",
+            "id": "Group_49",
+            "enabled": "enabled",
+            "name": "safe-components",
+            "merged": false,
+            "keywords": [
+              "S1",
+              "S3",
+              "S2",
+              "safe-components"
+            ],
+            "eventId": "5"
+          },
+          {
+            "type": "show",
+            "id": "rmk",
+            "enabled": "enabled",
+            "name": "rmk",
+            "merged": false,
+            "keywords": [
+              "Rmk.",
+              "A run is accepting iff it eventually labels a path in a safe component.",
+              "rmk"
+            ],
+            "eventId": "6"
+          },
+          {
+            "type": "show",
+            "id": "Group_50",
+            "enabled": "enabled",
+            "name": "HD automaton for a given coBüchi recognisable language L",
+            "merged": false,
+            "keywords": [
+              "AK ‘19",
+              "HD automaton for a given coBüchi recognisable language L"
+            ],
+            "eventId": "8"
+          },
+          {
+            "type": "show",
+            "id": "Group_52",
+            "enabled": "enabled",
+            "name": "Let be an HD coBüchi automaton recognising L. There is an injection",
+            "merged": false,
+            "keywords": [
+              "Theorem (Abu Radi-Kupferman ‘19)",
+              "such that",
+              "for all safe component S.",
+              "Let be an HD coBüchi automaton recognising L. There is an injection"
+            ],
+            "eventId": "9"
+          }
+        ],
+        "keywords": [
+          "Safe components",
+          "Min coBuchi"
+        ],
+        "eventId": "22",
+        "originalParams": {
+          "automaton": {
+            "opacity": 1
+          },
+          "coB_transitions_dark": {
+            "opacity": 1
+          },
+          "coB_transitions_light": {
+            "opacity": 1
+          },
+          "Group_49": {
+            "opacity": 1
+          },
+          "rmk": {
+            "opacity": 1
+          },
+          "Group_50": {
+            "opacity": 1
+          },
+          "Group_52": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "show",
+        "id": "Minimal_coB_chi_automaton",
+        "enabled": "enabled",
+        "name": "Minimal coBüchi automaton",
+        "merged": false,
+        "keywords": [
+          "Minimal coBüchi automaton"
+        ],
+        "eventId": "24"
+      },
+      {
+        "type": "child",
+        "name": "Min generalised coBuchi",
+        "id": "Min_generalised_coBuchi",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "Group_54",
+            "enabled": "enabled",
+            "name": "We can assume that the input automaton is",
+            "merged": false,
+            "keywords": [
+              "We can assume that the input automaton is",
+              "Rmk."
+            ],
+            "eventId": "20"
+          },
+          {
+            "type": "show",
+            "id": "Group_53",
+            "enabled": "enabled",
+            "name": "minimisation (AK’19)",
+            "merged": false,
+            "keywords": [
+              "degeneralisation",
+              "minimisation (AK’19)",
+              "’"
+            ],
+            "eventId": "21"
+          },
+          {
+            "type": "show",
+            "id": "Group_47",
+            "enabled": "enabled",
+            "name": "main tech",
+            "merged": false,
+            "keywords": [
+              "Reduce the number of states by using more colours",
+              "Main technique.",
+              "main tech"
+            ],
+            "eventId": "15"
+          },
+          {
+            "type": "show",
+            "id": "Group_46",
+            "enabled": "enabled",
+            "name": "reduction",
+            "merged": true,
+            "keywords": [
+              "coBüchi",
+              "generalised coBüchi",
+              "reduction"
+            ],
+            "eventId": "16"
+          },
+          {
+            "type": "show",
+            "id": "Group_45",
+            "enabled": "enabled",
+            "name": "theorem",
+            "merged": false,
+            "keywords": [
+              "Theorem",
+              "If is a minimal HD coBüchi automaton, then is a minimal HD generalised coBüchi automaton.",
+              "theorem"
+            ],
+            "eventId": "17"
+          },
+          {
+            "type": "child",
+            "name": "reduction-technique",
+            "id": "reduction_technique",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "automaton",
+                "enabled": "enabled",
+                "name": "coB automaton",
+                "merged": false,
+                "keywords": [
+                  "a",
+                  "b",
+                  "a,c",
+                  "b,c",
+                  "c",
+                  "coB automaton"
+                ],
+                "eventId": "5"
+              },
+              {
+                "type": "show",
+                "id": "_mathcal_A_",
+                "enabled": "enabled",
+                "name": "A",
+                "merged": true,
+                "keywords": [
+                  "A"
+                ],
+                "eventId": "52"
+              },
+              {
+                "type": "show",
+                "id": "Group_49",
+                "enabled": "enabled",
+                "name": "safe-components",
+                "merged": false,
+                "keywords": [
+                  "S1",
+                  "S3",
+                  "S2",
+                  "safe-components"
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "show",
+                "id": "Max_number_of_states_in_a_Safe_C__3",
+                "enabled": "enabled",
+                "name": "Max number of states in a Safe-C: 3",
+                "merged": false,
+                "keywords": [
+                  "Max number of states in a Safe-C: 3"
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "show",
+                "id": "states",
+                "enabled": "enabled",
+                "name": "states",
+                "merged": false,
+                "keywords": [
+                  "states"
+                ],
+                "eventId": "3"
+              },
+              {
+                "type": "show",
+                "id": "Group_54",
+                "enabled": "enabled",
+                "name": "One colour per safe-c:",
+                "merged": false,
+                "keywords": [
+                  "One colour per component:",
+                  "1",
+                  "2",
+                  "3",
+                  "One colour per safe-c:"
+                ],
+                "eventId": "4"
+              },
+              {
+                "type": "show",
+                "id": "Starting_point__Full_automaton",
+                "enabled": "enabled",
+                "name": "Add edges",
+                "merged": false,
+                "keywords": [
+                  "Add edges"
+                ],
+                "eventId": "7"
+              },
+              {
+                "type": "show",
+                "id": "Vector_23",
+                "enabled": "enabled",
+                "name": "mapping-S1",
+                "merged": false,
+                "keywords": [
+                  "mapping-S1"
+                ],
+                "eventId": "14"
+              },
+              {
+                "type": "show",
+                "id": "edges_S1",
+                "enabled": "enabled",
+                "name": "edges-S1",
+                "merged": true,
+                "keywords": [
+                  "b,c",
+                  "a",
+                  "b",
+                  "edges-S1"
+                ],
+                "eventId": "15"
+              },
+              {
+                "type": "show",
+                "id": "crosses_S1",
+                "enabled": "enabled",
+                "name": "crosses-S1",
+                "merged": false,
+                "keywords": [
+                  "2",
+                  "3",
+                  "crosses-S1"
+                ],
+                "eventId": "17"
+              },
+              {
+                "type": "hide",
+                "id": "Vector_23",
+                "enabled": "enabled",
+                "name": "mapping-S1",
+                "merged": false,
+                "keywords": [
+                  "mapping-S1"
+                ],
+                "eventId": "12"
+              },
+              {
+                "type": "hide",
+                "id": "edges_S1",
+                "enabled": "enabled",
+                "name": "edges-S1",
+                "merged": true,
+                "keywords": [
+                  "edges-S1"
+                ],
+                "eventId": "16"
+              },
+              {
+                "type": "hide",
+                "id": "crosses_S1",
+                "enabled": "enabled",
+                "name": "crosses-S1",
+                "merged": true,
+                "keywords": [
+                  "crosses-S1"
+                ],
+                "eventId": "18"
+              },
+              {
+                "type": "show",
+                "id": "edge_S2",
+                "enabled": "enabled",
+                "name": "edge-S2",
+                "merged": true,
+                "keywords": [
+                  "a,c",
+                  "edge-S2"
+                ],
+                "eventId": "19"
+              },
+              {
+                "type": "show",
+                "id": "Vector_232",
+                "enabled": "enabled",
+                "name": "mapping-S2",
+                "merged": true,
+                "keywords": [
+                  "mapping-S2"
+                ],
+                "eventId": "23"
+              },
+              {
+                "type": "show",
+                "id": "Group_81",
+                "enabled": "enabled",
+                "name": "crosses-S2",
+                "merged": false,
+                "keywords": [
+                  "1",
+                  "3",
+                  "crosses-S2"
+                ],
+                "eventId": "36"
+              },
+              {
+                "type": "hide",
+                "id": "edge_S2",
+                "enabled": "enabled",
+                "name": "edge-S2",
+                "merged": false,
+                "keywords": [
+                  "edge-S2"
+                ],
+                "eventId": "20"
+              },
+              {
+                "type": "hide",
+                "id": "Vector_232",
+                "enabled": "enabled",
+                "name": "mapping-S2",
+                "merged": true,
+                "keywords": [
+                  "mapping-S2"
+                ],
+                "eventId": "24"
+              },
+              {
+                "type": "show",
+                "id": "Vector_233",
+                "enabled": "enabled",
+                "name": "mapping-S3",
+                "merged": true,
+                "keywords": [
+                  "mapping-S3"
+                ],
+                "eventId": "25"
+              },
+              {
+                "type": "hide",
+                "id": "Group_81",
+                "enabled": "enabled",
+                "name": "crosses-S2",
+                "merged": true,
+                "keywords": [
+                  "crosses-S2"
+                ],
+                "eventId": "37"
+              },
+              {
+                "type": "show",
+                "id": "Group_812",
+                "enabled": "enabled",
+                "name": "edges-S3",
+                "merged": true,
+                "keywords": [
+                  "c",
+                  "a,c",
+                  "b",
+                  "edges-S3"
+                ],
+                "eventId": "38"
+              },
+              {
+                "type": "show",
+                "id": "Group_813",
+                "enabled": "enabled",
+                "name": "crosses-S3",
+                "merged": false,
+                "keywords": [
+                  "1",
+                  "2",
+                  "crosses-S3"
+                ],
+                "eventId": "39"
+              },
+              {
+                "type": "show",
+                "id": "Group_81",
+                "enabled": "enabled",
+                "name": "crosses-S2",
+                "merged": false,
+                "keywords": [
+                  "crosses-S2"
+                ],
+                "eventId": "42"
+              },
+              {
+                "type": "show",
+                "id": "edges_S1",
+                "enabled": "enabled",
+                "name": "edges-S1",
+                "merged": true,
+                "keywords": [
+                  "edges-S1"
+                ],
+                "eventId": "43"
+              },
+              {
+                "type": "show",
+                "id": "edge_S2",
+                "enabled": "enabled",
+                "name": "edge-S2",
+                "merged": true,
+                "keywords": [
+                  "edge-S2"
+                ],
+                "eventId": "44"
+              },
+              {
+                "type": "show",
+                "id": "crosses_S1",
+                "enabled": "enabled",
+                "name": "crosses-S1",
+                "merged": true,
+                "keywords": [
+                  "crosses-S1"
+                ],
+                "eventId": "45"
+              },
+              {
+                "type": "show",
+                "id": "Group_813",
+                "enabled": "enabled",
+                "name": "crosses-S3",
+                "merged": true,
+                "keywords": [
+                  "crosses-S3"
+                ],
+                "eventId": "46"
+              },
+              {
+                "type": "show",
+                "id": "Group_812",
+                "enabled": "enabled",
+                "name": "edges-S3",
+                "merged": true,
+                "keywords": [
+                  "edges-S3"
+                ],
+                "eventId": "47"
+              },
+              {
+                "type": "show",
+                "id": "Vector_23",
+                "enabled": "enabled",
+                "name": "mapping-S1",
+                "merged": true,
+                "keywords": [
+                  "mapping-S1"
+                ],
+                "eventId": "48"
+              },
+              {
+                "type": "show",
+                "id": "Vector_232",
+                "enabled": "enabled",
+                "name": "mapping-S2",
+                "merged": true,
+                "keywords": [
+                  "mapping-S2"
+                ],
+                "eventId": "49"
+              },
+              {
+                "type": "show",
+                "id": "__add_all_possible_rejecting_transitions",
+                "enabled": "enabled",
+                "name": "+ add all possible rejecting transitions",
+                "merged": false,
+                "keywords": [
+                  "+ add all possible rejecting transitions"
+                ],
+                "eventId": "50"
+              },
+              {
+                "type": "show",
+                "id": "Strategy__Try_each_safe_component_in_a_round_dobin_fashion",
+                "enabled": "enabled",
+                "name": "Strategy: Try each safe component in a round-dobin fashion",
+                "merged": false,
+                "keywords": [
+                  "Strategy: Try each safe component in a round-dobin fashion"
+                ],
+                "eventId": "51"
+              }
+            ],
+            "keywords": [
+              "Reduction of states",
+              "(for prefix-independent languages)",
+              "reduction-technique"
+            ],
+            "eventId": "18",
+            "originalParams": {
+              "Group_49": {
+                "opacity": 1
+              },
+              "Max_number_of_states_in_a_Safe_C__3": {
+                "opacity": 1
+              },
+              "states": {
+                "opacity": 1
+              },
+              "Group_54": {
+                "opacity": 1
+              },
+              "automaton": {
+                "opacity": 1
+              },
+              "Starting_point__Full_automaton": {
+                "opacity": 1
+              },
+              "Vector_23": {
+                "opacity": 1
+              },
+              "edges_S1": {
+                "opacity": 1
+              },
+              "crosses_S1": {
+                "opacity": 1
+              },
+              "edge_S2": {
+                "opacity": 1
+              },
+              "Vector_232": {
+                "opacity": 1
+              },
+              "Vector_233": {
+                "opacity": 1
+              },
+              "Group_81": {
+                "opacity": 1
+              },
+              "Group_812": {
+                "opacity": 1
+              },
+              "Group_813": {
+                "opacity": 1
+              },
+              "__add_all_possible_rejecting_transitions": {
+                "opacity": 1
+              },
+              "Strategy__Try_each_safe_component_in_a_round_dobin_fashion": {
+                "opacity": 1
+              },
+              "_mathcal_A_": {
+                "opacity": 1
+              },
+              "page1": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "child",
+            "name": "proof-theorem",
+            "id": "proof_theorem",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "Group_86",
+                "enabled": "enabled",
+                "name": "We turn it into a coBüchi automaton",
+                "merged": false,
+                "keywords": [
+                  "We turn it into a coBüchi automaton",
+                  "..."
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "show",
+                "id": "Group_83",
+                "enabled": "enabled",
+                "name": "The safe components of this automaton have size at most",
+                "merged": false,
+                "keywords": [
+                  "The safe components of this automaton have size at most"
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "show",
+                "id": "Group_84",
+                "enabled": "enabled",
+                "name": "Theorem (AK ‘19) → has a safe component ≤",
+                "merged": false,
+                "keywords": [
+                  "Theorem (AK ‘19) → All the safe components of are ≤",
+                  "Theorem (AK ‘19) → has a safe component ≤"
+                ],
+                "eventId": "3"
+              },
+              {
+                "type": "show",
+                "id": "Group_85",
+                "enabled": "enabled",
+                "name": "conclusion",
+                "merged": false,
+                "keywords": [
+                  "conclusion"
+                ],
+                "eventId": "5"
+              }
+            ],
+            "keywords": [
+              "Let be a generalised coBuchi automaton recognising L",
+              "proof-theorem"
+            ],
+            "eventId": "19",
+            "originalParams": {
+              "Group_86": {
+                "opacity": 1
+              },
+              "Group_83": {
+                "opacity": 1
+              },
+              "Group_84": {
+                "opacity": 1
+              },
+              "Group_85": {
+                "opacity": 1
+              }
+            }
+          }
+        ],
+        "keywords": [
+          "Min generalised coBuchi"
+        ],
+        "eventId": "23",
+        "originalParams": {
+          "Group_47": {
+            "opacity": 1
+          },
+          "Group_46": {
+            "opacity": 1
+          },
+          "Group_45": {
+            "opacity": 1
+          },
+          "Group_54": {
+            "opacity": 1
+          },
+          "Group_53": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "show",
+        "id": "Group_88",
+        "enabled": "enabled",
+        "name": "CONJECTURE",
+        "merged": false,
+        "keywords": [
+          "NP-comp.",
+          "CONJECTURE"
+        ],
+        "eventId": "25"
+      },
+      {
+        "type": "hide",
+        "id": "Group_16",
+        "enabled": "enabled",
+        "name": "?-det",
+        "merged": true,
+        "keywords": [
+          "?-det"
+        ],
+        "eventId": "26"
+      },
+      {
+        "type": "hide",
+        "id": "_2",
+        "enabled": "enabled",
+        "name": "?-HD-Buchi",
+        "merged": true,
+        "keywords": [
+          "?-HD-Buchi"
+        ],
+        "eventId": "27"
+      }
+    ],
+    "keywords": [
+      "On the Minimisation of (History) Deterministic Generalised (co)Büchi Automata",
+      "Antonio Casares ⋅ Olivier Idir ⋅ Denis Kuperberg ⋅ Corto Mascle ⋅ Aditya Prakash",
+      "main"
+    ],
+    "eventId": "root",
+    "originalParams": {
+      "table": {
+        "opacity": 1
+      },
+      "Group_16": {
+        "opacity": 1
+      },
+      "_2": {
+        "opacity": 1
+      },
+      "What_about_automata_with_other_acceptance_conditions_": {
+        "opacity": 1
+      },
+      "Contributions": {
+        "opacity": 1
+      },
+      "table2": {
+        "opacity": 1
+      },
+      "PTIME2": {
+        "opacity": 1
+      },
+      "NP_comp_": {
+        "opacity": 1
+      },
+      "NP_comp_2": {
+        "opacity": 1
+      },
+      "NP_comp_3": {
+        "opacity": 1
+      },
+      "Group_162": {
+        "opacity": 1
+      },
+      "Group_163": {
+        "opacity": 1
+      },
+      "Group_164": {
+        "opacity": 1
+      },
+      "Contributions2": {
+        "opacity": 1
+      },
+      "Text": {
+        "opacity": 1
+      },
+      "Minimal_coB_chi_automaton": {
+        "opacity": 1
+      },
+      "Group_88": {
+        "opacity": 1
+      }
+    }
+  },
+  "treeTimeLine": [],
+  "chronicleTimeLine": []
+}

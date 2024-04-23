@@ -469,6 +469,17 @@
       },
       {
         "type": "show",
+        "id": "you_know_nothing_1",
+        "enabled": "enabled",
+        "name": "you-know-nothing 1",
+        "merged": true,
+        "keywords": [
+          "you-know-nothing 1"
+        ],
+        "eventId": "28"
+      },
+      {
+        "type": "show",
         "id": "What_about_automata_with_other_acceptance_conditions_",
         "enabled": "enabled",
         "name": "What about automata with other acceptance conditions?",
@@ -477,6 +488,17 @@
           "What about automata with other acceptance conditions?"
         ],
         "eventId": "8"
+      },
+      {
+        "type": "hide",
+        "id": "you_know_nothing_1",
+        "enabled": "enabled",
+        "name": "you-know-nothing 1",
+        "merged": true,
+        "keywords": [
+          "you-know-nothing 1"
+        ],
+        "eventId": "29"
       },
       {
         "type": "child",
@@ -1631,6 +1653,9 @@
         "opacity": 1
       },
       "Group_88": {
+        "opacity": 1
+      },
+      "you_know_nothing_1": {
         "opacity": 1
       }
     }

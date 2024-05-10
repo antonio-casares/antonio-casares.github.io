@@ -1,0 +1,8 @@
+@InProceedings{CPPST24Simple,
+author = {Antonio Casares and Marcin Pilipczuk and Michał Pilipczuk and Uéverton S. Souza and K. S. Thejaswini},
+title = {Simple and tight complexity lower bounds for solving {R}abin games},
+booktitle = {2024 Symposium on Simplicity in Algorithms (SOSA)},
+pages = {160-167},
+doi = {10.1137/1.9781611977936.16},
+URL = {https://epubs.siam.org/doi/abs/10.1137/1.9781611977936.16}
+}

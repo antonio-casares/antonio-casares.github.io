@@ -1,0 +1,14 @@
+@inproceedings{CO23CharactMem,
+  author       = {Antonio Casares and
+                  Pierre Ohlmann},
+  title        = {Characterising Memory in Infinite Games},
+  booktitle    = {50th International Colloquium on Automata, Languages, and Programming,
+                  {ICALP}},
+  series       = {LIPIcs},
+  volume       = {261},
+  pages        = {122:1--122:18},
+  year         = {2023},
+  url          = {https://doi.org/10.4230/LIPIcs.ICALP.2023.122},
+  doi          = {10.4230/LIPICS.ICALP.2023.122}
+}
+

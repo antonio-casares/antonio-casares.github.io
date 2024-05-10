@@ -1,0 +1,12 @@
+@article{CCFL24FromMtoP,
+  TITLE = {{From Muller to Parity and Rabin Automata: Optimal Transformations
+  Preserving (History) Determinism}},
+  AUTHOR = {Antonio Casares and Thomas Colcombet and Nathanaël Fijalkow and Karoliina Lehtinen},
+  URL = {https://theoretics.episciences.org/11336},
+  DOI = {10.46298/theoretics.24.12},
+  JOURNAL = {{TheoretiCS}},
+  VOLUME = {{Volume 3}},
+  YEAR = {2024},
+  MONTH = Apr,
+  KEYWORDS = {Computer Science - Formal Languages and Automata Theory ; Computer Science - Logic in Computer Science ; 68Q45 ; F.4.3},
+}

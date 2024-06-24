@@ -1,0 +1,968 @@
+{
+  "version": 3.1,
+  "presentation": "AwardPhDThesis-Bordeaux",
+  "slideDict": {
+    "new_slide": "new_slide",
+    "Motivation": "Motivation",
+    "Automata": "Automata",
+    "Positionality": "Positionality",
+    "Games": "Games",
+    "Verification": "Verification",
+    "Synthesis": "Synthesis",
+    "Contributions2": "Contributions",
+    "Representations": "Representations",
+    "Strategy": "Strategy",
+    "Connections": "Connections"
+  },
+  "tree": {
+    "type": "child",
+    "name": "main",
+    "id": "new_slide",
+    "enabled": "enabled",
+    "merged": false,
+    "children": [
+      {
+        "type": "show",
+        "id": "Theoretical",
+        "enabled": "enabled",
+        "name": "Theoretical",
+        "merged": false,
+        "keywords": [
+          "Theoretical"
+        ],
+        "eventId": "13"
+      },
+      {
+        "type": "show",
+        "id": "Motivation__Verification_and_synthesis_of_computer_programs",
+        "enabled": "enabled",
+        "name": "Motivation: Verification and synthesis",
+        "merged": false,
+        "keywords": [
+          "Motivation: Verification and synthesis"
+        ],
+        "eventId": "9"
+      },
+      {
+        "type": "child",
+        "name": "Motivation",
+        "id": "Motivation",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "Group_35",
+            "enabled": "enabled",
+            "name": "temperature of the reactor",
+            "merged": false,
+            "keywords": [
+              "Control:",
+              "temperature of the reactor",
+              "energy production"
+            ],
+            "eventId": "10"
+          },
+          {
+            "type": "show",
+            "id": "Group_36",
+            "enabled": "enabled",
+            "name": "Requirement:",
+            "merged": false,
+            "keywords": [
+              "Requirement:",
+              "≤ 750º and",
+              "≥",
+              "demand"
+            ],
+            "eventId": "11"
+          },
+          {
+            "type": "show",
+            "id": "Group_37",
+            "enabled": "enabled",
+            "name": "pump cooling water add/reduce fuel",
+            "merged": false,
+            "keywords": [
+              "Actions available:",
+              "pump cooling water add/reduce fuel"
+            ],
+            "eventId": "12"
+          },
+          {
+            "type": "show",
+            "id": "Group_38",
+            "enabled": "enabled",
+            "name": "temperature changes variations energy demand",
+            "merged": false,
+            "keywords": [
+              "External factors (environment):",
+              "temperature changes variations energy demand"
+            ],
+            "eventId": "13"
+          },
+          {
+            "type": "show",
+            "id": "Problem_1__Verification",
+            "enabled": "enabled",
+            "name": "Problem 1: Verification",
+            "merged": false,
+            "keywords": [
+              "Problem 1: Verification"
+            ],
+            "eventId": "21"
+          },
+          {
+            "type": "child",
+            "name": "Verification",
+            "id": "Verification",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "Common_approach__Run_multiple_tests",
+                "enabled": "enabled",
+                "name": "Common approach: Run multiple tests",
+                "merged": false,
+                "keywords": [
+                  "Common approach: Run multiple tests"
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "show",
+                "id": "Group_352",
+                "enabled": "enabled",
+                "name": "Unreliable (no correctness guarantee)",
+                "merged": false,
+                "keywords": [
+                  "Unreliable (no correctness guarantee)"
+                ],
+                "eventId": "6"
+              },
+              {
+                "type": "show",
+                "id": "Group_36",
+                "enabled": "enabled",
+                "name": "Expensive",
+                "merged": false,
+                "keywords": [
+                  "Expensive"
+                ],
+                "eventId": "7"
+              },
+              {
+                "type": "show",
+                "id": "Group_37",
+                "enabled": "enabled",
+                "name": "Sometimes just not possible",
+                "merged": false,
+                "keywords": [
+                  "Sometimes just not possible"
+                ],
+                "eventId": "8"
+              },
+              {
+                "type": "show",
+                "id": "Group_35",
+                "enabled": "enabled",
+                "name": "Formal methods: Provide an algorithm building a mathematical proof of correctness.",
+                "merged": false,
+                "keywords": [
+                  "Formal methods: Provide an algorithm building a mathematical proof of correctness.",
+                  "Guarantee of correctness",
+                  "No ressources needed"
+                ],
+                "eventId": "5"
+              }
+            ],
+            "keywords": [
+              "Given a computer program controlling the actions of the system (controller), verify that the specification will always be satisfied, regardless the behaviour of the environment.",
+              "Verification"
+            ],
+            "eventId": "1",
+            "originalParams": {
+              "Common_approach__Run_multiple_tests": {
+                "opacity": 1
+              },
+              "Group_35": {
+                "opacity": 1
+              },
+              "Group_352": {
+                "opacity": 1
+              },
+              "Group_36": {
+                "opacity": 1
+              },
+              "Group_37": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "show",
+            "id": "Group_352",
+            "enabled": "enabled",
+            "name": "Building a controller is challenging and error-prone",
+            "merged": false,
+            "keywords": [
+              "Building a controller is challenging and error-prone"
+            ],
+            "eventId": "17"
+          },
+          {
+            "type": "show",
+            "id": "Problem_2__synthesis__",
+            "enabled": "enabled",
+            "name": "Problem 2 (Synthesis):",
+            "merged": false,
+            "keywords": [
+              "Problem 2 (Synthesis):"
+            ],
+            "eventId": "16"
+          },
+          {
+            "type": "child",
+            "name": "Synthesis",
+            "id": "Synthesis",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [],
+            "keywords": [
+              "Provide an algorithm doing the following:",
+              "The specification for the system.",
+              "Input:",
+              "A controller for the actions of the system satisfying the specification in all circumstances (or a proof that no such controller exists).",
+              "Output:",
+              "Synthesis"
+            ],
+            "eventId": "2",
+            "originalParams": {}
+          }
+        ],
+        "keywords": [
+          "Example:",
+          "Automatization of a nuclear power plant",
+          "Motivation"
+        ],
+        "eventId": "1",
+        "originalParams": {
+          "Group_35": {
+            "opacity": 1
+          },
+          "Group_36": {
+            "opacity": 1
+          },
+          "Group_37": {
+            "opacity": 1
+          },
+          "Group_38": {
+            "opacity": 1
+          },
+          "Problem_2__synthesis__": {
+            "opacity": 1
+          },
+          "Group_352": {
+            "opacity": 1
+          },
+          "Problem_1__Verification": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "show",
+        "id": "Group_35",
+        "enabled": "enabled",
+        "name": "What is the theoretical complexity of the problems?",
+        "merged": false,
+        "keywords": [
+          "Is this possible?",
+          "In which cases?",
+          "What is the theoretical complexity of the problems?"
+        ],
+        "eventId": "10"
+      },
+      {
+        "type": "show",
+        "id": "Motivation__Verification_and_synthesis",
+        "enabled": "enabled",
+        "name": "Mathematical Abstraction",
+        "merged": false,
+        "keywords": [
+          "Mathematical Abstraction"
+        ],
+        "eventId": "11"
+      },
+      {
+        "type": "child",
+        "name": "Games",
+        "id": "Games",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "Positions__States_of_the_power_plant",
+            "enabled": "enabled",
+            "name": "Positions: States of the power plant",
+            "merged": false,
+            "keywords": [
+              "Positions: States of the power plant"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "Group_67",
+            "enabled": "enabled",
+            "name": "positions",
+            "merged": true,
+            "keywords": [
+              "600º",
+              "1.1 GW",
+              "500º",
+              "0 GW",
+              "800º",
+              "1.5 GW",
+              "750º",
+              "0.9 GW",
+              "650º",
+              "0.8 GW",
+              "0.5 GW",
+              "positions"
+            ],
+            "eventId": "20"
+          },
+          {
+            "type": "show",
+            "id": "We_choose_an_action",
+            "enabled": "enabled",
+            "name": "We choose an action",
+            "merged": false,
+            "keywords": [
+              "We choose an action"
+            ],
+            "eventId": "16"
+          },
+          {
+            "type": "show",
+            "id": "Rectangle_6",
+            "enabled": "enabled",
+            "name": "Rectangle 6",
+            "merged": true,
+            "keywords": [
+              "Rectangle 6"
+            ],
+            "eventId": "17"
+          },
+          {
+            "type": "show",
+            "id": "The_environment_chooses_an_action",
+            "enabled": "enabled",
+            "name": "The environment chooses an action",
+            "merged": true,
+            "keywords": [
+              "The environment chooses an action"
+            ],
+            "eventId": "18"
+          },
+          {
+            "type": "show",
+            "id": "Rectangle_10",
+            "enabled": "enabled",
+            "name": "Rectangle 10",
+            "merged": true,
+            "keywords": [
+              "Rectangle 10"
+            ],
+            "eventId": "19"
+          },
+          {
+            "type": "show",
+            "id": "microchip_svgrepo_com_1",
+            "enabled": "enabled",
+            "name": "microchip-svgrepo-com 1",
+            "merged": true,
+            "keywords": [
+              "microchip-svgrepo-com 1"
+            ],
+            "eventId": "11"
+          },
+          {
+            "type": "show",
+            "id": "storm_rain_svgrepo_com_1",
+            "enabled": "enabled",
+            "name": "storm-rain-svgrepo-com 1",
+            "merged": true,
+            "keywords": [
+              "storm-rain-svgrepo-com 1"
+            ],
+            "eventId": "13"
+          },
+          {
+            "type": "show",
+            "id": "Our_actions",
+            "enabled": "enabled",
+            "name": "Our actions",
+            "merged": false,
+            "keywords": [
+              "Our actions"
+            ],
+            "eventId": "5"
+          },
+          {
+            "type": "show",
+            "id": "Env_actions",
+            "enabled": "enabled",
+            "name": "Env actions",
+            "merged": false,
+            "keywords": [
+              "Env actions"
+            ],
+            "eventId": "6"
+          },
+          {
+            "type": "show",
+            "id": "We_win_if_we_manage_to_always_satisfy_the_specification",
+            "enabled": "enabled",
+            "name": "We win if we manage to always satisfy the specification",
+            "merged": false,
+            "keywords": [
+              "We win if we manage to always satisfy the specification"
+            ],
+            "eventId": "7"
+          },
+          {
+            "type": "show",
+            "id": "We_assume_that_the_environment_is_adversarial",
+            "enabled": "enabled",
+            "name": "We assume that the environment is adversarial",
+            "merged": false,
+            "keywords": [
+              "We assume that the environment is adversarial"
+            ],
+            "eventId": "8"
+          },
+          {
+            "type": "show",
+            "id": "Rectangle_11",
+            "enabled": "enabled",
+            "name": "Rectangle 11",
+            "merged": false,
+            "keywords": [
+              "Rectangle 11"
+            ],
+            "eventId": "22"
+          },
+          {
+            "type": "show",
+            "id": "Winning_strategy_in_this_game___Implementation_of_a_correct_controller",
+            "enabled": "enabled",
+            "name": "Winning strategy in this game ↔ Implementation of a correct controller",
+            "merged": true,
+            "keywords": [
+              "Winning strategy in this game ↔ Implementation of a correct controller"
+            ],
+            "eventId": "23"
+          }
+        ],
+        "keywords": [
+          "Model the interaction power plant ↔ environment as a game*",
+          "*Well-stablished modelisation",
+          "Games"
+        ],
+        "eventId": "8",
+        "originalParams": {
+          "Positions__States_of_the_power_plant": {
+            "opacity": 1
+          },
+          "Our_actions": {
+            "opacity": 1
+          },
+          "Env_actions": {
+            "opacity": 1
+          },
+          "We_win_if_we_manage_to_always_satisfy_the_specification": {
+            "opacity": 1
+          },
+          "We_assume_that_the_environment_is_adversarial": {
+            "opacity": 1
+          },
+          "Group_45": {
+            "opacity": 1
+          },
+          "microchip_svgrepo_com_1": {
+            "opacity": 1
+          },
+          "storm_rain_svgrepo_com_1": {
+            "opacity": 1
+          },
+          "We_choose_an_action": {
+            "opacity": 1
+          },
+          "Rectangle_6": {
+            "opacity": 1
+          },
+          "The_environment_chooses_an_action": {
+            "opacity": 1
+          },
+          "Rectangle_10": {
+            "opacity": 1
+          },
+          "Group_67": {
+            "opacity": 1
+          },
+          "Rectangle_11": {
+            "opacity": 1
+          },
+          "Winning_strategy_in_this_game___Implementation_of_a_correct_controller": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "show",
+        "id": "Contributions",
+        "enabled": "enabled",
+        "name": "Contributions",
+        "merged": false,
+        "keywords": [
+          "Contributions"
+        ],
+        "eventId": "14"
+      },
+      {
+        "type": "child",
+        "name": "Contributions",
+        "id": "Contributions2",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "Group_46",
+            "enabled": "enabled",
+            "name": "Representation of the specifications",
+            "merged": false,
+            "keywords": [
+              "Representation of the specifications"
+            ],
+            "eventId": "5"
+          },
+          {
+            "type": "show",
+            "id": "Group_47",
+            "enabled": "enabled",
+            "name": "Strategy complexity",
+            "merged": false,
+            "keywords": [
+              "Strategy complexity"
+            ],
+            "eventId": "6"
+          },
+          {
+            "type": "show",
+            "id": "Vector_2",
+            "enabled": "enabled",
+            "name": "Vector 2",
+            "merged": false,
+            "keywords": [
+              "Vector 2"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "Group_48",
+            "enabled": "enabled",
+            "name": "Connections between both problems",
+            "merged": true,
+            "keywords": [
+              "Connections between both problems"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "child",
+            "name": "Representations",
+            "id": "Representations",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "Logic",
+                "enabled": "enabled",
+                "name": "Logic",
+                "merged": false,
+                "keywords": [
+                  "Logic"
+                ],
+                "eventId": "25"
+              },
+              {
+                "type": "show",
+                "id": "Not_well_suited_for_studying_games___",
+                "enabled": "enabled",
+                "name": "Not well suited for studying games...",
+                "merged": true,
+                "keywords": [
+                  "Not well suited for studying games..."
+                ],
+                "eventId": "3"
+              },
+              {
+                "type": "hide",
+                "id": "Not_well_suited_for_studying_games___",
+                "enabled": "enabled",
+                "name": "Not well suited for studying games...",
+                "merged": false,
+                "keywords": [
+                  "Not well suited for studying games..."
+                ],
+                "eventId": "4"
+              },
+              {
+                "type": "show",
+                "id": "Low_level_specification",
+                "enabled": "enabled",
+                "name": "Low-level specification",
+                "merged": true,
+                "keywords": [
+                  "Low-level specification"
+                ],
+                "eventId": "5"
+              },
+              {
+                "type": "show",
+                "id": "Arrow_7",
+                "enabled": "enabled",
+                "name": "Arrow 7",
+                "merged": false,
+                "keywords": [
+                  "Arrow 7"
+                ],
+                "eventId": "18"
+              },
+              {
+                "type": "show",
+                "id": "Arrow_8",
+                "enabled": "enabled",
+                "name": "Arrow 8",
+                "merged": true,
+                "keywords": [
+                  "Arrow 8"
+                ],
+                "eventId": "19"
+              },
+              {
+                "type": "show",
+                "id": "Intermediate_specification",
+                "enabled": "enabled",
+                "name": "Intermediate specification",
+                "merged": true,
+                "keywords": [
+                  "Intermediate specification"
+                ],
+                "eventId": "17"
+              },
+              {
+                "type": "show",
+                "id": "Group_682",
+                "enabled": "enabled",
+                "name": "Esparza",
+                "merged": false,
+                "keywords": [
+                  "(Esparza et al. 2020)",
+                  "Esparza"
+                ],
+                "eventId": "7"
+              },
+              {
+                "type": "show",
+                "id": "Group_683",
+                "enabled": "enabled",
+                "name": "costly",
+                "merged": false,
+                "keywords": [
+                  "Known translations were very costly",
+                  "costly"
+                ],
+                "eventId": "8"
+              },
+              {
+                "type": "show",
+                "id": "Group_684",
+                "enabled": "enabled",
+                "name": "** Implemented by research groups in Muchich and Paris (EPITA) and used in the main synthesis tools.",
+                "merged": false,
+                "keywords": [
+                  "* Published at ICALP 2021 and TheoretiCS 2024 (top conference and journal in the TCS community).",
+                  "** Implemented by research groups in Muchich and Paris (EPITA) and used in the main synthesis tools.",
+                  "Contribution:",
+                  "New translation for the second step."
+                ],
+                "eventId": "15"
+              },
+              {
+                "type": "show",
+                "id": "Star_6",
+                "enabled": "enabled",
+                "name": "Star 6",
+                "merged": true,
+                "keywords": [
+                  "Star 6"
+                ],
+                "eventId": "23"
+              },
+              {
+                "type": "show",
+                "id": "Greatly_improves_previous_translations",
+                "enabled": "enabled",
+                "name": "Greatly improves previous translations",
+                "merged": true,
+                "keywords": [
+                  "Greatly improves previous translations"
+                ],
+                "eventId": "24"
+              },
+              {
+                "type": "show",
+                "id": "Group_685",
+                "enabled": "enabled",
+                "name": "Is theoretically optimal",
+                "merged": true,
+                "keywords": [
+                  "Is theoretically optimal"
+                ],
+                "eventId": "16"
+              },
+              {
+                "type": "hide",
+                "id": "Group_683",
+                "enabled": "enabled",
+                "name": "costly",
+                "merged": true,
+                "keywords": [
+                  "costly"
+                ],
+                "eventId": "9"
+              }
+            ],
+            "keywords": [
+              "User",
+              "Strategy in the game",
+              "600º",
+              "1.1 GW",
+              "500º",
+              "0 GW",
+              "800º",
+              "1.5 GW",
+              "750º",
+              "0.9 GW",
+              "650º",
+              "0.8 GW",
+              "0.5 GW",
+              "Representations"
+            ],
+            "eventId": "1",
+            "originalParams": {
+              "Not_well_suited_for_studying_games___": {
+                "opacity": 1
+              },
+              "Low_level_specification": {
+                "opacity": 1
+              },
+              "Group_682": {
+                "opacity": 1
+              },
+              "Group_683": {
+                "opacity": 1
+              },
+              "Group_684": {
+                "opacity": 1
+              },
+              "Group_685": {
+                "opacity": 1
+              },
+              "Intermediate_specification": {
+                "opacity": 1
+              },
+              "Arrow_7": {
+                "opacity": 1
+              },
+              "Arrow_8": {
+                "opacity": 1
+              },
+              "Star_6": {
+                "opacity": 1
+              },
+              "Greatly_improves_previous_translations": {
+                "opacity": 1
+              },
+              "Logic": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "child",
+            "name": "Strategy",
+            "id": "Strategy",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "Can_be_very_complex_and_difficult_to_compute__",
+                "enabled": "enabled",
+                "name": "Can be very complex and difficult to compute!!",
+                "merged": false,
+                "keywords": [
+                  "Can be very complex and difficult to compute!!"
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "show",
+                "id": "Group_61",
+                "enabled": "enabled",
+                "name": "Winning strategies can be found algorithically",
+                "merged": false,
+                "keywords": [
+                  "If simple strategies suffice to win",
+                  "Winning strategies can be found algorithically",
+                  "The final controller is simple to implement"
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "show",
+                "id": "Group_62",
+                "enabled": "enabled",
+                "name": "Strategy that always takes the same action from a given position (independent of the sequence of moves).",
+                "merged": false,
+                "keywords": [
+                  "Simple strategy:",
+                  "Strategy that always takes the same action from a given position.",
+                  "Strategy that always takes the same action from a given position (independent of the sequence of moves)."
+                ],
+                "eventId": "3"
+              },
+              {
+                "type": "show",
+                "id": "Group_64",
+                "enabled": "enabled",
+                "name": "We characterize the specifications for which simple strategies suffice to win in games using those specifications.*",
+                "merged": false,
+                "keywords": [
+                  "Contribution:",
+                  "We characterize the specifications leading to simple strategies.",
+                  "As a consequence, we solve various problems that were open since the 2000’s.",
+                  "We characterize the specifications for which simple strategies suffice to win in games using those specifications.*"
+                ],
+                "eventId": "4"
+              },
+              {
+                "type": "show",
+                "id": "__Led_to_two_publications__at_CONCUR_2022_and_LICS_2024__top_conferences_in_the_TCS_community__",
+                "enabled": "enabled",
+                "name": "* Led to two publications, at CONCUR 2022 and LICS 2024 (top conferences in the TCS community).",
+                "merged": true,
+                "keywords": [
+                  "* Led to two publications, at CONCUR 2022 and LICS 2024 (top conferences in the TCS community)."
+                ],
+                "eventId": "5"
+              }
+            ],
+            "keywords": [
+              "Strategy:",
+              "Instructions indicating what action to perform after any sequence of moves.",
+              "Strategy"
+            ],
+            "eventId": "2",
+            "originalParams": {
+              "Can_be_very_complex_and_difficult_to_compute__": {
+                "opacity": 1
+              },
+              "Group_61": {
+                "opacity": 1
+              },
+              "Group_62": {
+                "opacity": 1
+              },
+              "Group_64": {
+                "opacity": 1
+              },
+              "__Led_to_two_publications__at_CONCUR_2022_and_LICS_2024__top_conferences_in_the_TCS_community__": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "child",
+            "name": "Connections",
+            "id": "Connections",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [],
+            "keywords": [
+              "* Led to two publications, at CONCUR 2022 and LICS 2024 (top conferences in the TCS community).",
+              "Contribution",
+              "We show that the same formalism used to describe specifications can be used to describe strategies of optimal complexity in games.",
+              "Connections"
+            ],
+            "eventId": "7",
+            "originalParams": {}
+          }
+        ],
+        "keywords": [
+          "Contributions"
+        ],
+        "eventId": "12",
+        "originalParams": {
+          "Vector_2": {
+            "opacity": 1
+          },
+          "Group_48": {
+            "opacity": 1
+          },
+          "Group_46": {
+            "opacity": 1
+          },
+          "Group_47": {
+            "opacity": 1
+          }
+        }
+      }
+    ],
+    "keywords": [
+      "Structural properties of automata over infinite words and memory for games",
+      "Antonio Casares ⋅ PhD in Computer Science",
+      "Thesis Prize 2024 Université de Bordeaux",
+      "main"
+    ],
+    "eventId": "root",
+    "originalParams": {
+      "Motivation__Verification_and_synthesis_of_computer_programs": {
+        "opacity": 1
+      },
+      "Group_35": {
+        "opacity": 1
+      },
+      "Motivation__Verification_and_synthesis": {
+        "opacity": 1
+      },
+      "Theoretical": {
+        "opacity": 1
+      },
+      "Contributions": {
+        "opacity": 1
+      }
+    }
+  },
+  "treeTimeLine": [],
+  "chronicleTimeLine": []
+}

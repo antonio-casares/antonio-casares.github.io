@@ -12,7 +12,8 @@
     "Contributions2": "Contributions",
     "Representations": "Representations",
     "Strategy": "Strategy",
-    "Connections": "Connections"
+    "Connections": "Connections",
+    "Conclusions": "Conclusions"
   },
   "tree": {
     "type": "child",
@@ -97,6 +98,7 @@
             "merged": false,
             "keywords": [
               "External factors (environment):",
+              "temperature changes energy demand varies",
               "temperature changes variations energy demand"
             ],
             "eventId": "13"
@@ -170,9 +172,10 @@
                 "name": "Formal methods: Provide an algorithm building a mathematical proof of correctness.",
                 "merged": false,
                 "keywords": [
-                  "Formal methods: Provide an algorithm building a mathematical proof of correctness.",
+                  "Formal methods: Provide an algorithm building a mathematical proof of correctness",
                   "Guarantee of correctness",
-                  "No ressources needed"
+                  "No ressources needed",
+                  "Formal methods: Provide an algorithm building a mathematical proof of correctness."
                 ],
                 "eventId": "5"
               }
@@ -322,14 +325,15 @@
             "keywords": [
               "600º",
               "1.1 GW",
-              "500º",
-              "0 GW",
+              "750º",
+              "1.4 GW",
               "800º",
               "1.5 GW",
-              "750º",
+              "700º",
               "0.9 GW",
               "650º",
               "0.8 GW",
+              "500º",
               "0.5 GW",
               "positions"
             ],
@@ -470,7 +474,7 @@
         ],
         "keywords": [
           "Model the interaction power plant ↔ environment as a game*",
-          "*Well-stablished modelisation",
+          "*Well-established modelisation",
           "Games"
         ],
         "eventId": "8",
@@ -936,6 +940,66 @@
             "opacity": 1
           }
         }
+      },
+      {
+        "type": "child",
+        "name": "Conclusions",
+        "id": "Conclusions",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "Group_67",
+            "enabled": "enabled",
+            "name": "Greatly improves previous translations",
+            "merged": false,
+            "keywords": [
+              "Greatly improves previous translations"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "Group_68",
+            "enabled": "enabled",
+            "name": "Reveal",
+            "merged": false,
+            "keywords": [
+              "Greatly improves previous translations",
+              "Reveal"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "Group_69",
+            "enabled": "enabled",
+            "name": "Develop",
+            "merged": false,
+            "keywords": [
+              "Greatly improves previous translations",
+              "Develop"
+            ],
+            "eventId": "3"
+          }
+        ],
+        "keywords": [
+          "Conclusion",
+          "Conclusions"
+        ],
+        "eventId": "15",
+        "originalParams": {
+          "Group_67": {
+            "opacity": 1
+          },
+          "Group_68": {
+            "opacity": 1
+          },
+          "Group_69": {
+            "opacity": 1
+          }
+        }
       }
     ],
     "keywords": [
@@ -959,6 +1023,9 @@
         "opacity": 1
       },
       "Contributions": {
+        "opacity": 1
+      },
+      "Mathematical_Abstraction": {
         "opacity": 1
       }
     }

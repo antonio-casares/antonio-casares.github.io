@@ -1,0 +1,1098 @@
+{
+  "version": 3.1,
+  "presentation": "LICS2024-Positionality",
+  "slideDict": {
+    "new_slide": "new_slide",
+    "4_in_a_row": "4_in_a_row",
+    "games_on_graphs": "games_on_graphs",
+    "Positionality": "Positionality",
+    "No_positions": "No_positional",
+    "Positionality3": "Positionality2",
+    "Main_Games": "Main_Games",
+    "Omega_Regular": "Omega_Regular",
+    "Omega_regular": "Omega_regular",
+    "Parity_automata2": "Parity_automata",
+    "What_do_we_know": "What_do_we_know",
+    "Contributions2": "Contributions",
+    "Positionality4": "Positionality3",
+    "What_we_know_positionality": "What_we_know_positionality",
+    "Further_questions": "Further_questions",
+    "Further_contributions": "Further_contributions",
+    "Automata_characterization": "Automata_characterization",
+    "Conclusions": "Conclusions"
+  },
+  "tree": {
+    "type": "child",
+    "name": "main",
+    "id": "new_slide",
+    "enabled": "enabled",
+    "merged": false,
+    "children": [
+      {
+        "type": "child",
+        "name": "4-in-a-row",
+        "id": "4_in_a_row",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "Group_17",
+            "enabled": "enabled",
+            "name": "Player to play and force a victory",
+            "merged": false,
+            "keywords": [
+              "Player to play and force a victory"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "You_don_t_know_how_we_got_to_this_position",
+            "enabled": "enabled",
+            "name": "You don’t know how we got to this position",
+            "merged": false,
+            "keywords": [
+              "You don’t know how we got to this position"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "But_the_question_makes_sense_",
+            "enabled": "enabled",
+            "name": "But the question makes sense!",
+            "merged": false,
+            "keywords": [
+              "But the question makes sense!"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "POSITIONALITY",
+            "enabled": "enabled",
+            "name": "POSITIONALITY",
+            "merged": false,
+            "keywords": [
+              "POSITIONALITY"
+            ],
+            "eventId": "4"
+          }
+        ],
+        "keywords": [
+          "4-in-a-row"
+        ],
+        "eventId": "9",
+        "originalParams": {
+          "Group_17": {
+            "opacity": 1
+          },
+          "You_don_t_know_how_we_got_to_this_position": {
+            "opacity": 1
+          },
+          "But_the_question_makes_sense_": {
+            "opacity": 1
+          },
+          "POSITIONALITY": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "games on graphs",
+        "id": "games_on_graphs",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "Group_28",
+            "enabled": "enabled",
+            "name": "Adam",
+            "merged": false,
+            "keywords": [
+              "c",
+              "b",
+              "a",
+              "Eve",
+              "Adam"
+            ],
+            "eventId": "5"
+          },
+          {
+            "type": "show",
+            "id": "Group_23",
+            "enabled": "enabled",
+            "name": "Players move a token in turn, producing",
+            "merged": false,
+            "keywords": [
+              "Players move a token in turn, producing"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "Group_24",
+            "enabled": "enabled",
+            "name": "Winning condition:",
+            "merged": false,
+            "keywords": [
+              "Winning condition:"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "Group_25",
+            "enabled": "enabled",
+            "name": "Eve wins if",
+            "merged": false,
+            "keywords": [
+              "Eve wins if"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "We_consider_both_finite_and_infinite_graphs",
+            "enabled": "enabled",
+            "name": "We consider both finite and infinite graphs",
+            "merged": false,
+            "keywords": [
+              "We consider both finite and infinite graphs"
+            ],
+            "eventId": "6"
+          },
+          {
+            "type": "hide",
+            "id": "Group_28",
+            "enabled": "enabled",
+            "name": "Adam",
+            "merged": false,
+            "keywords": [
+              "Adam"
+            ],
+            "eventId": "4"
+          }
+        ],
+        "keywords": [
+          "Games on graphs",
+          "games on graphs"
+        ],
+        "eventId": "2",
+        "originalParams": {
+          "Group_23": {
+            "opacity": 1
+          },
+          "Group_24": {
+            "opacity": 1
+          },
+          "Group_25": {
+            "opacity": 1
+          },
+          "Group_28": {
+            "opacity": 1
+          },
+          "We_consider_both_finite_and_infinite_graphs": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "Strategies",
+        "id": "Positionality",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "Group_66",
+            "enabled": "enabled",
+            "name": "General strategy:",
+            "merged": false,
+            "keywords": [
+              "General strategy:"
+            ],
+            "eventId": "6"
+          },
+          {
+            "type": "show",
+            "id": "Group_662",
+            "enabled": "enabled",
+            "name": "Positional strategy:",
+            "merged": false,
+            "keywords": [
+              "Positional strategy:"
+            ],
+            "eventId": "7"
+          },
+          {
+            "type": "show",
+            "id": "Group_663",
+            "enabled": "enabled",
+            "name": "Positional strategy ensuring the objective",
+            "merged": false,
+            "keywords": [
+              "Positional strategy ensuring the objective",
+              "Words containing ‘bc’ infinitely often",
+              "L ="
+            ],
+            "eventId": "10"
+          },
+          {
+            "type": "child",
+            "name": "No positional",
+            "id": "No_positions",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "Eve_wins__but_not_by_using_a_positional_strategy_",
+                "enabled": "enabled",
+                "name": "Eve wins, but not by using a positional strategy.",
+                "merged": false,
+                "keywords": [
+                  "Eve wins, but not by using a positional strategy."
+                ],
+                "eventId": "1"
+              }
+            ],
+            "keywords": [
+              "Positional strategies do not suffice in general!",
+              "a",
+              "b",
+              "Words containing both ‘a’ and ‘b’ infinitely often",
+              "L =",
+              "No positional"
+            ],
+            "eventId": "5",
+            "originalParams": {
+              "Eve_wins__but_not_by_using_a_positional_strategy_": {
+                "opacity": 1
+              }
+            }
+          }
+        ],
+        "keywords": [
+          "Strategies",
+          "c",
+          "b",
+          "a"
+        ],
+        "eventId": "3",
+        "originalParams": {
+          "Group_66": {
+            "opacity": 1
+          },
+          "Group_662": {
+            "opacity": 1
+          },
+          "Group_663": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "Positionality",
+        "id": "Positionality4",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "Group_89",
+            "enabled": "enabled",
+            "name": "L is positional if for every game G with winning condition L:",
+            "merged": false,
+            "keywords": [
+              "L is positional* if for every game G with winning condition L:",
+              "Eve wins G",
+              "She wins with a positional strategy",
+              "L is positional if for every game G with winning condition L:"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "__Published_at_ICALP_2021_and_TheoretiCS_2024__top_conference_and_journal_in_the_TCS_community__",
+            "enabled": "enabled",
+            "name": "* Sometimes called half-positional to emphasize asymmetry.",
+            "merged": true,
+            "keywords": [
+              "* Sometimes called half-positional to emphasize asymmetry."
+            ],
+            "eventId": "3"
+          }
+        ],
+        "keywords": [
+          "Fix a language",
+          "Positionality"
+        ],
+        "eventId": "14",
+        "originalParams": {
+          "Group_89": {
+            "opacity": 1
+          },
+          "__Published_at_ICALP_2021_and_TheoretiCS_2024__top_conference_and_journal_in_the_TCS_community__": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "show",
+        "id": "What_languages_are_positional_",
+        "enabled": "enabled",
+        "name": "What languages are positional?",
+        "merged": false,
+        "keywords": [
+          "What languages are positional?"
+        ],
+        "eventId": "17"
+      },
+      {
+        "type": "hide",
+        "id": "What_languages_are_positional_",
+        "enabled": "enabled",
+        "name": "What languages are positional?",
+        "merged": false,
+        "keywords": [
+          "What languages are positional?"
+        ],
+        "eventId": "19"
+      },
+      {
+        "type": "show",
+        "id": "What___regular_languages_are_positional_",
+        "enabled": "enabled",
+        "name": "What ω-regular languages are positional?",
+        "merged": true,
+        "keywords": [
+          "What ω-regular languages are positional?"
+        ],
+        "eventId": "20"
+      },
+      {
+        "type": "child",
+        "name": "Omega-regular",
+        "id": "Omega_regular",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "The_class_of___regular_languages_can_be_de_ned_equivalently_as_those_",
+            "enabled": "enabled",
+            "name": "The class of ω-regular languages can be deﬁned equivalently as those:",
+            "merged": false,
+            "keywords": [
+              "The class of ω-regular languages can be deﬁned equivalently as those:"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "Group_60",
+            "enabled": "enabled",
+            "name": "Definable in MSO",
+            "merged": false,
+            "keywords": [
+              "Definable in MSO"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "show",
+            "id": "Group_61",
+            "enabled": "enabled",
+            "name": "Definable by ω-expressions",
+            "merged": false,
+            "keywords": [
+              "Definable by ω-expressions"
+            ],
+            "eventId": "5"
+          },
+          {
+            "type": "show",
+            "id": "Group_62",
+            "enabled": "enabled",
+            "name": "Recognized by Büchi automata",
+            "merged": false,
+            "keywords": [
+              "Recognized by Büchi automata"
+            ],
+            "eventId": "6"
+          },
+          {
+            "type": "show",
+            "id": "Group_63",
+            "enabled": "enabled",
+            "name": "Recognized by deterministic parity automata",
+            "merged": false,
+            "keywords": [
+              "Recognized by deterministic parity automata"
+            ],
+            "eventId": "7"
+          }
+        ],
+        "keywords": [
+          "ω-Regular Languages",
+          "Omega-regular"
+        ],
+        "eventId": "6",
+        "originalParams": {
+          "The_class_of___regular_languages_can_be_de_ned_equivalently_as_those_": {
+            "opacity": 1
+          },
+          "Group_64": {
+            "opacity": 1
+          },
+          "Group_60": {
+            "opacity": 1
+          },
+          "Group_61": {
+            "opacity": 1
+          },
+          "Group_62": {
+            "opacity": 1
+          },
+          "Group_63": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "show",
+        "id": "Known_Results",
+        "enabled": "enabled",
+        "name": "What do we know?",
+        "merged": false,
+        "keywords": [
+          "What do we know?"
+        ],
+        "eventId": "15"
+      },
+      {
+        "type": "child",
+        "name": "What we know bipos",
+        "id": "What_do_we_know",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "Group_66",
+            "enabled": "enabled",
+            "name": "L is bipositional if both L and Lc are positional.",
+            "merged": false,
+            "keywords": [
+              "L is bipositional if both L and Lc are positional."
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "Group_70",
+            "enabled": "enabled",
+            "name": "Over finite graphs: Characterization by Gimbert&Zielonka 2005",
+            "merged": false,
+            "keywords": [
+              "Over finite graphs: Characterization by Gimbert&Zielonka 2005"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "Group_68",
+            "enabled": "enabled",
+            "name": "L is bipositional on finite graphs if and only if Eve and Adam can win positionally in games where all positions are circles or all are squares (1-player games).",
+            "merged": false,
+            "keywords": [
+              "Corollary (1-to-2 player lift)",
+              "L is bipositional on finite graphs if and only if Eve and Adam can win positionally in games where all positions are circles or all are squares (1-player games)."
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "Group_69",
+            "enabled": "enabled",
+            "name": "Over infinite graphs: Characterization by Colcombet&Niwiński 2006",
+            "merged": false,
+            "keywords": [
+              "Over infinite graphs: Characterization by Colcombet&Niwiński 2006"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "show",
+            "id": "Group_89",
+            "enabled": "enabled",
+            "name": "Bipositional languages over infinite graphs are exactly those of the form",
+            "merged": false,
+            "keywords": [
+              "Bipositional languages over infinite graphs are exactly those of the form",
+              "Theorem"
+            ],
+            "eventId": "5"
+          },
+          {
+            "type": "show",
+            "id": "smiling_face_emoji_1",
+            "enabled": "enabled",
+            "name": "smiling-face-emoji 1",
+            "merged": false,
+            "keywords": [
+              "smiling-face-emoji 1"
+            ],
+            "eventId": "6"
+          }
+        ],
+        "keywords": [
+          "... about bipositionality?",
+          "What we know bipos"
+        ],
+        "eventId": "12",
+        "originalParams": {
+          "Group_66": {
+            "opacity": 1
+          },
+          "Group_70": {
+            "opacity": 1
+          },
+          "Group_68": {
+            "opacity": 1
+          },
+          "Group_69": {
+            "opacity": 1
+          },
+          "Group_89": {
+            "opacity": 1
+          },
+          "smiling_face_emoji_1": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "What we know positionality",
+        "id": "What_we_know_positionality",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "Group_72",
+            "enabled": "enabled",
+            "name": "Not much...",
+            "merged": false,
+            "keywords": [
+              "Not much..."
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "hide",
+            "id": "Group_72",
+            "enabled": "enabled",
+            "name": "Not much...",
+            "merged": false,
+            "keywords": [
+              "Not much..."
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "Group_89",
+            "enabled": "enabled",
+            "name": "Deterministic parity automaton recognizing a prefix-independent language L.",
+            "merged": false,
+            "keywords": [
+              "The following problem is decidable",
+              "Theorem",
+              "(Kopczyński 2007)",
+              "Deterministic parity automaton recognizing a prefix-independent language L.",
+              "Input:",
+              "Question:",
+              "Is L positional over finite graph games?"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "Group_892",
+            "enabled": "enabled",
+            "name": "in double-exponential time",
+            "merged": false,
+            "keywords": [
+              "in double-exponential time"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "show",
+            "id": "Rectangle_7",
+            "enabled": "enabled",
+            "name": "Rectangle 7",
+            "merged": false,
+            "keywords": [
+              "Rectangle 7"
+            ],
+            "eventId": "5"
+          },
+          {
+            "type": "show",
+            "id": "Rectangle_9",
+            "enabled": "enabled",
+            "name": "Rectangle 9",
+            "merged": false,
+            "keywords": [
+              "Rectangle 9"
+            ],
+            "eventId": "6"
+          },
+          {
+            "type": "show",
+            "id": "Group_893",
+            "enabled": "enabled",
+            "name": "Can we decide positionality over infinite graphs? For all languages? Improve the complexity?",
+            "merged": false,
+            "keywords": [
+              "Questions",
+              "Can we decide positionality over infinite graphs? For all languages? Improve the complexity?"
+            ],
+            "eventId": "7"
+          }
+        ],
+        "keywords": [
+          "... about positionality?",
+          "What we know positionality"
+        ],
+        "eventId": "21",
+        "originalParams": {
+          "Group_72": {
+            "opacity": 1
+          },
+          "Group_89": {
+            "opacity": 1
+          },
+          "Group_892": {
+            "opacity": 1
+          },
+          "Rectangle_7": {
+            "opacity": 1
+          },
+          "Rectangle_9": {
+            "opacity": 1
+          },
+          "Group_893": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "Further questions",
+        "id": "Further_questions",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "Question_1",
+            "enabled": "enabled",
+            "name": "Question 1",
+            "merged": false,
+            "keywords": [
+              "Question 1"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "Group_89",
+            "enabled": "enabled",
+            "name": "L positional over finite graphs ?",
+            "merged": true,
+            "keywords": [
+              "L positional over finite graphs",
+              "L positional over finite graphs ?",
+              "(finite-to-infinite lift)"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "Question_0",
+            "enabled": "enabled",
+            "name": "Question 0",
+            "merged": false,
+            "keywords": [
+              "Question 0"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "hide",
+            "id": "Question_1",
+            "enabled": "enabled",
+            "name": "Question 1",
+            "merged": true,
+            "keywords": [
+              "Question 1"
+            ],
+            "eventId": "6"
+          },
+          {
+            "type": "show",
+            "id": "Group_79",
+            "enabled": "enabled",
+            "name": "Eve can win positionally on 1-player games",
+            "merged": false,
+            "keywords": [
+              "Question 1",
+              "Eve can win positionally on 1-player games",
+              "L positional over all games ?",
+              "(1-to-2 player lift)"
+            ],
+            "eventId": "7"
+          },
+          {
+            "type": "show",
+            "id": "Group_892",
+            "enabled": "enabled",
+            "name": "Open for ω-regular",
+            "merged": false,
+            "keywords": [
+              "Open for ω-regular"
+            ],
+            "eventId": "10"
+          },
+          {
+            "type": "show",
+            "id": "Group_80",
+            "enabled": "enabled",
+            "name": "Are prefix-independent positional objectives closed under union?",
+            "merged": false,
+            "keywords": [
+              "Question 2",
+              "Are prefix-independent positional objectives closed under union?",
+              "(Kopczyński’s Conjecture)"
+            ],
+            "eventId": "8"
+          },
+          {
+            "type": "show",
+            "id": "Open_for___regular",
+            "enabled": "enabled",
+            "name": "Open for ω-regular",
+            "merged": true,
+            "keywords": [
+              "In general",
+              "Open for ω-regular"
+            ],
+            "eventId": "11"
+          },
+          {
+            "type": "show",
+            "id": "Group_893",
+            "enabled": "enabled",
+            "name": "Counterexample by Kozachinskiy 2022",
+            "merged": false,
+            "keywords": [
+              "Counterexample by Kozachinskiy 2022"
+            ],
+            "eventId": "12"
+          },
+          {
+            "type": "show",
+            "id": "Group_894",
+            "enabled": "enabled",
+            "name": "Over finite graphs Not ω-regular",
+            "merged": false,
+            "keywords": [
+              "Over finite graphs Not ω-regular"
+            ],
+            "eventId": "13"
+          }
+        ],
+        "keywords": [
+          "Further questions"
+        ],
+        "eventId": "22",
+        "originalParams": {
+          "Question_1": {
+            "opacity": 1
+          },
+          "Group_89": {
+            "opacity": 1
+          },
+          "Question_0": {
+            "opacity": 1
+          },
+          "Group_79": {
+            "opacity": 1
+          },
+          "Group_80": {
+            "opacity": 1
+          },
+          "Group_892": {
+            "opacity": 1
+          },
+          "Open_for___regular": {
+            "opacity": 1
+          },
+          "Group_893": {
+            "opacity": 1
+          },
+          "Group_894": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "show",
+        "id": "Contributions",
+        "enabled": "enabled",
+        "name": "Contributions",
+        "merged": false,
+        "keywords": [
+          "Contributions"
+        ],
+        "eventId": "16"
+      },
+      {
+        "type": "child",
+        "name": "Contributions",
+        "id": "Contributions2",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "child",
+            "name": "Automata characterization",
+            "id": "Automata_characterization",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "Signature_automata__Automata_admitting_a_recursive_decomposition_in_congruences_refining_each_other_with_classes_totaly_ordered_",
+                "enabled": "enabled",
+                "name": "Signature automata: Automata admitting a recursive decomposition in congruences refining each other with classes totaly ordered.",
+                "merged": false,
+                "keywords": [
+                  "Signature automata: Automata admitting a recursive decomposition in congruences refining each other with classes totaly ordered."
+                ],
+                "eventId": "1"
+              }
+            ],
+            "keywords": [
+              "An ω-regular language is positional if and only if it can be recognized by a signature parity automaton.",
+              "Main theorem",
+              "Automata-based characterization",
+              "Automata characterization"
+            ],
+            "eventId": "1",
+            "originalParams": {
+              "Signature_automata__Automata_admitting_a_recursive_decomposition_in_congruences_refining_each_other_with_classes_totaly_ordered_": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "show",
+            "id": "Group_94",
+            "enabled": "enabled",
+            "name": "Decidability of positionality in polynomial time for all ω-regular languages, both over finite and infinite graphs.",
+            "merged": false,
+            "keywords": [
+              "Corollary",
+              "Decidability of positionality in polynomial time for all ω-regular languages, both over finite and infinite graphs.",
+              "(decidability)"
+            ],
+            "eventId": "4"
+          }
+        ],
+        "keywords": [
+          "Main contribution",
+          "Characterization of positionality for ω-regular languages, both over finite and infinite grahps.",
+          "Contributions"
+        ],
+        "eventId": "13",
+        "originalParams": {
+          "Group_922": {
+            "opacity": 1
+          },
+          "Group_94": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "Further contributions",
+        "id": "Further_contributions",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "Group_97",
+            "enabled": "enabled",
+            "name": "L positional over finite graphs",
+            "merged": false,
+            "keywords": [
+              "Theorem 0",
+              "L positional over finite graphs",
+              "(finite-to-infinite lift)"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "Group_98",
+            "enabled": "enabled",
+            "name": "Eve can win positionally on 1-player games",
+            "merged": false,
+            "keywords": [
+              "Theorem 1",
+              "(1-to-2 player lift)",
+              "Eve can win positionally on 1-player games",
+              "L positional over all games"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "show",
+            "id": "Group_99",
+            "enabled": "enabled",
+            "name": "Prefix-independent ω-regular positional objectives are closed under union.",
+            "merged": false,
+            "keywords": [
+              "Theorem 2",
+              "Prefix-independent ω-regular positional objectives are closed under union.",
+              "(Kopczyński’s Conjecture)"
+            ],
+            "eventId": "5"
+          }
+        ],
+        "keywords": [
+          "Further corollaries",
+          "Further contributions"
+        ],
+        "eventId": "23",
+        "originalParams": {
+          "Group_97": {
+            "opacity": 1
+          },
+          "Group_98": {
+            "opacity": 1
+          },
+          "Group_99": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "Conclusions",
+        "id": "Conclusions",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "New_automata_theoretic_techniques_developped_",
+            "enabled": "enabled",
+            "name": "New automata-theoretic techniques developped:",
+            "merged": false,
+            "keywords": [
+              "New automata-theoretic techniques developped:"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "Group_97",
+            "enabled": "enabled",
+            "name": "Decompositions for parity automata.",
+            "merged": false,
+            "keywords": [
+              "Decompositions for parity automata."
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "Group_972",
+            "enabled": "enabled",
+            "name": "Applications of canonical forms of history-deterministic automata (Abu Radi&Kupferman 2019).",
+            "merged": false,
+            "keywords": [
+              "Applications of canonical forms of history-deterministic automata (Abu Radi&Kupferman 2019)."
+            ],
+            "eventId": "5"
+          },
+          {
+            "type": "show",
+            "id": "Group_98",
+            "enabled": "enabled",
+            "name": "New connexions between automata and universal graphs (Ohlmann 2022).",
+            "merged": false,
+            "keywords": [
+              "New connexions between automata and universal graphs (Ohlmann 2022)."
+            ],
+            "eventId": "4"
+          }
+        ],
+        "keywords": [
+          "Conclusions"
+        ],
+        "eventId": "24",
+        "originalParams": {
+          "New_automata_theoretic_techniques_developped_": {
+            "opacity": 1
+          },
+          "Group_97": {
+            "opacity": 1
+          },
+          "Group_98": {
+            "opacity": 1
+          },
+          "Group_972": {
+            "opacity": 1
+          }
+        }
+      }
+    ],
+    "keywords": [
+      "Antonio Casares ⋅ University of Warsaw & Pierre Ohlmann ⋅ CNRS, LIS, Marseille",
+      "Positional ω-Regular Languages",
+      "main"
+    ],
+    "eventId": "root",
+    "originalParams": {
+      "Known_Results": {
+        "opacity": 1
+      },
+      "Contributions": {
+        "opacity": 1
+      },
+      "What_languages_are_positional_": {
+        "opacity": 1
+      },
+      "What___regular_languages_are_positional_": {
+        "opacity": 1
+      }
+    }
+  },
+  "treeTimeLine": [],
+  "chronicleTimeLine": []
+}

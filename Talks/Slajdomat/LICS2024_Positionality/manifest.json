@@ -62,7 +62,7 @@
             "id": "But_the_question_makes_sense_",
             "enabled": "enabled",
             "name": "But the question makes sense!",
-            "merged": false,
+            "merged": true,
             "keywords": [
               "But the question makes sense!"
             ],
@@ -209,14 +209,14 @@
         "children": [
           {
             "type": "show",
-            "id": "Group_66",
+            "id": "Can_be_non_computable_",
             "enabled": "enabled",
-            "name": "General strategy:",
+            "name": "Can be non-computable!",
             "merged": false,
             "keywords": [
-              "General strategy:"
+              "Can be non-computable!"
             ],
-            "eventId": "6"
+            "eventId": "11"
           },
           {
             "type": "show",
@@ -281,17 +281,18 @@
           "Strategies",
           "c",
           "b",
-          "a"
+          "a",
+          "General strategy:"
         ],
         "eventId": "3",
         "originalParams": {
-          "Group_66": {
-            "opacity": 1
-          },
           "Group_662": {
             "opacity": 1
           },
           "Group_663": {
+            "opacity": 1
+          },
+          "Can_be_non_computable_": {
             "opacity": 1
           }
         }
@@ -327,6 +328,17 @@
               "* Sometimes called half-positional to emphasize asymmetry."
             ],
             "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "over_finite_infinite_graphs",
+            "enabled": "enabled",
+            "name": "over finite/infinite graphs",
+            "merged": false,
+            "keywords": [
+              "over finite/infinite graphs"
+            ],
+            "eventId": "4"
           }
         ],
         "keywords": [
@@ -339,6 +351,9 @@
             "opacity": 1
           },
           "__Published_at_ICALP_2021_and_TheoretiCS_2024__top_conference_and_journal_in_the_TCS_community__": {
+            "opacity": 1
+          },
+          "over_finite_infinite_graphs": {
             "opacity": 1
           }
         }
@@ -383,17 +398,6 @@
         "enabled": "enabled",
         "merged": false,
         "children": [
-          {
-            "type": "show",
-            "id": "The_class_of___regular_languages_can_be_de_ned_equivalently_as_those_",
-            "enabled": "enabled",
-            "name": "The class of ω-regular languages can be deﬁned equivalently as those:",
-            "merged": false,
-            "keywords": [
-              "The class of ω-regular languages can be deﬁned equivalently as those:"
-            ],
-            "eventId": "1"
-          },
           {
             "type": "show",
             "id": "Group_60",
@@ -441,14 +445,12 @@
         ],
         "keywords": [
           "ω-Regular Languages",
+          "The class of ω-regular languages can be deﬁned equivalently as those:",
           "Omega-regular"
         ],
         "eventId": "6",
         "originalParams": {
           "The_class_of___regular_languages_can_be_de_ned_equivalently_as_those_": {
-            "opacity": 1
-          },
-          "Group_64": {
             "opacity": 1
           },
           "Group_60": {
@@ -483,17 +485,6 @@
         "enabled": "enabled",
         "merged": false,
         "children": [
-          {
-            "type": "show",
-            "id": "Group_66",
-            "enabled": "enabled",
-            "name": "L is bipositional if both L and Lc are positional.",
-            "merged": false,
-            "keywords": [
-              "L is bipositional if both L and Lc are positional."
-            ],
-            "eventId": "1"
-          },
           {
             "type": "show",
             "id": "Group_70",
@@ -554,6 +545,7 @@
         ],
         "keywords": [
           "... about bipositionality?",
+          "L is bipositional if both L and Lc are positional.",
           "What we know bipos"
         ],
         "eventId": "12",
@@ -612,7 +604,7 @@
             "id": "Group_89",
             "enabled": "enabled",
             "name": "Deterministic parity automaton recognizing a prefix-independent language L.",
-            "merged": false,
+            "merged": true,
             "keywords": [
               "The following problem is decidable",
               "Theorem",
@@ -1009,17 +1001,6 @@
         "children": [
           {
             "type": "show",
-            "id": "New_automata_theoretic_techniques_developped_",
-            "enabled": "enabled",
-            "name": "New automata-theoretic techniques developped:",
-            "merged": false,
-            "keywords": [
-              "New automata-theoretic techniques developped:"
-            ],
-            "eventId": "1"
-          },
-          {
-            "type": "show",
             "id": "Group_97",
             "enabled": "enabled",
             "name": "Decompositions for parity automata.",
@@ -1053,7 +1034,8 @@
           }
         ],
         "keywords": [
-          "Conclusions"
+          "Conclusions",
+          "New automata-theoretic techniques developped:"
         ],
         "eventId": "24",
         "originalParams": {

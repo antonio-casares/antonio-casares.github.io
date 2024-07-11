@@ -714,8 +714,9 @@
             "merged": true,
             "keywords": [
               "L positional over finite graphs",
-              "L positional over finite graphs ?",
-              "(finite-to-infinite lift)"
+              "L positional over infinite graphs ?",
+              "(finite-to-infinite lift)",
+              "L positional over finite graphs ?"
             ],
             "eventId": "3"
           },
@@ -943,6 +944,7 @@
             "keywords": [
               "Theorem 0",
               "L positional over finite graphs",
+              "L positional over infinite graphs",
               "(finite-to-infinite lift)"
             ],
             "eventId": "2"

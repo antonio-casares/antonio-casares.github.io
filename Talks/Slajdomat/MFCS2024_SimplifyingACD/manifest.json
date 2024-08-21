@@ -1,0 +1,1836 @@
+{
+  "version": 3.1,
+  "presentation": "MFCS2024-SimplifyingACD",
+  "slideDict": {
+    "new_slide": "main",
+    "Automata": "Intro_Automata",
+    "Acceptance_conditions": "Acceptance_conditions",
+    "Complexity": "Complexity",
+    "Pure_Conditions2": "Pure_Conditions",
+    "Reductions_and_Questions": "Reductions_and_Questions",
+    "Zielonka_DAG": "Zielonka_DAG",
+    "Typeness_ZDAG": "Typeness_ZDAG",
+    "Minimization_Muller": "Minimization_Muller",
+    "On_top_Automata": "On_top_Automata",
+    "Muller2": "Muller",
+    "Rabin2": "Rabin",
+    "Parity2": "Parity",
+    "Our_Approach": "Our_Approach",
+    "Main_tool__ACD": "Main_tool__ACD",
+    "Typeness2": "Typeness",
+    "Minimization": "Minimization",
+    "Conclusions": "Conclusions"
+  },
+  "tree": {
+    "type": "child",
+    "name": "main",
+    "id": "new_slide",
+    "enabled": "enabled",
+    "merged": false,
+    "children": [
+      {
+        "type": "child",
+        "name": "Intro Automata",
+        "id": "Automata",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "Group_372",
+            "enabled": "enabled",
+            "name": "Group 37",
+            "merged": false,
+            "keywords": [
+              "Group 37"
+            ],
+            "eventId": "11"
+          },
+          {
+            "type": "show",
+            "id": "Group_38",
+            "enabled": "enabled",
+            "name": "center letters",
+            "merged": true,
+            "keywords": [
+              "a",
+              "b",
+              "center letters"
+            ],
+            "eventId": "12"
+          },
+          {
+            "type": "show",
+            "id": "_mathcal_A_",
+            "enabled": "enabled",
+            "name": "\\mathcal{A}",
+            "merged": true,
+            "keywords": [
+              "\\mathcal{A}"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "Automata_are_deterministic_in_this_talk",
+            "enabled": "enabled",
+            "name": "Automata are deterministic in this talk",
+            "merged": false,
+            "keywords": [
+              "Automata are deterministic in this talk"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "Group_35",
+            "enabled": "enabled",
+            "name": "Infinite path ρ",
+            "merged": false,
+            "keywords": [
+              "Input w ∈ Σω",
+              "Infinite path ρ"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "show",
+            "id": "Acceptance_Condition_",
+            "enabled": "enabled",
+            "name": "Acceptance Condition?",
+            "merged": false,
+            "keywords": [
+              "Acceptance Condition?"
+            ],
+            "eventId": "5"
+          },
+          {
+            "type": "hide",
+            "id": "Group_38",
+            "enabled": "enabled",
+            "name": "center letters",
+            "merged": false,
+            "keywords": [
+              "center letters"
+            ],
+            "eventId": "14"
+          },
+          {
+            "type": "show",
+            "id": "Group_2",
+            "enabled": "enabled",
+            "name": ":β",
+            "merged": true,
+            "keywords": [
+              ":β",
+              ":α",
+              ":γ"
+            ],
+            "eventId": "10"
+          },
+          {
+            "type": "show",
+            "id": "Group_352",
+            "enabled": "enabled",
+            "name": "output colours",
+            "merged": true,
+            "keywords": [
+              "output colours",
+              "C = { , , }",
+              "β",
+              "α",
+              "γ"
+            ],
+            "eventId": "6"
+          },
+          {
+            "type": "show",
+            "id": "Group_37",
+            "enabled": "enabled",
+            "name": "letters left",
+            "merged": true,
+            "keywords": [
+              "a",
+              "b",
+              "letters left"
+            ],
+            "eventId": "13"
+          },
+          {
+            "type": "show",
+            "id": "Inf_______Colours_appearing_infinitely_often_in___",
+            "enabled": "enabled",
+            "name": "Inf(ρ) = {Colours appearing infinitely often in ρ}",
+            "merged": false,
+            "keywords": [
+              "Inf(ρ) = {Colours appearing infinitely often in ρ}"
+            ],
+            "eventId": "7"
+          },
+          {
+            "type": "hide",
+            "id": "Acceptance_Condition_",
+            "enabled": "enabled",
+            "name": "Acceptance Condition?",
+            "merged": false,
+            "keywords": [
+              "Acceptance Condition?"
+            ],
+            "eventId": "8"
+          },
+          {
+            "type": "show",
+            "id": "Different_Acceptance_Conditions",
+            "enabled": "enabled",
+            "name": "Different Acceptance Conditions",
+            "merged": true,
+            "keywords": [
+              "Different Acceptance Conditions"
+            ],
+            "eventId": "9"
+          }
+        ],
+        "keywords": [
+          "Automata over infinite words (ω-automata)",
+          "Intro Automata"
+        ],
+        "eventId": "1",
+        "originalParams": {
+          "_mathcal_A_": {
+            "opacity": 1
+          },
+          "Automata_are_deterministic_in_this_talk": {
+            "opacity": 1
+          },
+          "Group_35": {
+            "opacity": 1
+          },
+          "Acceptance_Condition_": {
+            "opacity": 1
+          },
+          "Group_352": {
+            "opacity": 1
+          },
+          "Inf_______Colours_appearing_infinitely_often_in___": {
+            "opacity": 1
+          },
+          "Different_Acceptance_Conditions": {
+            "opacity": 1
+          },
+          "Group_2": {
+            "opacity": 1
+          },
+          "Group_372": {
+            "opacity": 1
+          },
+          "Group_38": {
+            "opacity": 1
+          },
+          "Group_37": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "Acceptance conditions",
+        "id": "Acceptance_conditions",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [
+          {
+            "type": "child",
+            "name": "Muller",
+            "id": "Muller2",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "Group_38",
+                "enabled": "enabled",
+                "name": "F = {{ }, { }}",
+                "merged": false,
+                "keywords": [
+                  "F = {{ }, { }}",
+                  "β",
+                  "α",
+                  "Text",
+                  ":β",
+                  ":α",
+                  ":γ",
+                  "a",
+                  "b"
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "show",
+                "id": "_mathcal_L___mathcal_A______Sigma___a______Sigma___b__omega",
+                "enabled": "enabled",
+                "name": "\\mathcal{L}(\\mathcal{A}) = \\Sigma^* a^ω + \\Sigma^* b^\\omega",
+                "merged": false,
+                "keywords": [
+                  "\\mathcal{L}(\\mathcal{A}) = \\Sigma^* a^ω + \\Sigma^* b^\\omega"
+                ],
+                "eventId": "2"
+              }
+            ],
+            "keywords": [
+              "F ⊆ 2C",
+              "family of subsets",
+              "A run ρ is accepting ⇔ Inf(ρ) ∈ F",
+              "Muller"
+            ],
+            "eventId": "1",
+            "originalParams": {
+              "Group_38": {
+                "opacity": 1
+              },
+              "_mathcal_L___mathcal_A______Sigma___a______Sigma___b__omega": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "show",
+            "id": "Ellipse_10",
+            "enabled": "enabled",
+            "name": "Ellipse 10",
+            "merged": false,
+            "keywords": [
+              "Ellipse 10"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "show",
+            "id": "Rabin",
+            "enabled": "enabled",
+            "name": "Rabin",
+            "merged": true,
+            "keywords": [
+              "Rabin"
+            ],
+            "eventId": "5"
+          },
+          {
+            "type": "child",
+            "name": "Rabin",
+            "id": "Rabin2",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "Group_38",
+                "enabled": "enabled",
+                "name": "G1 = { }, R1= { }",
+                "merged": false,
+                "keywords": [
+                  "Text",
+                  ":β",
+                  ":α",
+                  ":γ",
+                  "a",
+                  "b",
+                  "G1 = { }, R1= { }",
+                  "α",
+                  "γ",
+                  "G2 = { }, R2= { }",
+                  "β"
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "show",
+                "id": "_mathcal_L___mathcal_A______Sigma___a______Sigma___b__omega",
+                "enabled": "enabled",
+                "name": "\\mathcal{L}(\\mathcal{A}) = \\Sigma^* a^ω + \\Sigma^* b^\\omega",
+                "merged": false,
+                "keywords": [
+                  "\\mathcal{L}(\\mathcal{A}) = \\Sigma^* a^ω + \\Sigma^* b^\\omega"
+                ],
+                "eventId": "2"
+              }
+            ],
+            "keywords": [
+              "k Rabin pairs: (G1,R1), ... , (Gk,Rk), Gi, Ri ⊆ C",
+              "A run ρ is accepting ⇔",
+              "Rabin"
+            ],
+            "eventId": "2",
+            "originalParams": {
+              "Group_38": {
+                "opacity": 1
+              },
+              "_mathcal_L___mathcal_A______Sigma___a______Sigma___b__omega": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "show",
+            "id": "Ellipse_11",
+            "enabled": "enabled",
+            "name": "Ellipse 11",
+            "merged": false,
+            "keywords": [
+              "Ellipse 11"
+            ],
+            "eventId": "6"
+          },
+          {
+            "type": "show",
+            "id": "Streett",
+            "enabled": "enabled",
+            "name": "Streett",
+            "merged": true,
+            "keywords": [
+              "Streett"
+            ],
+            "eventId": "8"
+          },
+          {
+            "type": "show",
+            "id": "Dual_to_Rabin",
+            "enabled": "enabled",
+            "name": "Dual to Rabin",
+            "merged": false,
+            "keywords": [
+              "Dual to Rabin"
+            ],
+            "eventId": "7"
+          },
+          {
+            "type": "show",
+            "id": "Parity",
+            "enabled": "enabled",
+            "name": "Parity",
+            "merged": false,
+            "keywords": [
+              "Parity"
+            ],
+            "eventId": "9"
+          },
+          {
+            "type": "show",
+            "id": "Vector_5",
+            "enabled": "enabled",
+            "name": "Vector 5",
+            "merged": true,
+            "keywords": [
+              "Vector 5"
+            ],
+            "eventId": "10"
+          },
+          {
+            "type": "child",
+            "name": "Parity",
+            "id": "Parity2",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "Group_13",
+                "enabled": "enabled",
+                "name": "Text",
+                "merged": false,
+                "keywords": [
+                  "Text",
+                  ":2",
+                  "W",
+                  ":1",
+                  "a",
+                  "b"
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "show",
+                "id": "_mathcal_L___mathcal_A______Sigma___a______Sigma___b__omega",
+                "enabled": "enabled",
+                "name": "\\mathcal{L}(\\mathcal{A}) = \\Sigma^* a^ω + \\Sigma^* b^\\omega",
+                "merged": true,
+                "keywords": [
+                  "\\mathcal{L}(\\mathcal{A}) = \\Sigma^* a^ω + \\Sigma^* b^\\omega"
+                ],
+                "eventId": "2"
+              }
+            ],
+            "keywords": [
+              "We assume",
+              "ρ accepting ⇔ min Inf(ρ) is even",
+              "Parity"
+            ],
+            "eventId": "3",
+            "originalParams": {
+              "Group_13": {
+                "opacity": 1
+              },
+              "_mathcal_L___mathcal_A______Sigma___a______Sigma___b__omega": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "show",
+            "id": "WHY_SO_MANY_",
+            "enabled": "enabled",
+            "name": "WHY SO MANY?",
+            "merged": false,
+            "keywords": [
+              "WHY SO MANY?"
+            ],
+            "eventId": "11"
+          },
+          {
+            "type": "hide",
+            "id": "WHY_SO_MANY_",
+            "enabled": "enabled",
+            "name": "WHY SO MANY?",
+            "merged": false,
+            "keywords": [
+              "WHY SO MANY?"
+            ],
+            "eventId": "12"
+          }
+        ],
+        "keywords": [
+          "Muller",
+          "Acceptance conditions"
+        ],
+        "eventId": "2",
+        "originalParams": {
+          "Ellipse_10": {
+            "opacity": 1
+          },
+          "Rabin": {
+            "opacity": 1
+          },
+          "Ellipse_11": {
+            "opacity": 1
+          },
+          "Dual_to_Rabin": {
+            "opacity": 1
+          },
+          "Streett": {
+            "opacity": 1
+          },
+          "Parity": {
+            "opacity": 1
+          },
+          "Vector_5": {
+            "opacity": 1
+          },
+          "WHY_SO_MANY_": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "Complexity",
+        "id": "Complexity",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "LTL___Muller_automata_ND_B_chi___Det__Rabin_automata",
+            "enabled": "enabled",
+            "name": "LTL → Det. Muller automata ND Büchi → Det. Rabin automata",
+            "merged": false,
+            "keywords": [
+              "LTL → Det. Muller automata ND Büchi → Det. Rabin automata"
+            ],
+            "eventId": "13"
+          },
+          {
+            "type": "show",
+            "id": "Simpler_conditions___More_efficient_algorithms2",
+            "enabled": "enabled",
+            "name": "Simpler conditions → More efficient algorithms",
+            "merged": false,
+            "keywords": [
+              "Simpler conditions → More efficient algorithms"
+            ],
+            "eventId": "14"
+          },
+          {
+            "type": "show",
+            "id": "Complexity_of_solving_2_player_games_",
+            "enabled": "enabled",
+            "name": "Complexity of solving 2-player games.",
+            "merged": false,
+            "keywords": [
+              "Complexity of solving 2-player games."
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "n___Size_of_input_graph",
+            "enabled": "enabled",
+            "name": "n = Size of input graph",
+            "merged": true,
+            "keywords": [
+              "n = Size of input graph"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "Group_16",
+            "enabled": "enabled",
+            "name": "Group 16",
+            "merged": false,
+            "keywords": [
+              "Group 16"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "Group_35",
+            "enabled": "enabled",
+            "name": "PSPACE-complete",
+            "merged": true,
+            "keywords": [
+              "Muller",
+              "PSPACE-complete",
+              "k = #Colours"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "show",
+            "id": "Group_352",
+            "enabled": "enabled",
+            "name": "k = #Rabin pair",
+            "merged": false,
+            "keywords": [
+              "Rabin",
+              "NP-complete",
+              "k = #Rabin pair"
+            ],
+            "eventId": "5"
+          },
+          {
+            "type": "show",
+            "id": "Group_353",
+            "enabled": "enabled",
+            "name": "NP coNP. In P?",
+            "merged": false,
+            "keywords": [
+              "Parity",
+              "NP coNP. In P?",
+              "k = #Colours"
+            ],
+            "eventId": "6"
+          },
+          {
+            "type": "show",
+            "id": "Group_54",
+            "enabled": "enabled",
+            "name": "Goal: Simplify the acceptance condition of automata",
+            "merged": false,
+            "keywords": [
+              "Goal: Simplify the acceptance condition of automata"
+            ],
+            "eventId": "11"
+          },
+          {
+            "type": "show",
+            "id": "a__Simplify_the_type__Muller___Rabin___Parity_",
+            "enabled": "enabled",
+            "name": "a) Simplify the type (Muller → Rabin → Parity)",
+            "merged": false,
+            "keywords": [
+              "a) Simplify the type (Muller → Rabin → Parity)"
+            ],
+            "eventId": "9"
+          },
+          {
+            "type": "show",
+            "id": "b__Minimise__Colours____Rabin_pairs",
+            "enabled": "enabled",
+            "name": "b) Minimise #Colours / #Rabin pairs",
+            "merged": false,
+            "keywords": [
+              "b) Minimise #Colours / #Rabin pairs"
+            ],
+            "eventId": "10"
+          }
+        ],
+        "keywords": [
+          "More general conditions → Automata simpler to produce",
+          "Complexity"
+        ],
+        "eventId": "3",
+        "originalParams": {
+          "Complexity_of_solving_2_player_games_": {
+            "opacity": 1
+          },
+          "n___Size_of_input_graph": {
+            "opacity": 1
+          },
+          "Group_16": {
+            "opacity": 1
+          },
+          "Group_35": {
+            "opacity": 1
+          },
+          "Group_352": {
+            "opacity": 1
+          },
+          "Group_353": {
+            "opacity": 1
+          },
+          "a__Simplify_the_type__Muller___Rabin___Parity_": {
+            "opacity": 1
+          },
+          "b__Minimise__Colours____Rabin_pairs": {
+            "opacity": 1
+          },
+          "Group_54": {
+            "opacity": 1
+          },
+          "Simpler_conditions___More_efficient_algorithms": {
+            "opacity": 1
+          },
+          "LTL___Muller_automata_ND_B_chi___Det__Rabin_automata": {
+            "opacity": 1
+          },
+          "Simpler_conditions___More_efficient_algorithms2": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "Our Approach",
+        "id": "Our_Approach",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "Group_35",
+            "enabled": "enabled",
+            "name": "Well understood",
+            "merged": false,
+            "keywords": [
+              "Well understood"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "Group_353",
+            "enabled": "enabled",
+            "name": "Optimal transformation to parity automata (C. Colcombet, Fijalkow ‘21)",
+            "merged": false,
+            "keywords": [
+              "Optimal transformation to parity automata (C. Colcombet, Fijalkow ‘21)"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "Group_352",
+            "enabled": "enabled",
+            "name": "Exponential blowup in the worst case (Löding ‘99)",
+            "merged": false,
+            "keywords": [
+              "Exponential blowup in the worst case (Löding ‘99)"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "Group_354",
+            "enabled": "enabled",
+            "name": "Simplify the condition without adding further states",
+            "merged": false,
+            "keywords": [
+              "In this paper",
+              "Simplify the condition without adding further states"
+            ],
+            "eventId": "4"
+          }
+        ],
+        "keywords": [
+          "Approach 1",
+          "Add states to the automaton to maximize simplification",
+          "Our Approach"
+        ],
+        "eventId": "6",
+        "originalParams": {
+          "Group_35": {
+            "opacity": 1
+          },
+          "Group_353": {
+            "opacity": 1
+          },
+          "Group_352": {
+            "opacity": 1
+          },
+          "Group_354": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "show",
+        "id": "Pure_Conditions",
+        "enabled": "enabled",
+        "name": "Pure Conditions",
+        "merged": false,
+        "keywords": [
+          "Pure Conditions"
+        ],
+        "eventId": "7"
+      },
+      {
+        "type": "child",
+        "name": "Pure Conditions",
+        "id": "Pure_Conditions2",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "Group_35",
+            "enabled": "enabled",
+            "name": "Given a condition F, can we reduce it to",
+            "merged": false,
+            "keywords": [
+              "Given a condition F, can we reduce it to",
+              "a Muller condition with ≤ k colours?",
+              "a Rabin condition? With ≤ k Rabin pairs?",
+              "a parity condition? With ≤ k colours?"
+            ],
+            "eventId": "5"
+          },
+          {
+            "type": "child",
+            "name": "Zielonka DAG",
+            "id": "Zielonka_DAG",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "Group_52",
+                "enabled": "enabled",
+                "name": "F = {{ , , } ,{ , }, { , },{ , , , }, { , , },{ , , },{ , , },{ , , }}",
+                "merged": false,
+                "keywords": [
+                  "F = {{ , , } ,{ , }, { , },{ , , , }, { , , },{ , , },{ , , },{ , , }}",
+                  "β",
+                  "γ",
+                  "δ",
+                  "λ",
+                  "α"
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "show",
+                "id": "Group_38",
+                "enabled": "enabled",
+                "name": "C = { , , , , }",
+                "merged": true,
+                "keywords": [
+                  "C = { , , , , }",
+                  "β",
+                  "α",
+                  "γ",
+                  "δ",
+                  "λ"
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "show",
+                "id": "Root___All_edges",
+                "enabled": "enabled",
+                "name": "Root → All edges",
+                "merged": false,
+                "keywords": [
+                  "Root → All edges"
+                ],
+                "eventId": "3"
+              },
+              {
+                "type": "show",
+                "id": "Group_522",
+                "enabled": "enabled",
+                "name": "β",
+                "merged": true,
+                "keywords": [
+                  "β",
+                  "α",
+                  "γ",
+                  "δ",
+                  "λ"
+                ],
+                "eventId": "4"
+              },
+              {
+                "type": "show",
+                "id": "Square_if_they_form_a_rejecting_cycle",
+                "enabled": "enabled",
+                "name": "Square if they form a rejecting cycle",
+                "merged": false,
+                "keywords": [
+                  "Square if they form a rejecting cycle"
+                ],
+                "eventId": "5"
+              },
+              {
+                "type": "show",
+                "id": "Group_523",
+                "enabled": "enabled",
+                "name": "Children: Maximal accepting subcycles",
+                "merged": false,
+                "keywords": [
+                  "β",
+                  "α",
+                  "γ",
+                  "δ",
+                  "λ",
+                  "Children: Maximal accepting subcycles"
+                ],
+                "eventId": "6"
+              },
+              {
+                "type": "show",
+                "id": "Group_524",
+                "enabled": "enabled",
+                "name": "Group 52",
+                "merged": true,
+                "keywords": [
+                  "Group 52"
+                ],
+                "eventId": "7"
+              },
+              {
+                "type": "show",
+                "id": "Round_because_they_are_accepting",
+                "enabled": "enabled",
+                "name": "Round because they are accepting",
+                "merged": false,
+                "keywords": [
+                  "Round because they are accepting"
+                ],
+                "eventId": "10"
+              },
+              {
+                "type": "show",
+                "id": "Group_53",
+                "enabled": "enabled",
+                "name": "Children: Maximal accepting subcycles",
+                "merged": false,
+                "keywords": [
+                  "α",
+                  "β",
+                  "γ",
+                  "δ",
+                  "λ",
+                  "Children: Maximal accepting subcycles"
+                ],
+                "eventId": "8"
+              },
+              {
+                "type": "show",
+                "id": "Group_89",
+                "enabled": "enabled",
+                "name": "Deterministic parity automaton recognizing a prefix-independent language L.",
+                "merged": false,
+                "keywords": [
+                  "The Zielonka DAG can be computed in polynomial time in |F|.",
+                  "Proposition",
+                  "(Hunter-Dawar ‘ 06)",
+                  "Deterministic parity automaton recognizing a prefix-independent language L."
+                ],
+                "eventId": "9"
+              }
+            ],
+            "keywords": [
+              "Main tool: Zielonka DAG (Zielonka ‘98, Hunter-Dawar ‘06)",
+              "Zielonka DAG"
+            ],
+            "eventId": "2",
+            "originalParams": {
+              "Group_52": {
+                "opacity": 1
+              },
+              "Group_38": {
+                "opacity": 1
+              },
+              "Root___All_edges": {
+                "opacity": 1
+              },
+              "Group_522": {
+                "opacity": 1
+              },
+              "Square_if_they_form_a_rejecting_cycle": {
+                "opacity": 1
+              },
+              "Group_523": {
+                "opacity": 1
+              },
+              "Group_524": {
+                "opacity": 1
+              },
+              "Group_53": {
+                "opacity": 1
+              },
+              "Group_89": {
+                "opacity": 1
+              },
+              "Round_because_they_are_accepting": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "child",
+            "name": "Typeness ZDAG",
+            "id": "Typeness_ZDAG",
+            "enabled": "enabled",
+            "merged": true,
+            "children": [
+              {
+                "type": "show",
+                "id": "Group_35",
+                "enabled": "enabled",
+                "name": "Just look to the Zielonka DAG!",
+                "merged": false,
+                "keywords": [
+                  "Just look to the Zielonka DAG!",
+                  "(Zielonka ‘98)"
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "show",
+                "id": "Group_352",
+                "enabled": "enabled",
+                "name": "Group 35",
+                "merged": false,
+                "keywords": [
+                  "Group 35"
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "show",
+                "id": "Group_36",
+                "enabled": "enabled",
+                "name": "Round nodes have a single child",
+                "merged": true,
+                "keywords": [
+                  "Rabin",
+                  "⇔",
+                  "Round nodes have a single child"
+                ],
+                "eventId": "3"
+              },
+              {
+                "type": "show",
+                "id": "Group_362",
+                "enabled": "enabled",
+                "name": "Group 36",
+                "merged": false,
+                "keywords": [
+                  "Group 36"
+                ],
+                "eventId": "4"
+              },
+              {
+                "type": "show",
+                "id": "Group_37",
+                "enabled": "enabled",
+                "name": "A single branch",
+                "merged": true,
+                "keywords": [
+                  "Parity",
+                  "⇔",
+                  "A single branch"
+                ],
+                "eventId": "5"
+              },
+              {
+                "type": "show",
+                "id": "__Minimal__Colours_is_its_height",
+                "enabled": "enabled",
+                "name": "+ Minimal #Colours = Height of the branch",
+                "merged": false,
+                "keywords": [
+                  "+ Minimal #Colours = Height of the branch"
+                ],
+                "eventId": "6"
+              }
+            ],
+            "keywords": [
+              "Typeness: Can we reduce F to a Rabin/parity condition?",
+              "Typeness ZDAG"
+            ],
+            "eventId": "3",
+            "originalParams": {
+              "Group_35": {
+                "opacity": 1
+              },
+              "Group_352": {
+                "opacity": 1
+              },
+              "Group_36": {
+                "opacity": 1
+              },
+              "Group_362": {
+                "opacity": 1
+              },
+              "Group_37": {
+                "opacity": 1
+              },
+              "__Minimal__Colours_is_its_height": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "child",
+            "name": "Minimization Muller",
+            "id": "Minimization_Muller",
+            "enabled": "enabled",
+            "merged": true,
+            "children": [
+              {
+                "type": "show",
+                "id": "Group_89",
+                "enabled": "enabled",
+                "name": "Deterministic parity automaton recognizing a prefix-independent language L.",
+                "merged": false,
+                "keywords": [
+                  "We can minimise the #Colours (resp. #Rabin pairs) in polynomial time.",
+                  "Theorem",
+                  "Deterministic parity automaton recognizing a prefix-independent language L."
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "show",
+                "id": "Idea__for_colours_",
+                "enabled": "enabled",
+                "name": "Idea (for colours)",
+                "merged": false,
+                "keywords": [
+                  "Idea (for colours)"
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "show",
+                "id": "Group_54",
+                "enabled": "enabled",
+                "name": "β",
+                "merged": false,
+                "keywords": [
+                  "β",
+                  "α",
+                  "γ",
+                  "δ",
+                  "λ"
+                ],
+                "eventId": "3"
+              },
+              {
+                "type": "show",
+                "id": "Two_colours_are_equivalent_if_they_appear_in_the_same_nodes",
+                "enabled": "enabled",
+                "name": "Two colours are equivalent if they appear in the same nodes",
+                "merged": false,
+                "keywords": [
+                  "Two colours are equivalent if they appear in the same nodes"
+                ],
+                "eventId": "4"
+              },
+              {
+                "type": "show",
+                "id": "Group_552",
+                "enabled": "enabled",
+                "name": "Ellipse blue",
+                "merged": false,
+                "keywords": [
+                  "Ellipse blue"
+                ],
+                "eventId": "5"
+              },
+              {
+                "type": "show",
+                "id": "Group_55",
+                "enabled": "enabled",
+                "name": "Ellipse Yellow",
+                "merged": false,
+                "keywords": [
+                  "Ellipse Yellow"
+                ],
+                "eventId": "6"
+              },
+              {
+                "type": "show",
+                "id": "Merge_equivalent_colours",
+                "enabled": "enabled",
+                "name": "Merge equivalent colours",
+                "merged": false,
+                "keywords": [
+                  "Merge equivalent colours"
+                ],
+                "eventId": "7"
+              },
+              {
+                "type": "show",
+                "id": "We_show_that_the_obtained_condition_is_optimal",
+                "enabled": "enabled",
+                "name": "We show that the obtained condition is optimal",
+                "merged": false,
+                "keywords": [
+                  "We show that the obtained condition is optimal"
+                ],
+                "eventId": "8"
+              },
+              {
+                "type": "show",
+                "id": "Minimisation_of_Rabin_pairs_is_relatively_involved",
+                "enabled": "enabled",
+                "name": "Minimisation of Rabin pairs is quite involved.",
+                "merged": false,
+                "keywords": [
+                  "Minimisation of Rabin pairs is quite involved."
+                ],
+                "eventId": "9"
+              }
+            ],
+            "keywords": [
+              "Minimisation of colours and Rabin pairs",
+              "Minimization Muller"
+            ],
+            "eventId": "4",
+            "originalParams": {
+              "Group_89": {
+                "opacity": 1
+              },
+              "Idea__for_colours_": {
+                "opacity": 1
+              },
+              "Group_54": {
+                "opacity": 1
+              },
+              "Two_colours_are_equivalent_if_they_appear_in_the_same_nodes": {
+                "opacity": 1
+              },
+              "Group_552": {
+                "opacity": 1
+              },
+              "Group_55": {
+                "opacity": 1
+              },
+              "Merge_equivalent_colours": {
+                "opacity": 1
+              },
+              "We_show_that_the_obtained_condition_is_optimal": {
+                "opacity": 1
+              },
+              "Minimisation_of_Rabin_pairs_is_relatively_involved": {
+                "opacity": 1
+              }
+            }
+          }
+        ],
+        "keywords": [
+          "Reduction of conditions",
+          "A reduction of a condition F ⊆ 2C to G⊆ 2C’ is a mapping",
+          "φ : C → C’",
+          "such that",
+          "X ∈ F ⇔ φ(X) ∈ G, for all X ⊆ C",
+          "Pure Conditions"
+        ],
+        "eventId": "4",
+        "originalParams": {
+          "Group_35": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "show",
+        "id": "Automata2",
+        "enabled": "enabled",
+        "name": "Automata",
+        "merged": false,
+        "keywords": [
+          "Automata"
+        ],
+        "eventId": "8"
+      },
+      {
+        "type": "child",
+        "name": "On top Automata",
+        "id": "On_top_Automata",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "Group_37",
+            "enabled": "enabled",
+            "name": "≤ k colours / Rabin pairs?",
+            "merged": false,
+            "keywords": [
+              "Can we relabel with",
+              "a parity/Rabin condition?",
+              "≤ k colours / Rabin pairs?"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "child",
+            "name": "Main tool: ACD",
+            "id": "Main_tool__ACD",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "Generalisation_of_the_Zielonka_DAG",
+                "enabled": "enabled",
+                "name": "Generalisation of the Zielonka DAG",
+                "merged": false,
+                "keywords": [
+                  "Generalisation of the Zielonka DAG"
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "show",
+                "id": "Group_37",
+                "enabled": "enabled",
+                "name": "F = {{ }, { }}",
+                "merged": false,
+                "keywords": [
+                  "F = {{ }, { }}",
+                  "β",
+                  "α",
+                  "Text",
+                  ":β",
+                  ":α",
+                  ":γ",
+                  "a",
+                  "b"
+                ],
+                "eventId": "3"
+              },
+              {
+                "type": "show",
+                "id": "Root___All_edges",
+                "enabled": "enabled",
+                "name": "Root → All edges",
+                "merged": false,
+                "keywords": [
+                  "Root → All edges"
+                ],
+                "eventId": "4"
+              },
+              {
+                "type": "show",
+                "id": "Group_372",
+                "enabled": "enabled",
+                "name": "Text",
+                "merged": true,
+                "keywords": [
+                  "Text",
+                  ":β",
+                  ":α",
+                  ":γ",
+                  "a",
+                  "b"
+                ],
+                "eventId": "5"
+              },
+              {
+                "type": "show",
+                "id": "Square_if_they_form_a_rejecting_cycle",
+                "enabled": "enabled",
+                "name": "Square if they form a rejecting cycle",
+                "merged": false,
+                "keywords": [
+                  "Square if they form a rejecting cycle"
+                ],
+                "eventId": "6"
+              },
+              {
+                "type": "show",
+                "id": "Group_373",
+                "enabled": "enabled",
+                "name": ":β",
+                "merged": false,
+                "keywords": [
+                  ":β",
+                  "b",
+                  ":α",
+                  "a"
+                ],
+                "eventId": "7"
+              },
+              {
+                "type": "show",
+                "id": "Children__Maximal_accepting_subcycles",
+                "enabled": "enabled",
+                "name": "Children: Maximal accepting subcycles",
+                "merged": true,
+                "keywords": [
+                  "Children: Maximal accepting subcycles"
+                ],
+                "eventId": "8"
+              },
+              {
+                "type": "show",
+                "id": "Round_because_they_are_accepting",
+                "enabled": "enabled",
+                "name": "Round because they are accepting",
+                "merged": false,
+                "keywords": [
+                  "Round because they are accepting"
+                ],
+                "eventId": "9"
+              },
+              {
+                "type": "show",
+                "id": "Group_374",
+                "enabled": "enabled",
+                "name": "The Alternating Cycle Decomposition can be computed in polynomial time in | | + |F|.",
+                "merged": false,
+                "keywords": [
+                  "Theorem (main technical contribution)",
+                  "The Alternating Cycle Decomposition can be computed in polynomial time in | | + |F|."
+                ],
+                "eventId": "10"
+              }
+            ],
+            "keywords": [
+              "Main tool: Alternating Cycle Decomposition (ACD) (C. Colcombet Fijalkow ‘21)",
+              "Main tool: ACD"
+            ],
+            "eventId": "1",
+            "originalParams": {
+              "Generalisation_of_the_Zielonka_DAG": {
+                "opacity": 1
+              },
+              "Group_37": {
+                "opacity": 1
+              },
+              "Root___All_edges": {
+                "opacity": 1
+              },
+              "Group_372": {
+                "opacity": 1
+              },
+              "Square_if_they_form_a_rejecting_cycle": {
+                "opacity": 1
+              },
+              "Group_373": {
+                "opacity": 1
+              },
+              "Children__Maximal_accepting_subcycles": {
+                "opacity": 1
+              },
+              "Round_because_they_are_accepting": {
+                "opacity": 1
+              },
+              "Group_374": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "child",
+            "name": "Typeness",
+            "id": "Typeness2",
+            "enabled": "enabled",
+            "merged": true,
+            "children": [
+              {
+                "type": "show",
+                "id": "Group_37",
+                "enabled": "enabled",
+                "name": "Just look to the Altenating Cycle Decompositon!",
+                "merged": false,
+                "keywords": [
+                  "Just look to the Altenating Cycle Decompositon!",
+                  "(C. Colcombet Fijalkow ‘21)"
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "show",
+                "id": "Group_372",
+                "enabled": "enabled",
+                "name": "ACD",
+                "merged": false,
+                "keywords": [
+                  "Text",
+                  ":β",
+                  ":α",
+                  ":γ",
+                  "a",
+                  "b",
+                  "q",
+                  "ACD"
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "show",
+                "id": "Group_34",
+                "enabled": "enabled",
+                "name": "Fade tree",
+                "merged": true,
+                "keywords": [
+                  "p",
+                  ":α",
+                  "a",
+                  "Fade tree"
+                ],
+                "eventId": "3"
+              },
+              {
+                "type": "show",
+                "id": "Group_32",
+                "enabled": "enabled",
+                "name": "Full tree",
+                "merged": true,
+                "keywords": [
+                  "p",
+                  ":α",
+                  "a",
+                  "Full tree"
+                ],
+                "eventId": "4"
+              },
+              {
+                "type": "hide",
+                "id": "Group_32",
+                "enabled": "enabled",
+                "name": "Full tree",
+                "merged": false,
+                "keywords": [
+                  "Full tree"
+                ],
+                "eventId": "6"
+              },
+              {
+                "type": "show",
+                "id": "Restriction_to_the_tree_of_a_state_q",
+                "enabled": "enabled",
+                "name": "Restriction to the tree of a state q",
+                "merged": true,
+                "keywords": [
+                  "Restriction to the tree of a state q"
+                ],
+                "eventId": "7"
+              },
+              {
+                "type": "show",
+                "id": "Group_373",
+                "enabled": "enabled",
+                "name": "In the restriction-tree of every state, Round nodes have a single child",
+                "merged": false,
+                "keywords": [
+                  "Rabin",
+                  "⇔",
+                  "In the restriction-tree of every state round nodes have a single child",
+                  "In the restriction-tree of every state, Round nodes have a single child"
+                ],
+                "eventId": "8"
+              },
+              {
+                "type": "show",
+                "id": "Group_374",
+                "enabled": "enabled",
+                "name": "The restriction-tree of every state consists of a single branch.",
+                "merged": false,
+                "keywords": [
+                  "Parity",
+                  "⇔",
+                  "The restriction-tree of every state consists of a single branch."
+                ],
+                "eventId": "9"
+              },
+              {
+                "type": "show",
+                "id": "__Minimal__Colours___Height_of_the_ACD",
+                "enabled": "enabled",
+                "name": "+ Minimal #Colours = Height of the ACD",
+                "merged": false,
+                "keywords": [
+                  "+ Minimal #Colours = Height of the ACD"
+                ],
+                "eventId": "10"
+              }
+            ],
+            "keywords": [
+              "Typeness: Can we relabel with a Rabin/parity condition?",
+              "Typeness"
+            ],
+            "eventId": "2",
+            "originalParams": {
+              "Group_37": {
+                "opacity": 1
+              },
+              "Group_372": {
+                "opacity": 1
+              },
+              "Group_34": {
+                "opacity": 1
+              },
+              "Group_32": {
+                "opacity": 1
+              },
+              "Restriction_to_the_tree_of_a_state_q": {
+                "opacity": 1
+              },
+              "Group_373": {
+                "opacity": 1
+              },
+              "Group_374": {
+                "opacity": 1
+              },
+              "__Minimal__Colours___Height_of_the_ACD": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "child",
+            "name": "Minimization",
+            "id": "Minimization",
+            "enabled": "enabled",
+            "merged": true,
+            "children": [
+              {
+                "type": "show",
+                "id": "Group_37",
+                "enabled": "enabled",
+                "name": "Do as with the Zielonka DAG!",
+                "merged": false,
+                "keywords": [
+                  "Do as with the Zielonka DAG!",
+                  "First idea:"
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "show",
+                "id": "Group_372",
+                "enabled": "enabled",
+                "name": "But... It does not work!",
+                "merged": false,
+                "keywords": [
+                  "But... It does not work!"
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "show",
+                "id": "Group_373",
+                "enabled": "enabled",
+                "name": "Given an automaton and its ACD, it is NP-complete to determine if we can relabel it with a condition using:",
+                "merged": false,
+                "keywords": [
+                  "Theorem",
+                  "Given an automaton and its ACD, it is NP-complete to determine if we can relabel it with a condition using:",
+                  "≤ k colours. ≤ k Rabin pairs."
+                ],
+                "eventId": "3"
+              }
+            ],
+            "keywords": [
+              "Minimization of colours and Rabin pairs",
+              "Minimization"
+            ],
+            "eventId": "3",
+            "originalParams": {
+              "Group_37": {
+                "opacity": 1
+              },
+              "Group_372": {
+                "opacity": 1
+              },
+              "Group_373": {
+                "opacity": 1
+              }
+            }
+          }
+        ],
+        "keywords": [
+          "F = {{ }, { }}",
+          "β",
+          "α",
+          "Text",
+          ":β",
+          ":α",
+          ":γ",
+          "a",
+          "b",
+          "On top Automata"
+        ],
+        "eventId": "5",
+        "originalParams": {
+          "Group_37": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "Conclusions",
+        "id": "Conclusions",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "PTIME",
+            "enabled": "enabled",
+            "name": "PTIME",
+            "merged": false,
+            "keywords": [
+              "PTIME"
+            ],
+            "eventId": "7"
+          },
+          {
+            "type": "show",
+            "id": "PTIME3",
+            "enabled": "enabled",
+            "name": "PTIME",
+            "merged": true,
+            "keywords": [
+              "PTIME"
+            ],
+            "eventId": "8"
+          },
+          {
+            "type": "show",
+            "id": "Zielonka_tree",
+            "enabled": "enabled",
+            "name": "Zielonka tree",
+            "merged": false,
+            "keywords": [
+              "Zielonka tree"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "PTIME2",
+            "enabled": "enabled",
+            "name": "PTIME",
+            "merged": false,
+            "keywords": [
+              "PTIME"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "Alternating_Cycle_Decomposition",
+            "enabled": "enabled",
+            "name": "Alternating Cycle Decomposition",
+            "merged": false,
+            "keywords": [
+              "Alternating Cycle Decomposition"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "show",
+            "id": "NP_complete",
+            "enabled": "enabled",
+            "name": "NP-complete",
+            "merged": false,
+            "keywords": [
+              "NP-complete"
+            ],
+            "eventId": "5"
+          },
+          {
+            "type": "show",
+            "id": "THANK_YOU_",
+            "enabled": "enabled",
+            "name": "THANK YOU!",
+            "merged": false,
+            "keywords": [
+              "THANK YOU!"
+            ],
+            "eventId": "6"
+          }
+        ],
+        "keywords": [
+          "On top of automata",
+          "Typeness",
+          "Min. colours/ Rabin pairs",
+          "Pure Conditions",
+          "Conclusions"
+        ],
+        "eventId": "20",
+        "originalParams": {
+          "Zielonka_tree": {
+            "opacity": 1
+          },
+          "PTIME2": {
+            "opacity": 1
+          },
+          "Alternating_Cycle_Decomposition": {
+            "opacity": 1
+          },
+          "NP_complete": {
+            "opacity": 1
+          },
+          "THANK_YOU_": {
+            "opacity": 1
+          },
+          "PTIME": {
+            "opacity": 1
+          },
+          "PTIME3": {
+            "opacity": 1
+          }
+        }
+      }
+    ],
+    "keywords": [
+      "Antonio Casares ⋅ University of Warsaw & Corto Mascle ⋅ LaBRI, University of Bordeaux",
+      "Simplifying ω-Automata through the Alternating Cycle Decomposition",
+      "main"
+    ],
+    "eventId": "root",
+    "originalParams": {
+      "Pure_Conditions": {
+        "opacity": 1
+      },
+      "Automata2": {
+        "opacity": 1
+      },
+      "Group_382": {
+        "opacity": 1
+      }
+    }
+  },
+  "treeTimeLine": [],
+  "chronicleTimeLine": []
+}

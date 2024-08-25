@@ -19,7 +19,8 @@
     "Main_tool__ACD": "Main_tool__ACD",
     "Typeness2": "Typeness",
     "Minimization": "Minimization",
-    "Conclusions": "Conclusions"
+    "Conclusions": "Conclusions",
+    "Example2": "Example"
   },
   "tree": {
     "type": "child",
@@ -440,7 +441,6 @@
                 "keywords": [
                   "Text",
                   ":2",
-                  "W",
                   ":1",
                   "a",
                   "b"
@@ -823,19 +823,20 @@
             "children": [
               {
                 "type": "show",
-                "id": "Group_52",
+                "id": "Group_54",
                 "enabled": "enabled",
-                "name": "F = {{ , , } ,{ , }, { , },{ , , , }, { , , },{ , , },{ , , },{ , , }}",
+                "name": "Condition",
                 "merged": false,
                 "keywords": [
-                  "F = {{ , , } ,{ , }, { , },{ , , , }, { , , },{ , , },{ , , },{ , , }}",
+                  "F = {{ , , } ,{ , }, { , },{ , , , }, { , , }, { , , },{ , , },{ , , },{ , },{ , },{ , },{ , }}",
                   "β",
                   "γ",
                   "δ",
                   "λ",
-                  "α"
+                  "α",
+                  "Condition"
                 ],
-                "eventId": "1"
+                "eventId": "11"
               },
               {
                 "type": "show",
@@ -910,10 +911,10 @@
                 "type": "show",
                 "id": "Group_524",
                 "enabled": "enabled",
-                "name": "Group 52",
+                "name": "Elipses",
                 "merged": true,
                 "keywords": [
-                  "Group 52"
+                  "Elipses"
                 ],
                 "eventId": "7"
               },
@@ -993,6 +994,9 @@
                 "opacity": 1
               },
               "Round_because_they_are_accepting": {
+                "opacity": 1
+              },
+              "Group_54": {
                 "opacity": 1
               }
             }
@@ -1296,6 +1300,53 @@
               "≤ k colours / Rabin pairs?"
             ],
             "eventId": "4"
+          },
+          {
+            "type": "child",
+            "name": "Example",
+            "id": "Example2",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "Group_54",
+                "enabled": "enabled",
+                "name": "Requires 3 colours",
+                "merged": false,
+                "keywords": [
+                  "Not parity",
+                  "Requires 3 colours"
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "show",
+                "id": "But_we_can_relabel_the_automaton_with_a_parity_condition_with_2_colours_",
+                "enabled": "enabled",
+                "name": "But we can relabel the automaton with a parity condition with 2 colours!",
+                "merged": false,
+                "keywords": [
+                  "But we can relabel the automaton with a parity condition with 2 colours!"
+                ],
+                "eventId": "2"
+              }
+            ],
+            "keywords": [
+              "β",
+              "α",
+              "γ",
+              "Example"
+            ],
+            "eventId": "5",
+            "originalParams": {
+              "Group_54": {
+                "opacity": 1
+              },
+              "But_we_can_relabel_the_automaton_with_a_parity_condition_with_2_colours_": {
+                "opacity": 1
+              }
+            }
           },
           {
             "type": "child",

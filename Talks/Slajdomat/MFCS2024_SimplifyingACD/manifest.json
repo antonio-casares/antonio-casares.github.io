@@ -1638,6 +1638,17 @@
               },
               {
                 "type": "show",
+                "id": "As_in_the_example",
+                "enabled": "enabled",
+                "name": "As in the example",
+                "merged": false,
+                "keywords": [
+                  "As in the example"
+                ],
+                "eventId": "11"
+              },
+              {
+                "type": "show",
                 "id": "__Minimal__Colours___Height_of_the_ACD",
                 "enabled": "enabled",
                 "name": "+ Minimal #Colours = Height of the ACD",
@@ -1676,6 +1687,9 @@
                 "opacity": 1
               },
               "__Minimal__Colours___Height_of_the_ACD": {
+                "opacity": 1
+              },
+              "As_in_the_example": {
                 "opacity": 1
               }
             }
@@ -1722,6 +1736,17 @@
                   "≤ k colours. ≤ k Rabin pairs."
                 ],
                 "eventId": "3"
+              },
+              {
+                "type": "show",
+                "id": "As_in_the_example",
+                "enabled": "enabled",
+                "name": "Both membership and hardness are non-trivial",
+                "merged": false,
+                "keywords": [
+                  "Both membership and hardness are non-trivial"
+                ],
+                "eventId": "4"
               }
             ],
             "keywords": [
@@ -1737,6 +1762,9 @@
                 "opacity": 1
               },
               "Group_373": {
+                "opacity": 1
+              },
+              "As_in_the_example": {
                 "opacity": 1
               }
             }

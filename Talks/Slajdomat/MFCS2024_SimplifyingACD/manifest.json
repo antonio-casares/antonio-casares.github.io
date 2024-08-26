@@ -73,17 +73,6 @@
           },
           {
             "type": "show",
-            "id": "Automata_are_deterministic_in_this_talk",
-            "enabled": "enabled",
-            "name": "Automata are deterministic in this talk",
-            "merged": false,
-            "keywords": [
-              "Automata are deterministic in this talk"
-            ],
-            "eventId": "3"
-          },
-          {
-            "type": "show",
             "id": "Group_35",
             "enabled": "enabled",
             "name": "Infinite path ρ",
@@ -93,6 +82,17 @@
               "Infinite path ρ"
             ],
             "eventId": "4"
+          },
+          {
+            "type": "show",
+            "id": "Automata_are_deterministic_in_this_talk",
+            "enabled": "enabled",
+            "name": "Automata are deterministic in this talk",
+            "merged": false,
+            "keywords": [
+              "Automata are deterministic in this talk"
+            ],
+            "eventId": "3"
           },
           {
             "type": "show",
@@ -348,7 +348,7 @@
                 "id": "_mathcal_L___mathcal_A______Sigma___a______Sigma___b__omega",
                 "enabled": "enabled",
                 "name": "\\mathcal{L}(\\mathcal{A}) = \\Sigma^* a^ω + \\Sigma^* b^\\omega",
-                "merged": false,
+                "merged": true,
                 "keywords": [
                   "\\mathcal{L}(\\mathcal{A}) = \\Sigma^* a^ω + \\Sigma^* b^\\omega"
                 ],
@@ -730,12 +730,24 @@
             "type": "show",
             "id": "Group_353",
             "enabled": "enabled",
+            "name": "Always possible",
+            "merged": false,
+            "keywords": [
+              "Always possible to transform to parity automata (Gurevich, Harrington ‘82)",
+              "Always possible"
+            ],
+            "eventId": "5"
+          },
+          {
+            "type": "show",
+            "id": "Optimal_transformation_to_parity_automata__C__Colcombet__Fijalkow__21_",
+            "enabled": "enabled",
             "name": "Optimal transformation to parity automata (C. Colcombet, Fijalkow ‘21)",
             "merged": false,
             "keywords": [
               "Optimal transformation to parity automata (C. Colcombet, Fijalkow ‘21)"
             ],
-            "eventId": "2"
+            "eventId": "6"
           },
           {
             "type": "show",
@@ -778,6 +790,9 @@
             "opacity": 1
           },
           "Group_354": {
+            "opacity": 1
+          },
+          "Optimal_transformation_to_parity_automata__C__Colcombet__Fijalkow__21_": {
             "opacity": 1
           }
         }

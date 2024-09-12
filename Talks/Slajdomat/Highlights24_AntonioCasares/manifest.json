@@ -1,0 +1,1325 @@
+{
+  "version": 3.1,
+  "presentation": "Highlights24-AntonioCasares",
+  "slideDict": {
+    "new_slide": "main",
+    "State_based_automata": "State_based_automata",
+    "Transition_based_automata": "Transition_based_automata",
+    "st_to_trans2": "st_to_trans",
+    "trans_to_states": "trans_to_states",
+    "trans_st_is_NP_hard": "trans_st_is_NP_hard",
+    "Landscape_of_results": "Landscape_of_results",
+    "Minimisation2": "Minimisation",
+    "Determinisation2": "Determinisation",
+    "Transformations": "Transformations",
+    "Positionality": "Positionality",
+    "Why_these_differences_": "Why_these_differences_"
+  },
+  "tree": {
+    "type": "child",
+    "name": "main",
+    "id": "new_slide",
+    "enabled": "enabled",
+    "merged": false,
+    "children": [
+      {
+        "type": "child",
+        "name": "State-based automata",
+        "id": "State_based_automata",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "An_automaton",
+            "enabled": "enabled",
+            "name": "An automaton",
+            "merged": false,
+            "keywords": [
+              "An automaton"
+            ],
+            "eventId": "20"
+          },
+          {
+            "type": "show",
+            "id": "Group_3",
+            "enabled": "enabled",
+            "name": "we want infinite",
+            "merged": false,
+            "keywords": [
+              "We want to input infinite words",
+              "w ∈ Σω",
+              "we want infinite"
+            ],
+            "eventId": "9"
+          },
+          {
+            "type": "hide",
+            "id": "An_automaton",
+            "enabled": "enabled",
+            "name": "An automaton",
+            "merged": true,
+            "keywords": [
+              "An automaton"
+            ],
+            "eventId": "21"
+          },
+          {
+            "type": "show",
+            "id": "An_w_automaton2",
+            "enabled": "enabled",
+            "name": "An w-automaton",
+            "merged": true,
+            "keywords": [
+              "An w-automaton"
+            ],
+            "eventId": "22"
+          },
+          {
+            "type": "show",
+            "id": "Group_4",
+            "enabled": "enabled",
+            "name": "buchi condition",
+            "merged": false,
+            "keywords": [
+              "Büchi condition: We accept if",
+              "visited infinitely often",
+              "buchi condition"
+            ],
+            "eventId": "24"
+          },
+          {
+            "type": "show",
+            "id": "Group_60",
+            "enabled": "enabled",
+            "name": "Words containing ‘aa’ infinitely often",
+            "merged": false,
+            "keywords": [
+              "Words containing ‘aa’ infinitely often"
+            ],
+            "eventId": "28"
+          },
+          {
+            "type": "show",
+            "id": "Other_conditions__coB_chi__parity__Rabin__Muller____",
+            "enabled": "enabled",
+            "name": "Other conditions: coBüchi, parity, Rabin, Muller ...",
+            "merged": false,
+            "keywords": [
+              "Other conditions: coBüchi, parity, Rabin, Muller ..."
+            ],
+            "eventId": "11"
+          },
+          {
+            "type": "show",
+            "id": "Group_47",
+            "enabled": "enabled",
+            "name": "timeline",
+            "merged": false,
+            "keywords": [
+              "1960",
+              "1980",
+              "2000",
+              "2020",
+              "[Büchi]",
+              "timeline"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "Group_48",
+            "enabled": "enabled",
+            "name": "papers",
+            "merged": false,
+            "keywords": [
+              "[Landweber]",
+              "[McNaughton]",
+              "[Rabin]",
+              "[Muller]",
+              "[Safra]",
+              "[Gurevich-Harrington]",
+              "[Vardi-Wolper]",
+              "[Mostowski]",
+              "[Kupferman-Vardi]",
+              "[Ehrenfeucht-Mycielski]",
+              "[Puri]",
+              "[Streett-Emerson]",
+              "[Henzinger-Piterman]",
+              "[Emerson-Jutla]",
+              "[Many, many, works]",
+              "[Walukiewicz]",
+              "[Löding]",
+              "[Niwinski-Walukiewicz]",
+              "[Pnueli-Rosner]",
+              "[Wagner]",
+              "[Jurdziński]",
+              "[Wilke]",
+              "[Zwick-Paterson]",
+              "[Staiger-Wagner]",
+              "*Extremely partial account of works",
+              "papers"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "books",
+            "enabled": "enabled",
+            "name": "books",
+            "merged": false,
+            "keywords": [
+              "books"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "show",
+            "id": "It_is_wrong",
+            "enabled": "enabled",
+            "name": "It is wrong",
+            "merged": false,
+            "keywords": [
+              "It is wrong"
+            ],
+            "eventId": "12"
+          },
+          {
+            "type": "hide",
+            "id": "It_is_wrong",
+            "enabled": "enabled",
+            "name": "It is wrong",
+            "merged": false,
+            "keywords": [
+              "It is wrong"
+            ],
+            "eventId": "26"
+          },
+          {
+            "type": "hide",
+            "id": "An_w_automaton2",
+            "enabled": "enabled",
+            "name": "An w-automaton",
+            "merged": true,
+            "keywords": [
+              "An w-automaton"
+            ],
+            "eventId": "27"
+          }
+        ],
+        "keywords": [
+          "a",
+          "b",
+          "State-based automata"
+        ],
+        "eventId": "1",
+        "originalParams": {
+          "Group_47": {
+            "opacity": 1
+          },
+          "Group_48": {
+            "opacity": 1
+          },
+          "books": {
+            "opacity": 1
+          },
+          "Group_3": {
+            "opacity": 1
+          },
+          "Other_conditions__coB_chi__parity__Rabin__Muller____": {
+            "opacity": 1
+          },
+          "It_is_wrong": {
+            "opacity": 1
+          },
+          "An_automaton": {
+            "opacity": 1
+          },
+          "An_w_automaton2": {
+            "opacity": 1
+          },
+          "Group_4": {
+            "opacity": 1
+          },
+          "Group_60": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "Transition-based automata",
+        "id": "Transition_based_automata",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "An_w_automaton2",
+            "enabled": "enabled",
+            "name": "a t-automaton",
+            "merged": false,
+            "keywords": [
+              "a t-automaton"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "buchi_condition",
+            "enabled": "enabled",
+            "name": "buchi condition",
+            "merged": true,
+            "keywords": [
+              "Büchi condition: We accept if",
+              "visited infinitely often",
+              "buchi condition"
+            ],
+            "eventId": "6"
+          },
+          {
+            "type": "show",
+            "id": "timeline",
+            "enabled": "enabled",
+            "name": "timeline",
+            "merged": false,
+            "keywords": [
+              "1980",
+              "2000",
+              "2020",
+              "[LeSaëc]*",
+              "timeline"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "_Thanks_to_G_raud_S_nizergues_for_pointing_me_to_these_works",
+            "enabled": "enabled",
+            "name": "*Thanks to Géraud Sénizergues for pointing me to these works",
+            "merged": true,
+            "keywords": [
+              "*Thanks to Géraud Sénizergues for pointing me to these works"
+            ],
+            "eventId": "7"
+          },
+          {
+            "type": "show",
+            "id": "some",
+            "enabled": "enabled",
+            "name": "some",
+            "merged": false,
+            "keywords": [
+              "[Colcombet-Niwiński]",
+              "[Colcombet-Zdanowski]",
+              "[Schewe]",
+              "some"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "Group_48",
+            "enabled": "enabled",
+            "name": "HOA-format",
+            "merged": false,
+            "keywords": [
+              "SPOT",
+              "OWL",
+              "[Gastin-Oddoux]",
+              "[Giannakopoulou-Lerda]",
+              "HOA-format"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "show",
+            "id": "Group_482",
+            "enabled": "enabled",
+            "name": "recent",
+            "merged": false,
+            "keywords": [
+              "[Abu Radi-Kupferman]",
+              "[Bohn-Löding]",
+              "[Ehlers-Schewe]",
+              "[C.-Colcombet-Fijalkow]",
+              "[Ohlmann]",
+              "[Bouyer-Randour-Vandenhove]",
+              "*Extremely partial account of works",
+              "recent"
+            ],
+            "eventId": "5"
+          },
+          {
+            "type": "hide",
+            "id": "An_w_automaton2",
+            "enabled": "enabled",
+            "name": "a t-automaton",
+            "merged": false,
+            "keywords": [
+              "a t-automaton"
+            ],
+            "eventId": "8"
+          }
+        ],
+        "keywords": [
+          "a",
+          "b",
+          "Transition-based automata"
+        ],
+        "eventId": "2",
+        "originalParams": {
+          "timeline": {
+            "opacity": 1
+          },
+          "An_w_automaton2": {
+            "opacity": 1
+          },
+          "some": {
+            "opacity": 1
+          },
+          "Group_48": {
+            "opacity": 1
+          },
+          "Group_482": {
+            "opacity": 1
+          },
+          "buchi_condition": {
+            "opacity": 1
+          },
+          "_Thanks_to_G_raud_S_nizergues_for_pointing_me_to_these_works": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "show",
+        "id": "models",
+        "enabled": "enabled",
+        "name": "models",
+        "merged": false,
+        "keywords": [
+          "State-based automata",
+          "Transition-based automata",
+          "models"
+        ],
+        "eventId": "13"
+      },
+      {
+        "type": "show",
+        "id": "Equivalence_of_the_models",
+        "enabled": "enabled",
+        "name": "Both models are equivalent",
+        "merged": false,
+        "keywords": [
+          "Both models are equivalent"
+        ],
+        "eventId": "10"
+      },
+      {
+        "type": "child",
+        "name": "st-to-trans",
+        "id": "st_to_trans2",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "automaton",
+            "enabled": "enabled",
+            "name": "automaton",
+            "merged": false,
+            "keywords": [
+              "a",
+              "b",
+              "automaton"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "Group_58",
+            "enabled": "enabled",
+            "name": "transform",
+            "merged": false,
+            "keywords": [
+              "a",
+              "b",
+              "transform"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "No_extra_states_needed",
+            "enabled": "enabled",
+            "name": "No extra states needed",
+            "merged": false,
+            "keywords": [
+              "No extra states needed"
+            ],
+            "eventId": "1"
+          }
+        ],
+        "keywords": [
+          "From states to transitions",
+          "st-to-trans"
+        ],
+        "eventId": "6",
+        "originalParams": {
+          "No_extra_states_needed": {
+            "opacity": 1
+          },
+          "Group_58": {
+            "opacity": 1
+          },
+          "automaton": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "trans-to-states",
+        "id": "trans_to_states",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "t_based__automaton",
+            "enabled": "enabled",
+            "name": "t-based  automaton",
+            "merged": false,
+            "keywords": [
+              "p",
+              "q",
+              "a",
+              "b",
+              "t-based  automaton"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "show",
+            "id": "Group_60",
+            "enabled": "enabled",
+            "name": "Words containing ‘aa’ infinitely often",
+            "merged": true,
+            "keywords": [
+              "Words containing ‘aa’ infinitely often"
+            ],
+            "eventId": "7"
+          },
+          {
+            "type": "show",
+            "id": "Line_48",
+            "enabled": "enabled",
+            "name": "Line 48",
+            "merged": false,
+            "keywords": [
+              "Line 48"
+            ],
+            "eventId": "5"
+          },
+          {
+            "type": "show",
+            "id": "state_b_automaton",
+            "enabled": "enabled",
+            "name": "state-b-automaton",
+            "merged": true,
+            "keywords": [
+              "b",
+              "a",
+              "qrej",
+              "prej",
+              "qacc",
+              "pacc",
+              "state-b-automaton"
+            ],
+            "eventId": "6"
+          },
+          {
+            "type": "show",
+            "id": "We_may_need_to_double_the_number_of_states",
+            "enabled": "enabled",
+            "name": "We may need to double the number of states",
+            "merged": false,
+            "keywords": [
+              "We may need to double the number of states"
+            ],
+            "eventId": "2"
+          }
+        ],
+        "keywords": [
+          "From transitions to states",
+          "trans-to-states"
+        ],
+        "eventId": "8",
+        "originalParams": {
+          "We_may_need_to_double_the_number_of_states": {
+            "opacity": 1
+          },
+          "t_based__automaton": {
+            "opacity": 1
+          },
+          "Line_48": {
+            "opacity": 1
+          },
+          "state_b_automaton": {
+            "opacity": 1
+          },
+          "Group_60": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "show",
+        "id": "But_really_",
+        "enabled": "enabled",
+        "name": "But really?",
+        "merged": false,
+        "keywords": [
+          "But really?"
+        ],
+        "eventId": "9"
+      },
+      {
+        "type": "child",
+        "name": "trans-st-is-NP-hard",
+        "id": "trans_st_is_NP_hard",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "optimal_problem",
+            "enabled": "enabled",
+            "name": "optimal-problem",
+            "merged": false,
+            "keywords": [
+              "Transition-based Büchi automaton",
+              "Input:",
+              "Question:",
+              "What is the minimal number of states that we need to duplicate to define an equivalent state-based automaton?",
+              "From transitions to states optimally:",
+              "optimal-problem"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "NP_complete",
+            "enabled": "enabled",
+            "name": "NP-complete",
+            "merged": false,
+            "keywords": [
+              "This problem is NP-complete!",
+              "(Schewe ‘09 - C.‘23)",
+              "NP-complete"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "SOURCE_OF_NON_CANONICITY",
+            "enabled": "enabled",
+            "name": "SOURCE OF NON-CANONICITY",
+            "merged": false,
+            "keywords": [
+              "SOURCE OF NON-CANONICITY"
+            ],
+            "eventId": "3"
+          }
+        ],
+        "keywords": [
+          "Transition-based automata are smaller",
+          "trans-st-is-NP-hard"
+        ],
+        "eventId": "7",
+        "originalParams": {
+          "optimal_problem": {
+            "opacity": 1
+          },
+          "NP_complete": {
+            "opacity": 1
+          },
+          "SOURCE_OF_NON_CANONICITY": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "show",
+        "id": "Some_specific_problems",
+        "enabled": "enabled",
+        "name": "A landscape of problems",
+        "merged": false,
+        "keywords": [
+          "A landscape of problems"
+        ],
+        "eventId": "12"
+      },
+      {
+        "type": "child",
+        "name": "Landscape of results",
+        "id": "Landscape_of_results",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "child",
+            "name": "Minimisation",
+            "id": "Minimisation2",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "states_det",
+                "enabled": "enabled",
+                "name": "states-det",
+                "merged": false,
+                "keywords": [
+                  "Minimisation of state-based Büchi automata is NP-complete.",
+                  "Theorem (Schewe ‘09)",
+                  "states-det"
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "show",
+                "id": "_",
+                "enabled": "enabled",
+                "name": "?",
+                "merged": false,
+                "keywords": [
+                  "?"
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "show",
+                "id": "trans_HD",
+                "enabled": "enabled",
+                "name": "trans-HD",
+                "merged": false,
+                "keywords": [
+                  "Minimisation of transitions-based history-deterministic coBüchi automata is in PTIME.",
+                  "Theorem (Abu Radi-Kupferman ‘19)",
+                  "trans-HD"
+                ],
+                "eventId": "3"
+              },
+              {
+                "type": "show",
+                "id": "states_HD",
+                "enabled": "enabled",
+                "name": "states-HD",
+                "merged": false,
+                "keywords": [
+                  "Minimisation of state-based history-deterministic coBüchi automata is NP-complete.",
+                  "Theorem (Schewe ‘20)",
+                  "states-HD"
+                ],
+                "eventId": "4"
+              }
+            ],
+            "keywords": [
+              "States",
+              "Transitions",
+              "Minimisation"
+            ],
+            "eventId": "1",
+            "originalParams": {
+              "states_det": {
+                "opacity": 1
+              },
+              "_": {
+                "opacity": 1
+              },
+              "trans_HD": {
+                "opacity": 1
+              },
+              "states_HD": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "show",
+            "id": "Determinisation",
+            "enabled": "enabled",
+            "name": "Determinisation",
+            "merged": false,
+            "keywords": [
+              "Determinisation"
+            ],
+            "eventId": "6"
+          },
+          {
+            "type": "child",
+            "name": "Determinisation",
+            "id": "Determinisation2",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "improvements",
+                "enabled": "enabled",
+                "name": "improvements",
+                "merged": false,
+                "keywords": [
+                  "[Piterman ‘06], [Schewe ‘09]",
+                  "improvements"
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "show",
+                "id": "schewe_t_b",
+                "enabled": "enabled",
+                "name": "schewe t-b",
+                "merged": false,
+                "keywords": [
+                  "transition-based",
+                  "schewe t-b"
+                ],
+                "eventId": "3"
+              },
+              {
+                "type": "show",
+                "id": "Group_60",
+                "enabled": "enabled",
+                "name": "transform-schewe",
+                "merged": false,
+                "keywords": [
+                  "Automaton of size n",
+                  "Automaton of size",
+                  "det(n) ≃ (1.66n)n",
+                  "transform-schewe"
+                ],
+                "eventId": "10"
+              },
+              {
+                "type": "show",
+                "id": "colcombet_zdanowski",
+                "enabled": "enabled",
+                "name": "colcombet-zdanowski",
+                "merged": false,
+                "keywords": [
+                  "Theorem (tight bounds)",
+                  "(Colcombet-Zdanowski ‘09)",
+                  "There are ND Büchi automata of size n, such that a minimal equivalent transition-based deterministic Rabin automaton has size exactly det(n).",
+                  "colcombet-zdanowski"
+                ],
+                "eventId": "5"
+              },
+              {
+                "type": "show",
+                "id": "Tight_up_to_0_states_",
+                "enabled": "enabled",
+                "name": "Tight up to 0 states!",
+                "merged": false,
+                "keywords": [
+                  "Tight up to 0 states!"
+                ],
+                "eventId": "6"
+              },
+              {
+                "type": "show",
+                "id": "no_tight_states",
+                "enabled": "enabled",
+                "name": "no-tight-states",
+                "merged": false,
+                "keywords": [
+                  "No such tight bounds for state-based automata",
+                  "no-tight-states"
+                ],
+                "eventId": "7"
+              }
+            ],
+            "keywords": [
+              "ND Büchi Automaton",
+              "Deterministic Rabin Automaton",
+              "[Safra ‘88]",
+              "Determinisation"
+            ],
+            "eventId": "2",
+            "originalParams": {
+              "improvements": {
+                "opacity": 1
+              },
+              "schewe_t_b": {
+                "opacity": 1
+              },
+              "colcombet_zdanowski": {
+                "opacity": 1
+              },
+              "Tight_up_to_0_states_": {
+                "opacity": 1
+              },
+              "no_tight_states": {
+                "opacity": 1
+              },
+              "Group_60": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "show",
+            "id": "Automata_Transformations",
+            "enabled": "enabled",
+            "name": "Automata Transformations",
+            "merged": false,
+            "keywords": [
+              "Automata Transformations"
+            ],
+            "eventId": "7"
+          },
+          {
+            "type": "child",
+            "name": "Transformations",
+            "id": "Transformations",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "Group_56",
+                "enabled": "enabled",
+                "name": "transform-buchi",
+                "merged": false,
+                "keywords": [
+                  "(Extra states)",
+                  "Generalised-Büchi Automaton",
+                  "{",
+                  "}",
+                  "See all colours inf. often",
+                  "Büchi Automaton",
+                  "See inf. often",
+                  "transform-buchi"
+                ],
+                "eventId": "3"
+              },
+              {
+                "type": "hide",
+                "id": "Group_55",
+                "enabled": "enabled",
+                "name": "transform-1",
+                "merged": true,
+                "keywords": [
+                  "transform-1"
+                ],
+                "eventId": "4"
+              },
+              {
+                "type": "show",
+                "id": "Group_552",
+                "enabled": "enabled",
+                "name": "problem",
+                "merged": false,
+                "keywords": [
+                  "Generalised-Büchi automaton",
+                  "Input:",
+                  "Question:",
+                  "What is the minimal number of states that we need to duplicate to define an equivalent Büchi automaton?",
+                  "problem"
+                ],
+                "eventId": "6"
+              },
+              {
+                "type": "show",
+                "id": "PTIME",
+                "enabled": "enabled",
+                "name": "PTIME",
+                "merged": false,
+                "keywords": [
+                  "Theorem",
+                  "(C.-Colcombet-Fijalkow ‘21)",
+                  "PTIME for transition-based automata.",
+                  "PTIME"
+                ],
+                "eventId": "9"
+              },
+              {
+                "type": "show",
+                "id": "Group_58",
+                "enabled": "enabled",
+                "name": "NP-c",
+                "merged": false,
+                "keywords": [
+                  "Theorem",
+                  "(C. ‘23)",
+                  "NP-complete for state-based automata.",
+                  "NP-c"
+                ],
+                "eventId": "8"
+              }
+            ],
+            "keywords": [
+              "Automaton using a complex acceptance condition",
+              "Automaton using a simple acceptance condition",
+              "(Extra states)",
+              "Transformations"
+            ],
+            "eventId": "3",
+            "originalParams": {
+              "Group_55": {
+                "opacity": 1
+              },
+              "Group_56": {
+                "opacity": 1
+              },
+              "Group_552": {
+                "opacity": 1
+              },
+              "Group_58": {
+                "opacity": 1
+              },
+              "PTIME": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "show",
+            "id": "Positionality_in_games",
+            "enabled": "enabled",
+            "name": "Positionality in games",
+            "merged": false,
+            "keywords": [
+              "Positionality in games"
+            ],
+            "eventId": "8"
+          },
+          {
+            "type": "child",
+            "name": "Positionality",
+            "id": "Positionality",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "Two_players_move_a_token_in_a_graph",
+                "enabled": "enabled",
+                "name": "Two players move a token in a graph",
+                "merged": false,
+                "keywords": [
+                  "Two players move a token in a graph"
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "show",
+                "id": "States_or_transitions_coloured_with_colours_in_C",
+                "enabled": "enabled",
+                "name": "States or edges coloured with colours in C",
+                "merged": false,
+                "keywords": [
+                  "States or edges coloured with colours in C"
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "show",
+                "id": "Group_61",
+                "enabled": "enabled",
+                "name": "output",
+                "merged": false,
+                "keywords": [
+                  "output"
+                ],
+                "eventId": "3"
+              },
+              {
+                "type": "show",
+                "id": "Group_612",
+                "enabled": "enabled",
+                "name": "Objective for Player 1:",
+                "merged": false,
+                "keywords": [
+                  "Objective for Player 1:"
+                ],
+                "eventId": "4"
+              },
+              {
+                "type": "show",
+                "id": "Group_62",
+                "enabled": "enabled",
+                "name": "Both players can play optimally using positional strategies in (potentially infinite) games using objective W.",
+                "merged": false,
+                "keywords": [
+                  "Both players can play optimally using positional strategies in (potentially infinite) games using objective W.",
+                  "W bipositional:"
+                ],
+                "eventId": "5"
+              },
+              {
+                "type": "show",
+                "id": "Group_622",
+                "enabled": "enabled",
+                "name": "The bipositional objectives over edge-coloured games are parity objectives.",
+                "merged": false,
+                "keywords": [
+                  "Theorem",
+                  "(Colcombet-Niwiński ‘06)",
+                  "The only bipositional objectives over edge-coloured games are parity objectives.",
+                  "parity[0,d]",
+                  "The bipositional objectives over edge-coloured games are parity objectives."
+                ],
+                "eventId": "6"
+              },
+              {
+                "type": "show",
+                "id": "no_tight_states2",
+                "enabled": "enabled",
+                "name": "no-tight-states",
+                "merged": false,
+                "keywords": [
+                  "No characterisation for state-coloured games.",
+                  "no-tight-states"
+                ],
+                "eventId": "7"
+              }
+            ],
+            "keywords": [
+              "Games:",
+              "Text",
+              "Positionality"
+            ],
+            "eventId": "4",
+            "originalParams": {
+              "Two_players_move_a_token_in_a_graph": {
+                "opacity": 1
+              },
+              "States_or_transitions_coloured_with_colours_in_C": {
+                "opacity": 1
+              },
+              "Group_61": {
+                "opacity": 1
+              },
+              "Group_612": {
+                "opacity": 1
+              },
+              "Group_62": {
+                "opacity": 1
+              },
+              "Group_622": {
+                "opacity": 1
+              },
+              "no_tight_states2": {
+                "opacity": 1
+              }
+            }
+          }
+        ],
+        "keywords": [
+          "Minimisation",
+          "Landscape of results"
+        ],
+        "eventId": "3",
+        "originalParams": {
+          "Determinisation": {
+            "opacity": 1
+          },
+          "Automata_Transformations": {
+            "opacity": 1
+          },
+          "Positionality_in_games": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "show",
+        "id": "Why_these_differences__An_algebraic_point_of_view",
+        "enabled": "enabled",
+        "name": "Why all these differences? An algebraic point of view",
+        "merged": false,
+        "keywords": [
+          "Why all these differences? An algebraic point of view"
+        ],
+        "eventId": "11"
+      },
+      {
+        "type": "child",
+        "name": "Why these differences?",
+        "id": "Why_these_differences_",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "t_automaton",
+            "enabled": "enabled",
+            "name": "t-automaton",
+            "merged": false,
+            "keywords": [
+              "a",
+              "b",
+              "t-automaton"
+            ],
+            "eventId": "17"
+          },
+          {
+            "type": "show",
+            "id": "aa_dot",
+            "enabled": "enabled",
+            "name": "aa-dot",
+            "merged": false,
+            "keywords": [
+              "aa",
+              "aa-dot"
+            ],
+            "eventId": "10"
+          },
+          {
+            "type": "show",
+            "id": "Group_633",
+            "enabled": "enabled",
+            "name": "ab",
+            "merged": false,
+            "keywords": [
+              "ab"
+            ],
+            "eventId": "9"
+          },
+          {
+            "type": "show",
+            "id": "Group_634",
+            "enabled": "enabled",
+            "name": "Compositionality",
+            "merged": false,
+            "keywords": [
+              "Compositionality"
+            ],
+            "eventId": "15"
+          },
+          {
+            "type": "show",
+            "id": "s_automaton",
+            "enabled": "enabled",
+            "name": "s-automaton",
+            "merged": false,
+            "keywords": [
+              "a",
+              "b",
+              "s-automaton"
+            ],
+            "eventId": "8"
+          },
+          {
+            "type": "show",
+            "id": "Group_63",
+            "enabled": "enabled",
+            "name": "transition?",
+            "merged": false,
+            "keywords": [
+              "aa",
+              "?",
+              "transition?"
+            ],
+            "eventId": "6"
+          },
+          {
+            "type": "show",
+            "id": "Group_632",
+            "enabled": "enabled",
+            "name": "No natural way of composing transitions",
+            "merged": false,
+            "keywords": [
+              "No natural way of composing transitions"
+            ],
+            "eventId": "7"
+          },
+          {
+            "type": "show",
+            "id": "Group_635",
+            "enabled": "enabled",
+            "name": "Connections with algebra [Wilke ‘91, LeSaëc-Pin-Weil‘91, Colcombet ‘11]",
+            "merged": false,
+            "keywords": [
+              "Connections with algebra [Wilke ‘91, LeSaëc-Pin-Weil‘91, Colcombet ‘11]"
+            ],
+            "eventId": "16"
+          },
+          {
+            "type": "show",
+            "id": "Group_64",
+            "enabled": "enabled",
+            "name": "Saturation techniques [Colcombet-Fijalkow ‘18, Ohlmann‘23]",
+            "merged": false,
+            "keywords": [
+              "Saturation techniques [Colcombet-Fijalkow ‘18, Ohlmann‘23]"
+            ],
+            "eventId": "12"
+          }
+        ],
+        "keywords": [
+          "A natural algebraic operation",
+          "Why these differences?"
+        ],
+        "eventId": "4",
+        "originalParams": {
+          "aa_dot": {
+            "opacity": 1
+          },
+          "Group_63": {
+            "opacity": 1
+          },
+          "Group_632": {
+            "opacity": 1
+          },
+          "s_automaton": {
+            "opacity": 1
+          },
+          "Group_633": {
+            "opacity": 1
+          },
+          "Group_634": {
+            "opacity": 1
+          },
+          "Group_64": {
+            "opacity": 1
+          },
+          "Group_635": {
+            "opacity": 1
+          },
+          "t_automaton": {
+            "opacity": 1
+          }
+        }
+      }
+    ],
+    "keywords": [
+      "State-based vs Transition-based acceptance in ω-automata",
+      "Antonio Casares ⋅ University of Warsaw",
+      "main"
+    ],
+    "eventId": "root",
+    "originalParams": {
+      "But_really_": {
+        "opacity": 1
+      },
+      "Equivalence_of_the_models": {
+        "opacity": 1
+      },
+      "Why_these_differences__An_algebraic_point_of_view": {
+        "opacity": 1
+      },
+      "Some_specific_problems": {
+        "opacity": 1
+      },
+      "models": {
+        "opacity": 1
+      }
+    }
+  },
+  "treeTimeLine": [],
+  "chronicleTimeLine": []
+}

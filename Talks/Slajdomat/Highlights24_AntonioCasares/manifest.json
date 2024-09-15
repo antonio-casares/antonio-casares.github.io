@@ -31,49 +31,16 @@
         "children": [
           {
             "type": "show",
-            "id": "An_automaton",
-            "enabled": "enabled",
-            "name": "An automaton",
-            "merged": false,
-            "keywords": [
-              "An automaton"
-            ],
-            "eventId": "20"
-          },
-          {
-            "type": "show",
             "id": "Group_3",
             "enabled": "enabled",
             "name": "we want infinite",
             "merged": false,
             "keywords": [
-              "We want to input infinite words",
+              "Input:",
               "w ∈ Σω",
               "we want infinite"
             ],
             "eventId": "9"
-          },
-          {
-            "type": "hide",
-            "id": "An_automaton",
-            "enabled": "enabled",
-            "name": "An automaton",
-            "merged": true,
-            "keywords": [
-              "An automaton"
-            ],
-            "eventId": "21"
-          },
-          {
-            "type": "show",
-            "id": "An_w_automaton2",
-            "enabled": "enabled",
-            "name": "An w-automaton",
-            "merged": true,
-            "keywords": [
-              "An w-automaton"
-            ],
-            "eventId": "22"
           },
           {
             "type": "show",
@@ -82,33 +49,11 @@
             "name": "buchi condition",
             "merged": false,
             "keywords": [
-              "Büchi condition: We accept if",
+              "Büchi condition: Accept if",
               "visited infinitely often",
               "buchi condition"
             ],
             "eventId": "24"
-          },
-          {
-            "type": "show",
-            "id": "Group_60",
-            "enabled": "enabled",
-            "name": "Words containing ‘aa’ infinitely often",
-            "merged": false,
-            "keywords": [
-              "Words containing ‘aa’ infinitely often"
-            ],
-            "eventId": "28"
-          },
-          {
-            "type": "show",
-            "id": "Other_conditions__coB_chi__parity__Rabin__Muller____",
-            "enabled": "enabled",
-            "name": "Other conditions: coBüchi, parity, Rabin, Muller ...",
-            "merged": false,
-            "keywords": [
-              "Other conditions: coBüchi, parity, Rabin, Muller ..."
-            ],
-            "eventId": "11"
           },
           {
             "type": "show",
@@ -210,6 +155,7 @@
         "keywords": [
           "a",
           "b",
+          "An w-automaton",
           "State-based automata"
         ],
         "eventId": "1",
@@ -226,13 +172,7 @@
           "Group_3": {
             "opacity": 1
           },
-          "Other_conditions__coB_chi__parity__Rabin__Muller____": {
-            "opacity": 1
-          },
           "It_is_wrong": {
-            "opacity": 1
-          },
-          "An_automaton": {
             "opacity": 1
           },
           "An_w_automaton2": {
@@ -322,7 +262,7 @@
             "id": "Group_48",
             "enabled": "enabled",
             "name": "HOA-format",
-            "merged": false,
+            "merged": true,
             "keywords": [
               "SPOT",
               "OWL",
@@ -334,10 +274,21 @@
           },
           {
             "type": "show",
+            "id": "Group_67",
+            "enabled": "enabled",
+            "name": "Implementations",
+            "merged": true,
+            "keywords": [
+              "Implementations"
+            ],
+            "eventId": "9"
+          },
+          {
+            "type": "show",
             "id": "Group_482",
             "enabled": "enabled",
             "name": "recent",
-            "merged": false,
+            "merged": true,
             "keywords": [
               "[Abu Radi-Kupferman]",
               "[Bohn-Löding]",
@@ -389,6 +340,9 @@
           },
           "_Thanks_to_G_raud_S_nizergues_for_pointing_me_to_these_works": {
             "opacity": 1
+          },
+          "Group_67": {
+            "opacity": 1
           }
         }
       },
@@ -425,32 +379,6 @@
         "children": [
           {
             "type": "show",
-            "id": "automaton",
-            "enabled": "enabled",
-            "name": "automaton",
-            "merged": false,
-            "keywords": [
-              "a",
-              "b",
-              "automaton"
-            ],
-            "eventId": "3"
-          },
-          {
-            "type": "show",
-            "id": "Group_58",
-            "enabled": "enabled",
-            "name": "transform",
-            "merged": false,
-            "keywords": [
-              "a",
-              "b",
-              "transform"
-            ],
-            "eventId": "2"
-          },
-          {
-            "type": "show",
             "id": "No_extra_states_needed",
             "enabled": "enabled",
             "name": "No extra states needed",
@@ -459,9 +387,64 @@
               "No extra states needed"
             ],
             "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "From_transitions_to_states",
+            "enabled": "enabled",
+            "name": "From transitions to states",
+            "merged": false,
+            "keywords": [
+              "From transitions to states"
+            ],
+            "eventId": "5"
+          },
+          {
+            "type": "show",
+            "id": "t_based__automaton",
+            "enabled": "enabled",
+            "name": "t-based  automaton",
+            "merged": true,
+            "keywords": [
+              "p",
+              "q",
+              "a",
+              "b",
+              "t-based  automaton"
+            ],
+            "eventId": "8"
+          },
+          {
+            "type": "show",
+            "id": "Group_67",
+            "enabled": "enabled",
+            "name": "qrej",
+            "merged": false,
+            "keywords": [
+              "b",
+              "a",
+              "qrej",
+              "prej",
+              "qacc",
+              "pacc"
+            ],
+            "eventId": "9"
+          },
+          {
+            "type": "show",
+            "id": "We_may_need_to_double_the_number_of_states",
+            "enabled": "enabled",
+            "name": "We may need to double the number of states",
+            "merged": true,
+            "keywords": [
+              "We may need to double the number of states"
+            ],
+            "eventId": "7"
           }
         ],
         "keywords": [
+          "a",
+          "b",
           "From states to transitions",
           "st-to-trans"
         ],
@@ -470,127 +453,26 @@
           "No_extra_states_needed": {
             "opacity": 1
           },
-          "Group_58": {
+          "From_transitions_to_states": {
             "opacity": 1
           },
-          "automaton": {
-            "opacity": 1
-          }
-        }
-      },
-      {
-        "type": "child",
-        "name": "trans-to-states",
-        "id": "trans_to_states",
-        "enabled": "enabled",
-        "merged": true,
-        "children": [
-          {
-            "type": "show",
-            "id": "t_based__automaton",
-            "enabled": "enabled",
-            "name": "t-based  automaton",
-            "merged": false,
-            "keywords": [
-              "p",
-              "q",
-              "a",
-              "b",
-              "t-based  automaton"
-            ],
-            "eventId": "4"
-          },
-          {
-            "type": "show",
-            "id": "Group_60",
-            "enabled": "enabled",
-            "name": "Words containing ‘aa’ infinitely often",
-            "merged": true,
-            "keywords": [
-              "Words containing ‘aa’ infinitely often"
-            ],
-            "eventId": "7"
-          },
-          {
-            "type": "show",
-            "id": "Line_48",
-            "enabled": "enabled",
-            "name": "Line 48",
-            "merged": false,
-            "keywords": [
-              "Line 48"
-            ],
-            "eventId": "5"
-          },
-          {
-            "type": "show",
-            "id": "state_b_automaton",
-            "enabled": "enabled",
-            "name": "state-b-automaton",
-            "merged": true,
-            "keywords": [
-              "b",
-              "a",
-              "qrej",
-              "prej",
-              "qacc",
-              "pacc",
-              "state-b-automaton"
-            ],
-            "eventId": "6"
-          },
-          {
-            "type": "show",
-            "id": "We_may_need_to_double_the_number_of_states",
-            "enabled": "enabled",
-            "name": "We may need to double the number of states",
-            "merged": false,
-            "keywords": [
-              "We may need to double the number of states"
-            ],
-            "eventId": "2"
-          }
-        ],
-        "keywords": [
-          "From transitions to states",
-          "trans-to-states"
-        ],
-        "eventId": "8",
-        "originalParams": {
           "We_may_need_to_double_the_number_of_states": {
             "opacity": 1
           },
           "t_based__automaton": {
             "opacity": 1
           },
-          "Line_48": {
-            "opacity": 1
-          },
-          "state_b_automaton": {
-            "opacity": 1
-          },
-          "Group_60": {
+          "Group_67": {
             "opacity": 1
           }
         }
-      },
-      {
-        "type": "show",
-        "id": "But_really_",
-        "enabled": "enabled",
-        "name": "But really?",
-        "merged": false,
-        "keywords": [
-          "But really?"
-        ],
-        "eventId": "9"
       },
       {
         "type": "child",
         "name": "trans-st-is-NP-hard",
         "id": "trans_st_is_NP_hard",
         "enabled": "enabled",
-        "merged": false,
+        "merged": true,
         "children": [
           {
             "type": "show",
@@ -602,8 +484,7 @@
               "Transition-based Büchi automaton",
               "Input:",
               "Question:",
-              "What is the minimal number of states that we need to duplicate to define an equivalent state-based automaton?",
-              "From transitions to states optimally:",
+              "Minimal number of states needed to duplicate to define an equivalent state-based automaton?",
               "optimal-problem"
             ],
             "eventId": "1"
@@ -613,9 +494,9 @@
             "id": "NP_complete",
             "enabled": "enabled",
             "name": "NP-complete",
-            "merged": false,
+            "merged": true,
             "keywords": [
-              "This problem is NP-complete!",
+              "The following problem is NP-complete!",
               "(Schewe ‘09 - C.‘23)",
               "NP-complete"
             ],
@@ -649,6 +530,17 @@
             "opacity": 1
           }
         }
+      },
+      {
+        "type": "show",
+        "id": "not_so",
+        "enabled": "enabled",
+        "name": "not so",
+        "merged": false,
+        "keywords": [
+          "not so"
+        ],
+        "eventId": "15"
       },
       {
         "type": "show",
@@ -767,18 +659,6 @@
             "children": [
               {
                 "type": "show",
-                "id": "improvements",
-                "enabled": "enabled",
-                "name": "improvements",
-                "merged": false,
-                "keywords": [
-                  "[Piterman ‘06], [Schewe ‘09]",
-                  "improvements"
-                ],
-                "eventId": "2"
-              },
-              {
-                "type": "show",
                 "id": "schewe_t_b",
                 "enabled": "enabled",
                 "name": "schewe t-b",
@@ -791,20 +671,6 @@
               },
               {
                 "type": "show",
-                "id": "Group_60",
-                "enabled": "enabled",
-                "name": "transform-schewe",
-                "merged": false,
-                "keywords": [
-                  "Automaton of size n",
-                  "Automaton of size",
-                  "det(n) ≃ (1.66n)n",
-                  "transform-schewe"
-                ],
-                "eventId": "10"
-              },
-              {
-                "type": "show",
                 "id": "colcombet_zdanowski",
                 "enabled": "enabled",
                 "name": "colcombet-zdanowski",
@@ -812,21 +678,10 @@
                 "keywords": [
                   "Theorem (tight bounds)",
                   "(Colcombet-Zdanowski ‘09)",
-                  "There are ND Büchi automata of size n, such that a minimal equivalent transition-based deterministic Rabin automaton has size exactly det(n).",
+                  "Schewe’s determinization is tight up to 0 states.",
                   "colcombet-zdanowski"
                 ],
                 "eventId": "5"
-              },
-              {
-                "type": "show",
-                "id": "Tight_up_to_0_states_",
-                "enabled": "enabled",
-                "name": "Tight up to 0 states!",
-                "merged": false,
-                "keywords": [
-                  "Tight up to 0 states!"
-                ],
-                "eventId": "6"
               },
               {
                 "type": "show",
@@ -842,6 +697,7 @@
               }
             ],
             "keywords": [
+              "[Piterman ‘06], [Schewe ‘09]",
               "ND Büchi Automaton",
               "Deterministic Rabin Automaton",
               "[Safra ‘88]",
@@ -849,9 +705,6 @@
             ],
             "eventId": "2",
             "originalParams": {
-              "improvements": {
-                "opacity": 1
-              },
               "schewe_t_b": {
                 "opacity": 1
               },
@@ -862,9 +715,6 @@
                 "opacity": 1
               },
               "no_tight_states": {
-                "opacity": 1
-              },
-              "Group_60": {
                 "opacity": 1
               }
             }
@@ -1005,77 +855,6 @@
             "children": [
               {
                 "type": "show",
-                "id": "Two_players_move_a_token_in_a_graph",
-                "enabled": "enabled",
-                "name": "Two players move a token in a graph",
-                "merged": false,
-                "keywords": [
-                  "Two players move a token in a graph"
-                ],
-                "eventId": "1"
-              },
-              {
-                "type": "show",
-                "id": "States_or_transitions_coloured_with_colours_in_C",
-                "enabled": "enabled",
-                "name": "States or edges coloured with colours in C",
-                "merged": false,
-                "keywords": [
-                  "States or edges coloured with colours in C"
-                ],
-                "eventId": "2"
-              },
-              {
-                "type": "show",
-                "id": "Group_61",
-                "enabled": "enabled",
-                "name": "output",
-                "merged": false,
-                "keywords": [
-                  "output"
-                ],
-                "eventId": "3"
-              },
-              {
-                "type": "show",
-                "id": "Group_612",
-                "enabled": "enabled",
-                "name": "Objective for Player 1:",
-                "merged": false,
-                "keywords": [
-                  "Objective for Player 1:"
-                ],
-                "eventId": "4"
-              },
-              {
-                "type": "show",
-                "id": "Group_62",
-                "enabled": "enabled",
-                "name": "Both players can play optimally using positional strategies in (potentially infinite) games using objective W.",
-                "merged": false,
-                "keywords": [
-                  "Both players can play optimally using positional strategies in (potentially infinite) games using objective W.",
-                  "W bipositional:"
-                ],
-                "eventId": "5"
-              },
-              {
-                "type": "show",
-                "id": "Group_622",
-                "enabled": "enabled",
-                "name": "The bipositional objectives over edge-coloured games are parity objectives.",
-                "merged": false,
-                "keywords": [
-                  "Theorem",
-                  "(Colcombet-Niwiński ‘06)",
-                  "The only bipositional objectives over edge-coloured games are parity objectives.",
-                  "parity[0,d]",
-                  "The bipositional objectives over edge-coloured games are parity objectives."
-                ],
-                "eventId": "6"
-              },
-              {
-                "type": "show",
                 "id": "no_tight_states2",
                 "enabled": "enabled",
                 "name": "no-tight-states",
@@ -1088,27 +867,15 @@
               }
             ],
             "keywords": [
-              "Games:",
-              "Text",
+              "Theorem",
+              "(Colcombet-Niwiński ‘06)",
+              "The only bipositional objectives over edge-coloured games are parity objectives.",
+              "parity[0,d]",
+              "In 2-player games on graphs a language L is bipositional if both players can play optimally using positional strategies in games using objective L.",
               "Positionality"
             ],
             "eventId": "4",
             "originalParams": {
-              "Two_players_move_a_token_in_a_graph": {
-                "opacity": 1
-              },
-              "States_or_transitions_coloured_with_colours_in_C": {
-                "opacity": 1
-              },
-              "Group_61": {
-                "opacity": 1
-              },
-              "Group_612": {
-                "opacity": 1
-              },
-              "Group_62": {
-                "opacity": 1
-              },
               "Group_622": {
                 "opacity": 1
               },
@@ -1297,15 +1064,13 @@
       }
     ],
     "keywords": [
-      "State-based vs Transition-based acceptance in ω-automata",
+      "State-based vs Transition-based acceptance for ω-automata",
       "Antonio Casares ⋅ University of Warsaw",
+      "Highlights 2024",
       "main"
     ],
     "eventId": "root",
     "originalParams": {
-      "But_really_": {
-        "opacity": 1
-      },
       "Equivalence_of_the_models": {
         "opacity": 1
       },
@@ -1316,6 +1081,9 @@
         "opacity": 1
       },
       "models": {
+        "opacity": 1
+      },
+      "not_so": {
         "opacity": 1
       }
     }

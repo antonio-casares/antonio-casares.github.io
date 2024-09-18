@@ -31,32 +31,6 @@
         "children": [
           {
             "type": "show",
-            "id": "Group_3",
-            "enabled": "enabled",
-            "name": "we want infinite",
-            "merged": false,
-            "keywords": [
-              "Input:",
-              "w ∈ Σω",
-              "we want infinite"
-            ],
-            "eventId": "9"
-          },
-          {
-            "type": "show",
-            "id": "Group_4",
-            "enabled": "enabled",
-            "name": "buchi condition",
-            "merged": false,
-            "keywords": [
-              "Büchi condition: Accept if",
-              "visited infinitely often",
-              "buchi condition"
-            ],
-            "eventId": "24"
-          },
-          {
-            "type": "show",
             "id": "Group_47",
             "enabled": "enabled",
             "name": "timeline",
@@ -155,6 +129,10 @@
         "keywords": [
           "a",
           "b",
+          "Input:",
+          "w ∈ Σω",
+          "Büchi condition: Accept if",
+          "visited infinitely often",
           "An w-automaton",
           "State-based automata"
         ],
@@ -169,9 +147,6 @@
           "books": {
             "opacity": 1
           },
-          "Group_3": {
-            "opacity": 1
-          },
           "It_is_wrong": {
             "opacity": 1
           },
@@ -179,9 +154,6 @@
             "opacity": 1
           },
           "Group_4": {
-            "opacity": 1
-          },
-          "Group_60": {
             "opacity": 1
           }
         }
@@ -193,30 +165,6 @@
         "enabled": "enabled",
         "merged": true,
         "children": [
-          {
-            "type": "show",
-            "id": "An_w_automaton2",
-            "enabled": "enabled",
-            "name": "a t-automaton",
-            "merged": false,
-            "keywords": [
-              "a t-automaton"
-            ],
-            "eventId": "2"
-          },
-          {
-            "type": "show",
-            "id": "buchi_condition",
-            "enabled": "enabled",
-            "name": "buchi condition",
-            "merged": true,
-            "keywords": [
-              "Büchi condition: We accept if",
-              "visited infinitely often",
-              "buchi condition"
-            ],
-            "eventId": "6"
-          },
           {
             "type": "show",
             "id": "timeline",
@@ -316,6 +264,9 @@
         "keywords": [
           "a",
           "b",
+          "a t-automaton",
+          "Büchi condition: We accept if",
+          "visited infinitely often",
           "Transition-based automata"
         ],
         "eventId": "2",
@@ -463,70 +414,6 @@
             "opacity": 1
           },
           "Group_67": {
-            "opacity": 1
-          }
-        }
-      },
-      {
-        "type": "child",
-        "name": "trans-st-is-NP-hard",
-        "id": "trans_st_is_NP_hard",
-        "enabled": "enabled",
-        "merged": true,
-        "children": [
-          {
-            "type": "show",
-            "id": "optimal_problem",
-            "enabled": "enabled",
-            "name": "optimal-problem",
-            "merged": false,
-            "keywords": [
-              "Transition-based Büchi automaton",
-              "Input:",
-              "Question:",
-              "Minimal number of states needed to duplicate to define an equivalent state-based automaton?",
-              "optimal-problem"
-            ],
-            "eventId": "1"
-          },
-          {
-            "type": "show",
-            "id": "NP_complete",
-            "enabled": "enabled",
-            "name": "NP-complete",
-            "merged": true,
-            "keywords": [
-              "The following problem is NP-complete!",
-              "(Schewe ‘09 - C.‘23)",
-              "NP-complete"
-            ],
-            "eventId": "2"
-          },
-          {
-            "type": "show",
-            "id": "SOURCE_OF_NON_CANONICITY",
-            "enabled": "enabled",
-            "name": "SOURCE OF NON-CANONICITY",
-            "merged": false,
-            "keywords": [
-              "SOURCE OF NON-CANONICITY"
-            ],
-            "eventId": "3"
-          }
-        ],
-        "keywords": [
-          "Transition-based automata are smaller",
-          "trans-st-is-NP-hard"
-        ],
-        "eventId": "7",
-        "originalParams": {
-          "optimal_problem": {
-            "opacity": 1
-          },
-          "NP_complete": {
-            "opacity": 1
-          },
-          "SOURCE_OF_NON_CANONICITY": {
             "opacity": 1
           }
         }

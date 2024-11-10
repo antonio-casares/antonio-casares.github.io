@@ -1,0 +1,17 @@
+@inproceedings{CM24SimplifyingACD,
+  author       = {Antonio Casares and
+                  Corto Mascle},
+  editor       = {Rastislav Kr{\'{a}}lovic and
+                  Anton{\'{\i}}n Kucera},
+  title        = {The Complexity of Simplifying {\(\omega\)}-Automata Through the Alternating
+                  Cycle Decomposition},
+  booktitle    = {49th International Symposium on Mathematical Foundations of Computer
+                  Science, {MFCS} 2024, August 26-30, 2024, Bratislava, Slovakia},
+  series       = {LIPIcs},
+  volume       = {306},
+  pages        = {35:1--35:17},
+  publisher    = {Schloss Dagstuhl - Leibniz-Zentrum f{\"{u}}r Informatik},
+  year         = {2024},
+  url          = {https://doi.org/10.4230/LIPIcs.MFCS.2024.35},
+  doi          = {10.4230/LIPICS.MFCS.2024.35}
+}

@@ -21,7 +21,8 @@
     "active_learning": "active_learning",
     "Inf_words_22": "Inf_words_2",
     "transductions": "transductions",
-    "interpretations": "interpretations"
+    "interpretations": "interpretations",
+    "Hierarchies": "Hierarchies"
   },
   "tree": {
     "type": "child",
@@ -1584,30 +1585,14 @@
           },
           {
             "type": "show",
-            "id": "Group_96",
+            "id": "Hierarchies_of_languages",
             "enabled": "enabled",
-            "name": "Decidability of FO-definability for regular functions.",
+            "name": "Hierarchies of languages (Mostowski index)",
             "merged": false,
             "keywords": [
-              "Open Question",
-              "Decidability of the Mostowski-index for regular infinite-tree-languages.",
-              "Decidability of FO-definability for regular functions."
+              "Hierarchies of languages (Mostowski index)"
             ],
-            "eventId": "2"
-          },
-          {
-            "type": "show",
-            "id": "Group_99",
-            "enabled": "enabled",
-            "name": "Minimal number of priorities of a parity automaton accepting L. Minimal number of alternation of fixpoints of a μ-calculus formula for L. Level of L in the difference hierarchy over (topological complexity).",
-            "merged": false,
-            "keywords": [
-              "Theorem",
-              "(Bradfield ‘98, Arnold-Niwiński ‘08)",
-              "Let L be a regular language of infinite trees. The following quantities coincide (Mostowski-index):",
-              "Minimal number of priorities of a parity automaton accepting L. Minimal number of alternation of fixpoints of a μ-calculus formula for L. Level of L in the difference hierarchy over (topological complexity)."
-            ],
-            "eventId": "3"
+            "eventId": "5"
           }
         ],
         "keywords": [
@@ -1620,10 +1605,129 @@
           "New_algebraic_tools_needed": {
             "opacity": 1
           },
-          "Group_96": {
+          "Hierarchies_of_languages": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "Hierarchies",
+        "id": "Hierarchies",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "Over___words",
+            "enabled": "enabled",
+            "name": "Over ω-words",
+            "merged": false,
+            "keywords": [
+              "Over ω-words"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "Group_99",
+            "enabled": "enabled",
+            "name": "#Priorities of a det. parity automaton for L. #Fixpoint alternation of a μ-calculus formula for L. Level in the difference and Wadge hierarchies over (topological complexity).",
+            "merged": false,
+            "keywords": [
+              "Theorem",
+              "(Wagner ‘79, Emerson-Jutla ‘91)",
+              "Let L be an ω-regular language. The following are equivalent (Mostowski index):",
+              "#Priorities of a det. parity automaton for L. #Fixpoint alternation of a μ-calculus formula for L. Level in the difference and Wadge hierarchies over (topological complexity)."
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "Decidable__canonical_labeling_of_parity_automata_",
+            "enabled": "enabled",
+            "name": "Decidable (canonical labeling of parity automata)",
+            "merged": false,
+            "keywords": [
+              "Decidable (canonical labeling of parity automata)"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "Over_infinite_trees",
+            "enabled": "enabled",
+            "name": "Over infinite trees",
+            "merged": false,
+            "keywords": [
+              "Over infinite trees"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "show",
+            "id": "Group_992",
+            "enabled": "enabled",
+            "name": "ND hierarchy μ-calculus without negation",
+            "merged": false,
+            "keywords": [
+              "Two different hierarchies",
+              "ND hierarchy μ-calculus without negation",
+              "Alternating hierarchy μ-calculus"
+            ],
+            "eventId": "5"
+          },
+          {
+            "type": "show",
+            "id": "Group_96",
+            "enabled": "enabled",
+            "name": "Decidability of FO-definability for regular functions.",
+            "merged": false,
+            "keywords": [
+              "Open Question",
+              "Decidability of the level in the ND and alternating hierarchies.",
+              "Decidability of FO-definability for regular functions."
+            ],
+            "eventId": "6"
+          },
+          {
+            "type": "show",
+            "id": "Decidability_of_FO_definability_for_regular_functions_",
+            "enabled": "enabled",
+            "name": "Decidability of FO-definability for regular functions.",
+            "merged": false,
+            "keywords": [
+              "Goal",
+              "Clarify the connections with topological complexity of languages of infinite trees.",
+              "Decidability of FO-definability for regular functions."
+            ],
+            "eventId": "7"
+          }
+        ],
+        "keywords": [
+          "Hierarchies"
+        ],
+        "eventId": "24",
+        "originalParams": {
+          "Over___words": {
             "opacity": 1
           },
           "Group_99": {
+            "opacity": 1
+          },
+          "Decidable__canonical_labeling_of_parity_automata_": {
+            "opacity": 1
+          },
+          "Over_infinite_trees": {
+            "opacity": 1
+          },
+          "Group_992": {
+            "opacity": 1
+          },
+          "Group_96": {
+            "opacity": 1
+          },
+          "Decidability_of_FO_definability_for_regular_functions_": {
             "opacity": 1
           }
         }
@@ -1703,6 +1807,7 @@
             "merged": false,
             "keywords": [
               "Reseach Direction",
+              "Understand the limits of FPT model checking for logics between FO and MSO.",
               "Understand the limits of decidability for FO-satisfiability and other intermediate logics."
             ],
             "eventId": "5"
@@ -1710,8 +1815,9 @@
         ],
         "keywords": [
           "Theorem",
-          "(Courcelle ‘88)",
+          "(Courcelle ‘88, ‘90)",
           "Satisfiability of MSO over graphs of bounded clique-width is decidable.",
+          "Model checking of MSO over graphs of bounded clique-width is FPT.",
           "Graphs"
         ],
         "eventId": "5",

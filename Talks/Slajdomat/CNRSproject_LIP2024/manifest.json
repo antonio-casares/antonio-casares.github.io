@@ -300,8 +300,9 @@
             "keywords": [
               "(Courcelle ‘88, Bojańczyk-Pilipczuk ‘16)",
               "Graphs of bounded clique-width",
-              "Decidability of SAT over graphs of bouded cw",
-              "FPT Model checking of graphs of bounded cw"
+              "Decidability of SAT over graphs of bounded cw",
+              "FPT Model checking of graphs of bounded cw",
+              "Decidability of SAT over graphs of bouded cw"
             ],
             "eventId": "7"
           },
@@ -1807,7 +1808,7 @@
             "name": "Understand the limits of decidability for FO-satisfiability and other intermediate logics.",
             "merged": false,
             "keywords": [
-              "Reseach Direction",
+              "Research Direction",
               "Understand the limits of FPT model checking for logics between FO and MSO.",
               "Understand the limits of decidability for FO-satisfiability and other intermediate logics."
             ],

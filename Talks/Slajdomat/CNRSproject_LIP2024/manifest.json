@@ -73,18 +73,6 @@
           },
           {
             "type": "show",
-            "id": "Group_9",
-            "enabled": "enabled",
-            "name": "CNRS, LIP, Lyon",
-            "merged": false,
-            "keywords": [
-              "CNRS, LIP, Lyon",
-              "?"
-            ],
-            "eventId": "3"
-          },
-          {
-            "type": "show",
             "id": "Group_11",
             "enabled": "enabled",
             "name": "Advanced courses in Model theory Descriptive complexity",
@@ -130,6 +118,18 @@
               "Polyregular functions Communication complesity"
             ],
             "eventId": "8"
+          },
+          {
+            "type": "show",
+            "id": "Group_9",
+            "enabled": "enabled",
+            "name": "CNRS, LIP, Lyon",
+            "merged": false,
+            "keywords": [
+              "CNRS, LIP, Lyon",
+              "?"
+            ],
+            "eventId": "3"
           }
         ],
         "keywords": [
@@ -1638,6 +1638,7 @@
               "Theorem",
               "(Wagner ‘79, Emerson-Jutla ‘91)",
               "Let L be an ω-regular language. The following are equivalent (Mostowski index):",
+              "#Priorities of a det. parity automaton for L. #Fixpoint alternation of a μ-calculus formula for L. Level in the difference hierarchy over (topological complexity).",
               "#Priorities of a det. parity automaton for L. #Fixpoint alternation of a μ-calculus formula for L. Level in the difference and Wadge hierarchies over (topological complexity)."
             ],
             "eventId": "2"

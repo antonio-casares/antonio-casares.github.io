@@ -1,0 +1,1899 @@
+{
+  "version": 3.1,
+  "presentation": "CNRSproject-IRIF2024",
+  "slideDict": {
+    "new_slide": "main",
+    "myself": "myself",
+    "MSO": "MSO",
+    "DFA": "DFA",
+    "The_canonical_DFA": "The_canonical_DFA",
+    "Learning": "Learning",
+    "active_learning": "active_learning",
+    "FO_definability": "FO_definability",
+    "Infinite_words": "Infinite_words",
+    "Parity_automata": "Parity_automata",
+    "Residuals": "Residuals",
+    "Inf_words_22": "Inf_words_2",
+    "HD_automata": "Abu_Radi___Kupferman",
+    "LICS_2024": "LICS_2024",
+    "Alternating_HD_automata": "Alternating_HD_automata",
+    "Transducers": "Transducers",
+    "transductions": "transductions",
+    "interpretations": "interpretations",
+    "Trees_and_graphs": "Trees",
+    "Hierarchies": "Hierarchies",
+    "Graphs": "Graphs"
+  },
+  "tree": {
+    "type": "child",
+    "name": "main",
+    "id": "new_slide",
+    "enabled": "enabled",
+    "merged": false,
+    "children": [
+      {
+        "type": "child",
+        "name": "myself",
+        "id": "myself",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "Group_10",
+            "enabled": "enabled",
+            "name": "Bachelor in Maths, Valladolid",
+            "merged": false,
+            "keywords": [
+              "Bachelor in Maths, Valladolid",
+              "PhD, Bordeaux",
+              "Master LMFI, Paris",
+              "PostDoc, Warsaw",
+              "(with T. Colcombet, N. Fijalkow & I. Walukiewicz)",
+              "(with M. Bojańczyk)"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "Group_3",
+            "enabled": "enabled",
+            "name": "2018",
+            "merged": true,
+            "keywords": [
+              "2018",
+              "2019",
+              "2020",
+              "2021",
+              "2022",
+              "2023",
+              "2024"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "Group_11",
+            "enabled": "enabled",
+            "name": "Advanced courses in Model theory Descriptive complexity",
+            "merged": false,
+            "keywords": [
+              "Advanced courses in Model theory Descriptive complexity"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "show",
+            "id": "Group_14",
+            "enabled": "enabled",
+            "name": "Transformations (ICALP ‘21, TACAS ‘22, MFCS ‘24, TheoretiCS ‘24) Minimisation (CSL ‘21, ICALP ‘22, CSL’25)",
+            "merged": false,
+            "keywords": [
+              "ω-automata",
+              "Transformations (ICALP ‘21, TACAS ‘22, MFCS ‘24, TheoretiCS ‘24) Minimisation (CSL ‘21, ICALP ‘22, CSL’25)"
+            ],
+            "eventId": "6"
+          },
+          {
+            "type": "show",
+            "id": "Group_15",
+            "enabled": "enabled",
+            "name": "Strategy complexity (CONCUR ‘22, ICALP ‘23, LICS ‘24, LMCS ‘25) Algorithms (SOSA ‘24, TACAS ‘25)",
+            "merged": true,
+            "keywords": [
+              "Games on graphs",
+              "Strategy complexity (CONCUR ‘22, ICALP ‘23, LICS ‘24, LMCS ‘25) Algorithms (SOSA ‘24, TACAS ‘25)"
+            ],
+            "eventId": "7"
+          },
+          {
+            "type": "show",
+            "id": "Group_17",
+            "enabled": "enabled",
+            "name": "Polyregular functions Communication complesity",
+            "merged": false,
+            "keywords": [
+              "Polyregular functions Communication complexity MSO + Borel quantification",
+              "Transducers and logic",
+              "Polyregular functions Communication complesity"
+            ],
+            "eventId": "8"
+          },
+          {
+            "type": "show",
+            "id": "Group_9",
+            "enabled": "enabled",
+            "name": "CNRS, LIP, Lyon",
+            "merged": false,
+            "keywords": [
+              "CNRS, IRIF",
+              "?",
+              "CNRS, LIP, Lyon"
+            ],
+            "eventId": "3"
+          }
+        ],
+        "keywords": [
+          "Who am I?",
+          "myself"
+        ],
+        "eventId": "1",
+        "originalParams": {
+          "Group_10": {
+            "opacity": 1
+          },
+          "Group_3": {
+            "opacity": 1
+          },
+          "Group_9": {
+            "opacity": 1
+          },
+          "Group_11": {
+            "opacity": 1
+          },
+          "Group_14": {
+            "opacity": 1
+          },
+          "Group_15": {
+            "opacity": 1
+          },
+          "Group_17": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "show",
+        "id": "spongebob_eyes_heart_1",
+        "enabled": "enabled",
+        "name": "spongebob-eyes-heart 1",
+        "merged": false,
+        "keywords": [
+          "spongebob-eyes-heart 1"
+        ],
+        "eventId": "8"
+      },
+      {
+        "type": "show",
+        "id": "Everybody_loves",
+        "enabled": "enabled",
+        "name": "Everybody loves",
+        "merged": true,
+        "keywords": [
+          "Everybody loves"
+        ],
+        "eventId": "9"
+      },
+      {
+        "type": "show",
+        "id": "automata",
+        "enabled": "enabled",
+        "name": "automata",
+        "merged": true,
+        "keywords": [
+          "automata"
+        ],
+        "eventId": "11"
+      },
+      {
+        "type": "show",
+        "id": "Group_18",
+        "enabled": "enabled",
+        "name": "MSO logic",
+        "merged": false,
+        "keywords": [
+          "MSO logic",
+          "Automata"
+        ],
+        "eventId": "14"
+      },
+      {
+        "type": "child",
+        "name": "MSO",
+        "id": "MSO",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "Group_41",
+            "enabled": "enabled",
+            "name": "Group 41",
+            "merged": false,
+            "keywords": [
+              "Satisfiability (SAT) problem over :",
+              "Group 41"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "Group_54",
+            "enabled": "enabled",
+            "name": "Group 54",
+            "merged": false,
+            "keywords": [
+              "Model checking (MC) problem:",
+              "Group 54"
+            ],
+            "eventId": "10"
+          },
+          {
+            "type": "show",
+            "id": "Group_18",
+            "enabled": "enabled",
+            "name": "MSO logic",
+            "merged": false,
+            "keywords": [
+              "MSO Logic = Automata (regular languages)",
+              "MSO logic"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "Group_412",
+            "enabled": "enabled",
+            "name": "Decidability of SAT over finite words",
+            "merged": false,
+            "keywords": [
+              "(Büchi, Elgot, Trakhtenbrot ‘60)",
+              "Finite words",
+              "Decidability of SAT over finite words"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "show",
+            "id": "Group_413",
+            "enabled": "enabled",
+            "name": "Decidability of SAT over infinite words",
+            "merged": false,
+            "keywords": [
+              "(Büchi ‘62)",
+              "Infinite words",
+              "Decidability of SAT over infinite words",
+              "Decidability of MC for"
+            ],
+            "eventId": "5"
+          },
+          {
+            "type": "show",
+            "id": "Group_414",
+            "enabled": "enabled",
+            "name": "Decidability of SAT over trees",
+            "merged": false,
+            "keywords": [
+              "(Rabin ‘69)",
+              "(Infinite) trees",
+              "Decidability of SAT over trees",
+              "Decidability of MC for",
+              "Decidability of MC for the full binary tree"
+            ],
+            "eventId": "6"
+          },
+          {
+            "type": "show",
+            "id": "Group_415",
+            "enabled": "enabled",
+            "name": "Decidability of SAT over graphs of bouded cw",
+            "merged": false,
+            "keywords": [
+              "(Courcelle ‘88, Bojańczyk-Pilipczuk ‘16)",
+              "Graphs of bounded clique-width",
+              "Decidability of SAT over graphs of bounded cw",
+              "FPT Model checking of graphs of bounded cw",
+              "Decidability of SAT over graphs of bouded cw"
+            ],
+            "eventId": "7"
+          },
+          {
+            "type": "show",
+            "id": "Group_416",
+            "enabled": "enabled",
+            "name": "(Engelfriet-Hoogeboom ‘01, Bojańczyk-Kiefer-Lothe ‘19)",
+            "merged": false,
+            "keywords": [
+              "(Engelfriet-Hoogeboom ‘01, Bojańczyk-Kiefer-Lothe ‘19)",
+              "Functions",
+              "Decidability of equivalence for MSO-transductions"
+            ],
+            "eventId": "8"
+          }
+        ],
+        "keywords": [
+          "MSO : First order logic + Quantification over sets",
+          "Text",
+          "MSO"
+        ],
+        "eventId": "7",
+        "originalParams": {
+          "Group_41": {
+            "opacity": 1
+          },
+          "Group_18": {
+            "opacity": 1
+          },
+          "Group_412": {
+            "opacity": 1
+          },
+          "Group_413": {
+            "opacity": 1
+          },
+          "Group_414": {
+            "opacity": 1
+          },
+          "Group_415": {
+            "opacity": 1
+          },
+          "Group_416": {
+            "opacity": 1
+          },
+          "Group_54": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "show",
+        "id": "patrick_eyes_love_1",
+        "enabled": "enabled",
+        "name": "patrick-eyes-love 1",
+        "merged": false,
+        "keywords": [
+          "patrick-eyes-love 1"
+        ],
+        "eventId": "12"
+      },
+      {
+        "type": "show",
+        "id": "DFAs",
+        "enabled": "enabled",
+        "name": "DFAs",
+        "merged": true,
+        "keywords": [
+          "DFAs"
+        ],
+        "eventId": "13"
+      },
+      {
+        "type": "hide",
+        "id": "spongebob_eyes_heart_1",
+        "enabled": "enabled",
+        "name": "spongebob-eyes-heart 1",
+        "merged": true,
+        "keywords": [
+          "spongebob-eyes-heart 1"
+        ],
+        "eventId": "10"
+      },
+      {
+        "type": "hide",
+        "id": "automata",
+        "enabled": "enabled",
+        "name": "automata",
+        "merged": true,
+        "keywords": [
+          "automata"
+        ],
+        "eventId": "14"
+      },
+      {
+        "type": "child",
+        "name": "DFA",
+        "id": "DFA",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "Group_43",
+            "enabled": "enabled",
+            "name": "A minimal, canonical DFA for each regular language",
+            "merged": false,
+            "keywords": [
+              "A minimal, canonical DFA for each regular language"
+            ],
+            "eventId": "5"
+          },
+          {
+            "type": "child",
+            "name": "The canonical DFA",
+            "id": "The_canonical_DFA",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "Group_44",
+                "enabled": "enabled",
+                "name": "L is regular if and only if ∼ has finite index",
+                "merged": false,
+                "keywords": [
+                  "Text 1",
+                  "L is regular if and only if ∼ has finite index"
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "show",
+                "id": "Group_47",
+                "enabled": "enabled",
+                "name": "One state per equivalence class",
+                "merged": false,
+                "keywords": [
+                  "One state per equivalence class",
+                  "Minimal DFA of L:"
+                ],
+                "eventId": "2"
+              }
+            ],
+            "keywords": [
+              "Myhill-Nerode equivalence relation:",
+              "The canonical DFA"
+            ],
+            "eventId": "1",
+            "originalParams": {
+              "Group_44": {
+                "opacity": 1
+              },
+              "Group_47": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "show",
+            "id": "Group_48",
+            "enabled": "enabled",
+            "name": "Minimisation in O(nlogn) (Hopcroft ‘71)",
+            "merged": false,
+            "keywords": [
+              "Minimisation in O(nlogn) (Hopcroft ‘71)"
+            ],
+            "eventId": "6"
+          },
+          {
+            "type": "show",
+            "id": "Group_49",
+            "enabled": "enabled",
+            "name": "Automata learning (Gold ‘67, Angluin ‘87)",
+            "merged": false,
+            "keywords": [
+              "Automata learning",
+              "Automata learning (Gold ‘67, Angluin ‘87)"
+            ],
+            "eventId": "7"
+          },
+          {
+            "type": "child",
+            "name": "Learning",
+            "id": "Learning",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "Group_56",
+                "enabled": "enabled",
+                "name": "Input:",
+                "merged": false,
+                "keywords": [
+                  "Input:"
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "show",
+                "id": "Task_",
+                "enabled": "enabled",
+                "name": "Task:",
+                "merged": false,
+                "keywords": [
+                  "Task:"
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "show",
+                "id": "Group_54",
+                "enabled": "enabled",
+                "name": "Find an automaton accepting and rejecting",
+                "merged": true,
+                "keywords": [
+                  "Find an automaton accepting and rejecting"
+                ],
+                "eventId": "3"
+              },
+              {
+                "type": "hide",
+                "id": "Group_54",
+                "enabled": "enabled",
+                "name": "Find an automaton accepting and rejecting",
+                "merged": false,
+                "keywords": [
+                  "Find an automaton accepting and rejecting"
+                ],
+                "eventId": "4"
+              },
+              {
+                "type": "show",
+                "id": "Group_55",
+                "enabled": "enabled",
+                "name": "Find a reasonable automaton accepting and rejecting",
+                "merged": true,
+                "keywords": [
+                  "Find a reasonable automaton accepting and rejecting"
+                ],
+                "eventId": "6"
+              },
+              {
+                "type": "show",
+                "id": "learning_in_the_limit",
+                "enabled": "enabled",
+                "name": "learning in the limit",
+                "merged": false,
+                "keywords": [
+                  "learning in the limit"
+                ],
+                "eventId": "7"
+              },
+              {
+                "type": "show",
+                "id": "Group_542",
+                "enabled": "enabled",
+                "name": "The RPNI algorithm infers a ‘reasonable’ automaton in PTIME.",
+                "merged": false,
+                "keywords": [
+                  "Theorem",
+                  "(Oncina-García ‘92)",
+                  "The RPNI algorithm infers a ‘reasonable’ automaton in PTIME."
+                ],
+                "eventId": "8"
+              }
+            ],
+            "keywords": [
+              "Passive learning in the limit",
+              "(Gold ‘67)",
+              "Learning"
+            ],
+            "eventId": "2",
+            "originalParams": {
+              "Group_56": {
+                "opacity": 1
+              },
+              "Task_": {
+                "opacity": 1
+              },
+              "Group_54": {
+                "opacity": 1
+              },
+              "Group_55": {
+                "opacity": 1
+              },
+              "learning_in_the_limit": {
+                "opacity": 1
+              },
+              "Group_542": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "child",
+            "name": "active learning",
+            "id": "active_learning",
+            "enabled": "enabled",
+            "merged": true,
+            "children": [
+              {
+                "type": "show",
+                "id": "Group_54",
+                "enabled": "enabled",
+                "name": "Membership queries Equivalence queries + provide polynomial-size counterexample",
+                "merged": false,
+                "keywords": [
+                  "Two types of queries:",
+                  "Membership queries Equivalence queries + teacher provides polynomial-size counterexample",
+                  "Membership queries Equivalence queries + provide polynomial-size counterexample"
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "show",
+                "id": "Group_542",
+                "enabled": "enabled",
+                "name": "The L*-algorithm learns automata in PTIME.",
+                "merged": false,
+                "keywords": [
+                  "Theorem",
+                  "(Angluin ‘87)",
+                  "The L*-algorithm learns the minimal automaton for L in PTIME.",
+                  "The L*-algorithm learns automata in PTIME."
+                ],
+                "eventId": "2"
+              }
+            ],
+            "keywords": [
+              "Active learning",
+              "An oracle (teacher) knows a target language L",
+              "Text",
+              "(Angluin ‘87)",
+              "active learning"
+            ],
+            "eventId": "4",
+            "originalParams": {
+              "Group_54": {
+                "opacity": 1
+              },
+              "Group_542": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "show",
+            "id": "Group_50",
+            "enabled": "enabled",
+            "name": "Decidability of FO-definability (Schützenberger ’65, McNaughton-Papert ’71)",
+            "merged": false,
+            "keywords": [
+              "Decidability of FO-definability",
+              "Decidability of FO-definability (Schützenberger ’65, McNaughton-Papert ’71)"
+            ],
+            "eventId": "8"
+          },
+          {
+            "type": "child",
+            "name": "FO-definability",
+            "id": "FO_definability",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "Group_59",
+                "enabled": "enabled",
+                "name": "L is FO-definable The minimal automaton for L is counter-free L is star-free The syntactic monoid for L is aperiodic",
+                "merged": false,
+                "keywords": [
+                  "Theorem",
+                  "(Schützenberger ’65, McNaughton-Papert ’71)",
+                  "The following are equivalent:",
+                  "L is FO-definable The minimal automaton for L is counter-free L is star-free The syntactic monoid for L is aperiodic"
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "show",
+                "id": "Decidability",
+                "enabled": "enabled",
+                "name": "Decidability",
+                "merged": false,
+                "keywords": [
+                  "Decidability"
+                ],
+                "eventId": "2"
+              }
+            ],
+            "keywords": [
+              "L a regular language (a MSO-formula)",
+              "Input:",
+              "Task:",
+              "Can L be defined by an FO-formula?",
+              "FO-DEFINABILITY",
+              "FO-definability"
+            ],
+            "eventId": "3",
+            "originalParams": {
+              "Group_59": {
+                "opacity": 1
+              },
+              "Decidability": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "show",
+            "id": "spongeBob_rainbow_1",
+            "enabled": "enabled",
+            "name": "spongeBob-rainbow 1",
+            "merged": false,
+            "keywords": [
+              "spongeBob-rainbow 1"
+            ],
+            "eventId": "9"
+          }
+        ],
+        "keywords": [
+          "DFA"
+        ],
+        "eventId": "2",
+        "originalParams": {
+          "Group_43": {
+            "opacity": 1
+          },
+          "Group_48": {
+            "opacity": 1
+          },
+          "Group_49": {
+            "opacity": 1
+          },
+          "Group_50": {
+            "opacity": 1
+          },
+          "spongeBob_rainbow_1": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "show",
+        "id": "Group_23",
+        "enabled": "enabled",
+        "name": "Does not work for other structures",
+        "merged": false,
+        "keywords": [
+          "No such theory for other structures",
+          "Does not work for other structures"
+        ],
+        "eventId": "15"
+      },
+      {
+        "type": "show",
+        "id": "Group_22",
+        "enabled": "enabled",
+        "name": "Find canonical models of automata over richer structures",
+        "merged": false,
+        "keywords": [
+          "CNRS project",
+          "Find canonical models for automata over richer structures",
+          "Find canonical models of automata over richer structures"
+        ],
+        "eventId": "16"
+      },
+      {
+        "type": "show",
+        "id": "Old_question",
+        "enabled": "enabled",
+        "name": "Old question",
+        "merged": false,
+        "keywords": [
+          "Old question"
+        ],
+        "eventId": "21"
+      },
+      {
+        "type": "show",
+        "id": "New_methods_",
+        "enabled": "enabled",
+        "name": "New methods!",
+        "merged": false,
+        "keywords": [
+          "New methods!"
+        ],
+        "eventId": "22"
+      },
+      {
+        "type": "show",
+        "id": "Infinite_words2",
+        "enabled": "enabled",
+        "name": "Infinite words",
+        "merged": false,
+        "keywords": [
+          "Infinite words"
+        ],
+        "eventId": "17"
+      },
+      {
+        "type": "child",
+        "name": "Infinite words",
+        "id": "Infinite_words",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "Group_59",
+            "enabled": "enabled",
+            "name": "Applications in verification and synthesis",
+            "merged": false,
+            "keywords": [
+              "Applications in verification and synthesis"
+            ],
+            "eventId": "6"
+          },
+          {
+            "type": "child",
+            "name": "Parity automata",
+            "id": "Parity_automata",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "Group_119",
+                "enabled": "enabled",
+                "name": "min {priority seen infinitely often} is even",
+                "merged": false,
+                "keywords": [
+                  "Run accepting if",
+                  "min {priority seen infinitely often} is even"
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "show",
+                "id": "L_A____Fin_a__or_Fin_bb_",
+                "enabled": "enabled",
+                "name": "L(A) = Fin(a) or Fin(bb)",
+                "merged": false,
+                "keywords": [
+                  "L(A) = Fin(a) or Fin(bb)"
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "show",
+                "id": "Acceptance_on_transitions_",
+                "enabled": "enabled",
+                "name": "Acceptance on transitions!",
+                "merged": false,
+                "keywords": [
+                  "Acceptance on transitions!"
+                ],
+                "eventId": "3"
+              }
+            ],
+            "keywords": [
+              "b:1",
+              "b,c:2",
+              "b:2",
+              "a,c:2",
+              "a:1",
+              "Parity automata"
+            ],
+            "eventId": "1",
+            "originalParams": {
+              "Group_119": {
+                "opacity": 1
+              },
+              "L_A____Fin_a__or_Fin_bb_": {
+                "opacity": 1
+              },
+              "Acceptance_on_transitions_": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "child",
+            "name": "Residuals",
+            "id": "Residuals",
+            "enabled": "enabled",
+            "merged": true,
+            "children": [
+              {
+                "type": "show",
+                "id": "The_previous_language_has_a_single_equivalence_class",
+                "enabled": "enabled",
+                "name": "This language has a single equivalence class",
+                "merged": false,
+                "keywords": [
+                  "This language has a single equivalence class"
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "show",
+                "id": "NO_CANONICAL_MINIMAL_AUTOMATON_IN_GENERAL",
+                "enabled": "enabled",
+                "name": "NO CANONICAL MINIMAL AUTOMATON IN GENERAL",
+                "merged": false,
+                "keywords": [
+                  "NO CANONICAL MINIMAL AUTOMATON IN GENERAL"
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "show",
+                "id": "Group_542",
+                "enabled": "enabled",
+                "name": "The RPNI algorithm infers a ‘reasonable’ automaton in PTIME.",
+                "merged": false,
+                "keywords": [
+                  "Theorem",
+                  "(Schewe ‘11)",
+                  "The minimisation of deterministic parity automata is NP-complete.",
+                  "The RPNI algorithm infers a ‘reasonable’ automaton in PTIME."
+                ],
+                "eventId": "3"
+              }
+            ],
+            "keywords": [
+              "Myhill-Nerode equivalence relation:",
+              "Residuals"
+            ],
+            "eventId": "2",
+            "originalParams": {
+              "The_previous_language_has_a_single_equivalence_class": {
+                "opacity": 1
+              },
+              "NO_CANONICAL_MINIMAL_AUTOMATON_IN_GENERAL": {
+                "opacity": 1
+              },
+              "Group_542": {
+                "opacity": 1
+              }
+            }
+          }
+        ],
+        "keywords": [
+          "Natural next step after finite words",
+          "Infinite words"
+        ],
+        "eventId": "3",
+        "originalParams": {
+          "Group_59": {
+            "opacity": 1
+          },
+          "Group_70": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "Inf words 2",
+        "id": "Inf_words_22",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "Group_67",
+            "enabled": "enabled",
+            "name": "Minimisation of HD coBuchi automata",
+            "merged": false,
+            "keywords": [
+              "Minimisation of HD coBuchi automata",
+              "(Abu Radi-Kupferman ‘19)"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "child",
+            "name": "Abu Radi - Kupferman",
+            "id": "HD_automata",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "Strict_subclass_of___regular",
+                "enabled": "enabled",
+                "name": "Strict subclass of ω-regular",
+                "merged": false,
+                "keywords": [
+                  "Strict subclass of ω-regular"
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "show",
+                "id": "A_non_deterministic_automaton_is_HD_if_its_non_determinism_can_be_resolved_on_the_fly_",
+                "enabled": "enabled",
+                "name": "A non-deterministic automaton is HD if its non-determinism can be resolved on-the-fly.",
+                "merged": false,
+                "keywords": [
+                  "A non-deterministic automaton is HD if its non-determinism can be resolved on-the-fly."
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "show",
+                "id": "Group_86",
+                "enabled": "enabled",
+                "name": "L(A) = Fin(a) or Fin(bb)",
+                "merged": false,
+                "keywords": [
+                  "a:2",
+                  "a,b:1",
+                  "L(A) = Fin(a) or Fin(bb)"
+                ],
+                "eventId": "3"
+              },
+              {
+                "type": "show",
+                "id": "Not_HD",
+                "enabled": "enabled",
+                "name": "Not HD",
+                "merged": false,
+                "keywords": [
+                  "Not HD"
+                ],
+                "eventId": "4"
+              },
+              {
+                "type": "show",
+                "id": "Group_862",
+                "enabled": "enabled",
+                "name": "L(A) = Fin(a) or Fin(bb)",
+                "merged": false,
+                "keywords": [
+                  "b,c:2",
+                  "a,c",
+                  "b,c",
+                  "a,c:2",
+                  "b:1",
+                  "a:1",
+                  "L(A) = Fin(a) or Fin(bb)"
+                ],
+                "eventId": "5"
+              },
+              {
+                "type": "show",
+                "id": "Group_863",
+                "enabled": "enabled",
+                "name": "It is HD!",
+                "merged": false,
+                "keywords": [
+                  "It is HD!"
+                ],
+                "eventId": "6"
+              },
+              {
+                "type": "show",
+                "id": "Group_60",
+                "enabled": "enabled",
+                "name": "History-determinism is the key property necessary in applications to verification HD = Good-for-games = “Good for synthesis and verification”",
+                "merged": false,
+                "keywords": [
+                  "History-determinism is the key property necessary in applications to verification HD = Good-for-games = “Good for synthesis and verification”"
+                ],
+                "eventId": "7"
+              }
+            ],
+            "keywords": [
+              "Theorem",
+              "(Abu Radi-Kupferman ‘19)",
+              "History-deterministic (HD) automata using priorities [1,2] (coBüchi) admit minimal, canonical automata, constructible in PTIME.",
+              "Abu Radi - Kupferman"
+            ],
+            "eventId": "1",
+            "originalParams": {
+              "Strict_subclass_of___regular": {
+                "opacity": 1
+              },
+              "A_non_deterministic_automaton_is_HD_if_its_non_determinism_can_be_resolved_on_the_fly_": {
+                "opacity": 1
+              },
+              "Group_86": {
+                "opacity": 1
+              },
+              "Not_HD": {
+                "opacity": 1
+              },
+              "Group_862": {
+                "opacity": 1
+              },
+              "Group_863": {
+                "opacity": 1
+              },
+              "Group_60": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "show",
+            "id": "Group_68",
+            "enabled": "enabled",
+            "name": "Layered decomposition of automata",
+            "merged": false,
+            "keywords": [
+              "Layered decomposition of automata",
+              "(C.-Ohlmann ‘24)"
+            ],
+            "eventId": "5"
+          },
+          {
+            "type": "child",
+            "name": "LICS 2024",
+            "id": "LICS_2024",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "game_theoretic_concept",
+                "enabled": "enabled",
+                "name": "game-theoretic concept",
+                "merged": false,
+                "keywords": [
+                  "game-theoretic concept"
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "show",
+                "id": "prior_to_this_work__even_decidability_was_open_",
+                "enabled": "enabled",
+                "name": "prior to this work, even decidability was open!",
+                "merged": false,
+                "keywords": [
+                  "prior to this work, even decidability was open!"
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "show",
+                "id": "Group_78",
+                "enabled": "enabled",
+                "name": "Under the assumption that L is positional, we prove that it admits a minimal, canonical deterministic parity automaton, constructible in PTIME.",
+                "merged": false,
+                "keywords": [
+                  "Main Technical Contribution",
+                  "Under the assumption that L is positional, we prove that it admits a minimal, canonical deterministic parity automaton, constructible in PTIME."
+                ],
+                "eventId": "3"
+              },
+              {
+                "type": "show",
+                "id": "Group_79",
+                "enabled": "enabled",
+                "name": "Layered decomposition of automata",
+                "merged": false,
+                "keywords": [
+                  "For [1,2]-automata",
+                  "Generalisation",
+                  "Abu Radi-Kupferman automaton",
+                  "Layered decomposition of automata"
+                ],
+                "eventId": "4"
+              }
+            ],
+            "keywords": [
+              "Theorem",
+              "(C. -Ohlmann ‘24)",
+              "It is decidable in PTIME whether an ω-regular language is positional.",
+              "LICS 2024"
+            ],
+            "eventId": "2",
+            "originalParams": {
+              "game_theoretic_concept": {
+                "opacity": 1
+              },
+              "prior_to_this_work__even_decidability_was_open_": {
+                "opacity": 1
+              },
+              "Group_78": {
+                "opacity": 1
+              },
+              "Group_79": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "show",
+            "id": "Group_89",
+            "enabled": "enabled",
+            "name": "Generalise to all ω-regular languages:",
+            "merged": false,
+            "keywords": [
+              "HD alternating parity automata",
+              "Generalise to all ω-regular languages:"
+            ],
+            "eventId": "6"
+          },
+          {
+            "type": "child",
+            "name": "Alternating HD automata",
+            "id": "Alternating_HD_automata",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "Group_83",
+                "enabled": "enabled",
+                "name": "We accept if all runs are accepting",
+                "merged": false,
+                "keywords": [
+                  "Universal:",
+                  "We accept if all runs are accepting"
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "show",
+                "id": "Group_84",
+                "enabled": "enabled",
+                "name": "We accept if the existential player wins this game",
+                "merged": false,
+                "keywords": [
+                  "Alternating:",
+                  "It induces a game in the automaton",
+                  "We accept if the existential player wins this game",
+                  "Transitions are of the form"
+                ],
+                "eventId": "3"
+              },
+              {
+                "type": "show",
+                "id": "Group_88",
+                "enabled": "enabled",
+                "name": "History-determinism naturally extends to the alternating setting (Colcombet ‘09, Boker-Lehtinen ‘19)",
+                "merged": false,
+                "keywords": [
+                  "HD + alternation are the minimal hypothesis for efficient applications",
+                  "History-determinism naturally extends to the alternating setting (Colcombet ‘09, Boker-Lehtinen ‘19)"
+                ],
+                "eventId": "5"
+              }
+            ],
+            "keywords": [
+              "Non-deterministic:",
+              "We accept if there exists an accepting run",
+              "Alternating HD automata"
+            ],
+            "eventId": "3",
+            "originalParams": {
+              "Group_83": {
+                "opacity": 1
+              },
+              "Group_84": {
+                "opacity": 1
+              },
+              "Group_88": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "show",
+            "id": "Group_862",
+            "enabled": "enabled",
+            "name": "Congruence- and semigroup-based characterisations",
+            "merged": false,
+            "keywords": [
+              "Main Goal",
+              "Minimisation of HD alternating automata in PTIME",
+              "Congruence- and semigroup-based characterisations"
+            ],
+            "eventId": "7"
+          },
+          {
+            "type": "show",
+            "id": "Group_72",
+            "enabled": "enabled",
+            "name": "Passive and active learning in PTIME",
+            "merged": false,
+            "keywords": [
+              "Passive and active learning in PTIME"
+            ],
+            "eventId": "8"
+          },
+          {
+            "type": "show",
+            "id": "Group_71",
+            "enabled": "enabled",
+            "name": "New characterisation of FO-decidability",
+            "merged": false,
+            "keywords": [
+              "New characterisation of FO-decidability"
+            ],
+            "eventId": "9"
+          },
+          {
+            "type": "show",
+            "id": "Group_70",
+            "enabled": "enabled",
+            "name": "Optimised transformations from logic to automata, boolean operations...",
+            "merged": false,
+            "keywords": [
+              "Optimised transformations from logic to automata, boolean operations..."
+            ],
+            "eventId": "10"
+          }
+        ],
+        "keywords": [
+          "Two breakthroughs",
+          "Text 2",
+          "Inf words 2"
+        ],
+        "eventId": "23",
+        "originalParams": {
+          "Group_67": {
+            "opacity": 1
+          },
+          "Group_68": {
+            "opacity": 1
+          },
+          "Group_89": {
+            "opacity": 1
+          },
+          "Group_862": {
+            "opacity": 1
+          },
+          "Group_72": {
+            "opacity": 1
+          },
+          "Group_71": {
+            "opacity": 1
+          },
+          "Group_70": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "show",
+        "id": "Functions",
+        "enabled": "enabled",
+        "name": "Functions",
+        "merged": false,
+        "keywords": [
+          "Functions"
+        ],
+        "eventId": "18"
+      },
+      {
+        "type": "child",
+        "name": "Transducers",
+        "id": "Transducers",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "MSO_transductions",
+            "enabled": "enabled",
+            "name": "MSO-transductions",
+            "merged": false,
+            "keywords": [
+              "MSO-transductions"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "child",
+            "name": "transductions",
+            "id": "transductions",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "Group_99",
+                "enabled": "enabled",
+                "name": "Copyless streaming string transducers",
+                "merged": false,
+                "keywords": [
+                  "2-way DFA with outputs",
+                  "Copyless streaming string transducers",
+                  "Equivalent to"
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "show",
+                "id": "_LIN__REGULAR_FUNCTIONS",
+                "enabled": "enabled",
+                "name": "(LIN-)REGULAR FUNCTIONS",
+                "merged": false,
+                "keywords": [
+                  "(LIN-)REGULAR FUNCTIONS"
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "show",
+                "id": "None_admits_a_canonical_model",
+                "enabled": "enabled",
+                "name": "None admits a canonical model",
+                "merged": false,
+                "keywords": [
+                  "None admits a canonical model"
+                ],
+                "eventId": "3"
+              },
+              {
+                "type": "show",
+                "id": "Group_96",
+                "enabled": "enabled",
+                "name": "Decidability of FO-definability for regular functions.",
+                "merged": false,
+                "keywords": [
+                  "Open Question",
+                  "Decidability of FO-definability for regular functions."
+                ],
+                "eventId": "4"
+              }
+            ],
+            "keywords": [
+              "A universe formula A letter formula for An order formula",
+              "transductions"
+            ],
+            "eventId": "1",
+            "originalParams": {
+              "Group_99": {
+                "opacity": 1
+              },
+              "_LIN__REGULAR_FUNCTIONS": {
+                "opacity": 1
+              },
+              "None_admits_a_canonical_model": {
+                "opacity": 1
+              },
+              "Group_96": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "show",
+            "id": "MSO_interpretations",
+            "enabled": "enabled",
+            "name": "MSO-interpretations",
+            "merged": false,
+            "keywords": [
+              "MSO-interpretations"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "child",
+            "name": "interpretations",
+            "id": "interpretations",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "Polynomial_size_output",
+                "enabled": "enabled",
+                "name": "Polynomial-size output",
+                "merged": false,
+                "keywords": [
+                  "Polynomial-size output"
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "show",
+                "id": "Group_99",
+                "enabled": "enabled",
+                "name": "Pebble transducers",
+                "merged": false,
+                "keywords": [
+                  "Pebble transducers",
+                  "λ-calculus",
+                  "For transducers",
+                  "Equivalent to"
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "show",
+                "id": "POLYREGULAR_FUNCTIONS",
+                "enabled": "enabled",
+                "name": "POLYREGULAR FUNCTIONS",
+                "merged": false,
+                "keywords": [
+                  "POLYREGULAR FUNCTIONS"
+                ],
+                "eventId": "3"
+              },
+              {
+                "type": "show",
+                "id": "Group_98",
+                "enabled": "enabled",
+                "name": "Decidability of equivalence for polyregular functions.",
+                "merged": false,
+                "keywords": [
+                  "Decidability of equivalence for polyregular functions.",
+                  "Open Question"
+                ],
+                "eventId": "4"
+              }
+            ],
+            "keywords": [
+              "A universe formula A letter formula for An order formula",
+              "interpretations"
+            ],
+            "eventId": "2",
+            "originalParams": {
+              "Polynomial_size_output": {
+                "opacity": 1
+              },
+              "Group_99": {
+                "opacity": 1
+              },
+              "POLYREGULAR_FUNCTIONS": {
+                "opacity": 1
+              },
+              "Group_98": {
+                "opacity": 1
+              }
+            }
+          }
+        ],
+        "keywords": [
+          "Text 3",
+          "Logical/automata formalisms to define functions",
+          "Transducers"
+        ],
+        "eventId": "6",
+        "originalParams": {
+          "MSO_transductions": {
+            "opacity": 1
+          },
+          "MSO_interpretations": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "show",
+        "id": "Trees",
+        "enabled": "enabled",
+        "name": "Trees",
+        "merged": false,
+        "keywords": [
+          "Trees"
+        ],
+        "eventId": "19"
+      },
+      {
+        "type": "child",
+        "name": "Trees",
+        "id": "Trees_and_graphs",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "New_algebraic_tools_needed",
+            "enabled": "enabled",
+            "name": "New algebraic tools needed",
+            "merged": false,
+            "keywords": [
+              "New algebraic tools needed"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "Hierarchies_of_languages",
+            "enabled": "enabled",
+            "name": "Hierarchies of languages (Mostowski index)",
+            "merged": false,
+            "keywords": [
+              "Hierarchies of languages (Mostowski index)"
+            ],
+            "eventId": "5"
+          }
+        ],
+        "keywords": [
+          "Open Question",
+          "Decidability of FO-definability for regular tree-languages.",
+          "Trees"
+        ],
+        "eventId": "4",
+        "originalParams": {
+          "New_algebraic_tools_needed": {
+            "opacity": 1
+          },
+          "Hierarchies_of_languages": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "Hierarchies",
+        "id": "Hierarchies",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "Over___words",
+            "enabled": "enabled",
+            "name": "Over ω-words",
+            "merged": false,
+            "keywords": [
+              "Over ω-words"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "Group_99",
+            "enabled": "enabled",
+            "name": "#Priorities of a det. parity automaton for L. #Fixpoint alternation of a μ-calculus formula for L. Level in the difference and Wadge hierarchies over (topological complexity).",
+            "merged": false,
+            "keywords": [
+              "Theorem",
+              "(Wagner ‘79, Emerson-Jutla ‘91)",
+              "Let L be an ω-regular language. The following are equivalent (Mostowski index):",
+              "#Priorities of a det. parity automaton for L. #Fixpoint alternation of a μ-calculus formula for L. Level in the difference hierarchy over (topological complexity).",
+              "#Priorities of a det. parity automaton for L. #Fixpoint alternation of a μ-calculus formula for L. Level in the difference and Wadge hierarchies over (topological complexity)."
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "Decidable__canonical_labeling_of_parity_automata_",
+            "enabled": "enabled",
+            "name": "Decidable (canonical labeling of parity automata)",
+            "merged": false,
+            "keywords": [
+              "Decidable (canonical labeling of parity automata)"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "Over_infinite_trees",
+            "enabled": "enabled",
+            "name": "Over infinite trees",
+            "merged": false,
+            "keywords": [
+              "Over infinite trees"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "show",
+            "id": "Group_992",
+            "enabled": "enabled",
+            "name": "ND hierarchy μ-calculus without negation",
+            "merged": false,
+            "keywords": [
+              "Two different hierarchies",
+              "ND hierarchy μ-calculus without negation",
+              "Alternating hierarchy μ-calculus"
+            ],
+            "eventId": "5"
+          },
+          {
+            "type": "show",
+            "id": "Group_96",
+            "enabled": "enabled",
+            "name": "Decidability of FO-definability for regular functions.",
+            "merged": false,
+            "keywords": [
+              "Open Question",
+              "Decidability of the level in the ND and alternating hierarchies.",
+              "Decidability of FO-definability for regular functions."
+            ],
+            "eventId": "6"
+          },
+          {
+            "type": "show",
+            "id": "Decidability_of_FO_definability_for_regular_functions_",
+            "enabled": "enabled",
+            "name": "Decidability of FO-definability for regular functions.",
+            "merged": false,
+            "keywords": [
+              "Goal",
+              "Clarify the connections with topological complexity of languages of infinite trees.",
+              "Decidability of FO-definability for regular functions."
+            ],
+            "eventId": "7"
+          }
+        ],
+        "keywords": [
+          "Hierarchies"
+        ],
+        "eventId": "24",
+        "originalParams": {
+          "Over___words": {
+            "opacity": 1
+          },
+          "Group_99": {
+            "opacity": 1
+          },
+          "Decidable__canonical_labeling_of_parity_automata_": {
+            "opacity": 1
+          },
+          "Over_infinite_trees": {
+            "opacity": 1
+          },
+          "Group_992": {
+            "opacity": 1
+          },
+          "Group_96": {
+            "opacity": 1
+          },
+          "Decidability_of_FO_definability_for_regular_functions_": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "show",
+        "id": "Graphs2",
+        "enabled": "enabled",
+        "name": "Graphs",
+        "merged": false,
+        "keywords": [
+          "Graphs"
+        ],
+        "eventId": "20"
+      },
+      {
+        "type": "child",
+        "name": "Graphs",
+        "id": "Graphs",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "Can_be_proven_with__automata__methods",
+            "enabled": "enabled",
+            "name": "Can be proven with “automata” methods",
+            "merged": false,
+            "keywords": [
+              "Can be proven with “automata” methods"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "Group_59",
+            "enabled": "enabled",
+            "name": "L is FO-definable The minimal automaton for L is counter-free L is star-free The syntactic monoid for L is aperiodic",
+            "merged": false,
+            "keywords": [
+              "Theorem",
+              "(Trakhtenbrot ‘50)",
+              "Satisfiability of MSO (and even FO!) over all graphs is undecidable.",
+              "L is FO-definable The minimal automaton for L is counter-free L is star-free The syntactic monoid for L is aperiodic"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "Decidability_of_FO_definability_for_regular_functions_2",
+            "enabled": "enabled",
+            "name": "Decidability of FO-definability for regular functions.",
+            "merged": false,
+            "keywords": [
+              "Open Question (Seese’s conjecture)",
+              "Satisfiability of MSO is undecidable on any class of graphs of unbounded clique-width.",
+              "Decidability of FO-definability for regular functions."
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "Group_100",
+            "enabled": "enabled",
+            "name": "Recently, huge advances in FO-model checking and tractable graph classes",
+            "merged": false,
+            "keywords": [
+              "Recently, huge advances in FO-model checking and tractable graph classes"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "show",
+            "id": "Group_99",
+            "enabled": "enabled",
+            "name": "Understand the limits of decidability for FO-satisfiability and other intermediate logics.",
+            "merged": false,
+            "keywords": [
+              "Research Direction",
+              "Understand the limits of FPT model checking for logics between FO and MSO.",
+              "Understand the limits of decidability for FO-satisfiability and other intermediate logics."
+            ],
+            "eventId": "5"
+          }
+        ],
+        "keywords": [
+          "Theorem",
+          "(Courcelle ‘88, ‘90)",
+          "Satisfiability of MSO over graphs of bounded clique-width is decidable.",
+          "Model checking of MSO over graphs of bounded clique-width is FPT.",
+          "Graphs"
+        ],
+        "eventId": "5",
+        "originalParams": {
+          "Can_be_proven_with__automata__methods": {
+            "opacity": 1
+          },
+          "Group_59": {
+            "opacity": 1
+          },
+          "Decidability_of_FO_definability_for_regular_functions_2": {
+            "opacity": 1
+          },
+          "Group_100": {
+            "opacity": 1
+          },
+          "Group_99": {
+            "opacity": 1
+          }
+        }
+      }
+    ],
+    "keywords": [
+      "Antonio Casares ⋅ University of Warsaw",
+      "Canonical Models of Automata",
+      "main"
+    ],
+    "eventId": "root",
+    "originalParams": {
+      "spongebob_eyes_heart_1": {
+        "opacity": 1
+      },
+      "Everybody_loves": {
+        "opacity": 1
+      },
+      "automata": {
+        "opacity": 1
+      },
+      "patrick_eyes_love_1": {
+        "opacity": 1
+      },
+      "DFAs": {
+        "opacity": 1
+      },
+      "Group_18": {
+        "opacity": 1
+      },
+      "Group_23": {
+        "opacity": 1
+      },
+      "Group_22": {
+        "opacity": 1
+      },
+      "Infinite_words2": {
+        "opacity": 1
+      },
+      "Functions": {
+        "opacity": 1
+      },
+      "Trees": {
+        "opacity": 1
+      },
+      "Graphs2": {
+        "opacity": 1
+      },
+      "Old_question": {
+        "opacity": 1
+      },
+      "New_methods_": {
+        "opacity": 1
+      }
+    }
+  },
+  "treeTimeLine": [],
+  "chronicleTimeLine": []
+}

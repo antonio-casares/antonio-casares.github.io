@@ -1369,6 +1369,107 @@
         "children": [
           {
             "type": "show",
+            "id": "MSO_interpretations",
+            "enabled": "enabled",
+            "name": "MSO-interpretations",
+            "merged": false,
+            "keywords": [
+              "MSO-interpretations"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "child",
+            "name": "interpretations",
+            "id": "interpretations",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "Group_99",
+                "enabled": "enabled",
+                "name": "Pebble transducers",
+                "merged": false,
+                "keywords": [
+                  "Pebble transducers",
+                  "λ-calculus",
+                  "For transducers",
+                  "Equivalent to"
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "show",
+                "id": "None_admits_a_canonical_model",
+                "enabled": "enabled",
+                "name": "None admits a canonical model",
+                "merged": false,
+                "keywords": [
+                  "None admits a canonical model"
+                ],
+                "eventId": "5"
+              },
+              {
+                "type": "show",
+                "id": "Polynomial_size_output",
+                "enabled": "enabled",
+                "name": "Polynomial-size output",
+                "merged": false,
+                "keywords": [
+                  "Polynomial-size output"
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "show",
+                "id": "POLYREGULAR_FUNCTIONS",
+                "enabled": "enabled",
+                "name": "POLYREGULAR FUNCTIONS",
+                "merged": false,
+                "keywords": [
+                  "POLYREGULAR FUNCTIONS"
+                ],
+                "eventId": "3"
+              },
+              {
+                "type": "show",
+                "id": "Group_98",
+                "enabled": "enabled",
+                "name": "Decidability of equivalence for polyregular functions.",
+                "merged": false,
+                "keywords": [
+                  "Decidability of equivalence for polyregular functions.",
+                  "Open Question"
+                ],
+                "eventId": "4"
+              }
+            ],
+            "keywords": [
+              "A universe formula A letter formula for An order formula",
+              "interpretations"
+            ],
+            "eventId": "2",
+            "originalParams": {
+              "Polynomial_size_output": {
+                "opacity": 1
+              },
+              "Group_99": {
+                "opacity": 1
+              },
+              "POLYREGULAR_FUNCTIONS": {
+                "opacity": 1
+              },
+              "Group_98": {
+                "opacity": 1
+              },
+              "None_admits_a_canonical_model": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "show",
             "id": "MSO_transductions",
             "enabled": "enabled",
             "name": "MSO-transductions",
@@ -1385,6 +1486,17 @@
             "enabled": "enabled",
             "merged": false,
             "children": [
+              {
+                "type": "show",
+                "id": "Polynomial_size_output",
+                "enabled": "enabled",
+                "name": "Polynomial-size output",
+                "merged": false,
+                "keywords": [
+                  "Polynomial-size output"
+                ],
+                "eventId": "5"
+              },
               {
                 "type": "show",
                 "id": "Group_99",
@@ -1450,92 +1562,8 @@
               },
               "Group_96": {
                 "opacity": 1
-              }
-            }
-          },
-          {
-            "type": "show",
-            "id": "MSO_interpretations",
-            "enabled": "enabled",
-            "name": "MSO-interpretations",
-            "merged": false,
-            "keywords": [
-              "MSO-interpretations"
-            ],
-            "eventId": "4"
-          },
-          {
-            "type": "child",
-            "name": "interpretations",
-            "id": "interpretations",
-            "enabled": "enabled",
-            "merged": false,
-            "children": [
-              {
-                "type": "show",
-                "id": "Polynomial_size_output",
-                "enabled": "enabled",
-                "name": "Polynomial-size output",
-                "merged": false,
-                "keywords": [
-                  "Polynomial-size output"
-                ],
-                "eventId": "1"
               },
-              {
-                "type": "show",
-                "id": "Group_99",
-                "enabled": "enabled",
-                "name": "Pebble transducers",
-                "merged": false,
-                "keywords": [
-                  "Pebble transducers",
-                  "λ-calculus",
-                  "For transducers",
-                  "Equivalent to"
-                ],
-                "eventId": "2"
-              },
-              {
-                "type": "show",
-                "id": "POLYREGULAR_FUNCTIONS",
-                "enabled": "enabled",
-                "name": "POLYREGULAR FUNCTIONS",
-                "merged": false,
-                "keywords": [
-                  "POLYREGULAR FUNCTIONS"
-                ],
-                "eventId": "3"
-              },
-              {
-                "type": "show",
-                "id": "Group_98",
-                "enabled": "enabled",
-                "name": "Decidability of equivalence for polyregular functions.",
-                "merged": false,
-                "keywords": [
-                  "Decidability of equivalence for polyregular functions.",
-                  "Open Question"
-                ],
-                "eventId": "4"
-              }
-            ],
-            "keywords": [
-              "A universe formula A letter formula for An order formula",
-              "interpretations"
-            ],
-            "eventId": "2",
-            "originalParams": {
               "Polynomial_size_output": {
-                "opacity": 1
-              },
-              "Group_99": {
-                "opacity": 1
-              },
-              "POLYREGULAR_FUNCTIONS": {
-                "opacity": 1
-              },
-              "Group_98": {
                 "opacity": 1
               }
             }

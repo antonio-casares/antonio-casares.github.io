@@ -83,7 +83,7 @@
             "merged": false,
             "keywords": [
               "5",
-              "3",
+              "2",
               "0"
             ],
             "eventId": "6"
@@ -526,17 +526,6 @@
         "children": [
           {
             "type": "show",
-            "id": "Group_26",
-            "enabled": "enabled",
-            "name": "Potential:",
-            "merged": false,
-            "keywords": [
-              "Potential:"
-            ],
-            "eventId": "1"
-          },
-          {
-            "type": "show",
             "id": "Idea___Under_approximation_of_the_energy_values",
             "enabled": "enabled",
             "name": "Idea: (Under)approximation of the energy values",
@@ -577,6 +566,7 @@
           }
         ],
         "keywords": [
+          "Potential:",
           "Text 1",
           "Potential Reductions"
         ],
@@ -589,9 +579,6 @@
             "opacity": 1
           },
           "Group_262": {
-            "opacity": 1
-          },
-          "_mathcal_G___phi": {
             "opacity": 1
           },
           "Group_263": {
@@ -719,19 +706,6 @@
         "children": [
           {
             "type": "show",
-            "id": "Group_68",
-            "enabled": "enabled",
-            "name": "The -FVI algorithm terminates and returns the function",
-            "merged": false,
-            "keywords": [
-              "Theorem",
-              "(Under mild hypothesis on )",
-              "The -FVI algorithm terminates and returns the function"
-            ],
-            "eventId": "1"
-          },
-          {
-            "type": "show",
             "id": "Free_correctness_and_termination_for_plenty_of_algorithms__",
             "enabled": "enabled",
             "name": "Free correctness and termination for plenty of algorithms!!",
@@ -811,13 +785,13 @@
         ],
         "keywords": [
           "Text",
+          "Theorem",
+          "(Under mild hypothesis on )",
+          "The -FVI algorithm terminates and returns the function",
           "FVI Theorem"
         ],
         "eventId": "15",
         "originalParams": {
-          "Group_68": {
-            "opacity": 1
-          },
           "Free_correctness_and_termination_for_plenty_of_algorithms__": {
             "opacity": 1
           },

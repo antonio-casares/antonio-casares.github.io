@@ -1,0 +1,495 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2015 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper,roman]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+
+
+% moderncv themes
+\moderncvstyle{classic}                             % style options are 'casual' (default), 'classic', 'banking', 'oldstyle' and 'fancy'
+\moderncvcolor{red}                               % color options 'black', 'blue' (default), 'burgundy', 'green', 'grey', 'orange', 'purple' and 'red'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.753]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\name{Antonio}{Casares}
+\title{Postdoctoral Researcher in Theoretical Computer Science}                               % optional, remove / comment the line if not wanted
+%\address{335, Route de Toulouse}{Villenave d'Ornon, 33140}{France}% optional, remove / comment the line if not wanted; the "postcode city" and "country" arguments can be omitted or provided empty
+\phone[mobile]{+34~645~45~55~83}                   % optional, remove / comment the line if not wanted; the optional "type" of the phone can be "mobile" (default), "fixed" or "fax"
+%\phone[fixed]{+2~(345)~678~901}
+%\phone[fax]{+3~(456)~789~012}
+\email{antoniocasaressantos@gmail.com}                               % optional, remove / comment the line if not wanted
+\homepage{antonio-casares.github.io/}                         % optional, remove / comment the line if not wanted
+%\social[linkedin]{john.doe}                        % optional, remove / comment the line if not wanted
+%\social[twitter]{jdoe}                             % optional, remove / comment the line if not wanted
+%\social[github]{Acas4}                              % optional, remove / comment the line if not wanted
+\extrainfo{Birth date: 11 April 1997}                 % optional, remove / comment the line if not wanted
+%\photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%\quote{Some quote}                                 % optional, remove / comment the line if not wanted
+
+% bibliography adjustements (only useful if you make citations in your resume, or print a list of publications using BibTeX)
+%   to show numerical labels in the bibliography (default is to show no labels)
+\makeatletter\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}\makeatother
+%   to redefine the bibliography heading string ("Publications")
+%\renewcommand{\refname}{Articles}
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+
+
+
+%MODIFICATIONS ANTONIO CASARES
+\newcommand*{\cventrytwo}[7][.25em]{%
+	\cvitem[#1]{#2}{%
+		{\bfseries#3 \newline}%
+		%   \ifthenelse{\equal{#4}{}}{}{, {\slshape#4}}% I changed this line (with comma) ...
+		\ifthenelse{\equal{#4}{}}{}{ {\slshape#4}}% ... into this one (without comma).
+		\ifthenelse{\equal{#5}{}}{}{, #5}%
+		\ifthenelse{\equal{#6}{}}{}{, #6}%
+		.\strut%
+		\ifx&#7&%
+		\else{\newline{}\begin{minipage}[t]{\linewidth}\small#7\end{minipage}}\fi}}
+	
+\usepackage{xpatch}% http://ctan.org/pkg/xpatch
+% \xpatchcmd{<cmd>}{<search>}{<replace>}{<success>}{<failure>}
+\xpatchcmd{\cvitem}{\raggedleft\hintstyle{#2}}{\raggedright\hintstyle{#2}}{}{}
+
+%\usepackage{hyperref}
+\usepackage{url}
+
+\begin{document}
+\hypersetup{hidelinks,breaklinks, hypertexnames=false}
+
+	%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+	%-----       resume       ---------------------------------------------------------
+	\makecvtitle
+
+	\textit{Last update: February 2025}
+	\section{Research Experience}
+	%\cvitem{title}{\emph{Title}}
+	%\cvitem{supervisors}{Supervisors}
+	%\cvitem{description}{Short thesis abstract}
+	\cventry{Dec 2023 -- Now}{PostDoc}{University of Warsaw}{\textit{(Poland)}}{}{
+		Project: \textit{Polynomial Finite State Computation.}\\
+		Supervisor: Mikołaj Bojańczyk.} %(University of Warsaw).}
+	
+	\cventry{Oct 2020 -- Nov 2023}{PhD Thesis}{LaBRI, Université de Bordeaux}{\textit{(France)}}{}{
+		Title: \textit{Structural properties of automata over infinite words and memory for games.}\\
+		Supervisors: Nathanaël Fijalkow and Igor Walukiewicz.\\
+		PhD Thesis Award ``Science and Technology'' from the University of Bordeaux.}
+	
+	\cventry{April 2020 -- July 2020}{Master Thesis}{IRIF, Université de Paris}{\textit{(France)}}{}{
+		Title: \textit{Optimal transformations of Muller conditions}.\\
+		Supervisors: Thomas Colcombet and Nathanaël Fijalkow.}
+	
+	\cventry{Sept 2018 -- July 2019}{Bachelor Thesis}{Universidad de Valladolid}{\textit{(Spain)}}{}{
+		Title: \textit{Valuations, Hardy fields and o-minimal structures}.\\
+		Supervisor: Fernando Sanz Sánchez.}
+	
+	\section{Education}
+	%\cventry{year--year}{Degree}{Institution}{City}{\textit{Grade}}{Description}  % arguments 3 to 6 can be left empty
+	
+	\cventry{2019 -- 2020}{Master in Mathematical Logic and Foundations of Computer Science}{Université de Paris}{\textit{(France)}}{\textit{Average grade: 19.26/20}}{Supported by the Fondation Sciences Mathématiques de Paris.}
+	
+	\cventry{2015 -- 2019}{Bachelor in Mathematics}{Universidad de Valladolid}{\textit{(Spain)}}{Average grade: 8.88/10}{Premio Extraordinario Fin de Grado (Special award for the best student record).}
+	
+	\cventry{2018 -- 2019}{Erasmus exchange program}{Université de Versailles}{\textit{(France)}}{Average grade: 18.74/20}{Courses of the first year of master on algebra and cryptography.}
+	
+	%\section{Experience}
+	%\subsection{Vocational}
+	%\cventry{year--year}{Job title}{Employer}{City}{}{General description no longer than 1--2 lines.\newline{}%
+	%%Detailed achievements:%
+	%\begin{itemize}%
+	%\item Achievement 1;
+	%  \begin{itemize}%
+	%  \item Sub-achievement (b), with sub-sub-achievements (don't do this!);
+	%    \begin{itemize}
+	%    \item Sub-sub-achievement i;
+	%    \end{itemize}
+	%  \end{itemize}
+	%%\item Achievement 3.
+	%\end{itemize}}
+	%\subsection{Miscellaneous}
+	%\cventry{year--year}{Job title}{Employer}{City}{}{Description}
+	
+	\section{Publications}
+
+	\subsection{Book chapters}
+
+	\cventry{To appear}{Positionality and Memory}{in ``Games on Graphs'' (Cambridge University Press)}{with Pierre Ohlmann and Pierre Vandenhove}{edited by Nathanaël Fijalkow}{\url{https://antonio-casares.github.io/Publications/ChapterMemory.pdf}}
+
+	\newpage
+
+	\subsection{Journals}
+	\cventry{TheoretiCS 2024}{From Muller to Parity and Rabin Automata: Optimal Transformations Preserving (History) Determinism}{}{}{with Thomas Colcombet, Nathanaël Fijalkow and Karoliina Lehtinen}{\url{https://theoretics.episciences.org/11336}}
+	
+	\cventry{LMCS 2024}{Half-Positional Objectives Recognized by Deterministic Büchi Automata}{}{}{with Patricia Bouyer, Mickael Randour and Pierre Vandenhove}{\url{https://lmcs.episciences.org/14130}}
+
+	\cventry{LMCS - Accepted for publication}{Characterising Memory in Infinite Games}{}{}{with Pierre Ohlmann}{\url{https://arxiv.org/abs/2209.12044}}
+
+	
+	\subsection{Journal papers under review}
+	\cventry{Summited to TheoretiCS}{Positional $\omega$-regular languages}{}{}{with Pierre Ohlmann}{\url{https://arxiv.org/abs/2401.15384}}
+
+	\cventry{Set to be summited to LMCS}{Infinite
+	lexicographic products of positional objectives}{}{}{with Pierre Ohlmann, Micha{\l} Skrzypczak and Igor Walukiewicz}{\url{https://antonio-casares.github.io/Publications/COSW25Lexico.pdf}}
+
+	\vspace{3mm}
+
+	\subsection{Conference papers under review}
+	\cventry{Summited to ICALP 2025}{The memory of $\omega$-regular and $\mathrm{BC}(\Sigma_2^0)$ objectives}{}{}{with Pierre Ohlmann}{\url{https://antonio-casares.github.io/Publications/CO25-Arxiv-TheMemoryBCSigma2}}
+
+	\vspace{3mm}
+	
+	\subsection{Peer-reviewed international conferences}
+	
+	\cventry{CSL 2025}{On the Minimisation of Deterministic and History-Deterministic Generalised (co)Büchi Automata}{}{}{with Olivier Idir, Denis Kuperberg, Corto Mascle and Aditya Prakash}{\url{https://arxiv.org/abs/2407.18090}}
+
+	\cventry{TACAS 2025}{Fast value iteration: A uniform approach to efficient algorithms for energy games}{}{}{with Michaël Cadilhac and Pierre Ohlmann}{\url{https://antonio-casares.github.io/Publications/CCO25FVI.pdf}}
+
+	\cventry{LICS 2024}{Positional $\omega$-Regular Languages}{}{}{with Pierre Ohlmann}{\url{https://antonio-casares.github.io/Publications/CO24-LICS-Positional.pdf}}
+	
+
+	\cventry{MFCS 2024}{The Complexity of Simplifying $\omega$-Automata through the Alternating Cycle Decomposition}{}{}{with Corto Mascle}{\href{https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.MFCS.2024.35}{DOI: 10.4230/LIPIcs.MFCS.2024.35}}
+	
+	\cventry{SOSA 2024}{Simple and Tight Complexity Lower Bounds for Solving Rabin Games}{}{}{with  Marcin Pilipczuk, Michal Pilipczuk, Uéverton S. Souza, K. S. Thejaswini}{\href{https://epubs.siam.org/doi/10.1137/1.9781611977936.16}{DOI: 10.1137/1.9781611977936.16}}
+	
+	
+	\cventry{ICALP 2023}{Characterising Memory in Infinite Games}{}{}{with Pierre Ohlmann}{\href{https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ICALP.2023.122}{DOI: 10.4230/LIPIcs.ICALP.2023.122}}
+	
+	%\cventry{IJCAI~2023}{Half-Positional Objectives Recognized by Deterministic Büchi Automata}{}{Invited for presentation at Best Papers from Sister Conferences Track}{}{With Patricia Bouyer, Mickael Randour and Pierre Vandenhove.}
+	
+	
+	\cventry{CONCUR~22,
+	IJCAI~2023}{Half-Positional Objectives Recognized by Deterministic Büchi Automata}{}{}{with Patricia Bouyer, Mickael Randour and Pierre Vandenhove}{\href{https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.CONCUR.2022.20}{DOI: 10.4230/LIPIcs.CONCUR.2022.20}
+		\begin{itemize}
+			\item Invited for publication in LMCS special issue.
+			\item Invited for presentation at IJCAI 2023 (Best Papers from Sister Conferences Track). \url{https://www.ijcai.org/proceedings/2023/713}
+	\end{itemize}}
+	
+	\cventry{ICALP 2022}{On the Size of Good-For-Games Rabin Automata and its Link with the Memory in Muller Games}{}{}{with Thomas Colcombet and Karoliina Lehtinen}{\href{https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ICALP.2022.117}{DOI: 10.4230/LIPIcs.ICALP.2022.117}}
+	
+	\cventry{TACAS 2022}{Practical Applications of the Alternating Cycle Decomposition}{}{}{with Alexandre Duret-Lutz, Klara J. Meyer, Florian Renkin and Salomon Sickert}{\href{https://link.springer.com/chapter/10.1007/978-3-030-99527-0_6}{DOI: 10.1007/978-3-030-99527-0\_6}}
+	
+	\cventry{CSL 2022}{On the Minimisation of Transition-Based Rabin Automata and the Chromatic Memory Requirements of Muller Conditions}{}{}{}{
+		\href{https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.CSL.2022.12}{DOI: 10.4230/LIPIcs.CSL.2022.12}
+	\begin{itemize}
+				\item Helena Rasiowa Award (Best Student Paper Award).
+				\item Invited for publication in LMCS special issue (declined).
+		\end{itemize}}
+	
+	\cventry{ICALP 2021}{Optimal Transformations of Games and Automata using Muller Conditions}{}{}{with Thomas Colcombet and Nathanaël Fijalkow}{\href{https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ICALP.2021.123}{DOI: 10.4230/LIPIcs.ICALP.2021.123}}
+	
+	
+	\vspace{3mm}
+	\subsection{Preprints}	
+	\cventry{2024}{A positional $\Pi_0^3$-complete objective}{}{}{with Pierre Ohlmann and Pierre Vandenhove}{\url{https://arxiv.org/abs/2410.14688}}
+
+	\vspace{3mm}
+	\subsection{Papers in preparation}
+
+	\cventry{Survey}{Transition-based vs state-based acceptance for $\omega$-automata}{}{}{single author}{}
+
+	
+
+	\section{Awards and Honours}
+	%\cvlistitem{Paris Graduate School of Mathematics (PGSM) laureate}
+	\cventry{}{Thesis Prize ``Sciences and Technologies''}{Award for excellent thesis dissertation}{Université de Bordeaux, 2024}{}{}
+	
+	\cventry{}{Helena Rasiowa Award for the Best Student Paper Award}{}{CSL 2022}{}{}
+	
+	\cventry{}{Laureate of the \textit{Paris Graduate School of Mathematics (PGSM)}}{Scholarship awarded by the \textit{Fondation Sciences Mathématiques de Paris}}{2019}{}{}
+	\cventry{}{\textit{Premio extraordinario fin de grado}}{ Special award to the best record of the undergraduate degree}{Universidad de Valladolid, 2019}{}{}
+	
+	\newpage
+	
+	\section{Supervising activities}
+	\cventry{May 2025 - August 2025}{Alan Le Brech. Two-month M1 internship}{Topic: Universal value-iteration algorithms}{}{(100\% supervision)}{University of Warsaw, Poland.}
+
+	\cventry{Sept 2024 - June 2025}{Kacper Lewandowski. Master Thesis}{Topic: On the size of deterministic and history-deterministic automata}{}{(100\% supervision)}{University of Warsaw, Poland.}
+
+	\cventry{Nov 2024 - March 2025}{Tutoring students presenting papers in the master's seminar}{}{}{}{University of Warsaw, Poland.}
+
+	\cventry{Oct 2023}{Kacper Lewandowski. 3 weeks internship}{Topic: Lower bounds for energy-games algorithms}{}{(with Nathanaël Fijalkow and Pierre Vandenhove, 33\% supervision)}{LaBRI, Université de Bordeaux.}
+
+	
+	\section{Talks}
+	
+	\cventry{}{Fast value iteration: A uniform approach to energy-game solvers}{}{}{}
+	{\begin{itemize}
+			\item Program Synthesis days, LaBRI, Bordeaux (France), Nov 2024.
+			\item Automata Seminar, MIMUW, University of Warsaw (Poland), Oct 2024.
+		\end{itemize}
+	}
+	
+	\cventry{}{A characterisation of positionality for $\omega$-regular languages}{}{}{}
+	{\begin{itemize}
+			\item LICS 2024, Tallin (Estonia).
+			\item Seminar ``Model Checking and Synthesis'', LMF, Saclay (France), Oct 2024.
+			\item Automata Seminar, MIMUW, University of Warsaw (Poland), Dec 2023
+			\item Automata Seminar, IRIF, Paris (France), Oct 2023.
+			\item Seminar LX Team, LaBRI, Bordeaux (France), Sept 2023.
+		\end{itemize}
+	}
+	
+	\cventry{}{State-based vs transition-based acceptance for $\omega$-automata}{}{}{}
+	{\begin{itemize}
+			\item Highlights 2024 (France), September 2024.
+			\item GT DAAL Meeting, Rennes (France), April 2024.
+			\item Seminar MOVE Team, LIS, Marseille (France), April 2024.
+		\end{itemize}
+	}
+	
+	
+	\cventry{}{A correspondence between memory and automata for Muller languages}{}{}{}
+	{\begin{itemize}
+			\item Automata Seminar, MIMUW, University of Warsaw (Poland), Dec 2022
+			\item CSL 2022, (Online).
+			\item Highlights 2021 (Online).
+			\item Seminar MOVE Team, LIS, Marseille (France), Dec 2021.
+			\item Seminar LX Team, LaBRI, Bordeaux (France), Nov 2021.	\end{itemize}
+	}
+	
+	\cventry{}{Half-positional objectives recognized by deterministic Büchi automata}{}{}{}
+	{\begin{itemize}
+			\item Meeting GT Verif, LaBRI, Bordeaux (France), July 2022.
+			\item ANR Delta Meeting, CIRM, Marseille (France), May 2022.
+		\end{itemize}
+	}
+	
+	\cventry{}{On the size of good-for-games Rabin automata and its link with the memory in Muller games}{}{}{}
+	{\begin{itemize}
+			\item Highlights 2022, Paris (France).
+			\item ICALP 2022, Paris (France).
+			\item Seminar MOVE Team, LIS, Marseille (France), Dec 2021.
+		\end{itemize}
+	}
+	
+		\cventry{}{On the minimisation of transition-based Rabin automata}{}{}{}
+	{\begin{itemize}
+			\item Seminar at the Hebrew University of Jerusalem (Israel) (online), July 2021.
+			\item ANR Delta Meeting, IRIF, Paris (France), June 2021.
+		\end{itemize}
+	}
+	
+		\cventry{}{Optimal transformations of games and automata using Muller conditions}{}{}{}
+	{\begin{itemize}
+			\item ICALP 2021 (online).
+			\item Automata Seminar, IRIF, Paris (France), July 2021.
+			\item Formal Methods Seminar, LaBRI, Bordeaux (France), Dec 2020.
+			\item Meeting GT ALGA (online), June 2021.
+		\end{itemize}
+	}
+	
+	\cventry{}{Some logical paradoxes}{}{}{}
+	{\begin{itemize}
+			\item PhD Student Seminar, LaBRI, Bordeaux (France), March 2023.
+		\end{itemize}
+	}
+	
+		\cventry{}{The synthesis problem: from logic to games}{}{}{}
+	{\begin{itemize}
+			\item Student Seminar of the Toulouse Mathematics Institute (online), Feb 2021.
+		\end{itemize}
+	}
+	
+	\cventry{}{Can we program using only \texttt{for} loops?}{}{}{}
+	{\begin{itemize}
+			\item National Meeting of Mathematics Students (ENEM) (online), July 2020.
+		\end{itemize}
+	}
+	
+	
+	
+	
+	
+	\section{Organization of Scientific Events and Professional Activities }
+	\cventrytwo{Oct 2021 -- Now}{Publicity Chair of the International Conference ``Highlights of Logic, Games and Automata''}{Member of the Steering Committee}{}{}{}
+	
+	\cventrytwo{Dec 2021 -- Dec 2022}{Vice-president of the AFoDIB (PhD student association)}{LaBRI and INRIA, Bordeaux}{France}{}{}
+	
+	\cventrytwo{Sept 2021 -- Sept 2022}{Co-organizer of the Formal Methods and Models Seminar}{LaBRI, Bordeaux}{France}{}{}
+	
+	\cventrytwo{Sept 2021 -- Dec 2022}{Organizer of the Sémi-doc Seminar (PhD student seminar)}{LaBRI and INRIA, Bordeaux}{France}{}{}
+	
+	\cventrytwo{Mars 2021 -- Nov 2023}{Member of the board of the AFoDIB (PhD student association)}{LaBRI and INRIA, Bordeaux}{France}{}{}
+	
+	\cventrytwo{Sept 2020}{Member of the Organizing Committee of Highlights of Logic, Games and Automata}{Online}{}{}{}
+		
+	\subsection{Reviewing activities}
+	\cvitem{Conferences}{Reviewer for LICS (2021, 2022, 2024), SODA (2025), ICALP (2024),  STACS (2022, 2023,2025), MFCS (2021, 2022, 2024), FSTTCS (2021, 2022), FOSSACS (2023), LATIN (2024), DLT (2023), GandALF (2021).}
+	
+	\cvitem{Journals}{Reviewer for LMCS (2024,2025), ToCL (2021).}
+	
+	
+	\section{Participation in Invitation-Based Scientific Events} %and Research Visits}
+	\cvitem{Jan -- May 2021}{Simons Institute Spring 2021 research program ``Theoretical Foundations of Computer Systems program'' (online).}
+	
+	\cvitem{Autumn 2025}{Invitation of Bakh Khoussainov for a research stay in The University of Electronic Science and Technology of China (UESTC) to work in games on graphs.}
+
+	\cvitem{July 2024}{Autobóz research camp (Keibu, Estonia).}
+
+	\cvitem{Jun 2024}{Dagstuhl Seminar ``Stochastic Games''.}
+	
+	\cvitem{Sept 2023}{Dagstuhl Seminar ``The Futures of Reactive Synthesis ''.}
+	
+	\cvitem{July 2023}{Autobóz research camp (Kassel, Germany).}
+
+	\cvitem{April 2022}{Nomad Automata Workshop (Hauteluce, France).}
+		
+	\cvitem{Nov 2021}{Dagstuhl Seminar ``Unambiguity in Automata Theory'' (online participation).}
+	
+	\cvitem{Dec 2022}{Visit to the automata team of MIMUW, University of Warsaw, Poland.}
+	
+	\cvitem{2021 -- 2024}{Frequent visits to the laboratories IRIF (Paris), and LIS (Marseille).}
+
+	%\cvitem{2021 -- 2024}{Recurrent participation in meetings of the national research groups ``GT DAAL'', ``GT VERIF'' and ``ANR DELTA''.}
+
+%	\cvitem{Dec 2022}{Visit to the automata team of MIMUW, University of Warsaw, Poland. (15 days)}
+%	
+%	\cvitem{2021 - 2024}{Meeting of the GT Verif, Bordeaux, France.}
+%	
+%	\cvitem{July 2022}{Highlights and ICALP 2022, Paris, France.}
+%	
+%	\cvitem{March 2022}{Meeting of the GT DAAL, Lille, France.}
+%	
+%	\cvitem{Feb 2022}{CSL 2022 (online).}
+%	
+%	\cvitem{Dec 2021}{Visit to the MOVE team,LIS, Marseille, France.}
+%	
+%	\cvitem{Sept 2021}{IMS Workshop: Automata Theory and Applications 2021, (online).}
+%	
+%	\cvitem{Sept 2021}{Highlights of Logic, Games and Automata 2021, (online).}
+%	
+%	\cvitem{July 2021}{ICALP 2021, (online).}
+%	
+%	\cvitem{June 2021}{Meeting of the ANR DELTA, IRIF, Paris, France.}
+%	
+%	\cvitem{Nov 2020}{Spotlight on Games Workshop, (online).}
+%	\cvitem{June 2020}{\textit{MOVEP 2020} 14th Summer School on Modelling and Verification of Parallel Processes, (online).}
+%	
+%	\cvitem{July 2020}{\textit{XXI ENEM}, National Meeting of Mathematics Students, (online).}
+%	
+%	\cvitem{July 2018}{\textit{XIX ENEM}, National Meeting of Mathematics Students, Universidad de Valencia, Spain.}
+%	
+%	\cvitem{July 2017}{\textit{Algebraic Topology Summer School}, Gulbenkian Foundation, Lisbon, Portugal.}
+%	\cvitem{July 2017}{Summer school on \textit{Intelligent Transport Systems}, UNED, Plasencia, Spain.}
+	
+	
+	\newpage
+	
+	\section{Teaching}
+	\cventry{Fall 2023}{Algorithmic Aspects of Game Theory (3\textsuperscript{rd}-4\textsuperscript{th} year bachelor)}{Problem sessions + 2 lectures}{}{}{University of Warsaw, Poland.}	
+	
+	\cventry{Fall 2022}{Programmation Impérative 1 (3\textsuperscript{rd} year bachelor)}{Teacher assistant}{20 hours}{Programming in C}{ENSEIRB-MATMECA, Bordeaux INP, France.}
+	
+	\cventry{Fall 2022}{Systèmes de Gestion de Bases de Données (4\textsuperscript{th} year bachelor)}{Teacher assistant}{12 hours}{Database modeling and SQL}{ENSEIRB-MATMECA, Bordeaux INP, France.}
+	
+	\cventry{Spring 2022}{Algorithmique des Tableaux (1\textsuperscript{st} year bachelor)}{Teacher assistant}{32 hours}{Sorting algorithms in Python}{Université de Bordeaux, France.}
+	
+	\cventry{Spring 2022}{Modèles de la Programmation et du Calcul (3\textsuperscript{rd} year bachelor)}{Teacher assistant}{32 hours}{Automata theory}{Université de Bordeaux, France.}
+	
+	\cventry{Spring 2021}{Modèles de la Programmation et du Calcul (3\textsuperscript{rd} year bachelor)}{Teacher assistant}{32 hours}{Automata theory}{Université de Bordeaux, France.}
+	
+	\cventry{Fall 2020}{Coloration Informatique (1\textsuperscript{st} year bachelor)}{Teacher assistant}{32 hours}{Programming project in Python}{Université de Bordeaux, France.}
+	
+	\section{Languages}
+	\begin{cvcolumns}
+	  \cvcolumn{}{\begin{itemize}
+	  		\item Spanish: Native
+	  		\item English: Fluent
+	  	\end{itemize}}
+	  
+	  \cvcolumn{}{\begin{itemize}
+	  		\item French: Fluent
+	  		\item Polish: Basic
+	  \end{itemize}}
+	\end{cvcolumns}
+	
+	
+	\section{Other Interests}
+	Music (violin and piano, former member of several orchestras: OSiUP, JOUVA, BISYOC). Philosophy of science, language and the mind. Sports (ultimate frisbee and badminton). Dancing. Board games.
+
+
+	%\cvitem{Music:}{Violin and piano. Former member of several orchestras: OSiUP, JOUVA, BISYOC }
+	%\cvitem{hobby 2}{Description}
+	%\cvitem{hobby 3}{Description}
+	
+	%\section{Extra 1}
+	%\cvlistitem{Item 1}
+	%\cvlistitem{Item 2}
+	%\cvlistitem{Item 3. This item is particularly long and therefore normally spans over several lines. Did you notice the indentation when the line wraps?}
+	%
+	%\section{Extra 2}
+	%\cvlistdoubleitem{Item 1}{Item 4}
+	%\cvlistdoubleitem{Item 2}{Item 5\cite{book1}}
+	%\cvlistdoubleitem{Item 3}{Item 6. Like item 3 in the single column list before, this item is particularly long to wrap over several lines.}
+	%
+	%\section{References}
+	%\begin{cvcolumns}
+	%  \cvcolumn{Category 1}{\begin{itemize}\item Person 1\item Person 2\item Person 3\end{itemize}}
+	%  \cvcolumn{Category 2}{Amongst others:\begin{itemize}\item Person 1, and\item Person 2\end{itemize}(more upon request)}
+	%  \cvcolumn[0.5]{All the rest \& some more}{\textit{That} person, and \textbf{those} also (all available upon request).}
+	%\end{cvcolumns}
+	
+	% Publications from a BibTeX file without multibib
+	%  for numerical labels: \renewcommand{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% CONSIDER MERGING WITH PREAMBLE PART
+	%  to redefine the heading string ("Publications"): \renewcommand{\refname}{Articles}
+	%\nocite{*}
+	%\bibliographystyle{plain}
+	%\bibliography{publications}                        % 'publications' is the name of a BibTeX file
+	
+	% Publications from a BibTeX file using the multibib package
+	%\section{Publications}
+	%\nocitebook{book1,book2}
+	%\bibliographystylebook{plain}
+	%\bibliographybook{publications}                   % 'publications' is the name of a BibTeX file
+	%\nocitemisc{misc1,misc2,misc3}
+	%\bibliographystylemisc{plain}
+	%\bibliographymisc{publications}                   % 'publications' is the name of a BibTeX file
+	
+	\clearpage
+	%%%%-----       letter       ---------------------------------------------------------
+	%%%% recipient data
+	%%%\recipient{Company Recruitment team}{Company, Inc.\\123 somestreet\\some city}
+	%%%\date{January 01, 1984}
+	%%%\opening{Dear Sir or Madam,}
+	%%%\closing{Yours faithfully,}
+	%%%\enclosure[Attached]{curriculum vit\ae{}}          % use an optional argument to use a string other than "Enclosure", or redefine \enclname
+	%%%\makelettertitle
+	%%%
+	%%%Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ullamcorper neque sit amet lectus facilisis sed luctus nisl iaculis. Vivamus at neque arcu, sed tempor quam. Curabitur pharetra tincidunt tincidunt. Morbi volutpat feugiat mauris, quis tempor neque vehicula volutpat. Duis tristique justo vel massa fermentum accumsan. Mauris ante elit, feugiat vestibulum tempor eget, eleifend ac ipsum. Donec scelerisque lobortis ipsum eu vestibulum. Pellentesque vel massa at felis accumsan rhoncus.
+	%%%
+	%%%Suspendisse commodo, massa eu congue tincidunt, elit mauris pellentesque orci, cursus tempor odio nisl euismod augue. Aliquam adipiscing nibh ut odio sodales et pulvinar tortor laoreet. Mauris a accumsan ligula. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse vulputate sem vehicula ipsum varius nec tempus dui dapibus. Phasellus et est urna, ut auctor erat. Sed tincidunt odio id odio aliquam mattis. Donec sapien nulla, feugiat eget adipiscing sit amet, lacinia ut dolor. Phasellus tincidunt, leo a fringilla consectetur, felis diam aliquam urna, vitae aliquet lectus orci nec velit. Vivamus dapibus varius blandit.
+	%%%
+	%%%Duis sit amet magna ante, at sodales diam. Aenean consectetur porta risus et sagittis. Ut interdum, enim varius pellentesque tincidunt, magna libero sodales tortor, ut fermentum nunc metus a ante. Vivamus odio leo, tincidunt eu luctus ut, sollicitudin sit amet metus. Nunc sed orci lectus. Ut sodales magna sed velit volutpat sit amet pulvinar diam venenatis.
+	%%%
+	%%%Albert Einstein discovered that $e=mc^2$ in 1905.
+	%%%
+	%%%\[ e=\lim_{n \to \infty} \left(1+\frac{1}{n}\right)^n \]
+	%%%
+	%%%\makeletterclosing
+	
+	%\clearpage\end{CJK*}                              % if you are typesetting your resume in Chinese using CJK; the \clearpage is required for fancyhdr to work correctly with CJK, though it kills the page numbering by making \lastpage undefined
+\end{document}
+
+
+%% end of file `template.tex'.

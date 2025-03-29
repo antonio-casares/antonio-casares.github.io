@@ -1,0 +1,1214 @@
+{
+  "version": 3.1,
+  "presentation": "EDMI2025-whileLoops",
+  "slideDict": {
+    "new_slide": "main",
+    "Intro_myself": "Intro_myself",
+    "While_loops": "From_for_to_while",
+    "While_loops_nasty": "While_loops_nasty",
+    "Computation": "Computation",
+    "Functions": "Primitive_functions",
+    "Examples": "Examples",
+    "example_2": "example_2",
+    "example_3": "example_3",
+    "Ackermann": "Hierarchy_of_functions",
+    "Convers": "Convers",
+    "Ackermann2": "Ackermann",
+    "Proof_Ack": "Proof_Ack",
+    "Conclusions": "Conclusions"
+  },
+  "tree": {
+    "type": "child",
+    "name": "main",
+    "id": "new_slide",
+    "enabled": "enabled",
+    "merged": false,
+    "children": [
+      {
+        "type": "child",
+        "name": "Intro-myself",
+        "id": "Intro_myself",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "Group_27",
+            "enabled": "enabled",
+            "name": "Postdoc in Theoretical Computer Science",
+            "merged": false,
+            "keywords": [
+              "Antonio Casares",
+              "Postdoc in Theoretical Computer Science"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "Vector_65",
+            "enabled": "enabled",
+            "name": "arrow time",
+            "merged": true,
+            "keywords": [
+              "arrow time"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "recent_years",
+            "enabled": "enabled",
+            "name": "recent years",
+            "merged": true,
+            "keywords": [
+              "2021",
+              "2022",
+              "2023",
+              "2024",
+              "2025",
+              "PostDoc, Warsaw",
+              "PhD in CS, LaBRI, UB",
+              "recent years"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "Group_272",
+            "enabled": "enabled",
+            "name": "old years",
+            "merged": false,
+            "keywords": [
+              "Master in Logic",
+              "Bachelor in Maths",
+              "2018",
+              "2019",
+              "2020",
+              "old years"
+            ],
+            "eventId": "5"
+          },
+          {
+            "type": "show",
+            "id": "Group_17",
+            "enabled": "enabled",
+            "name": "Uncertain future in academia",
+            "merged": false,
+            "keywords": [
+              "Uncertain future in academia"
+            ],
+            "eventId": "6"
+          }
+        ],
+        "keywords": [
+          "Who am I?",
+          "Intro-myself"
+        ],
+        "eventId": "1",
+        "originalParams": {
+          "Group_27": {
+            "opacity": 1
+          },
+          "Vector_65": {
+            "opacity": 1
+          },
+          "recent_years": {
+            "opacity": 1
+          },
+          "Group_272": {
+            "opacity": 1
+          },
+          "Group_17": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "show",
+        "id": "D",
+        "enabled": "enabled",
+        "name": "PLEASE INTERRUPT!",
+        "merged": false,
+        "keywords": [
+          "PLEASE INTERRUPT!"
+        ],
+        "eventId": "10"
+      },
+      {
+        "type": "hide",
+        "id": "D",
+        "enabled": "enabled",
+        "name": "PLEASE INTERRUPT!",
+        "merged": false,
+        "keywords": [
+          "PLEASE INTERRUPT!"
+        ],
+        "eventId": "11"
+      },
+      {
+        "type": "child",
+        "name": "From for to while",
+        "id": "While_loops",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "Group_58",
+            "enabled": "enabled",
+            "name": "while i≤n:",
+            "merged": false,
+            "keywords": [
+              "while i≤n:",
+              "some code",
+              "i = i+1",
+              "i = 1"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "Group_582",
+            "enabled": "enabled",
+            "name": "?",
+            "merged": false,
+            "keywords": [
+              "?"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "Group_4",
+            "enabled": "enabled",
+            "name": "Can we transform any while loop into a for loop?",
+            "merged": true,
+            "keywords": [
+              "Can we transform any while loop into a for loop?"
+            ],
+            "eventId": "3"
+          }
+        ],
+        "keywords": [
+          "for i in 1..n:",
+          "some code",
+          "From for to while"
+        ],
+        "eventId": "2",
+        "originalParams": {
+          "Group_58": {
+            "opacity": 1
+          },
+          "Group_582": {
+            "opacity": 1
+          },
+          "Group_4": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "show",
+        "id": "Who_cares_",
+        "enabled": "enabled",
+        "name": "Who cares?",
+        "merged": false,
+        "keywords": [
+          "Who cares?"
+        ],
+        "eventId": "15"
+      },
+      {
+        "type": "show",
+        "id": "_A_l_m_o_s_t___n_o_b_o_d_y_",
+        "enabled": "enabled",
+        "name": "̶A̶l̶m̶o̶s̶t̶ ̶n̶o̶b̶o̶d̶y̶",
+        "merged": false,
+        "keywords": [
+          "̶A̶l̶m̶o̶s̶t̶ ̶n̶o̶b̶o̶d̶y̶"
+        ],
+        "eventId": "16"
+      },
+      {
+        "type": "hide",
+        "id": "_A_l_m_o_s_t___n_o_b_o_d_y_",
+        "enabled": "enabled",
+        "name": "̶A̶l̶m̶o̶s̶t̶ ̶n̶o̶b̶o̶d̶y̶",
+        "merged": false,
+        "keywords": [
+          "̶A̶l̶m̶o̶s̶t̶ ̶n̶o̶b̶o̶d̶y̶"
+        ],
+        "eventId": "18"
+      },
+      {
+        "type": "show",
+        "id": "Theoreticians_",
+        "enabled": "enabled",
+        "name": "Theoreticians!",
+        "merged": true,
+        "keywords": [
+          "Theoreticians!"
+        ],
+        "eventId": "17"
+      },
+      {
+        "type": "show",
+        "id": "What_is_computing_",
+        "enabled": "enabled",
+        "name": "What is computing?",
+        "merged": false,
+        "keywords": [
+          "What is computing?"
+        ],
+        "eventId": "9"
+      },
+      {
+        "type": "show",
+        "id": "while_loops_are_nasty",
+        "enabled": "enabled",
+        "name": "while loops are nasty",
+        "merged": false,
+        "keywords": [
+          "while loops are nasty"
+        ],
+        "eventId": "14"
+      },
+      {
+        "type": "child",
+        "name": "While loops nasty",
+        "id": "While_loops_nasty",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "WTF_",
+            "enabled": "enabled",
+            "name": "WTF?",
+            "merged": false,
+            "keywords": [
+              "WTF?"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "Group_5",
+            "enabled": "enabled",
+            "name": "for p,q primes ≤n:",
+            "merged": false,
+            "keywords": [
+              "while isTrue:",
+              "for p,q primes ≤n:",
+              "if n == p+q:",
+              "n = 4",
+              "n = n+2",
+              "isTrue = true",
+              "isTrue = false"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "Does_this_program_terminate_",
+            "enabled": "enabled",
+            "name": "Does this program terminate?",
+            "merged": true,
+            "keywords": [
+              "Does this program terminate?"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "Only_if_Goldbach_s_conjecture_holds_",
+            "enabled": "enabled",
+            "name": "Only if Goldbach’s conjecture holds!",
+            "merged": false,
+            "keywords": [
+              "Only if Goldbach’s conjecture holds!"
+            ],
+            "eventId": "4"
+          }
+        ],
+        "keywords": [
+          "while 1+1 == 2:",
+          "return 0",
+          "i = i+1",
+          "While loops nasty"
+        ],
+        "eventId": "12",
+        "originalParams": {
+          "WTF_": {
+            "opacity": 1
+          },
+          "Group_5": {
+            "opacity": 1
+          },
+          "Does_this_program_terminate_": {
+            "opacity": 1
+          },
+          "Only_if_Goldbach_s_conjecture_holds_": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "Computation",
+        "id": "Computation",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "Group_6",
+            "enabled": "enabled",
+            "name": "f N N",
+            "merged": false,
+            "keywords": [
+              "or",
+              "(ex: add two numbers)",
+              "f N N"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "Group_7",
+            "enabled": "enabled",
+            "name": "What does it mean that f is computable?",
+            "merged": false,
+            "keywords": [
+              "What does it mean that f is computable?"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "Group_27",
+            "enabled": "enabled",
+            "name": "We can give a set of “simple” instructions for it",
+            "merged": false,
+            "keywords": [
+              "Intuitively:",
+              "We can give a set of “simple” instructions for it"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "show",
+            "id": "Most_functions_do_not_satisfy_this_",
+            "enabled": "enabled",
+            "name": "Not all functions satisfy this!",
+            "merged": false,
+            "keywords": [
+              "Not all functions satisfy this!"
+            ],
+            "eventId": "5"
+          },
+          {
+            "type": "show",
+            "id": "Group_22",
+            "enabled": "enabled",
+            "name": "Formalise this intuition",
+            "merged": false,
+            "keywords": [
+              "Formalise this intuition",
+              "Objective",
+              "(early XXth century)"
+            ],
+            "eventId": "6"
+          }
+        ],
+        "keywords": [
+          "We’ll consider functions",
+          "(ex: multiply by 2)",
+          "Computation"
+        ],
+        "eventId": "3",
+        "originalParams": {
+          "Group_6": {
+            "opacity": 1
+          },
+          "Group_7": {
+            "opacity": 1
+          },
+          "Group_27": {
+            "opacity": 1
+          },
+          "Most_functions_do_not_satisfy_this_": {
+            "opacity": 1
+          },
+          "Group_22": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "Primitive functions",
+        "id": "Functions",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "Group_58",
+            "enabled": "enabled",
+            "name": "Iteration mechanism",
+            "merged": false,
+            "keywords": [
+              "Basic functions",
+              "Iteration mechanism"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "show",
+            "id": "_1_n____n_1",
+            "enabled": "enabled",
+            "name": "+1(n) = n+1",
+            "merged": false,
+            "keywords": [
+              "+1(n) = n+1"
+            ],
+            "eventId": "5"
+          },
+          {
+            "type": "show",
+            "id": "Group_3",
+            "enabled": "enabled",
+            "name": "for i in 1..n:",
+            "merged": false,
+            "keywords": [
+              "for i in 1..n:",
+              "..."
+            ],
+            "eventId": "6"
+          },
+          {
+            "type": "show",
+            "id": "Group_23",
+            "enabled": "enabled",
+            "name": "if a == b:",
+            "merged": false,
+            "keywords": [
+              "if a == b:",
+              "..."
+            ],
+            "eventId": "7"
+          },
+          {
+            "type": "show",
+            "id": "__copy_pasting",
+            "enabled": "enabled",
+            "name": "+ copy-pasting programs",
+            "merged": false,
+            "keywords": [
+              "+ copy-pasting programs"
+            ],
+            "eventId": "8"
+          },
+          {
+            "type": "show",
+            "id": "Intuitively_computable",
+            "enabled": "enabled",
+            "name": "Intuitively computable",
+            "merged": false,
+            "keywords": [
+              "Intuitively computable"
+            ],
+            "eventId": "9"
+          },
+          {
+            "type": "show",
+            "id": "Can_we_do_interesting_things_",
+            "enabled": "enabled",
+            "name": "Can we do interesting things?",
+            "merged": false,
+            "keywords": [
+              "Can we do interesting things?"
+            ],
+            "eventId": "10"
+          },
+          {
+            "type": "child",
+            "name": "Examples",
+            "id": "Examples",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "Group_27",
+                "enabled": "enabled",
+                "name": "for i in 1..m:",
+                "merged": false,
+                "keywords": [
+                  "add(n,m):",
+                  "for i in 1..m:",
+                  "sum = +1(sum)",
+                  "sum = n",
+                  "return sum"
+                ],
+                "eventId": "1"
+              }
+            ],
+            "keywords": [
+              "times2(n):",
+              "for i in 1..n:",
+              "double = +1(double)",
+              "double = n",
+              "return double",
+              "Examples"
+            ],
+            "eventId": "1",
+            "originalParams": {
+              "Group_27": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "child",
+            "name": "example 2",
+            "id": "example_2",
+            "enabled": "enabled",
+            "merged": true,
+            "children": [
+              {
+                "type": "show",
+                "id": "Group_28",
+                "enabled": "enabled",
+                "name": "full version",
+                "merged": false,
+                "keywords": [
+                  "multiply(n,m):",
+                  "for i in 1..m:",
+                  "prod = n",
+                  "return prod",
+                  "for j in 1..n:",
+                  "prod = +1(prod)",
+                  "add",
+                  "full version"
+                ],
+                "eventId": "1"
+              }
+            ],
+            "keywords": [
+              "multiply(n,m):",
+              "for i in 1..m:",
+              "prod = prod + n",
+              "prod = n",
+              "return prod",
+              "example 2"
+            ],
+            "eventId": "2",
+            "originalParams": {
+              "Group_28": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "child",
+            "name": "example 3",
+            "id": "example_3",
+            "enabled": "enabled",
+            "merged": true,
+            "children": [
+              {
+                "type": "show",
+                "id": "exp_full",
+                "enabled": "enabled",
+                "name": "exp-full",
+                "merged": false,
+                "keywords": [
+                  "exp(n):",
+                  "for i in 1..n:",
+                  "power = 2",
+                  "return power",
+                  "for j in 1..n:",
+                  "power = +1(power)",
+                  "times2",
+                  "exp-full"
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "show",
+                "id": "Group_27",
+                "enabled": "enabled",
+                "name": "Nested loops",
+                "merged": false,
+                "keywords": [
+                  "Nested loops"
+                ],
+                "eventId": "2"
+              }
+            ],
+            "keywords": [
+              "2n",
+              "exp(n):",
+              "for i in 1..n:",
+              "power = 2 * power",
+              "power = 2",
+              "return power",
+              "example 3"
+            ],
+            "eventId": "3",
+            "originalParams": {
+              "exp_full": {
+                "opacity": 1
+              },
+              "Group_27": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "show",
+            "id": "YES",
+            "enabled": "enabled",
+            "name": "YES",
+            "merged": false,
+            "keywords": [
+              "YES"
+            ],
+            "eventId": "11"
+          },
+          {
+            "type": "show",
+            "id": "Can_we_do_interesting_things_2",
+            "enabled": "enabled",
+            "name": "But is this enough",
+            "merged": false,
+            "keywords": [
+              "But is this enough"
+            ],
+            "eventId": "12"
+          }
+        ],
+        "keywords": [
+          "A while-free model",
+          "Primitive functions"
+        ],
+        "eventId": "4",
+        "originalParams": {
+          "Group_58": {
+            "opacity": 1
+          },
+          "_1_n____n_1": {
+            "opacity": 1
+          },
+          "Group_3": {
+            "opacity": 1
+          },
+          "Group_23": {
+            "opacity": 1
+          },
+          "__copy_pasting": {
+            "opacity": 1
+          },
+          "Intuitively_computable": {
+            "opacity": 1
+          },
+          "Can_we_do_interesting_things_": {
+            "opacity": 1
+          },
+          "YES": {
+            "opacity": 1
+          },
+          "Can_we_do_interesting_things_2": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "Hierarchy of functions",
+        "id": "Ackermann",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "F1_n____2n",
+            "enabled": "enabled",
+            "name": "F1(n) = 2n",
+            "merged": false,
+            "keywords": [
+              "F1(n) = 2n"
+            ],
+            "eventId": "13"
+          },
+          {
+            "type": "show",
+            "id": "F2_n____2n",
+            "enabled": "enabled",
+            "name": "F2(n) = 2n",
+            "merged": false,
+            "keywords": [
+              "F2(n) = 2n"
+            ],
+            "eventId": "14"
+          },
+          {
+            "type": "show",
+            "id": "Group_29",
+            "enabled": "enabled",
+            "name": "for i in 1..n:",
+            "merged": false,
+            "keywords": [
+              "Fk(n):",
+              "Fk-1(x)",
+              "for i in 1..n:",
+              "x =",
+              "x = 2",
+              "return x"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "Group_53",
+            "enabled": "enabled",
+            "name": "note",
+            "merged": false,
+            "keywords": [
+              "Fk uses k nested loops",
+              "Note",
+              "note"
+            ],
+            "eventId": "12"
+          },
+          {
+            "type": "show",
+            "id": "F3_n___",
+            "enabled": "enabled",
+            "name": "F3(n) =",
+            "merged": false,
+            "keywords": [
+              "F3(n) ="
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "show",
+            "id": "Group_32",
+            "enabled": "enabled",
+            "name": "22",
+            "merged": false,
+            "keywords": [
+              "22",
+              "2",
+              ".",
+              "}",
+              "n"
+            ],
+            "eventId": "5"
+          },
+          {
+            "type": "show",
+            "id": "Group_27",
+            "enabled": "enabled",
+            "name": "dots",
+            "merged": false,
+            "keywords": [
+              "dots"
+            ],
+            "eventId": "6"
+          },
+          {
+            "type": "show",
+            "id": "Group_34",
+            "enabled": "enabled",
+            "name": "Pizzas in an Afodib’s games night",
+            "merged": false,
+            "keywords": [
+              "F3(4) >",
+              "Pizzas in an Afodib’s games night",
+              "Growth explodes!!"
+            ],
+            "eventId": "8"
+          },
+          {
+            "type": "show",
+            "id": "Group_33",
+            "enabled": "enabled",
+            "name": "(Atoms in the universe)",
+            "merged": false,
+            "keywords": [
+              "F4(3) >",
+              "(Atoms in the universe)",
+              "100"
+            ],
+            "eventId": "9"
+          },
+          {
+            "type": "child",
+            "name": "Convers",
+            "id": "Convers",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [],
+            "keywords": [
+              "Theorem",
+              "Let P(n) be a program using less than k nested for loops. Then:",
+              "P(n) < Fk(n) ,",
+              "for all n large enough.",
+              "Convers"
+            ],
+            "eventId": "11",
+            "originalParams": {}
+          }
+        ],
+        "keywords": [
+          "A hierarchy of nested-loops",
+          "Hierarchy of functions"
+        ],
+        "eventId": "5",
+        "originalParams": {
+          "Group_29": {
+            "opacity": 1
+          },
+          "F3_n___": {
+            "opacity": 1
+          },
+          "Group_32": {
+            "opacity": 1
+          },
+          "Group_27": {
+            "opacity": 1
+          },
+          "Group_34": {
+            "opacity": 1
+          },
+          "Group_33": {
+            "opacity": 1
+          },
+          "Group_53": {
+            "opacity": 1
+          },
+          "F1_n____2n": {
+            "opacity": 1
+          },
+          "F2_n____2n": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "Ackermann",
+        "id": "Ackermann2",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "Table",
+            "enabled": "enabled",
+            "name": "Table",
+            "merged": false,
+            "keywords": [
+              "Input",
+              "Function",
+              "F3",
+              "F3(1)",
+              "F3(2)",
+              "F2",
+              "F2(1)",
+              "F2(2)",
+              "F2(3)",
+              "F1",
+              "F1(1)",
+              "F1(2)",
+              "F1(3)",
+              "F1(4)",
+              "1",
+              "2",
+              "3",
+              "Table"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "Rectangle_14",
+            "enabled": "enabled",
+            "name": "diagonal",
+            "merged": false,
+            "keywords": [
+              "diagonal"
+            ],
+            "eventId": "6"
+          },
+          {
+            "type": "show",
+            "id": "Diag",
+            "enabled": "enabled",
+            "name": "Diag",
+            "merged": true,
+            "keywords": [
+              "Diag(n) = Fn(n)",
+              "Diag"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "Ackermann_function",
+            "enabled": "enabled",
+            "name": "Ackermann function",
+            "merged": false,
+            "keywords": [
+              "Ackermann function"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "show",
+            "id": "Intuitively_computable",
+            "enabled": "enabled",
+            "name": "Intuitively computable",
+            "merged": false,
+            "keywords": [
+              "Intuitively computable"
+            ],
+            "eventId": "7"
+          },
+          {
+            "type": "show",
+            "id": "thm",
+            "enabled": "enabled",
+            "name": "thm",
+            "merged": false,
+            "keywords": [
+              "Theorem",
+              "Diag(n) cannot be computed using only for loops.",
+              "thm"
+            ],
+            "eventId": "5"
+          },
+          {
+            "type": "child",
+            "name": "Proof Ack",
+            "id": "Proof_Ack",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "Group_57",
+                "enabled": "enabled",
+                "name": "then",
+                "merged": false,
+                "keywords": [
+                  "Then:",
+                  "Diag(n) < Fk+1(n) ,",
+                  "for all n large enough.",
+                  "then"
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "show",
+                "id": "Group_58",
+                "enabled": "enabled",
+                "name": "contradiction",
+                "merged": false,
+                "keywords": [
+                  "for n > k+1.",
+                  "But:",
+                  "Diag(n) = Fn(n) > Fk+1(n) ,",
+                  "Contradiction!",
+                  "contradiction"
+                ],
+                "eventId": "3"
+              }
+            ],
+            "keywords": [
+              "Diag(n) = Fn(n)",
+              "Assume it is computed by a for-program. Let k be its maximal number of nested for loops.",
+              "Proof Ack"
+            ],
+            "eventId": "1",
+            "originalParams": {
+              "Group_56": {
+                "opacity": 1
+              },
+              "Group_57": {
+                "opacity": 1
+              },
+              "Group_58": {
+                "opacity": 1
+              }
+            }
+          }
+        ],
+        "keywords": [
+          "Diagonalisation",
+          "Ackermann"
+        ],
+        "eventId": "13",
+        "originalParams": {
+          "Table": {
+            "opacity": 1
+          },
+          "Diag": {
+            "opacity": 1
+          },
+          "Ackermann_function": {
+            "opacity": 1
+          },
+          "thm": {
+            "opacity": 1
+          },
+          "Rectangle_14": {
+            "opacity": 1
+          },
+          "Intuitively_computable": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "show",
+        "id": "Group_26",
+        "enabled": "enabled",
+        "name": "for loops are not enough to define computability",
+        "merged": false,
+        "keywords": [
+          "Conclusion",
+          "for loops are not enough to define computability"
+        ],
+        "eventId": "19"
+      },
+      {
+        "type": "show",
+        "id": "But_they_do_a_fairly_good_job_",
+        "enabled": "enabled",
+        "name": "But they do a fairly good job!",
+        "merged": false,
+        "keywords": [
+          "But they do a fairly good job!"
+        ],
+        "eventId": "20"
+      },
+      {
+        "type": "show",
+        "id": "Is_this_enough_",
+        "enabled": "enabled",
+        "name": "Then what?",
+        "merged": false,
+        "keywords": [
+          "Then what?"
+        ],
+        "eventId": "8"
+      },
+      {
+        "type": "child",
+        "name": "Conclusions",
+        "id": "Conclusions",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "Group_57",
+            "enabled": "enabled",
+            "name": "And yes... that includes this:",
+            "merged": false,
+            "keywords": [
+              "while 1+1 == 2:",
+              "return 0",
+              "i = i+1",
+              "And yes... that includes this:"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "Group_55",
+            "enabled": "enabled",
+            "name": "We cannot decide algorithmically whether a program terminates.",
+            "merged": false,
+            "keywords": [
+              "Theorem (halting problem, Turing 1936)",
+              "We cannot decide algorithmically whether a program terminates."
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "proof",
+            "enabled": "enabled",
+            "name": "proof",
+            "merged": false,
+            "keywords": [
+              "By diagonalisation.",
+              "Proof",
+              "proof"
+            ],
+            "eventId": "3"
+          }
+        ],
+        "keywords": [
+          "We need to add while loops to our model",
+          "Conclusions"
+        ],
+        "eventId": "6",
+        "originalParams": {
+          "Group_57": {
+            "opacity": 1
+          },
+          "Group_55": {
+            "opacity": 1
+          },
+          "proof": {
+            "opacity": 1
+          }
+        }
+      }
+    ],
+    "keywords": [
+      "Can we program without while loops?",
+      "Antonio Casares ⋅ University of Warsaw",
+      "main"
+    ],
+    "eventId": "root",
+    "originalParams": {
+      "Is_this_enough_": {
+        "opacity": 1
+      },
+      "What_is_computing_": {
+        "opacity": 1
+      },
+      "D": {
+        "opacity": 1
+      },
+      "while_loops_are_nasty": {
+        "opacity": 1
+      },
+      "Who_cares_": {
+        "opacity": 1
+      },
+      "_A_l_m_o_s_t___n_o_b_o_d_y_": {
+        "opacity": 1
+      },
+      "Theoreticians_": {
+        "opacity": 1
+      },
+      "Group_26": {
+        "opacity": 1
+      },
+      "But_they_do_a_fairly_good_job_": {
+        "opacity": 1
+      }
+    }
+  },
+  "treeTimeLine": [],
+  "chronicleTimeLine": []
+}

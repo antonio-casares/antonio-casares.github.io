@@ -422,7 +422,7 @@
           }
         ],
         "keywords": [
-          "We’ll consider functions",
+          "Let us consider functions",
           "(ex: multiply by 2)",
           "Computation"
         ],
@@ -772,19 +772,6 @@
           },
           {
             "type": "show",
-            "id": "Group_53",
-            "enabled": "enabled",
-            "name": "note",
-            "merged": false,
-            "keywords": [
-              "Fk uses k nested loops",
-              "Note",
-              "note"
-            ],
-            "eventId": "12"
-          },
-          {
-            "type": "show",
             "id": "F3_n___",
             "enabled": "enabled",
             "name": "F3(n) =",
@@ -847,6 +834,19 @@
             "eventId": "9"
           },
           {
+            "type": "show",
+            "id": "Group_53",
+            "enabled": "enabled",
+            "name": "note",
+            "merged": false,
+            "keywords": [
+              "Fk uses k nested loops",
+              "Note",
+              "note"
+            ],
+            "eventId": "12"
+          },
+          {
             "type": "child",
             "name": "Convers",
             "id": "Convers",
@@ -854,6 +854,8 @@
             "merged": false,
             "children": [],
             "keywords": [
+              "P(n)",
+              "Fk(n)",
               "Theorem",
               "Let P(n) be a program using less than k nested for loops. Then:",
               "P(n) < Fk(n) ,",

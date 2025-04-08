@@ -569,7 +569,7 @@
             "id": "Rectangle_16",
             "enabled": "enabled",
             "name": "Rectangle 16",
-            "merged": false,
+            "merged": true,
             "keywords": [
               "Rectangle 16"
             ],
@@ -844,6 +844,7 @@
                 "name": "Over finite graphs: Characterization by Gimbert&Zielonka 2005",
                 "merged": false,
                 "keywords": [
+                  "Over finite graphs: Characterization by Gimbert-Zielonka 2005",
                   "Over finite graphs: Characterization by Gimbert&Zielonka 2005"
                 ],
                 "eventId": "2"
@@ -867,6 +868,7 @@
                 "name": "Over infinite graphs: Characterization by Colcombet&Niwiński 2006",
                 "merged": false,
                 "keywords": [
+                  "Over infinite graphs: Characterization by Colcombet-Niwiński 2006",
                   "Over infinite graphs: Characterization by Colcombet&Niwiński 2006"
                 ],
                 "eventId": "4"
@@ -2056,6 +2058,18 @@
               "L is positional if for every game G with winning condition L:"
             ],
             "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "Group_123",
+            "enabled": "enabled",
+            "name": "Theorem (Büchi-Landweber ‘69, Gurevich-Harrington ‘82)",
+            "merged": false,
+            "keywords": [
+              "Theorem (Büchi-Landweber ‘69, Gurevich-Harrington ‘82)",
+              "ω-regular languages have finite memory."
+            ],
+            "eventId": "3"
           }
         ],
         "keywords": [
@@ -2076,6 +2090,9 @@
             "opacity": 1
           },
           "Group_89": {
+            "opacity": 1
+          },
+          "Group_123": {
             "opacity": 1
           }
         }

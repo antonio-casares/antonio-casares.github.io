@@ -1,0 +1,1320 @@
+{
+  "version": 3.1,
+  "presentation": "SAMSA-Safety-Liveness",
+  "slideDict": {
+    "new_slide": "main",
+    "Infinite_words": "Intro",
+    "Intro": "Safety",
+    "Liveness": "Liveness",
+    "SL_decomposition": "SL_decomposition",
+    "Topology_intro": "Topology_intro",
+    "Dense_sets": "Dense_sets",
+    "Duality_topology": "Duality_topology",
+    "Close_dense_Decomposition": "Close_dense_Decomposition",
+    "proof_frontier": "proof_frontier",
+    "Conclusions": "Conclusions",
+    "Examples_dense": "Examples_dense"
+  },
+  "tree": {
+    "type": "child",
+    "name": "main",
+    "id": "new_slide",
+    "enabled": "enabled",
+    "merged": false,
+    "children": [
+      {
+        "type": "show",
+        "id": "Group_76",
+        "enabled": "enabled",
+        "name": "We can test safe specifications",
+        "merged": false,
+        "keywords": [
+          "Testing safe properties is easy",
+          "We can test safe specifications"
+        ],
+        "eventId": "14"
+      },
+      {
+        "type": "show",
+        "id": "Group_762",
+        "enabled": "enabled",
+        "name": "New method testing live specifications!",
+        "merged": false,
+        "keywords": [
+          "New method for live properties!",
+          "New method testing live specifications!"
+        ],
+        "eventId": "16"
+      },
+      {
+        "type": "show",
+        "id": "Screenshot_2025_06_02_at_10_41_44_1",
+        "enabled": "enabled",
+        "name": "hamkins'question",
+        "merged": false,
+        "keywords": [
+          "hamkins'question"
+        ],
+        "eventId": "25"
+      },
+      {
+        "type": "show",
+        "id": "Rectangle_26",
+        "enabled": "enabled",
+        "name": "Rectangle 26",
+        "merged": true,
+        "keywords": [
+          "Rectangle 26"
+        ],
+        "eventId": "27"
+      },
+      {
+        "type": "show",
+        "id": "Group_7",
+        "enabled": "enabled",
+        "name": "Language of infinite words",
+        "merged": false,
+        "keywords": [
+          "Property",
+          "Language of infinite words"
+        ],
+        "eventId": "21"
+      },
+      {
+        "type": "hide",
+        "id": "Rectangle_26",
+        "enabled": "enabled",
+        "name": "Rectangle 26",
+        "merged": false,
+        "keywords": [
+          "Rectangle 26"
+        ],
+        "eventId": "28"
+      },
+      {
+        "type": "hide",
+        "id": "Screenshot_2025_06_02_at_10_41_44_1",
+        "enabled": "enabled",
+        "name": "hamkins'question",
+        "merged": true,
+        "keywords": [
+          "hamkins'question"
+        ],
+        "eventId": "26"
+      },
+      {
+        "type": "hide",
+        "id": "Group_762",
+        "enabled": "enabled",
+        "name": "New method testing live specifications!",
+        "merged": true,
+        "keywords": [
+          "New method testing live specifications!"
+        ],
+        "eventId": "23"
+      },
+      {
+        "type": "hide",
+        "id": "Group_7",
+        "enabled": "enabled",
+        "name": "Language of infinite words",
+        "merged": true,
+        "keywords": [
+          "Language of infinite words"
+        ],
+        "eventId": "22"
+      },
+      {
+        "type": "hide",
+        "id": "Group_76",
+        "enabled": "enabled",
+        "name": "We can test safe specifications",
+        "merged": true,
+        "keywords": [
+          "We can test safe specifications"
+        ],
+        "eventId": "15"
+      },
+      {
+        "type": "child",
+        "name": "Safety",
+        "id": "Intro",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "Group_10",
+            "enabled": "enabled",
+            "name": "Do not reach a bad state.",
+            "merged": false,
+            "keywords": [
+              "Do not reach a bad state",
+              "Do not reach a bad state."
+            ],
+            "eventId": "10"
+          },
+          {
+            "type": "show",
+            "id": "Group_118",
+            "enabled": "enabled",
+            "name": "Bad behaviors",
+            "merged": false,
+            "keywords": [
+              "Bad behaviors"
+            ],
+            "eventId": "11"
+          },
+          {
+            "type": "show",
+            "id": "Group_81",
+            "enabled": "enabled",
+            "name": "L is safe if there exists a language",
+            "merged": true,
+            "keywords": [
+              "L is safe if there exists a language",
+              "such that:"
+            ],
+            "eventId": "8"
+          },
+          {
+            "type": "show",
+            "id": "Group_76",
+            "enabled": "enabled",
+            "name": "Words that do not contain ‘aba’ as an infix.",
+            "merged": false,
+            "keywords": [
+              "Example:",
+              "Words that do not contain ‘aba’ as an infix."
+            ],
+            "eventId": "9"
+          }
+        ],
+        "keywords": [
+          "Safety"
+        ],
+        "eventId": "2",
+        "originalParams": {
+          "Group_81": {
+            "opacity": 1
+          },
+          "Group_76": {
+            "opacity": 1
+          },
+          "Group_10": {
+            "opacity": 1
+          },
+          "Group_118": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "Liveness",
+        "id": "Liveness",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "Two_coexisting_definitions___",
+            "enabled": "enabled",
+            "name": "Several uses of the term...",
+            "merged": false,
+            "keywords": [
+              "Several uses of the term..."
+            ],
+            "eventId": "17"
+          },
+          {
+            "type": "show",
+            "id": "Group_98",
+            "enabled": "enabled",
+            "name": "1.",
+            "merged": true,
+            "keywords": [
+              "1.",
+              "2.",
+              "3."
+            ],
+            "eventId": "19"
+          },
+          {
+            "type": "show",
+            "id": "Something_good_eventually_happens2",
+            "enabled": "enabled",
+            "name": "Something good eventually happens",
+            "merged": false,
+            "keywords": [
+              "Something good eventually happens"
+            ],
+            "eventId": "20"
+          },
+          {
+            "type": "show",
+            "id": "Group_110",
+            "enabled": "enabled",
+            "name": "papers'live1",
+            "merged": false,
+            "keywords": [
+              "papers'live1"
+            ],
+            "eventId": "25"
+          },
+          {
+            "type": "show",
+            "id": "Something_good_eventually_happens",
+            "enabled": "enabled",
+            "name": "Something good happens infinitely often",
+            "merged": false,
+            "keywords": [
+              "Something good happens infinitely often"
+            ],
+            "eventId": "21"
+          },
+          {
+            "type": "show",
+            "id": "Best_suited_for_introductions_verification_purposes",
+            "enabled": "enabled",
+            "name": "Most commonly found in introductions",
+            "merged": false,
+            "keywords": [
+              "Most commonly found in introductions"
+            ],
+            "eventId": "23"
+          },
+          {
+            "type": "show",
+            "id": "Group_982",
+            "enabled": "enabled",
+            "name": "1.",
+            "merged": true,
+            "keywords": [
+              "1.",
+              "2."
+            ],
+            "eventId": "22"
+          },
+          {
+            "type": "hide",
+            "id": "Group_110",
+            "enabled": "enabled",
+            "name": "papers'live1",
+            "merged": true,
+            "keywords": [
+              "papers'live1"
+            ],
+            "eventId": "26"
+          },
+          {
+            "type": "show",
+            "id": "There_is_no_irremediable_behavior",
+            "enabled": "enabled",
+            "name": "There is no irremediable behavior",
+            "merged": false,
+            "keywords": [
+              "There is no irremediable behavior"
+            ],
+            "eventId": "24"
+          },
+          {
+            "type": "show",
+            "id": "live_3",
+            "enabled": "enabled",
+            "name": "live-3",
+            "merged": false,
+            "keywords": [
+              "live-3"
+            ],
+            "eventId": "27"
+          },
+          {
+            "type": "show",
+            "id": "2_2",
+            "enabled": "enabled",
+            "name": "3.",
+            "merged": true,
+            "keywords": [
+              "3."
+            ],
+            "eventId": "29"
+          },
+          {
+            "type": "show",
+            "id": "OBSOLETE",
+            "enabled": "enabled",
+            "name": "Adopted by the community",
+            "merged": true,
+            "keywords": [
+              "Adopted by the community"
+            ],
+            "eventId": "16"
+          },
+          {
+            "type": "show",
+            "id": "Group_932",
+            "enabled": "enabled",
+            "name": "L is live if for every",
+            "merged": false,
+            "keywords": [
+              "such that:",
+              "L is live if for every",
+              "there is"
+            ],
+            "eventId": "15"
+          },
+          {
+            "type": "hide",
+            "id": "live_3",
+            "enabled": "enabled",
+            "name": "live-3",
+            "merged": true,
+            "keywords": [
+              "live-3"
+            ],
+            "eventId": "28"
+          }
+        ],
+        "keywords": [
+          "Liveness"
+        ],
+        "eventId": "7",
+        "originalParams": {
+          "Group_932": {
+            "opacity": 1
+          },
+          "OBSOLETE": {
+            "opacity": 1
+          },
+          "Two_coexisting_definitions___": {
+            "opacity": 1
+          },
+          "Group_98": {
+            "opacity": 1
+          },
+          "Something_good_eventually_happens2": {
+            "opacity": 1
+          },
+          "Something_good_eventually_happens": {
+            "opacity": 1
+          },
+          "Group_982": {
+            "opacity": 1
+          },
+          "Best_suited_for_introductions_verification_purposes": {
+            "opacity": 1
+          },
+          "There_is_no_irremediable_behavior": {
+            "opacity": 1
+          },
+          "Group_110": {
+            "opacity": 1
+          },
+          "live_3": {
+            "opacity": 1
+          },
+          "2_2": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "SL-decomposition",
+        "id": "SL_decomposition",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "_3rd_definition_",
+            "enabled": "enabled",
+            "name": "(3rd definition)",
+            "merged": false,
+            "keywords": [
+              "(3rd definition)"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "Motivation__Check_separately_the_safe_and_the_life_part",
+            "enabled": "enabled",
+            "name": "Motivation: Check separately the safe and the life languages",
+            "merged": true,
+            "keywords": [
+              "Motivation: Check separately the safe and the life languages"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "Is_this_useful_at_all_with_the_3rd_definition_of_live_",
+            "enabled": "enabled",
+            "name": "Is this useful at all with the 3rd definition of live?",
+            "merged": false,
+            "keywords": [
+              "Is this useful at all with the 3rd definition of live?"
+            ],
+            "eventId": "3"
+          }
+        ],
+        "keywords": [
+          "Safety-Liveness decomposition",
+          "Theorem (Alpern, Schneider 1985)",
+          "Every language is the intersection of a safe and a live language.",
+          "SL-decomposition"
+        ],
+        "eventId": "3",
+        "originalParams": {
+          "_3rd_definition_": {
+            "opacity": 1
+          },
+          "Motivation__Check_separately_the_safe_and_the_life_part": {
+            "opacity": 1
+          },
+          "Is_this_useful_at_all_with_the_3rd_definition_of_live_": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "show",
+        "id": "Some_topology",
+        "enabled": "enabled",
+        "name": "Some topology",
+        "merged": false,
+        "keywords": [
+          "Some topology"
+        ],
+        "eventId": "11"
+      },
+      {
+        "type": "child",
+        "name": "Topology intro",
+        "id": "Topology_intro",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "Group_92",
+            "enabled": "enabled",
+            "name": "Open sets:",
+            "merged": false,
+            "keywords": [
+              "Open sets:",
+              "for"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "Group_58",
+            "enabled": "enabled",
+            "name": "Product topology",
+            "merged": false,
+            "keywords": [
+              "Cantor space",
+              "Product topology"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "Group_922",
+            "enabled": "enabled",
+            "name": "Closed sets:",
+            "merged": false,
+            "keywords": [
+              "Closed sets:"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "Group_59",
+            "enabled": "enabled",
+            "name": "Safe languages = Closed sets",
+            "merged": false,
+            "keywords": [
+              "Safe languages = Closed sets"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "show",
+            "id": "Group_923",
+            "enabled": "enabled",
+            "name": "Def. 1 of liveness",
+            "merged": false,
+            "keywords": [
+              "Def. 1 of liveness"
+            ],
+            "eventId": "5"
+          },
+          {
+            "type": "show",
+            "id": "What_about_live_languages_",
+            "enabled": "enabled",
+            "name": "What about live languages? (Def. 2)",
+            "merged": false,
+            "keywords": [
+              "What about live languages? (Def. 2)"
+            ],
+            "eventId": "6"
+          }
+        ],
+        "keywords": [
+          "Topology on the set of infinite words",
+          "Topology intro"
+        ],
+        "eventId": "4",
+        "originalParams": {
+          "Group_92": {
+            "opacity": 1
+          },
+          "Group_58": {
+            "opacity": 1
+          },
+          "Group_922": {
+            "opacity": 1
+          },
+          "Group_59": {
+            "opacity": 1
+          },
+          "Group_923": {
+            "opacity": 1
+          },
+          "What_about_live_languages_": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "Dense sets",
+        "id": "Dense_sets",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "Group_1182",
+            "enabled": "enabled",
+            "name": "L contains a word with a prefix in K, for every",
+            "merged": false,
+            "keywords": [
+              "In our case:",
+              "L is dense",
+              "non-empty",
+              "L contains a word with a prefix in K, for every"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "show",
+            "id": "Group_1183",
+            "enabled": "enabled",
+            "name": "such that:",
+            "merged": false,
+            "keywords": [
+              "for every",
+              "such that",
+              "there is",
+              "such that:"
+            ],
+            "eventId": "5"
+          },
+          {
+            "type": "show",
+            "id": "Group_93",
+            "enabled": "enabled",
+            "name": "Live languages = Dense sets",
+            "merged": false,
+            "keywords": [
+              "Live languages = Dense sets"
+            ],
+            "eventId": "7"
+          },
+          {
+            "type": "child",
+            "name": "Examples dense",
+            "id": "Examples_dense",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "Group_118",
+                "enabled": "enabled",
+                "name": "Eventually ‘a’",
+                "merged": false,
+                "keywords": [
+                  "Eventually ‘a’"
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "show",
+                "id": "Dense_and_open",
+                "enabled": "enabled",
+                "name": "Dense and open",
+                "merged": true,
+                "keywords": [
+                  "Dense and open"
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "show",
+                "id": "Group_119",
+                "enabled": "enabled",
+                "name": "Infinitely many ‘a’ iff Infinitely many ‘c’",
+                "merged": false,
+                "keywords": [
+                  "Infinitely many ‘a’ iff Infinitely many ‘c’"
+                ],
+                "eventId": "3"
+              },
+              {
+                "type": "show",
+                "id": "Dense_but_not_open",
+                "enabled": "enabled",
+                "name": "Dense but not open",
+                "merged": true,
+                "keywords": [
+                  "Dense but not open"
+                ],
+                "eventId": "4"
+              },
+              {
+                "type": "show",
+                "id": "Group_120",
+                "enabled": "enabled",
+                "name": "Dense sets might be non-Borel / non-analytic",
+                "merged": false,
+                "keywords": [
+                  "Dense sets might be non-Borel / non-analytic"
+                ],
+                "eventId": "5"
+              }
+            ],
+            "keywords": [
+              "How simple/complex are dense sets?",
+              "Some examples",
+              "Examples dense"
+            ],
+            "eventId": "8",
+            "originalParams": {
+              "Group_118": {
+                "opacity": 1
+              },
+              "Dense_and_open": {
+                "opacity": 1
+              },
+              "Group_119": {
+                "opacity": 1
+              },
+              "Dense_but_not_open": {
+                "opacity": 1
+              },
+              "Group_120": {
+                "opacity": 1
+              }
+            }
+          }
+        ],
+        "keywords": [
+          "Dense sets:",
+          "a set is dense if it intersects every open set.",
+          "non-empty",
+          "Dense sets"
+        ],
+        "eventId": "5",
+        "originalParams": {
+          "Group_1182": {
+            "opacity": 1
+          },
+          "Group_1183": {
+            "opacity": 1
+          },
+          "Group_93": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "Close-dense Decomposition",
+        "id": "Close_dense_Decomposition",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "Group_93",
+            "enabled": "enabled",
+            "name": "Hausdorff?",
+            "merged": false,
+            "keywords": [
+              "Any?",
+              "Metric?",
+              "Hausdorff?"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "show",
+            "id": "Vector_78",
+            "enabled": "enabled",
+            "name": "Vector 78",
+            "merged": true,
+            "keywords": [
+              "Vector 78"
+            ],
+            "eventId": "18"
+          },
+          {
+            "type": "hide",
+            "id": "Group_93",
+            "enabled": "enabled",
+            "name": "Hausdorff?",
+            "merged": false,
+            "keywords": [
+              "Hausdorff?"
+            ],
+            "eventId": "5"
+          },
+          {
+            "type": "show",
+            "id": "any",
+            "enabled": "enabled",
+            "name": "any",
+            "merged": true,
+            "keywords": [
+              "any"
+            ],
+            "eventId": "6"
+          },
+          {
+            "type": "show",
+            "id": "Group_67",
+            "enabled": "enabled",
+            "name": "Proof:",
+            "merged": false,
+            "keywords": [
+              "Proof:"
+            ],
+            "eventId": "9"
+          },
+          {
+            "type": "show",
+            "id": "set_A",
+            "enabled": "enabled",
+            "name": "set A",
+            "merged": false,
+            "keywords": [
+              "set A"
+            ],
+            "eventId": "7"
+          },
+          {
+            "type": "show",
+            "id": "Group_932",
+            "enabled": "enabled",
+            "name": "space X",
+            "merged": true,
+            "keywords": [
+              "X",
+              "space X"
+            ],
+            "eventId": "8"
+          },
+          {
+            "type": "show",
+            "id": "Group_71",
+            "enabled": "enabled",
+            "name": "aim",
+            "merged": true,
+            "keywords": [
+              "Aim:",
+              "Closed",
+              "Dense",
+              "aim"
+            ],
+            "eventId": "10"
+          },
+          {
+            "type": "show",
+            "id": "Group_933",
+            "enabled": "enabled",
+            "name": "(topological closure)",
+            "merged": false,
+            "keywords": [
+              "(topological closure)"
+            ],
+            "eventId": "11"
+          },
+          {
+            "type": "show",
+            "id": "closure_A",
+            "enabled": "enabled",
+            "name": "closure A",
+            "merged": true,
+            "keywords": [
+              "closure A"
+            ],
+            "eventId": "12"
+          },
+          {
+            "type": "show",
+            "id": "D___A__cup__X_setminus_F__",
+            "enabled": "enabled",
+            "name": "D = A \\cup (X\\setminus F) ",
+            "merged": false,
+            "keywords": [
+              "D = A \\cup (X\\setminus F) "
+            ],
+            "eventId": "13"
+          },
+          {
+            "type": "show",
+            "id": "dense",
+            "enabled": "enabled",
+            "name": "dense",
+            "merged": true,
+            "keywords": [
+              "D",
+              "dense"
+            ],
+            "eventId": "14"
+          },
+          {
+            "type": "hide",
+            "id": "closure_A",
+            "enabled": "enabled",
+            "name": "closure A",
+            "merged": true,
+            "keywords": [
+              "closure A"
+            ],
+            "eventId": "15"
+          },
+          {
+            "type": "hide",
+            "id": "set_A",
+            "enabled": "enabled",
+            "name": "set A",
+            "merged": true,
+            "keywords": [
+              "set A"
+            ],
+            "eventId": "19"
+          },
+          {
+            "type": "show",
+            "id": "Group_934",
+            "enabled": "enabled",
+            "name": "subset of a dense",
+            "merged": false,
+            "keywords": [
+              "Is dense!",
+              "subset of a dense"
+            ],
+            "eventId": "16"
+          },
+          {
+            "type": "show",
+            "id": "Group_935",
+            "enabled": "enabled",
+            "name": "Lemma:",
+            "merged": true,
+            "keywords": [
+              "Lemma:"
+            ],
+            "eventId": "17"
+          },
+          {
+            "type": "child",
+            "name": "proof frontier",
+            "id": "proof_frontier",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "Group_85",
+                "enabled": "enabled",
+                "name": "does not contain any open",
+                "merged": false,
+                "keywords": [
+                  "does not contain any open",
+                  "Aim:"
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "show",
+                "id": "Group_93",
+                "enabled": "enabled",
+                "name": "Group 93",
+                "merged": true,
+                "keywords": [
+                  "Group 93"
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "show",
+                "id": "open_set",
+                "enabled": "enabled",
+                "name": "open set",
+                "merged": false,
+                "keywords": [
+                  "open set",
+                  "U"
+                ],
+                "eventId": "3"
+              },
+              {
+                "type": "show",
+                "id": "Group_94",
+                "enabled": "enabled",
+                "name": "Frontier of A:",
+                "merged": false,
+                "keywords": [
+                  "Frontier of A:"
+                ],
+                "eventId": "4"
+              },
+              {
+                "type": "show",
+                "id": "U___overline_A___implies_U__text__intersects___mathring_A_",
+                "enabled": "enabled",
+                "name": "U⊆ \\overline{A} \\implies U \\text{ intersects }\\mathring{A}",
+                "merged": false,
+                "keywords": [
+                  "U⊆ \\overline{A} \\implies U \\text{ intersects }\\mathring{A}"
+                ],
+                "eventId": "5"
+              }
+            ],
+            "keywords": [
+              "Proof:",
+              "proof frontier"
+            ],
+            "eventId": "1",
+            "originalParams": {
+              "Group_85": {
+                "opacity": 1
+              },
+              "Group_93": {
+                "opacity": 1
+              },
+              "open_set": {
+                "opacity": 1
+              },
+              "Group_94": {
+                "opacity": 1
+              },
+              "U___overline_A___implies_U__text__intersects___mathring_A_": {
+                "opacity": 1
+              }
+            }
+          }
+        ],
+        "keywords": [
+          "Theorem",
+          "Every set of a topological space is the intersection of a closed and a dense set.",
+          "Text 1",
+          "Close-dense Decomposition"
+        ],
+        "eventId": "6",
+        "originalParams": {
+          "Group_93": {
+            "opacity": 1
+          },
+          "any": {
+            "opacity": 1
+          },
+          "set_A": {
+            "opacity": 1
+          },
+          "Group_932": {
+            "opacity": 1
+          },
+          "Group_67": {
+            "opacity": 1
+          },
+          "Group_71": {
+            "opacity": 1
+          },
+          "Group_933": {
+            "opacity": 1
+          },
+          "closure_A": {
+            "opacity": 1
+          },
+          "D___A__cup__X_setminus_F__": {
+            "opacity": 1
+          },
+          "dense": {
+            "opacity": 1
+          },
+          "Group_934": {
+            "opacity": 1
+          },
+          "Group_935": {
+            "opacity": 1
+          },
+          "Vector_78": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "Duality topology",
+        "id": "Duality_topology",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "hide",
+            "id": "But____Why_on_earth_are_dense_sets_dual_to_close_sets_",
+            "enabled": "enabled",
+            "name": "Safe and live languages are considered “dual”",
+            "merged": false,
+            "keywords": [
+              "Safe and live languages are considered “dual”"
+            ],
+            "eventId": "9"
+          },
+          {
+            "type": "show",
+            "id": "But____Why_on_earth_are_dense_sets_dual_to_close_sets_2",
+            "enabled": "enabled",
+            "name": "But... Why on earth are dense sets dual to close sets?",
+            "merged": true,
+            "keywords": [
+              "But... Why on earth are dense sets dual to close sets?"
+            ],
+            "eventId": "10"
+          },
+          {
+            "type": "show",
+            "id": "A_set_is_dense_if_it_is_disjoint_to_no_open_set",
+            "enabled": "enabled",
+            "name": "A set is dense if it is disjoint to no open set",
+            "merged": false,
+            "keywords": [
+              "A set is dense if it is disjoint to no open set"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "A_set_is_closed_if_its_complement_is_open",
+            "enabled": "enabled",
+            "name": "A set is closed if its complement is open",
+            "merged": false,
+            "keywords": [
+              "A set is closed if its complement is open"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "show",
+            "id": "Totally_disjoint_to_an_open",
+            "enabled": "enabled",
+            "name": "Totally disjoint to an open",
+            "merged": false,
+            "keywords": [
+              "Totally disjoint to an open"
+            ],
+            "eventId": "7"
+          },
+          {
+            "type": "hide",
+            "id": "A_set_is_closed_if_its_complement_is_open",
+            "enabled": "enabled",
+            "name": "A set is closed if its complement is open",
+            "merged": false,
+            "keywords": [
+              "A set is closed if its complement is open"
+            ],
+            "eventId": "5"
+          },
+          {
+            "type": "show",
+            "id": "A_set_is_closed_if_every_disjoint_set_is_included_in_a_disjoint_open_set_",
+            "enabled": "enabled",
+            "name": "A set is closed if every disjoint set is included in a disjoint open set.",
+            "merged": true,
+            "keywords": [
+              "A set is closed if every disjoint set is included in a disjoint open set."
+            ],
+            "eventId": "6"
+          }
+        ],
+        "keywords": [
+          "Me in a thinking session",
+          "Safe and live languages are considered “dual”",
+          "Duality topology"
+        ],
+        "eventId": "8",
+        "originalParams": {
+          "A_set_is_dense_if_it_is_disjoint_to_no_open_set": {
+            "opacity": 1
+          },
+          "A_set_is_closed_if_its_complement_is_open": {
+            "opacity": 1
+          },
+          "A_set_is_closed_if_every_disjoint_set_is_included_in_a_disjoint_open_set_": {
+            "opacity": 1
+          },
+          "Totally_disjoint_to_an_open": {
+            "opacity": 1
+          },
+          "But____Why_on_earth_are_dense_sets_dual_to_close_sets_": {
+            "opacity": 1
+          },
+          "But____Why_on_earth_are_dense_sets_dual_to_close_sets_2": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "show",
+        "id": "Conclusions2",
+        "enabled": "enabled",
+        "name": "Conclusions",
+        "merged": false,
+        "keywords": [
+          "Conclusions"
+        ],
+        "eventId": "24"
+      },
+      {
+        "type": "child",
+        "name": "Conclusions",
+        "id": "Conclusions",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "Group_87",
+            "enabled": "enabled",
+            "name": "Open ≠ Dense",
+            "merged": false,
+            "keywords": [
+              "Open ≠ Dense"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "Group_88",
+            "enabled": "enabled",
+            "name": "Safety-liveness decomposition may be overrated",
+            "merged": false,
+            "keywords": [
+              "Safety-liveness decomposition may be overrated"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "Dense_sets_are_not_simpler_than_general_ones__there_are_non_Borel_dense_sets__",
+            "enabled": "enabled",
+            "name": "Dense sets are not simpler than general ones (there are non-Borel dense sets).",
+            "merged": false,
+            "keywords": [
+              "Dense sets are not simpler than general ones (there are non-Borel dense sets)."
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "Group_86",
+            "enabled": "enabled",
+            "name": "Why should we care about liveness?",
+            "merged": false,
+            "keywords": [
+              "Why should we care about liveness?"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "show",
+            "id": "Not_simpler_or_harder_than_general_sets_Not_closed_under_intersection__complement___",
+            "enabled": "enabled",
+            "name": "Not simpler or harder than general sets Not closed under intersection, complement...",
+            "merged": false,
+            "keywords": [
+              "Not simpler or harder than general sets Not closed under intersection, complement..."
+            ],
+            "eventId": "5"
+          }
+        ],
+        "keywords": [
+          "Conclusions"
+        ],
+        "eventId": "13",
+        "originalParams": {
+          "Group_87": {
+            "opacity": 1
+          },
+          "Group_88": {
+            "opacity": 1
+          },
+          "Dense_sets_are_not_simpler_than_general_ones__there_are_non_Borel_dense_sets__": {
+            "opacity": 1
+          },
+          "Group_86": {
+            "opacity": 1
+          },
+          "Not_simpler_or_harder_than_general_sets_Not_closed_under_intersection__complement___": {
+            "opacity": 1
+          }
+        }
+      }
+    ],
+    "keywords": [
+      "Antonio Casares ⋅ University of Warsaw",
+      "Safety",
+      "and",
+      "Liveness",
+      "main"
+    ],
+    "eventId": "root",
+    "originalParams": {
+      "Some_topology": {
+        "opacity": 1
+      },
+      "Group_76": {
+        "opacity": 1
+      },
+      "Group_762": {
+        "opacity": 1
+      },
+      "Group_7": {
+        "opacity": 1
+      },
+      "Conclusions2": {
+        "opacity": 1
+      },
+      "Screenshot_2025_06_02_at_10_41_44_1": {
+        "opacity": 1
+      },
+      "Rectangle_26": {
+        "opacity": 1
+      }
+    }
+  },
+  "treeTimeLine": [],
+  "chronicleTimeLine": []
+}

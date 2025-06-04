@@ -872,10 +872,10 @@
             "type": "show",
             "id": "D___A__cup__X_setminus_F__",
             "enabled": "enabled",
-            "name": "D = A \\cup (X\\setminus F) ",
+            "name": "D = A \\cup (X\\setminus \\overline{A}) ",
             "merged": false,
             "keywords": [
-              "D = A \\cup (X\\setminus F) "
+              "D = A \\cup (X\\setminus \\overline{A}) "
             ],
             "eventId": "13"
           },
@@ -926,17 +926,6 @@
             "eventId": "16"
           },
           {
-            "type": "show",
-            "id": "Group_935",
-            "enabled": "enabled",
-            "name": "Lemma:",
-            "merged": true,
-            "keywords": [
-              "Lemma:"
-            ],
-            "eventId": "17"
-          },
-          {
             "type": "child",
             "name": "proof frontier",
             "id": "proof_frontier",
@@ -980,23 +969,12 @@
               },
               {
                 "type": "show",
-                "id": "Group_94",
-                "enabled": "enabled",
-                "name": "Frontier of A:",
-                "merged": false,
-                "keywords": [
-                  "Frontier of A:"
-                ],
-                "eventId": "4"
-              },
-              {
-                "type": "show",
                 "id": "U___overline_A___implies_U__text__intersects___mathring_A_",
                 "enabled": "enabled",
-                "name": "U⊆ \\overline{A} \\implies U \\text{ intersects }\\mathring{A}",
+                "name": "U⊆ \\overline{A} \\implies U \\text{ intersects }A",
                 "merged": false,
                 "keywords": [
-                  "U⊆ \\overline{A} \\implies U \\text{ intersects }\\mathring{A}"
+                  "U⊆ \\overline{A} \\implies U \\text{ intersects }A"
                 ],
                 "eventId": "5"
               }

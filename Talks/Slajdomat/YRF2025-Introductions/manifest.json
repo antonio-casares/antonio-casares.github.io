@@ -15,7 +15,8 @@
     "Paragraphs_typed": "Paragraphs_typed",
     "Get_inspiration": "Get_inspiration",
     "Conclusions": "Conclusions",
-    "straightforward": "straightforward"
+    "straightforward": "straightforward",
+    "Clearly_state_results": "Clearly_state_results"
   },
   "tree": {
     "type": "child",
@@ -127,12 +128,12 @@
         "type": "show",
         "id": "Group_2",
         "enabled": "enabled",
-        "name": "Tip 1: Keep it simple and direct",
+        "name": "Keep it simple and direct",
         "merged": true,
         "keywords": [
-          "Tip 1: Keep it simple and direct"
+          "Keep it simple and direct"
         ],
-        "eventId": "16"
+        "eventId": "26"
       },
       {
         "type": "show",
@@ -199,39 +200,15 @@
             "eventId": "2"
           },
           {
-            "type": "hide",
-            "id": "Group_19",
+            "type": "show",
+            "id": "Group_24",
             "enabled": "enabled",
-            "name": "(as supported by this very scientific chart)",
+            "name": "Make your paper shine!",
             "merged": false,
             "keywords": [
-              "(as supported by this very scientific chart)"
+              "Make your paper shine!"
             ],
-            "eventId": "3"
-          },
-          {
-            "type": "show",
-            "id": "Group_118",
-            "enabled": "enabled",
-            "name": "Eventually ‘a’",
-            "merged": true,
-            "keywords": [
-              "Place where you can lay your message/narrative",
-              "Eventually ‘a’"
-            ],
-            "eventId": "4"
-          },
-          {
-            "type": "show",
-            "id": "Group_119",
-            "enabled": "enabled",
-            "name": "Infinitely many ‘a’ iff Infinitely many ‘c’",
-            "merged": false,
-            "keywords": [
-              "Your contribution will be judge (partly)",
-              "Infinitely many ‘a’ iff Infinitely many ‘c’"
-            ],
-            "eventId": "5"
+            "eventId": "6"
           }
         ],
         "keywords": [
@@ -246,10 +223,7 @@
           "Group_19": {
             "opacity": 1
           },
-          "Group_118": {
-            "opacity": 1
-          },
-          "Group_119": {
+          "Group_24": {
             "opacity": 1
           }
         }
@@ -337,19 +311,8 @@
         "name": "How",
         "id": "How",
         "enabled": "enabled",
-        "merged": true,
+        "merged": false,
         "children": [
-          {
-            "type": "show",
-            "id": "Group_2",
-            "enabled": "enabled",
-            "name": "Keep it simple and direct",
-            "merged": false,
-            "keywords": [
-              "Keep it simple and direct"
-            ],
-            "eventId": "8"
-          },
           {
             "type": "child",
             "name": "Standard advice",
@@ -621,11 +584,10 @@
                 "name": "Introduction of main concepts",
                 "merged": true,
                 "keywords": [
-                  "Context for the field",
                   "Introduction of main concepts",
                   "Recent developments",
-                  "Classic results",
-                  "(funnel structure)"
+                  "Context for the field",
+                  "Classic results"
                 ],
                 "eventId": "8"
               },
@@ -744,8 +706,9 @@
                 "name": "In 1972, Karp provided a list of...",
                 "merged": false,
                 "keywords": [
-                  "In 1972, Karp provided a list of...",
-                  "[historical context]"
+                  "In 1972, Karp gave a list of...",
+                  "[historical context]",
+                  "In 1972, Karp provided a list of..."
                 ],
                 "eventId": "6"
               },
@@ -790,14 +753,72 @@
                 "opacity": 1
               }
             }
+          },
+          {
+            "type": "child",
+            "name": "Clearly state results",
+            "id": "Clearly_state_results",
+            "enabled": "enabled",
+            "merged": true,
+            "children": [
+              {
+                "type": "show",
+                "id": "Make_them_stand_out_in_a_separated_subsection",
+                "enabled": "enabled",
+                "name": "Make them stand out in a separated subsection",
+                "merged": false,
+                "keywords": [
+                  "Make them stand out in a separated subsection"
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "show",
+                "id": "Use_bullet_points___theorem_environments",
+                "enabled": "enabled",
+                "name": "Use bullet points / theorem environments",
+                "merged": false,
+                "keywords": [
+                  "Use bullet points / theorem environments"
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "show",
+                "id": "Group_26",
+                "enabled": "enabled",
+                "name": "List them all. Not only theorems are contributions!",
+                "merged": false,
+                "keywords": [
+                  "List them all. Not only theorems are contributions!",
+                  "Your contributions!"
+                ],
+                "eventId": "3"
+              }
+            ],
+            "keywords": [
+              "Clearly state your contributions",
+              "Clearly state results"
+            ],
+            "eventId": "10",
+            "originalParams": {
+              "Make_them_stand_out_in_a_separated_subsection": {
+                "opacity": 1
+              },
+              "Use_bullet_points___theorem_environments": {
+                "opacity": 1
+              },
+              "Group_26": {
+                "opacity": 1
+              }
+            }
           }
         ],
         "keywords": [
-          "How?",
           "Text 3",
           "How"
         ],
-        "eventId": "19",
+        "eventId": "23",
         "originalParams": {
           "Group_2": {
             "opacity": 1

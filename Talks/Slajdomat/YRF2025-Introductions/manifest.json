@@ -1,0 +1,1064 @@
+{
+  "version": 3.1,
+  "presentation": "YRF2025-Casares",
+  "slideDict": {
+    "new_slide": "main",
+    "Why": "Why",
+    "What_for": "What_for",
+    "How": "How",
+    "Standard_advice": "Standard_advice",
+    "Be_straightforward": "Be_straightforward",
+    "Pause_and_think": "Pause_and_think",
+    "citations": "citations",
+    "Build_a_narrative": "Build_a_narrative",
+    "Sections": "Sections",
+    "Paragraphs_typed": "Paragraphs_typed",
+    "Get_inspiration": "Get_inspiration",
+    "Conclusions": "Conclusions",
+    "straightforward": "straightforward"
+  },
+  "tree": {
+    "type": "child",
+    "name": "main",
+    "id": "new_slide",
+    "enabled": "enabled",
+    "merged": false,
+    "children": [
+      {
+        "type": "show",
+        "id": "Presumptuous_title",
+        "enabled": "enabled",
+        "name": "Presumptuous title",
+        "merged": false,
+        "keywords": [
+          "Presumptuous title"
+        ],
+        "eventId": "4"
+      },
+      {
+        "type": "show",
+        "id": "Not_even_accurate",
+        "enabled": "enabled",
+        "name": "Not even accurate",
+        "merged": false,
+        "keywords": [
+          "Not even accurate"
+        ],
+        "eventId": "5"
+      },
+      {
+        "type": "hide",
+        "id": "Presumptuous_title",
+        "enabled": "enabled",
+        "name": "Presumptuous title",
+        "merged": false,
+        "keywords": [
+          "Presumptuous title"
+        ],
+        "eventId": "10"
+      },
+      {
+        "type": "hide",
+        "id": "Not_even_accurate",
+        "enabled": "enabled",
+        "name": "Not even accurate",
+        "merged": true,
+        "keywords": [
+          "Not even accurate"
+        ],
+        "eventId": "11"
+      },
+      {
+        "type": "hide",
+        "id": "State_based_vs_Transition_based_acceptance_in___automata",
+        "enabled": "enabled",
+        "name": "How to write a good introduction",
+        "merged": true,
+        "keywords": [
+          "How to write a good introduction"
+        ],
+        "eventId": "2"
+      },
+      {
+        "type": "show",
+        "id": "_For_prefix_independent_objectives",
+        "enabled": "enabled",
+        "name": "†This talk owes much",
+        "merged": true,
+        "keywords": [
+          "†This talk owes much"
+        ],
+        "eventId": "6"
+      },
+      {
+        "type": "show",
+        "id": "Some_tips_about_writing_that_I_got_by_several_sources_in_the_past___along_with_some_reflections_on_the_role_of_introductions_and_several_random_pieces_of_advice_",
+        "enabled": "enabled",
+        "name": "Some tips about writing that I got by several sources in the past,† along with some reflections on the role of introductions and several random pieces of advice.",
+        "merged": true,
+        "keywords": [
+          "Some tips about writing that I got by several sources in the past,† along with some reflections on the role of introductions and several random pieces of advice."
+        ],
+        "eventId": "7"
+      },
+      {
+        "type": "show",
+        "id": "Group_1",
+        "enabled": "enabled",
+        "name": "Group 1",
+        "merged": false,
+        "keywords": [
+          "Group 1"
+        ],
+        "eventId": "14"
+      },
+      {
+        "type": "hide",
+        "id": "_For_prefix_independent_objectives",
+        "enabled": "enabled",
+        "name": "†This talk owes much",
+        "merged": false,
+        "keywords": [
+          "†This talk owes much"
+        ],
+        "eventId": "8"
+      },
+      {
+        "type": "show",
+        "id": "Group_2",
+        "enabled": "enabled",
+        "name": "Tip 1: Keep it simple and direct",
+        "merged": true,
+        "keywords": [
+          "Tip 1: Keep it simple and direct"
+        ],
+        "eventId": "16"
+      },
+      {
+        "type": "show",
+        "id": "State_based_vs_Transition_based_acceptance_in___automata",
+        "enabled": "enabled",
+        "name": "How to write a good introduction",
+        "merged": false,
+        "keywords": [
+          "How to write a good introduction"
+        ],
+        "eventId": "3"
+      },
+      {
+        "type": "hide",
+        "id": "Some_tips_about_writing_that_I_got_by_several_sources_in_the_past___along_with_some_reflections_on_the_role_of_introductions_and_several_random_pieces_of_advice_",
+        "enabled": "enabled",
+        "name": "Some tips about writing that I got by several sources in the past,† along with some reflections on the role of introductions and several random pieces of advice.",
+        "merged": true,
+        "keywords": [
+          "Some tips about writing that I got by several sources in the past,† along with some reflections on the role of introductions and several random pieces of advice."
+        ],
+        "eventId": "9"
+      },
+      {
+        "type": "hide",
+        "id": "Group_1",
+        "enabled": "enabled",
+        "name": "Group 1",
+        "merged": true,
+        "keywords": [
+          "Group 1"
+        ],
+        "eventId": "15"
+      },
+      {
+        "type": "child",
+        "name": "Why",
+        "id": "Why",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "The_most_important_part_of_a_paper",
+            "enabled": "enabled",
+            "name": "The most important part of a paper",
+            "merged": false,
+            "keywords": [
+              "The most important part of a paper"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "Group_19",
+            "enabled": "enabled",
+            "name": "(as supported by this very scientific chart)",
+            "merged": false,
+            "keywords": [
+              "(as supported by this very scientific chart)",
+              "Chances of paper being accepted",
+              "Quality of the introduction"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "hide",
+            "id": "Group_19",
+            "enabled": "enabled",
+            "name": "(as supported by this very scientific chart)",
+            "merged": false,
+            "keywords": [
+              "(as supported by this very scientific chart)"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "Group_118",
+            "enabled": "enabled",
+            "name": "Eventually ‘a’",
+            "merged": true,
+            "keywords": [
+              "Place where you can lay your message/narrative",
+              "Eventually ‘a’"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "show",
+            "id": "Group_119",
+            "enabled": "enabled",
+            "name": "Infinitely many ‘a’ iff Infinitely many ‘c’",
+            "merged": false,
+            "keywords": [
+              "Your contribution will be judge (partly)",
+              "Infinitely many ‘a’ iff Infinitely many ‘c’"
+            ],
+            "eventId": "5"
+          }
+        ],
+        "keywords": [
+          "Why introductions?",
+          "Why"
+        ],
+        "eventId": "17",
+        "originalParams": {
+          "The_most_important_part_of_a_paper": {
+            "opacity": 1
+          },
+          "Group_19": {
+            "opacity": 1
+          },
+          "Group_118": {
+            "opacity": 1
+          },
+          "Group_119": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "What for",
+        "id": "What_for",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "Group_22",
+            "enabled": "enabled",
+            "name": "Your contributions!",
+            "merged": false,
+            "keywords": [
+              "Provide context",
+              "Your contributions!",
+              "1."
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "Group_23",
+            "enabled": "enabled",
+            "name": "Communicate the significance of the contributions",
+            "merged": false,
+            "keywords": [
+              "Communicate the significance of the contributions",
+              "Your contributions!",
+              "2."
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "show",
+            "id": "Group_24",
+            "enabled": "enabled",
+            "name": "Your contributions!",
+            "merged": false,
+            "keywords": [
+              "Self-reflection",
+              "Your contributions!"
+            ],
+            "eventId": "5"
+          },
+          {
+            "type": "show",
+            "id": "Learn_to_enjoy_writing_your_introductions_",
+            "enabled": "enabled",
+            "name": "Learn to enjoy writing your introductions!",
+            "merged": false,
+            "keywords": [
+              "Learn to enjoy writing your introductions!"
+            ],
+            "eventId": "6"
+          }
+        ],
+        "keywords": [
+          "What are introductions for?",
+          "Text 4",
+          "What for"
+        ],
+        "eventId": "18",
+        "originalParams": {
+          "Group_22": {
+            "opacity": 1
+          },
+          "Group_23": {
+            "opacity": 1
+          },
+          "Group_24": {
+            "opacity": 1
+          },
+          "Learn_to_enjoy_writing_your_introductions_": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "How",
+        "id": "How",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "Group_2",
+            "enabled": "enabled",
+            "name": "Keep it simple and direct",
+            "merged": false,
+            "keywords": [
+              "Keep it simple and direct"
+            ],
+            "eventId": "8"
+          },
+          {
+            "type": "child",
+            "name": "Standard advice",
+            "id": "Standard_advice",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "Requires_practice_",
+                "enabled": "enabled",
+                "name": "Requires practice!",
+                "merged": false,
+                "keywords": [
+                  "Requires practice!"
+                ],
+                "eventId": "1"
+              }
+            ],
+            "keywords": [
+              "Follow standard scientific writing advice:",
+              "Write short sentences Cut out everything unnecessary Favor short, simple words Avoid passive voice Minimize abbreviations Minimize intensifiers",
+              "(very, strikingly, exciting, fundamentally...)",
+              "Standard advice"
+            ],
+            "eventId": "1",
+            "originalParams": {
+              "Requires_practice_": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "child",
+            "name": "straightforward",
+            "id": "straightforward",
+            "enabled": "enabled",
+            "merged": true,
+            "children": [
+              {
+                "type": "show",
+                "id": "State_your_message_clearly__Don_t_leave_space_for_misinterpretation",
+                "enabled": "enabled",
+                "name": "State your message clearly. Don’t leave space for misinterpretation",
+                "merged": false,
+                "keywords": [
+                  "State your message clearly. Don’t leave space for misinterpretation"
+                ],
+                "eventId": "1"
+              }
+            ],
+            "keywords": [
+              "Be straightforward",
+              "straightforward"
+            ],
+            "eventId": "7",
+            "originalParams": {
+              "State_your_message_clearly__Don_t_leave_space_for_misinterpretation": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "show",
+            "id": "Tip_1__Keep_it_simple_and_direct",
+            "enabled": "enabled",
+            "name": "Structure",
+            "merged": false,
+            "keywords": [
+              "Structure your text",
+              "Structure"
+            ],
+            "eventId": "9"
+          },
+          {
+            "type": "child",
+            "name": "Pause and think",
+            "id": "Pause_and_think",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "Why_do_I_like_this_result_",
+                "enabled": "enabled",
+                "name": "Why do I like this result?",
+                "merged": false,
+                "keywords": [
+                  "Why do I like this result?"
+                ],
+                "eventId": "3"
+              },
+              {
+                "type": "show",
+                "id": "Why_should_other_people_care_",
+                "enabled": "enabled",
+                "name": "Why should other people care?",
+                "merged": false,
+                "keywords": [
+                  "Why should other people care?"
+                ],
+                "eventId": "4"
+              },
+              {
+                "type": "show",
+                "id": "What_have_other_people_done_",
+                "enabled": "enabled",
+                "name": "What have other people done?",
+                "merged": false,
+                "keywords": [
+                  "What have other people done?"
+                ],
+                "eventId": "5"
+              },
+              {
+                "type": "show",
+                "id": "Be_honest_",
+                "enabled": "enabled",
+                "name": "Be honest! The most convincing motivation is what you genuinely believe",
+                "merged": false,
+                "keywords": [
+                  "Be honest! The most convincing motivation is what you genuinely believe"
+                ],
+                "eventId": "6"
+              },
+              {
+                "type": "show",
+                "id": "Group_12",
+                "enabled": "enabled",
+                "name": "Summarize in one short sentence your main message. Build your story to deliver this message.",
+                "merged": false,
+                "keywords": [
+                  "Summarize in one short sentence your main message",
+                  "Tip:",
+                  "Summarize in one short sentence your main message. Build your story to deliver this message."
+                ],
+                "eventId": "7"
+              },
+              {
+                "type": "show",
+                "id": "Build_a_narrative2",
+                "enabled": "enabled",
+                "name": "Build a narrative!",
+                "merged": false,
+                "keywords": [
+                  "Build a narrative!"
+                ],
+                "eventId": "8"
+              }
+            ],
+            "keywords": [
+              "Pause and think",
+              "Text 2"
+            ],
+            "eventId": "3",
+            "originalParams": {
+              "Why_do_I_like_this_result_": {
+                "opacity": 1
+              },
+              "Why_should_other_people_care_": {
+                "opacity": 1
+              },
+              "What_have_other_people_done_": {
+                "opacity": 1
+              },
+              "Be_honest_": {
+                "opacity": 1
+              },
+              "Group_12": {
+                "opacity": 1
+              },
+              "Build_a_narrative2": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "child",
+            "name": "Build a narrative",
+            "id": "Build_a_narrative",
+            "enabled": "enabled",
+            "merged": true,
+            "children": [
+              {
+                "type": "show",
+                "id": "Group_13",
+                "enabled": "enabled",
+                "name": "Something good eventually happens",
+                "merged": false,
+                "keywords": [
+                  "Something good eventually happens",
+                  "1.",
+                  "2.",
+                  "There is no irremediable behavior",
+                  "3."
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "show",
+                "id": "Characters_and_world",
+                "enabled": "enabled",
+                "name": "Characters and world",
+                "merged": false,
+                "keywords": [
+                  "Characters and world"
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "show",
+                "id": "Perturbation__struggle",
+                "enabled": "enabled",
+                "name": "Perturbation, struggle",
+                "merged": false,
+                "keywords": [
+                  "Perturbation, struggle"
+                ],
+                "eventId": "3"
+              },
+              {
+                "type": "show",
+                "id": "And_they_lived_happily_ever_after___",
+                "enabled": "enabled",
+                "name": "And they lived happily ever after...",
+                "merged": false,
+                "keywords": [
+                  "And they lived happily ever after..."
+                ],
+                "eventId": "4"
+              },
+              {
+                "type": "hide",
+                "id": "Characters_and_world",
+                "enabled": "enabled",
+                "name": "Characters and world",
+                "merged": false,
+                "keywords": [
+                  "Characters and world"
+                ],
+                "eventId": "5"
+              },
+              {
+                "type": "hide",
+                "id": "Perturbation__struggle",
+                "enabled": "enabled",
+                "name": "Perturbation, struggle",
+                "merged": true,
+                "keywords": [
+                  "Perturbation, struggle"
+                ],
+                "eventId": "6"
+              },
+              {
+                "type": "hide",
+                "id": "And_they_lived_happily_ever_after___",
+                "enabled": "enabled",
+                "name": "And they lived happily ever after...",
+                "merged": true,
+                "keywords": [
+                  "And they lived happily ever after..."
+                ],
+                "eventId": "7"
+              },
+              {
+                "type": "show",
+                "id": "Group_132",
+                "enabled": "enabled",
+                "name": "Introduction of main concepts",
+                "merged": true,
+                "keywords": [
+                  "Context for the field",
+                  "Introduction of main concepts",
+                  "Recent developments",
+                  "Classic results",
+                  "(funnel structure)"
+                ],
+                "eventId": "8"
+              },
+              {
+                "type": "show",
+                "id": "Open_problem__bottleneck_in_a_procedure__highly_complicated_proofs___",
+                "enabled": "enabled",
+                "name": "Open problem, bottleneck in a procedure, highly complicated proofs...",
+                "merged": false,
+                "keywords": [
+                  "Open problem, bottleneck in a procedure, highly complicated proofs..."
+                ],
+                "eventId": "9"
+              },
+              {
+                "type": "show",
+                "id": "Your_contributions_",
+                "enabled": "enabled",
+                "name": "Your contributions!",
+                "merged": false,
+                "keywords": [
+                  "Your contributions!"
+                ],
+                "eventId": "10"
+              }
+            ],
+            "keywords": [
+              "Story structure in three acts",
+              "Build a narrative"
+            ],
+            "eventId": "4",
+            "originalParams": {
+              "Group_13": {
+                "opacity": 1
+              },
+              "Characters_and_world": {
+                "opacity": 1
+              },
+              "Perturbation__struggle": {
+                "opacity": 1
+              },
+              "And_they_lived_happily_ever_after___": {
+                "opacity": 1
+              },
+              "Group_132": {
+                "opacity": 1
+              },
+              "Open_problem__bottleneck_in_a_procedure__highly_complicated_proofs___": {
+                "opacity": 1
+              },
+              "Your_contributions_": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "child",
+            "name": "Sections",
+            "id": "Sections",
+            "enabled": "enabled",
+            "merged": true,
+            "children": [
+              {
+                "type": "show",
+                "id": "Group_13",
+                "enabled": "enabled",
+                "name": "A quadratic lower bound for SAT",
+                "merged": false,
+                "keywords": [
+                  "Make titles meaningful",
+                  "A quadratic lower bound for SAT",
+                  "The main theorem"
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "show",
+                "id": "One_paragraph__one_idea",
+                "enabled": "enabled",
+                "name": "One paragraph, one idea",
+                "merged": false,
+                "keywords": [
+                  "One paragraph, one idea"
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "show",
+                "id": "Group_22",
+                "enabled": "enabled",
+                "name": "(guidance for the reader + forces you to stick to one idea)",
+                "merged": false,
+                "keywords": [
+                  "Paragraphs should be “typed”",
+                  "(type = definition/historical context/remark...)",
+                  "(guidance for the reader + forces you to stick to one idea)"
+                ],
+                "eventId": "3"
+              },
+              {
+                "type": "show",
+                "id": "Group_222",
+                "enabled": "enabled",
+                "name": "A semigroup is a set with an associative operation that...",
+                "merged": false,
+                "keywords": [
+                  "A semigroup is a set with an associative operation that...",
+                  "[definition]"
+                ],
+                "eventId": "5"
+              },
+              {
+                "type": "show",
+                "id": "Group_23",
+                "enabled": "enabled",
+                "name": "In 1972, Karp provided a list of...",
+                "merged": false,
+                "keywords": [
+                  "In 1972, Karp provided a list of...",
+                  "[historical context]"
+                ],
+                "eventId": "6"
+              },
+              {
+                "type": "show",
+                "id": "Group_24",
+                "enabled": "enabled",
+                "name": "We remark that the previous result only holds if...",
+                "merged": false,
+                "keywords": [
+                  "We remark that the previous result only holds if...",
+                  "[remark]"
+                ],
+                "eventId": "7"
+              }
+            ],
+            "keywords": [
+              "Clear division into sections and paragraphs",
+              "Sections"
+            ],
+            "eventId": "6",
+            "originalParams": {
+              "Group_13": {
+                "opacity": 1
+              },
+              "One_paragraph__one_idea": {
+                "opacity": 1
+              },
+              "Group_22": {
+                "opacity": 1
+              },
+              "A_semigroup_is_a_set_with_an_associative_operation_that___": {
+                "opacity": 1
+              },
+              "Group_222": {
+                "opacity": 1
+              },
+              "Group_23": {
+                "opacity": 1
+              },
+              "Group_24": {
+                "opacity": 1
+              }
+            }
+          }
+        ],
+        "keywords": [
+          "How?",
+          "Text 3",
+          "How"
+        ],
+        "eventId": "19",
+        "originalParams": {
+          "Group_2": {
+            "opacity": 1
+          },
+          "Tip_1__Keep_it_simple_and_direct": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "Get inspiration",
+        "id": "Get_inspiration",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "Group_22",
+            "enabled": "enabled",
+            "name": "Identify what you like from others",
+            "merged": false,
+            "keywords": [
+              "Identify what you like from others"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "Group_23",
+            "enabled": "enabled",
+            "name": "Don’t be afraid of innovating!",
+            "merged": false,
+            "keywords": [
+              "Don’t be afraid of innovating!"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "Most_customs_are_rooted_in_a_good_reason",
+            "enabled": "enabled",
+            "name": "Most customs are rooted in a good reason",
+            "merged": false,
+            "keywords": [
+              "Most customs are rooted in a good reason"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "Group_222",
+            "enabled": "enabled",
+            "name": "Find it!",
+            "merged": false,
+            "keywords": [
+              "Find it!"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "show",
+            "id": "Does_it_apply_to_you_",
+            "enabled": "enabled",
+            "name": "Does it apply to you?",
+            "merged": false,
+            "keywords": [
+              "Does it apply to you?"
+            ],
+            "eventId": "5"
+          },
+          {
+            "type": "show",
+            "id": "Group_223",
+            "enabled": "enabled",
+            "name": "Group 22",
+            "merged": false,
+            "keywords": [
+              "Yes",
+              "No",
+              "Group 22"
+            ],
+            "eventId": "6"
+          },
+          {
+            "type": "show",
+            "id": "Group_232",
+            "enabled": "enabled",
+            "name": "Follow it",
+            "merged": false,
+            "keywords": [
+              "Follow it"
+            ],
+            "eventId": "6"
+          },
+          {
+            "type": "show",
+            "id": "Group_233",
+            "enabled": "enabled",
+            "name": "Adapt!",
+            "merged": false,
+            "keywords": [
+              "Adapt!"
+            ],
+            "eventId": "7"
+          }
+        ],
+        "keywords": [
+          "Take some inspiration (and inspire others)",
+          "Get inspiration"
+        ],
+        "eventId": "20",
+        "originalParams": {
+          "Group_22": {
+            "opacity": 1
+          },
+          "Group_23": {
+            "opacity": 1
+          },
+          "Most_customs_are_rooted_in_a_good_reason": {
+            "opacity": 1
+          },
+          "Group_222": {
+            "opacity": 1
+          },
+          "Does_it_apply_to_you_": {
+            "opacity": 1
+          },
+          "Group_223": {
+            "opacity": 1
+          },
+          "Group_232": {
+            "opacity": 1
+          },
+          "Group_233": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "Conclusions",
+        "id": "Conclusions",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "Tip_1__Keep_it_simple_and_direct",
+            "enabled": "enabled",
+            "name": "Tip 1: Keep it simple and direct",
+            "merged": false,
+            "keywords": [
+              "Logic Mentoring Workshop (LMW) talks",
+              "Tip 1: Keep it simple and direct"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "Group_23",
+            "enabled": "enabled",
+            "name": "Slides by M. Bojańczyk, T. Colcombet, A. Kavvos",
+            "merged": false,
+            "keywords": [
+              "Writing advice",
+              "Slides by M. Bojańczyk, T. Colcombet, E. Di Lavore...",
+              "Slides by M. Bojańczyk, T. Colcombet, A. Kavvos"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "Group_232",
+            "enabled": "enabled",
+            "name": "Afternoon talk by Henry Sinclair-Banks",
+            "merged": false,
+            "keywords": [
+              "Giving a talk",
+              "Afternoon talk by Henry Sinclair-Banks"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "Group_233",
+            "enabled": "enabled",
+            "name": "Great talk by J. Esparza",
+            "merged": false,
+            "keywords": [
+              "Great talk by J. Esparza"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "show",
+            "id": "Thanks_for_your_attention_",
+            "enabled": "enabled",
+            "name": "Thanks for your attention!",
+            "merged": false,
+            "keywords": [
+              "Thanks for your attention!"
+            ],
+            "eventId": "5"
+          }
+        ],
+        "keywords": [
+          "Other resources",
+          "All links here!",
+          "https://antonio-casares.github.io/soft-skills",
+          "Conclusions"
+        ],
+        "eventId": "21",
+        "originalParams": {
+          "Tip_1__Keep_it_simple_and_direct": {
+            "opacity": 1
+          },
+          "Group_23": {
+            "opacity": 1
+          },
+          "Group_232": {
+            "opacity": 1
+          },
+          "Group_233": {
+            "opacity": 1
+          },
+          "Thanks_for_your_attention_": {
+            "opacity": 1
+          }
+        }
+      }
+    ],
+    "keywords": [
+      "Antonio Casares ⋅ University of Warsaw",
+      "main"
+    ],
+    "eventId": "root",
+    "originalParams": {
+      "State_based_vs_Transition_based_acceptance_in___automata": {
+        "opacity": 1
+      },
+      "Presumptuous_title": {
+        "opacity": 1
+      },
+      "Not_even_accurate": {
+        "opacity": 1
+      },
+      "_For_prefix_independent_objectives": {
+        "opacity": 1
+      },
+      "Some_tips_about_writing_that_I_got_by_several_sources_in_the_past___along_with_some_reflections_on_the_role_of_introductions_and_several_random_pieces_of_advice_": {
+        "opacity": 1
+      },
+      "Group_1": {
+        "opacity": 1
+      },
+      "Group_2": {
+        "opacity": 1
+      }
+    }
+  },
+  "treeTimeLine": [],
+  "chronicleTimeLine": []
+}

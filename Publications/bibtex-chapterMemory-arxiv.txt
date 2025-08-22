@@ -1,0 +1,9 @@
+@InCollection{chapterMemory25,
+title = {Positionality and Memory},
+author = {Antonio Casares and Pierre Ohlmann and Pierre Vandenhove},
+booktitle = {Games on Graphs:
+From Logic and Automata to Algorithms},
+editor = {Nathanaël Fijalkow},
+url = {https://arxiv.org/abs/2305.10546},
+year = {2025}
+}

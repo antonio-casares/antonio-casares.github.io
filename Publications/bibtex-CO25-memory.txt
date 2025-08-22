@@ -1,0 +1,10 @@
+@inproceedings{CO25memory,
+  author       = {Antonio Casares and
+                  Pierre Ohlmann},
+  title        = {The memory of {\(\omega\)}-regular and {BC}({$\Sigma_2^0$}) objectives},
+  booktitle    = {{ICALP}},
+  volume       = {334},
+  pages        = {149:1--149:18},
+  year         = {2025},
+  doi          = {10.4230/LIPICS.ICALP.2025.149}
+}

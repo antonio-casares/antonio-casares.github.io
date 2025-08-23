@@ -16,7 +16,11 @@
     "Get_inspiration": "Get_inspiration",
     "Conclusions": "Conclusions",
     "straightforward": "straightforward",
-    "Clearly_state_results": "Clearly_state_results"
+    "Clearly_state_results": "Clearly_state_results",
+    "bad_example": "bad_example",
+    "Example": "Example",
+    "summary": "summary",
+    "example_2": "example_2"
   },
   "tree": {
     "type": "child",
@@ -82,17 +86,6 @@
       },
       {
         "type": "show",
-        "id": "_For_prefix_independent_objectives",
-        "enabled": "enabled",
-        "name": "†This talk owes much",
-        "merged": true,
-        "keywords": [
-          "†This talk owes much"
-        ],
-        "eventId": "6"
-      },
-      {
-        "type": "show",
         "id": "Some_tips_about_writing_that_I_got_by_several_sources_in_the_past___along_with_some_reflections_on_the_role_of_introductions_and_several_random_pieces_of_advice_",
         "enabled": "enabled",
         "name": "Some tips about writing that I got by several sources in the past,† along with some reflections on the role of introductions and several random pieces of advice.",
@@ -114,22 +107,11 @@
         "eventId": "14"
       },
       {
-        "type": "hide",
-        "id": "_For_prefix_independent_objectives",
-        "enabled": "enabled",
-        "name": "†This talk owes much",
-        "merged": false,
-        "keywords": [
-          "†This talk owes much"
-        ],
-        "eventId": "8"
-      },
-      {
         "type": "show",
         "id": "Group_2",
         "enabled": "enabled",
         "name": "Keep it simple and direct",
-        "merged": true,
+        "merged": false,
         "keywords": [
           "Keep it simple and direct"
         ],
@@ -313,68 +295,6 @@
         "enabled": "enabled",
         "merged": false,
         "children": [
-          {
-            "type": "child",
-            "name": "Standard advice",
-            "id": "Standard_advice",
-            "enabled": "enabled",
-            "merged": false,
-            "children": [
-              {
-                "type": "show",
-                "id": "Requires_practice_",
-                "enabled": "enabled",
-                "name": "Requires practice!",
-                "merged": false,
-                "keywords": [
-                  "Requires practice!"
-                ],
-                "eventId": "1"
-              }
-            ],
-            "keywords": [
-              "Follow standard scientific writing advice:",
-              "Write short sentences Cut out everything unnecessary Favor short, simple words Avoid passive voice Minimize abbreviations Minimize intensifiers",
-              "(very, strikingly, exciting, fundamentally...)",
-              "Standard advice"
-            ],
-            "eventId": "1",
-            "originalParams": {
-              "Requires_practice_": {
-                "opacity": 1
-              }
-            }
-          },
-          {
-            "type": "child",
-            "name": "straightforward",
-            "id": "straightforward",
-            "enabled": "enabled",
-            "merged": true,
-            "children": [
-              {
-                "type": "show",
-                "id": "State_your_message_clearly__Don_t_leave_space_for_misinterpretation",
-                "enabled": "enabled",
-                "name": "State your message clearly. Don’t leave space for misinterpretation",
-                "merged": false,
-                "keywords": [
-                  "State your message clearly. Don’t leave space for misinterpretation"
-                ],
-                "eventId": "1"
-              }
-            ],
-            "keywords": [
-              "Be straightforward",
-              "straightforward"
-            ],
-            "eventId": "7",
-            "originalParams": {
-              "State_your_message_clearly__Don_t_leave_space_for_misinterpretation": {
-                "opacity": 1
-              }
-            }
-          },
           {
             "type": "show",
             "id": "Tip_1__Keep_it_simple_and_direct",
@@ -612,6 +532,297 @@
                   "Your contributions!"
                 ],
                 "eventId": "10"
+              },
+              {
+                "type": "child",
+                "name": "Example",
+                "id": "Example",
+                "enabled": "enabled",
+                "merged": false,
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "Group_34",
+                    "enabled": "enabled",
+                    "name": "Something good eventually happens",
+                    "merged": false,
+                    "keywords": [
+                      "Something good eventually happens"
+                    ],
+                    "eventId": "1"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Rectangle_2",
+                    "enabled": "enabled",
+                    "name": "Rectangle 2",
+                    "merged": false,
+                    "keywords": [
+                      "Rectangle 2"
+                    ],
+                    "eventId": "2"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Group_342",
+                    "enabled": "enabled",
+                    "name": "Group 34",
+                    "merged": false,
+                    "keywords": [
+                      "Group 34"
+                    ],
+                    "eventId": "3"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Rectangle_5",
+                    "enabled": "enabled",
+                    "name": "Rectangle 5",
+                    "merged": false,
+                    "keywords": [
+                      "Rectangle 5"
+                    ],
+                    "eventId": "4"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Group_35",
+                    "enabled": "enabled",
+                    "name": "lines confrontation",
+                    "merged": false,
+                    "keywords": [
+                      "lines confrontation"
+                    ],
+                    "eventId": "13"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Group_38",
+                    "enabled": "enabled",
+                    "name": "confrontation",
+                    "merged": true,
+                    "keywords": [
+                      "Something good eventually happens",
+                      "confrontation"
+                    ],
+                    "eventId": "14"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Group_352",
+                    "enabled": "enabled",
+                    "name": "Group 35",
+                    "merged": false,
+                    "keywords": [
+                      "Group 35"
+                    ],
+                    "eventId": "6"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Rectangle_7",
+                    "enabled": "enabled",
+                    "name": "Rectangle 7",
+                    "merged": false,
+                    "keywords": [
+                      "Rectangle 7"
+                    ],
+                    "eventId": "7"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Rectangle_9",
+                    "enabled": "enabled",
+                    "name": "Rectangle 9",
+                    "merged": false,
+                    "keywords": [
+                      "Rectangle 9"
+                    ],
+                    "eventId": "8"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Group_36",
+                    "enabled": "enabled",
+                    "name": "Group 36",
+                    "merged": false,
+                    "keywords": [
+                      "Group 36"
+                    ],
+                    "eventId": "9"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Group_37",
+                    "enabled": "enabled",
+                    "name": "resolution",
+                    "merged": false,
+                    "keywords": [
+                      "Something good eventually happens",
+                      "resolution"
+                    ],
+                    "eventId": "10"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Rectangle_12",
+                    "enabled": "enabled",
+                    "name": "Rectangle 12",
+                    "merged": false,
+                    "keywords": [
+                      "Rectangle 12"
+                    ],
+                    "eventId": "11"
+                  }
+                ],
+                "keywords": [
+                  "LICS 2016",
+                  "Example"
+                ],
+                "eventId": "12",
+                "originalParams": {
+                  "Group_34": {
+                    "opacity": 1
+                  },
+                  "Rectangle_2": {
+                    "opacity": 1
+                  },
+                  "Group_342": {
+                    "opacity": 1
+                  },
+                  "Rectangle_5": {
+                    "opacity": 1
+                  },
+                  "Group_352": {
+                    "opacity": 1
+                  },
+                  "Rectangle_7": {
+                    "opacity": 1
+                  },
+                  "Rectangle_9": {
+                    "opacity": 1
+                  },
+                  "Group_36": {
+                    "opacity": 1
+                  },
+                  "Group_37": {
+                    "opacity": 1
+                  },
+                  "Rectangle_12": {
+                    "opacity": 1
+                  },
+                  "Something_good_eventually_happens2": {
+                    "opacity": 1
+                  },
+                  "Group_35": {
+                    "opacity": 1
+                  },
+                  "Group_38": {
+                    "opacity": 1
+                  }
+                }
+              },
+              {
+                "type": "child",
+                "name": "example 2",
+                "id": "example_2",
+                "enabled": "enabled",
+                "merged": true,
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "Group_382",
+                    "enabled": "enabled",
+                    "name": "Something good eventually happens",
+                    "merged": false,
+                    "keywords": [
+                      "Something good eventually happens",
+                      "[further context...]"
+                    ],
+                    "eventId": "1"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Group_38",
+                    "enabled": "enabled",
+                    "name": "Something good eventually happens",
+                    "merged": false,
+                    "keywords": [
+                      "Something good eventually happens",
+                      "[further reasons...]"
+                    ],
+                    "eventId": "2"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Group_383",
+                    "enabled": "enabled",
+                    "name": "Group 38",
+                    "merged": false,
+                    "keywords": [
+                      "Group 38"
+                    ],
+                    "eventId": "3"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Rectangle_9",
+                    "enabled": "enabled",
+                    "name": "Rectangle 9",
+                    "merged": false,
+                    "keywords": [
+                      "Rectangle 9"
+                    ],
+                    "eventId": "4"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Group_37",
+                    "enabled": "enabled",
+                    "name": "resolution",
+                    "merged": false,
+                    "keywords": [
+                      "Something good eventually happens",
+                      "resolution"
+                    ],
+                    "eventId": "7"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Group_392",
+                    "enabled": "enabled",
+                    "name": "Group 39",
+                    "merged": false,
+                    "keywords": [
+                      "Group 39"
+                    ],
+                    "eventId": "6"
+                  }
+                ],
+                "keywords": [
+                  "example 2"
+                ],
+                "eventId": "14",
+                "originalParams": {
+                  "Group_382": {
+                    "opacity": 1
+                  },
+                  "Group_38": {
+                    "opacity": 1
+                  },
+                  "Group_383": {
+                    "opacity": 1
+                  },
+                  "Rectangle_9": {
+                    "opacity": 1
+                  },
+                  "Group_392": {
+                    "opacity": 1
+                  },
+                  "Group_37": {
+                    "opacity": 1
+                  }
+                }
               }
             ],
             "keywords": [
@@ -650,19 +861,6 @@
             "enabled": "enabled",
             "merged": true,
             "children": [
-              {
-                "type": "show",
-                "id": "Group_13",
-                "enabled": "enabled",
-                "name": "A quadratic lower bound for SAT",
-                "merged": false,
-                "keywords": [
-                  "Make titles meaningful",
-                  "A quadratic lower bound for SAT",
-                  "The main theorem"
-                ],
-                "eventId": "1"
-              },
               {
                 "type": "show",
                 "id": "One_paragraph__one_idea",
@@ -740,9 +938,6 @@
               "Group_22": {
                 "opacity": 1
               },
-              "A_semigroup_is_a_set_with_an_associative_operation_that___": {
-                "opacity": 1
-              },
               "Group_222": {
                 "opacity": 1
               },
@@ -812,6 +1007,194 @@
                 "opacity": 1
               }
             }
+          },
+          {
+            "type": "child",
+            "name": "straightforward",
+            "id": "straightforward",
+            "enabled": "enabled",
+            "merged": true,
+            "children": [
+              {
+                "type": "show",
+                "id": "State_your_message_clearly__Don_t_leave_space_for_misinterpretation",
+                "enabled": "enabled",
+                "name": "State your message clearly. Don’t leave space for misinterpretation",
+                "merged": false,
+                "keywords": [
+                  "State your message clearly. Don’t leave space for misinterpretation"
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "child",
+                "name": "bad example",
+                "id": "bad_example",
+                "enabled": "enabled",
+                "merged": false,
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "Group_32",
+                    "enabled": "enabled",
+                    "name": "We show decidability of computing the memory of ω-regular languages",
+                    "merged": false,
+                    "keywords": [
+                      "Main contribution:",
+                      "We show decidability of computing the memory of ω-regular languages"
+                    ],
+                    "eventId": "1"
+                  },
+                  {
+                    "type": "show",
+                    "id": "YOU_HAD_ONE_JOB",
+                    "enabled": "enabled",
+                    "name": "YOU HAD ONE JOB",
+                    "merged": false,
+                    "keywords": [
+                      "YOU HAD ONE JOB"
+                    ],
+                    "eventId": "9"
+                  },
+                  {
+                    "type": "hide",
+                    "id": "YOU_HAD_ONE_JOB",
+                    "enabled": "enabled",
+                    "name": "YOU HAD ONE JOB",
+                    "merged": false,
+                    "keywords": [
+                      "YOU HAD ONE JOB"
+                    ],
+                    "eventId": "10"
+                  },
+                  {
+                    "type": "show",
+                    "id": "What_we_wrote_",
+                    "enabled": "enabled",
+                    "name": "What we wrote:",
+                    "merged": true,
+                    "keywords": [
+                      "What we wrote:"
+                    ],
+                    "eventId": "2"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Group_322",
+                    "enabled": "enabled",
+                    "name": "At the beginning of the introduction",
+                    "merged": false,
+                    "keywords": [
+                      "At the beginning of the introduction"
+                    ],
+                    "eventId": "3"
+                  },
+                  {
+                    "type": "show",
+                    "id": "_",
+                    "enabled": "enabled",
+                    "name": "?",
+                    "merged": false,
+                    "keywords": [
+                      "?"
+                    ],
+                    "eventId": "4"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Group_323",
+                    "enabled": "enabled",
+                    "name": "Group 32",
+                    "merged": false,
+                    "keywords": [
+                      "Group 32"
+                    ],
+                    "eventId": "5"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Group_33",
+                    "enabled": "enabled",
+                    "name": "Group 33",
+                    "merged": false,
+                    "keywords": [
+                      "Group 33"
+                    ],
+                    "eventId": "6"
+                  },
+                  {
+                    "type": "show",
+                    "id": "we_don_t_even_use_the_word_decidable",
+                    "enabled": "enabled",
+                    "name": "we don’t even use the word decidable",
+                    "merged": false,
+                    "keywords": [
+                      "we don’t even use the word decidable"
+                    ],
+                    "eventId": "7"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Group_34",
+                    "enabled": "enabled",
+                    "name": "Reviewers didn’t understand that the problem was not known to be decidable.",
+                    "merged": false,
+                    "keywords": [
+                      "Consequence:",
+                      "Reviewers didn’t understand that the problem was not known to be decidable",
+                      "Reviewers didn’t understand that the problem was not known to be decidable."
+                    ],
+                    "eventId": "8"
+                  }
+                ],
+                "keywords": [
+                  "Text 5",
+                  "A non-example",
+                  "(ICALP 2025 submission)",
+                  "bad example"
+                ],
+                "eventId": "2",
+                "originalParams": {
+                  "Group_32": {
+                    "opacity": 1
+                  },
+                  "What_we_wrote_": {
+                    "opacity": 1
+                  },
+                  "Group_322": {
+                    "opacity": 1
+                  },
+                  "_": {
+                    "opacity": 1
+                  },
+                  "Group_323": {
+                    "opacity": 1
+                  },
+                  "Group_33": {
+                    "opacity": 1
+                  },
+                  "we_don_t_even_use_the_word_decidable": {
+                    "opacity": 1
+                  },
+                  "Group_34": {
+                    "opacity": 1
+                  },
+                  "YOU_HAD_ONE_JOB": {
+                    "opacity": 1
+                  }
+                }
+              }
+            ],
+            "keywords": [
+              "Be straightforward",
+              "straightforward"
+            ],
+            "eventId": "7",
+            "originalParams": {
+              "State_your_message_clearly__Don_t_leave_space_for_misinterpretation": {
+                "opacity": 1
+              }
+            }
           }
         ],
         "keywords": [
@@ -820,9 +1203,6 @@
         ],
         "eventId": "23",
         "originalParams": {
-          "Group_2": {
-            "opacity": 1
-          },
           "Tip_1__Keep_it_simple_and_direct": {
             "opacity": 1
           }
@@ -927,7 +1307,7 @@
           }
         ],
         "keywords": [
-          "Take some inspiration (and inspire others)",
+          "Get inspired (and inspire others)",
           "Get inspiration"
         ],
         "eventId": "20",
@@ -979,16 +1359,56 @@
           },
           {
             "type": "show",
-            "id": "Group_23",
+            "id": "Group_37",
             "enabled": "enabled",
-            "name": "Slides by M. Bojańczyk, T. Colcombet, A. Kavvos",
+            "name": "Guides on style for scientific writing",
             "merged": false,
             "keywords": [
               "Writing advice",
-              "Slides by M. Bojańczyk, T. Colcombet, E. Di Lavore...",
-              "Slides by M. Bojańczyk, T. Colcombet, A. Kavvos"
+              "Guides on style for scientific writing"
             ],
-            "eventId": "2"
+            "eventId": "7"
+          },
+          {
+            "type": "child",
+            "name": "summary",
+            "id": "summary",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "Keep_it_simple",
+                "enabled": "enabled",
+                "name": "Keep it simple",
+                "merged": false,
+                "keywords": [
+                  "Keep it simple"
+                ],
+                "eventId": "1"
+              }
+            ],
+            "keywords": [
+              "Brief summary",
+              "summary"
+            ],
+            "eventId": "6",
+            "originalParams": {
+              "Keep_it_simple": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "show",
+            "id": "Slides_by_M__Boja_czyk__T__Colcombet__A__Kavvos",
+            "enabled": "enabled",
+            "name": "Slides by M. Bojańczyk, T. Colcombet, E. Di Lavore...",
+            "merged": false,
+            "keywords": [
+              "Slides by M. Bojańczyk, T. Colcombet, E. Di Lavore..."
+            ],
+            "eventId": "8"
           },
           {
             "type": "show",
@@ -1036,9 +1456,6 @@
           "Tip_1__Keep_it_simple_and_direct": {
             "opacity": 1
           },
-          "Group_23": {
-            "opacity": 1
-          },
           "Group_232": {
             "opacity": 1
           },
@@ -1046,6 +1463,12 @@
             "opacity": 1
           },
           "Thanks_for_your_attention_": {
+            "opacity": 1
+          },
+          "Group_37": {
+            "opacity": 1
+          },
+          "Slides_by_M__Boja_czyk__T__Colcombet__A__Kavvos": {
             "opacity": 1
           }
         }

@@ -534,6 +534,17 @@
                 "eventId": "10"
               },
               {
+                "type": "show",
+                "id": "Let_your_introduction_sound_epic_",
+                "enabled": "enabled",
+                "name": "Let your introduction sound epic!",
+                "merged": false,
+                "keywords": [
+                  "Let your introduction sound epic!"
+                ],
+                "eventId": "15"
+              },
+              {
                 "type": "child",
                 "name": "Example",
                 "id": "Example",
@@ -572,6 +583,17 @@
                       "Group 34"
                     ],
                     "eventId": "3"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Group_40",
+                    "enabled": "enabled",
+                    "name": "tree width",
+                    "merged": false,
+                    "keywords": [
+                      "tree width"
+                    ],
+                    "eventId": "15"
                   },
                   {
                     "type": "show",
@@ -711,13 +733,13 @@
                   "Rectangle_12": {
                     "opacity": 1
                   },
-                  "Something_good_eventually_happens2": {
-                    "opacity": 1
-                  },
                   "Group_35": {
                     "opacity": 1
                   },
                   "Group_38": {
+                    "opacity": 1
+                  },
+                  "Group_40": {
                     "opacity": 1
                   }
                 }
@@ -766,14 +788,14 @@
                   },
                   {
                     "type": "show",
-                    "id": "Rectangle_9",
+                    "id": "Group_40",
                     "enabled": "enabled",
-                    "name": "Rectangle 9",
+                    "name": "Group 40",
                     "merged": false,
                     "keywords": [
-                      "Rectangle 9"
+                      "Group 40"
                     ],
-                    "eventId": "4"
+                    "eventId": "8"
                   },
                   {
                     "type": "show",
@@ -800,6 +822,7 @@
                   }
                 ],
                 "keywords": [
+                  "Journal ACM 2024",
                   "example 2"
                 ],
                 "eventId": "14",
@@ -820,6 +843,9 @@
                     "opacity": 1
                   },
                   "Group_37": {
+                    "opacity": 1
+                  },
+                  "Group_40": {
                     "opacity": 1
                   }
                 }
@@ -851,6 +877,9 @@
               },
               "Your_contributions_": {
                 "opacity": 1
+              },
+              "Let_your_introduction_sound_epic_": {
+                "opacity": 1
               }
             }
           },
@@ -863,14 +892,15 @@
             "children": [
               {
                 "type": "show",
-                "id": "One_paragraph__one_idea",
+                "id": "Group_41",
                 "enabled": "enabled",
                 "name": "One paragraph, one idea",
                 "merged": false,
                 "keywords": [
+                  "(not more, not less)",
                   "One paragraph, one idea"
                 ],
-                "eventId": "2"
+                "eventId": "8"
               },
               {
                 "type": "show",
@@ -924,14 +954,11 @@
               }
             ],
             "keywords": [
-              "Clear division into sections and paragraphs",
+              "Use paragraphs wisely",
               "Sections"
             ],
             "eventId": "6",
             "originalParams": {
-              "Group_13": {
-                "opacity": 1
-              },
               "One_paragraph__one_idea": {
                 "opacity": 1
               },
@@ -945,6 +972,9 @@
                 "opacity": 1
               },
               "Group_24": {
+                "opacity": 1
+              },
+              "Group_41": {
                 "opacity": 1
               }
             }

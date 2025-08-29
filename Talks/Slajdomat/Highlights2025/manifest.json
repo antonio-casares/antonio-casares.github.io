@@ -1,0 +1,893 @@
+{
+  "version": 3.1,
+  "presentation": "Highlights2025",
+  "slideDict": {
+    "new_slide": "main",
+    "Games": "Games",
+    "Strategies": "Strategies",
+    "Buchi_Landw": "Buchi_Landw",
+    "Omega_regular": "Omega_regular",
+    "Memory": "Memory",
+    "Known_results": "Known_results",
+    "known_results_2": "known_results_2",
+    "Contributions": "Contributions",
+    "Conclusions": "Conclusions"
+  },
+  "tree": {
+    "type": "child",
+    "name": "main",
+    "id": "new_slide",
+    "enabled": "enabled",
+    "merged": false,
+    "children": [
+      {
+        "type": "child",
+        "name": "Games",
+        "id": "Games",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "Group_23",
+            "enabled": "enabled",
+            "name": "Players move a token in turn, producing",
+            "merged": false,
+            "keywords": [
+              "Players move a token in turns, producing",
+              "Players move a token in turn, producing"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "Group_24",
+            "enabled": "enabled",
+            "name": "Winning condition:",
+            "merged": false,
+            "keywords": [
+              "Winning condition:"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "Group_25",
+            "enabled": "enabled",
+            "name": "Eve wins if",
+            "merged": true,
+            "keywords": [
+              "Eve wins if"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "show",
+            "id": "Group_27",
+            "enabled": "enabled",
+            "name": "Words containing all letters infinitely often",
+            "merged": false,
+            "keywords": [
+              "Words containing all letters infinitely often",
+              "L",
+              "="
+            ],
+            "eventId": "9"
+          },
+          {
+            "type": "show",
+            "id": "We_consider_both_finite_and_infinite_graphs",
+            "enabled": "enabled",
+            "name": "We consider both finite and infinite graphs",
+            "merged": false,
+            "keywords": [
+              "We consider both finite and infinite graphs"
+            ],
+            "eventId": "5"
+          },
+          {
+            "type": "hide",
+            "id": "We_consider_both_finite_and_infinite_graphs",
+            "enabled": "enabled",
+            "name": "We consider both finite and infinite graphs",
+            "merged": false,
+            "keywords": [
+              "We consider both finite and infinite graphs"
+            ],
+            "eventId": "6"
+          },
+          {
+            "type": "hide",
+            "id": "Group_126",
+            "enabled": "enabled",
+            "name": "Adam",
+            "merged": true,
+            "keywords": [
+              "Adam"
+            ],
+            "eventId": "7"
+          },
+          {
+            "type": "hide",
+            "id": "Group_27",
+            "enabled": "enabled",
+            "name": "Words containing all letters infinitely often",
+            "merged": true,
+            "keywords": [
+              "Words containing all letters infinitely often"
+            ],
+            "eventId": "10"
+          }
+        ],
+        "keywords": [
+          "Games on graphs",
+          "Text 7",
+          "Text 8",
+          "Text 9",
+          "Text 10",
+          "Text 11",
+          "Eve",
+          "Adam",
+          "c",
+          "a",
+          "b",
+          "Games"
+        ],
+        "eventId": "2",
+        "originalParams": {
+          "Group_23": {
+            "opacity": 1
+          },
+          "Group_24": {
+            "opacity": 1
+          },
+          "Group_25": {
+            "opacity": 1
+          },
+          "We_consider_both_finite_and_infinite_graphs": {
+            "opacity": 1
+          },
+          "Group_126": {
+            "opacity": 1
+          },
+          "Group_27": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "Strategies",
+        "id": "Strategies",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "Group_99",
+            "enabled": "enabled",
+            "name": "If Eve follows σ, the produced word is in L",
+            "merged": false,
+            "keywords": [
+              "If Eve follows σ, the produced word is in L",
+              "Winning:"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "Eve_can_win_by_going_alternatily_up_and_down",
+            "enabled": "enabled",
+            "name": "Eve can win by going alternatily up and down",
+            "merged": false,
+            "keywords": [
+              "Eve can win by going alternatily up and down"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "Group_102",
+            "enabled": "enabled",
+            "name": "Can be non-computable!",
+            "merged": false,
+            "keywords": [
+              "Can be non-computable!",
+              "!"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "Group_123",
+            "enabled": "enabled",
+            "name": "When can we have “simple” strategies?",
+            "merged": false,
+            "keywords": [
+              "When can we have “simple” strategies?"
+            ],
+            "eventId": "6"
+          }
+        ],
+        "keywords": [
+          "Strategy:",
+          "Words containing all letters infinitely often",
+          "L",
+          "=",
+          "Text 12",
+          "Text 13",
+          "c",
+          "a",
+          "b",
+          "Strategies"
+        ],
+        "eventId": "3",
+        "originalParams": {
+          "Group_99": {
+            "opacity": 1
+          },
+          "Eve_can_win_by_going_alternatily_up_and_down": {
+            "opacity": 1
+          },
+          "Group_102": {
+            "opacity": 1
+          },
+          "Group_27": {
+            "opacity": 1
+          },
+          "Group_123": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "Buchi-Landw",
+        "id": "Buchi_Landw",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "shadow_omega_reg",
+            "enabled": "enabled",
+            "name": "shadow-omega-reg",
+            "merged": false,
+            "keywords": [
+              "shadow-omega-reg"
+            ],
+            "eventId": "5"
+          },
+          {
+            "type": "child",
+            "name": "Omega-regular",
+            "id": "Omega_regular",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "Group_126",
+                "enabled": "enabled",
+                "name": "(input for our decision problems)",
+                "merged": false,
+                "keywords": [
+                  "(input for our decision problems)"
+                ],
+                "eventId": "1"
+              }
+            ],
+            "keywords": [
+              "Definable in MSO",
+              "Definable by ω-expressions",
+              "Recognized by Büchi automata",
+              "Recognizable by deterministic parity automata",
+              "Omega-regular"
+            ],
+            "eventId": "1",
+            "originalParams": {
+              "Group_126": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "show",
+            "id": "shadow_omega_reg2",
+            "enabled": "enabled",
+            "name": "shadow-memory",
+            "merged": false,
+            "keywords": [
+              "shadow-memory"
+            ],
+            "eventId": "7"
+          },
+          {
+            "type": "hide",
+            "id": "shadow_omega_reg",
+            "enabled": "enabled",
+            "name": "shadow-omega-reg",
+            "merged": true,
+            "keywords": [
+              "shadow-omega-reg"
+            ],
+            "eventId": "6"
+          },
+          {
+            "type": "child",
+            "name": "Memory",
+            "id": "Memory",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "Group_108",
+                "enabled": "enabled",
+                "name": "Automaton over the edges of the game",
+                "merged": false,
+                "keywords": [
+                  "Automaton over the edges of the game"
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "show",
+                "id": "Edges_colours",
+                "enabled": "enabled",
+                "name": "Edges colours",
+                "merged": false,
+                "keywords": [
+                  "x",
+                  "y",
+                  "Edges colours"
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "show",
+                "id": "Group_113",
+                "enabled": "enabled",
+                "name": "Automaton",
+                "merged": true,
+                "keywords": [
+                  "x",
+                  "y",
+                  "other",
+                  "Automaton"
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "show",
+                "id": "Group_109",
+                "enabled": "enabled",
+                "name": "Function telling how to play",
+                "merged": false,
+                "keywords": [
+                  "Function telling how to play"
+                ],
+                "eventId": "3"
+              },
+              {
+                "type": "show",
+                "id": "Group_126",
+                "enabled": "enabled",
+                "name": "go down",
+                "merged": false,
+                "keywords": [
+                  "go up",
+                  "go down"
+                ],
+                "eventId": "6"
+              }
+            ],
+            "keywords": [
+              "Words containing all letters infinitely often",
+              "L",
+              "=",
+              "c",
+              "a",
+              "b",
+              "Strategy given by an automaton",
+              "Memory"
+            ],
+            "eventId": "2",
+            "originalParams": {
+              "Edges_colours": {
+                "opacity": 1
+              },
+              "Group_108": {
+                "opacity": 1
+              },
+              "Group_113": {
+                "opacity": 1
+              },
+              "Group_109": {
+                "opacity": 1
+              },
+              "Group_126": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "hide",
+            "id": "shadow_omega_reg2",
+            "enabled": "enabled",
+            "name": "shadow-memory",
+            "merged": false,
+            "keywords": [
+              "shadow-memory"
+            ],
+            "eventId": "8"
+          },
+          {
+            "type": "show",
+            "id": "Group_105",
+            "enabled": "enabled",
+            "name": "There is a constant kL such that these automata can be taken of size ≤kL .",
+            "merged": true,
+            "keywords": [
+              "There is a constant kL such that these automata can be taken of size ≤ kL .",
+              "There is a constant kL such that these automata can be taken of size ≤kL ."
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "show",
+            "id": "_upper_bound_on_kL__size_of_a_det__parity_automaton_for_L_",
+            "enabled": "enabled",
+            "name": "(upper bound on kL: size of a det. parity automaton for L)",
+            "merged": false,
+            "keywords": [
+              "(upper bound on kL: size of a det. parity automaton for L)"
+            ],
+            "eventId": "10"
+          },
+          {
+            "type": "show",
+            "id": "Group_107",
+            "enabled": "enabled",
+            "name": "Minimal k such that, if Eve can win an L-game, she has a strategy given by an automaton of size k",
+            "merged": false,
+            "keywords": [
+              "Memory of L:",
+              "Minimal k such that, if Eve can win an L-game, she has a strategy given by an automaton of size k"
+            ],
+            "eventId": "9"
+          }
+        ],
+        "keywords": [
+          "If L is ω-regular, Eve has winning strategies implemented by finite automata.",
+          "Theorem (Büchi-Landweber ‘69)",
+          "Buchi-Landw"
+        ],
+        "eventId": "4",
+        "originalParams": {
+          "Group_105": {
+            "opacity": 1
+          },
+          "shadow_omega_reg": {
+            "opacity": 1
+          },
+          "shadow_omega_reg2": {
+            "opacity": 1
+          },
+          "Group_107": {
+            "opacity": 1
+          },
+          "_upper_bound_on_kL__size_of_a_det__parity_automaton_for_L_": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "hide",
+        "id": "Title",
+        "enabled": "enabled",
+        "name": "Title",
+        "merged": false,
+        "keywords": [
+          "Title"
+        ],
+        "eventId": "22"
+      },
+      {
+        "type": "show",
+        "id": "What___regular_languages_are_positional_",
+        "enabled": "enabled",
+        "name": "How much memory omega reg",
+        "merged": true,
+        "keywords": [
+          "How much memory omega reg"
+        ],
+        "eventId": "23"
+      },
+      {
+        "type": "show",
+        "id": "What_was_known",
+        "enabled": "enabled",
+        "name": "What was known",
+        "merged": false,
+        "keywords": [
+          "What was known"
+        ],
+        "eventId": "12"
+      },
+      {
+        "type": "child",
+        "name": "Known results",
+        "id": "Known_results",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "Group_126",
+            "enabled": "enabled",
+            "name": "Boolean combinations of ``letter ‘x’ appears infinitely often”",
+            "merged": false,
+            "keywords": [
+              "Muller languages",
+              "Boolean combinations of ``letter ‘x’ appears infinitely often”",
+              "(Dziembowski-Jurdiński-Walukiewicz ‘97)"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "Group_1262",
+            "enabled": "enabled",
+            "name": "(Colcombet-Fijalkow-Horn ‘14)",
+            "merged": false,
+            "keywords": [
+              "Safe languages",
+              "(Colcombet-Fijalkow-Horn ‘14)",
+              "Words avoiding suffixes in"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "Group_1263",
+            "enabled": "enabled",
+            "name": "Decide if kL=1 (in PTIME)",
+            "merged": false,
+            "keywords": [
+              "Positionality / Memoryless",
+              "Decide if kL=1",
+              "(C.-Ohlmann ‘24)",
+              "Decide if kL=1 (in PTIME)"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "In_this_3_cases__decidability_in_PTIME",
+            "enabled": "enabled",
+            "name": "In this 3 cases, decidability in PTIME",
+            "merged": false,
+            "keywords": [
+              "In this 3 cases, decidability in PTIME"
+            ],
+            "eventId": "5"
+          },
+          {
+            "type": "show",
+            "id": "Decidability_open_in_general_",
+            "enabled": "enabled",
+            "name": "Decidability open in general!",
+            "merged": false,
+            "keywords": [
+              "Decidability open in general!"
+            ],
+            "eventId": "4"
+          }
+        ],
+        "keywords": [
+          "Characterisations for:",
+          "Known results"
+        ],
+        "eventId": "5",
+        "originalParams": {
+          "Group_126": {
+            "opacity": 1
+          },
+          "Group_1262": {
+            "opacity": 1
+          },
+          "Group_1263": {
+            "opacity": 1
+          },
+          "Decidability_open_in_general_": {
+            "opacity": 1
+          },
+          "In_this_3_cases__decidability_in_PTIME": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "known-results-2",
+        "id": "known_results_2",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "Group_116",
+            "enabled": "enabled",
+            "name": "Memory over finite games vs Memory over all games",
+            "merged": false,
+            "keywords": [
+              "Memory over finite games vs Memory over all games"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "Group_115",
+            "enabled": "enabled",
+            "name": "(Generalised Kopczyński conjecture)",
+            "merged": false,
+            "keywords": [
+              "Memory of the union of objectives",
+              "(Generalised Kopczyński conjecture)"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "_can_it_explose__",
+            "enabled": "enabled",
+            "name": "(can it explode?)",
+            "merged": true,
+            "keywords": [
+              "(can it explode?)"
+            ],
+            "eventId": "3"
+          }
+        ],
+        "keywords": [
+          "Other open questions",
+          "known-results-2"
+        ],
+        "eventId": "9",
+        "originalParams": {
+          "Group_116": {
+            "opacity": 1
+          },
+          "Group_115": {
+            "opacity": 1
+          },
+          "_can_it_explose__": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "show",
+        "id": "Contributions2",
+        "enabled": "enabled",
+        "name": "Contributions",
+        "merged": false,
+        "keywords": [
+          "Contributions"
+        ],
+        "eventId": "13"
+      },
+      {
+        "type": "child",
+        "name": "Contributions",
+        "id": "Contributions",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "Group_123",
+            "enabled": "enabled",
+            "name": "Decidability of “memory of L ≤ k” in NP",
+            "merged": false,
+            "keywords": [
+              "Decidability of “memory of L ≤ k” in NP"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "Group_124",
+            "enabled": "enabled",
+            "name": "Memory over finite games = Memory over infinite games*",
+            "merged": false,
+            "keywords": [
+              "Memory over finite games = Memory over infinite games",
+              "Memory over finite games = Memory over infinite games*"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "show",
+            "id": "_For_prefix_independent_objectives",
+            "enabled": "enabled",
+            "name": "†For prefix-independent objectives",
+            "merged": false,
+            "keywords": [
+              "†For prefix-independent objectives"
+            ],
+            "eventId": "6"
+          },
+          {
+            "type": "show",
+            "id": "Group_125",
+            "enabled": "enabled",
+            "name": "Memory of (L1 ∪ L2) ≤ (Memory of L1) ⨯ (Memory of L2) †",
+            "merged": true,
+            "keywords": [
+              "Memory of (L1 ∪ L2) ≤ (Memory of L1) ⨯ (Memory of L2) †"
+            ],
+            "eventId": "7"
+          },
+          {
+            "type": "show",
+            "id": "_and_this_is_tight_",
+            "enabled": "enabled",
+            "name": "(and this is tight)",
+            "merged": true,
+            "keywords": [
+              "(and this is tight)"
+            ],
+            "eventId": "8"
+          }
+        ],
+        "keywords": [
+          "Main contribution",
+          "Characterisation of the memory of ω-regular languages",
+          "Contributions"
+        ],
+        "eventId": "6",
+        "originalParams": {
+          "Group_123": {
+            "opacity": 1
+          },
+          "Group_124": {
+            "opacity": 1
+          },
+          "_Result_included_in_an_extended_version": {
+            "opacity": 1
+          },
+          "_For_prefix_independent_objectives": {
+            "opacity": 1
+          },
+          "Group_125": {
+            "opacity": 1
+          },
+          "_and_this_is_tight_": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "show",
+        "id": "Conclusions2",
+        "enabled": "enabled",
+        "name": "Conclusions",
+        "merged": false,
+        "keywords": [
+          "Conclusions"
+        ],
+        "eventId": "14"
+      },
+      {
+        "type": "child",
+        "name": "Conclusions",
+        "id": "Conclusions",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "Group_119",
+            "enabled": "enabled",
+            "name": "Chromatic memory",
+            "merged": false,
+            "keywords": [
+              "Chromatic memory"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "Open_questions",
+            "enabled": "enabled",
+            "name": "Open questions",
+            "merged": false,
+            "keywords": [
+              "Open questions"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "Group_120",
+            "enabled": "enabled",
+            "name": "(Open even for reachability objectives)",
+            "merged": false,
+            "keywords": [
+              "Decidability in PTIME?",
+              "(Open even for reachability objectives)"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "show",
+            "id": "Group_121",
+            "enabled": "enabled",
+            "name": "Do positional objectives exist all over the Borel hierarchy?",
+            "merged": false,
+            "keywords": [
+              "Objectives with higher topological complexity",
+              "Do positional objectives exist all over the Borel hierarchy?"
+            ],
+            "eventId": "5"
+          }
+        ],
+        "keywords": [
+          "Further results",
+          "The characterisation also applies to:",
+          "(topological extension of ω-regular)",
+          "Languages in",
+          "Conclusions"
+        ],
+        "eventId": "7",
+        "originalParams": {
+          "Group_118": {
+            "opacity": 1
+          },
+          "Group_119": {
+            "opacity": 1
+          },
+          "Open_questions": {
+            "opacity": 1
+          },
+          "Group_120": {
+            "opacity": 1
+          },
+          "Group_121": {
+            "opacity": 1
+          }
+        }
+      }
+    ],
+    "keywords": [
+      "The Memory of ω-Regular Languages",
+      "Antonio Casares University of Warsaw",
+      "Pierre Ohlmann Aix-Marseille Université",
+      "&",
+      "HIGHLIGHTS 2025",
+      "main"
+    ],
+    "eventId": "root",
+    "originalParams": {
+      "What_was_known": {
+        "opacity": 1
+      },
+      "Contributions2": {
+        "opacity": 1
+      },
+      "Conclusions2": {
+        "opacity": 1
+      },
+      "Title": {
+        "opacity": 1
+      },
+      "What___regular_languages_are_positional_": {
+        "opacity": 1
+      }
+    }
+  },
+  "treeTimeLine": [],
+  "chronicleTimeLine": []
+}

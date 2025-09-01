@@ -336,7 +336,7 @@
                 "id": "Edges_colours",
                 "enabled": "enabled",
                 "name": "Edges colours",
-                "merged": false,
+                "merged": true,
                 "keywords": [
                   "x",
                   "y",
@@ -374,7 +374,7 @@
                 "id": "Group_126",
                 "enabled": "enabled",
                 "name": "go down",
-                "merged": false,
+                "merged": true,
                 "keywords": [
                   "go up",
                   "go down"
@@ -544,7 +544,7 @@
             "keywords": [
               "Safe languages",
               "(Colcombet-Fijalkow-Horn ‘14)",
-              "Words avoiding suffixes in"
+              "Words avoiding prefixes in"
             ],
             "eventId": "2"
           },

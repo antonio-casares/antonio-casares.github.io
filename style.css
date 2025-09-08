@@ -1,5 +1,5 @@
 body {
-    max-width: 900px;
+    max-width: 950px;
     margin: auto;
     padding: 20px;
     font-family: "Helvetica",Arial,sans-serif;
@@ -34,6 +34,7 @@ body {
 	border-radius: 10%; 
     padding: 5px;
 }
+
 
 .menu {
     padding: 0;
@@ -165,6 +166,16 @@ table {	width: 100%;
     margin: 10px;
     padding: 15px 5px 15px 5px;
 }
+}
+
+.badges {
+    display:flex; gap:4rem; flex-wrap:wrap; align-items:center;padding: 0px 0px 50px 150px;
+}
+.badges img{height:100px; opacity:.9}
+.badges a {
+  display: inline-block;
+  border-bottom: none;
+  text-decoration: none;
 }
 
 

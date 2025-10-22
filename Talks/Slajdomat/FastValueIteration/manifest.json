@@ -1,0 +1,2833 @@
+{
+  "version": 3.1,
+  "presentation": "FastValueIteration-ISTA2025",
+  "slideDict": {
+    "new_slide": "main",
+    "Energy_Games": "Energy_Games",
+    "definition": "definition",
+    "positional": "positional",
+    "State_of_The_Art": "State_of_The_Art",
+    "Potential_Reductions": "Potential_Reductions",
+    "The_algorithm": "The_algorithm",
+    "Master_Theorem": "Master_Theorem",
+    "Examples_of_Algorithms": "Examples_of_Algorithms",
+    "Conclusions": "Conclusions",
+    "lassos": "positional2",
+    "algorithms": "algorithms",
+    "FVI": "FVI",
+    "reduced_games": "reduced_games",
+    "trivial_example": "trivial_example",
+    "first_example": "first_example",
+    "edge_cases": "edge_cases",
+    "other_examples": "other_examples",
+    "PPI": "PPI",
+    "Examples": "Examples",
+    "Strategy_Improvement2": "Strategy_Improvement",
+    "Comparisons": "Comparisons",
+    "Alternating_FVI": "Alternating_FVI"
+  },
+  "tree": {
+    "type": "child",
+    "name": "main",
+    "id": "new_slide",
+    "enabled": "enabled",
+    "merged": false,
+    "children": [
+      {
+        "type": "child",
+        "name": "Energy Games",
+        "id": "Energy_Games",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "child",
+            "name": "definition",
+            "id": "definition",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "Two_players_move_a_token_in_turns_in_a_graph",
+                "enabled": "enabled",
+                "name": "Two players move a token in turns in a graph",
+                "merged": false,
+                "keywords": [
+                  "Two players move a token in turns in a graph"
+                ],
+                "eventId": "14"
+              },
+              {
+                "type": "show",
+                "id": "Vector_10",
+                "enabled": "enabled",
+                "name": "Vector 10",
+                "merged": false,
+                "keywords": [
+                  "Vector 10"
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "show",
+                "id": "_32",
+                "enabled": "enabled",
+                "name": "+3",
+                "merged": true,
+                "keywords": [
+                  "+3"
+                ],
+                "eventId": "3"
+              },
+              {
+                "type": "show",
+                "id": "Group_4",
+                "enabled": "enabled",
+                "name": "Min pays x to Max",
+                "merged": true,
+                "keywords": [
+                  "When",
+                  "x>0",
+                  "is traversed,",
+                  "Min pays x",
+                  "Min pays x to Max"
+                ],
+                "eventId": "6"
+              },
+              {
+                "type": "hide",
+                "id": "Vector_10",
+                "enabled": "enabled",
+                "name": "Vector 10",
+                "merged": false,
+                "keywords": [
+                  "Vector 10"
+                ],
+                "eventId": "9"
+              },
+              {
+                "type": "show",
+                "id": "Vector_11",
+                "enabled": "enabled",
+                "name": "Vector 11",
+                "merged": true,
+                "keywords": [
+                  "Vector 11"
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "show",
+                "id": "_52",
+                "enabled": "enabled",
+                "name": "- 5",
+                "merged": true,
+                "keywords": [
+                  "- 5"
+                ],
+                "eventId": "4"
+              },
+              {
+                "type": "show",
+                "id": "Min_pays_x_to_Max",
+                "enabled": "enabled",
+                "name": "Min pays x to Max",
+                "merged": true,
+                "keywords": [
+                  "When",
+                  "x<0",
+                  "is traversed,",
+                  "Min receives -x",
+                  "Min pays x to Max"
+                ],
+                "eventId": "7"
+              },
+              {
+                "type": "hide",
+                "id": "Vector_11",
+                "enabled": "enabled",
+                "name": "Vector 11",
+                "merged": false,
+                "keywords": [
+                  "Vector 11"
+                ],
+                "eventId": "10"
+              },
+              {
+                "type": "show",
+                "id": "___",
+                "enabled": "enabled",
+                "name": "...",
+                "merged": true,
+                "keywords": [
+                  "..."
+                ],
+                "eventId": "5"
+              },
+              {
+                "type": "show",
+                "id": "Group_6",
+                "enabled": "enabled",
+                "name": "Initial credit that Min needs to play for a infinite amount of time (might be ∞)",
+                "merged": true,
+                "keywords": [
+                  "Energy(v) =",
+                  "Initial credit that Min needs to play for a infinite amount of time (might be ∞)"
+                ],
+                "eventId": "13"
+              },
+              {
+                "type": "show",
+                "id": "Group_11",
+                "enabled": "enabled",
+                "name": "values example",
+                "merged": false,
+                "keywords": [
+                  "5",
+                  "2",
+                  "0",
+                  "values example"
+                ],
+                "eventId": "11"
+              },
+              {
+                "type": "show",
+                "id": "Group_9",
+                "enabled": "enabled",
+                "name": "problems",
+                "merged": false,
+                "keywords": [
+                  "Energy(v)",
+                  "Compute",
+                  "Problems",
+                  "(Decision version)",
+                  "Energy(v) < ∞",
+                  "Decide if",
+                  "problems"
+                ],
+                "eventId": "12"
+              }
+            ],
+            "keywords": [
+              "-6",
+              "3",
+              "-5",
+              "-3",
+              "2",
+              "1",
+              "Min",
+              "Max",
+              "Us!",
+              "definition"
+            ],
+            "eventId": "4",
+            "originalParams": {
+              "Vector_10": {
+                "opacity": 1
+              },
+              "Vector_11": {
+                "opacity": 1
+              },
+              "_32": {
+                "opacity": 1
+              },
+              "_52": {
+                "opacity": 1
+              },
+              "___": {
+                "opacity": 1
+              },
+              "Group_4": {
+                "opacity": 1
+              },
+              "Min_pays_x_to_Max": {
+                "opacity": 1
+              },
+              "Group_6": {
+                "opacity": 1
+              },
+              "Group_11": {
+                "opacity": 1
+              },
+              "Group_9": {
+                "opacity": 1
+              },
+              "Two_players_move_a_token_in_turns_in_a_graph": {
+                "opacity": 1
+              },
+              "Group_130": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "child",
+            "name": "positional",
+            "id": "lassos",
+            "enabled": "enabled",
+            "merged": true,
+            "children": [
+              {
+                "type": "show",
+                "id": "Group_130",
+                "enabled": "enabled",
+                "name": "Optimal strategy for Min",
+                "merged": false,
+                "keywords": [
+                  "-6",
+                  "3",
+                  "-5",
+                  "-3",
+                  "2",
+                  "1",
+                  "5",
+                  "0",
+                  "Optimal strategy for Min",
+                  "Optimal strategy for Max"
+                ],
+                "eventId": "2"
+              }
+            ],
+            "keywords": [
+              "Theorem (Ehrenfeucht-Mycielski ‘79)",
+              "Energy games are positionally determined.",
+              "That is, it suffices to consider strategies of the form",
+              ".",
+              "positional"
+            ],
+            "eventId": "6",
+            "originalParams": {
+              "Group_130": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "child",
+            "name": "lasso plays",
+            "id": "positional",
+            "enabled": "enabled",
+            "merged": true,
+            "children": [
+              {
+                "type": "show",
+                "id": "Ellipse_4",
+                "enabled": "enabled",
+                "name": "Ellipse 4",
+                "merged": false,
+                "keywords": [
+                  "Ellipse 4"
+                ],
+                "eventId": "4"
+              },
+              {
+                "type": "show",
+                "id": "Group_127",
+                "enabled": "enabled",
+                "name": "Min wins if the total weight of is negative",
+                "merged": true,
+                "keywords": [
+                  "Min wins if the total weight of is negative"
+                ],
+                "eventId": "3"
+              },
+              {
+                "type": "show",
+                "id": "axes",
+                "enabled": "enabled",
+                "name": "axes",
+                "merged": false,
+                "keywords": [
+                  "0",
+                  "v",
+                  "axes"
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "show",
+                "id": "going_up",
+                "enabled": "enabled",
+                "name": "going up",
+                "merged": false,
+                "keywords": [
+                  "w1",
+                  "w2",
+                  "w3",
+                  "going up"
+                ],
+                "eventId": "5"
+              },
+              {
+                "type": "show",
+                "id": "loop_1",
+                "enabled": "enabled",
+                "name": "loop 1",
+                "merged": false,
+                "keywords": [
+                  "w4",
+                  "w5",
+                  "w6",
+                  "w7",
+                  "loop 1"
+                ],
+                "eventId": "6"
+              },
+              {
+                "type": "show",
+                "id": "loop_in_diagram",
+                "enabled": "enabled",
+                "name": "loop in diagram",
+                "merged": false,
+                "keywords": [
+                  "loop in diagram"
+                ],
+                "eventId": "7"
+              },
+              {
+                "type": "show",
+                "id": "loop_2",
+                "enabled": "enabled",
+                "name": "loop 2",
+                "merged": false,
+                "keywords": [
+                  "w4",
+                  "w7",
+                  "w5",
+                  "w6",
+                  "loop 2"
+                ],
+                "eventId": "8"
+              },
+              {
+                "type": "show",
+                "id": "loop_3",
+                "enabled": "enabled",
+                "name": "loop 3",
+                "merged": false,
+                "keywords": [
+                  "w4",
+                  "w5",
+                  "w6",
+                  "w7",
+                  "loop 3"
+                ],
+                "eventId": "9"
+              },
+              {
+                "type": "show",
+                "id": "Group_130",
+                "enabled": "enabled",
+                "name": "Energy(v)",
+                "merged": false,
+                "keywords": [
+                  "Energy(v)"
+                ],
+                "eventId": "10"
+              },
+              {
+                "type": "show",
+                "id": "_we_assume_no_0_cycle_",
+                "enabled": "enabled",
+                "name": "(we assume no 0 cycle)",
+                "merged": false,
+                "keywords": [
+                  "(we assume no 0 cycle)"
+                ],
+                "eventId": "11"
+              }
+            ],
+            "keywords": [
+              "v",
+              "w1",
+              "w2",
+              "w3",
+              "w4",
+              "w5",
+              "w6",
+              "w7",
+              "A play looks like this:",
+              "lasso plays"
+            ],
+            "eventId": "2",
+            "originalParams": {
+              "lasso": {
+                "opacity": 1
+              },
+              "axes": {
+                "opacity": 1
+              },
+              "Group_127": {
+                "opacity": 1
+              },
+              "Ellipse_4": {
+                "opacity": 1
+              },
+              "going_up": {
+                "opacity": 1
+              },
+              "loop_1": {
+                "opacity": 1
+              },
+              "loop_in_diagram": {
+                "opacity": 1
+              },
+              "loop_2": {
+                "opacity": 1
+              },
+              "loop_3": {
+                "opacity": 1
+              },
+              "Group_130": {
+                "opacity": 1
+              },
+              "_we_assume_no_0_cycle_": {
+                "opacity": 1
+              }
+            }
+          }
+        ],
+        "keywords": [
+          "Energy Games"
+        ],
+        "eventId": "9",
+        "originalParams": {}
+      },
+      {
+        "type": "child",
+        "name": "State of The Art",
+        "id": "State_of_The_Art",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "Group_131",
+            "enabled": "enabled",
+            "name": "Mean payoff",
+            "merged": false,
+            "keywords": [
+              "mp",
+              "Energy games",
+              "Mean payoff"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "Group_130",
+            "enabled": "enabled",
+            "name": "Reduces in PTIME",
+            "merged": true,
+            "keywords": [
+              "Reduces in PTIME",
+              "="
+            ],
+            "eventId": "5"
+          },
+          {
+            "type": "show",
+            "id": "Group_1312",
+            "enabled": "enabled",
+            "name": "parity",
+            "merged": false,
+            "keywords": [
+              "Energy games",
+              "parity"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "Group_1313",
+            "enabled": "enabled",
+            "name": "discounted",
+            "merged": false,
+            "keywords": [
+              "Energy games",
+              "discounted"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "Group_1314",
+            "enabled": "enabled",
+            "name": "SSG",
+            "merged": false,
+            "keywords": [
+              "Energy games",
+              "SSG"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "show",
+            "id": "In_NP___coNP",
+            "enabled": "enabled",
+            "name": "In NP ∩ coNP",
+            "merged": false,
+            "keywords": [
+              "In NP ∩ coNP"
+            ],
+            "eventId": "8"
+          },
+          {
+            "type": "show",
+            "id": "In_PTIME_",
+            "enabled": "enabled",
+            "name": "In PTIME?",
+            "merged": false,
+            "keywords": [
+              "In PTIME?"
+            ],
+            "eventId": "9"
+          },
+          {
+            "type": "show",
+            "id": "in_quasipoly",
+            "enabled": "enabled",
+            "name": "subexp",
+            "merged": false,
+            "keywords": [
+              "subexp"
+            ],
+            "eventId": "10"
+          },
+          {
+            "type": "show",
+            "id": "in_quasipoly2",
+            "enabled": "enabled",
+            "name": "in quasipoly",
+            "merged": false,
+            "keywords": [
+              "in quasipoly"
+            ],
+            "eventId": "11"
+          },
+          {
+            "type": "show",
+            "id": "Group_1302",
+            "enabled": "enabled",
+            "name": "This talk",
+            "merged": false,
+            "keywords": [
+              "This talk"
+            ],
+            "eventId": "6"
+          }
+        ],
+        "keywords": [
+          "Some context",
+          "State of The Art"
+        ],
+        "eventId": "2",
+        "originalParams": {
+          "Group_131": {
+            "opacity": 1
+          },
+          "Group_1312": {
+            "opacity": 1
+          },
+          "Group_1313": {
+            "opacity": 1
+          },
+          "Group_1314": {
+            "opacity": 1
+          },
+          "Group_130": {
+            "opacity": 1
+          },
+          "Group_1302": {
+            "opacity": 1
+          },
+          "in_quasipoly": {
+            "opacity": 1
+          },
+          "In_NP___coNP": {
+            "opacity": 1
+          },
+          "In_PTIME_": {
+            "opacity": 1
+          },
+          "in_quasipoly2": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "algorithms",
+        "id": "algorithms",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "Ellipse_4",
+            "enabled": "enabled",
+            "name": "Ellipse 4",
+            "merged": false,
+            "keywords": [
+              "Ellipse 4"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "show",
+            "id": "Group_15",
+            "enabled": "enabled",
+            "name": "Value iteration",
+            "merged": true,
+            "keywords": [
+              "Value iteration",
+              "(BCDGR ‘11)"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "Group_16",
+            "enabled": "enabled",
+            "name": "(Björklund-Vorobyov ‘04)",
+            "merged": false,
+            "keywords": [
+              "(Björklund-Vorobyov ‘04)",
+              "Strategy Improvement"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "Ellipse_5",
+            "enabled": "enabled",
+            "name": "Ellipse 5",
+            "merged": true,
+            "keywords": [
+              "Ellipse 5"
+            ],
+            "eventId": "5"
+          },
+          {
+            "type": "show",
+            "id": "Group_17",
+            "enabled": "enabled",
+            "name": "(GKK ‘88)",
+            "merged": false,
+            "keywords": [
+              "(GKK ‘88)",
+              "GKK"
+            ],
+            "eventId": "10"
+          },
+          {
+            "type": "show",
+            "id": "Group_19",
+            "enabled": "enabled",
+            "name": "Optimal Strategy Improvement",
+            "merged": true,
+            "keywords": [
+              "(Schewe ‘08)",
+              "Optimal Strategy Improvement"
+            ],
+            "eventId": "11"
+          },
+          {
+            "type": "show",
+            "id": "Group_18",
+            "enabled": "enabled",
+            "name": "(DKZ ‘19)",
+            "merged": true,
+            "keywords": [
+              "(DKZ ‘19)",
+              "DKZ"
+            ],
+            "eventId": "12"
+          },
+          {
+            "type": "show",
+            "id": "Group_26",
+            "enabled": "enabled",
+            "name": "Quasi-dominions progress measure",
+            "merged": true,
+            "keywords": [
+              "(BDM ‘20)",
+              "Quasi-dominions progress measure"
+            ],
+            "eventId": "13"
+          },
+          {
+            "type": "show",
+            "id": "Why_do_they_perform_so_differently_2",
+            "enabled": "enabled",
+            "name": "Many proofs",
+            "merged": false,
+            "keywords": [
+              "Many proofs"
+            ],
+            "eventId": "14"
+          },
+          {
+            "type": "show",
+            "id": "Why_do_they_perform_so_differently_",
+            "enabled": "enabled",
+            "name": "How to compare",
+            "merged": false,
+            "keywords": [
+              "How to compare"
+            ],
+            "eventId": "15"
+          },
+          {
+            "type": "hide",
+            "id": "Ellipse_4",
+            "enabled": "enabled",
+            "name": "Ellipse 4",
+            "merged": false,
+            "keywords": [
+              "Ellipse 4"
+            ],
+            "eventId": "6"
+          },
+          {
+            "type": "hide",
+            "id": "Ellipse_5",
+            "enabled": "enabled",
+            "name": "Ellipse 5",
+            "merged": true,
+            "keywords": [
+              "Ellipse 5"
+            ],
+            "eventId": "7"
+          },
+          {
+            "type": "show",
+            "id": "Rectangle_12",
+            "enabled": "enabled",
+            "name": "Rectangle 12",
+            "merged": true,
+            "keywords": [
+              "Rectangle 12"
+            ],
+            "eventId": "8"
+          },
+          {
+            "type": "show",
+            "id": "Group_1302",
+            "enabled": "enabled",
+            "name": "Fast Value Iteration",
+            "merged": true,
+            "keywords": [
+              "Fast Value Iteration",
+              "this work"
+            ],
+            "eventId": "9"
+          },
+          {
+            "type": "hide",
+            "id": "Why_do_they_perform_so_differently_2",
+            "enabled": "enabled",
+            "name": "Many proofs",
+            "merged": true,
+            "keywords": [
+              "Many proofs"
+            ],
+            "eventId": "16"
+          },
+          {
+            "type": "hide",
+            "id": "Why_do_they_perform_so_differently_",
+            "enabled": "enabled",
+            "name": "How to compare",
+            "merged": true,
+            "keywords": [
+              "How to compare"
+            ],
+            "eventId": "17"
+          },
+          {
+            "type": "show",
+            "id": "Machine_to_generate_Energy_game_solvers_",
+            "enabled": "enabled",
+            "name": "Machine to generate Energy-game solvers!",
+            "merged": false,
+            "keywords": [
+              "Machine to generate Energy-game solvers!"
+            ],
+            "eventId": "18"
+          }
+        ],
+        "keywords": [
+          "Algorithms for Energy Games",
+          "algorithms"
+        ],
+        "eventId": "11",
+        "originalParams": {
+          "Group_16": {
+            "opacity": 1
+          },
+          "Group_15": {
+            "opacity": 1
+          },
+          "Ellipse_4": {
+            "opacity": 1
+          },
+          "Ellipse_5": {
+            "opacity": 1
+          },
+          "Rectangle_12": {
+            "opacity": 1
+          },
+          "Group_1302": {
+            "opacity": 1
+          },
+          "Group_17": {
+            "opacity": 1
+          },
+          "Group_19": {
+            "opacity": 1
+          },
+          "Group_18": {
+            "opacity": 1
+          },
+          "Group_26": {
+            "opacity": 1
+          },
+          "Why_do_they_perform_so_differently_2": {
+            "opacity": 1
+          },
+          "Why_do_they_perform_so_differently_": {
+            "opacity": 1
+          },
+          "Machine_to_generate_Energy_game_solvers_": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "show",
+        "id": "FVI2",
+        "enabled": "enabled",
+        "name": "FVI",
+        "merged": false,
+        "keywords": [
+          "FVI"
+        ],
+        "eventId": "13"
+      },
+      {
+        "type": "child",
+        "name": "FVI",
+        "id": "FVI",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "child",
+            "name": "Potential Reductions",
+            "id": "Potential_Reductions",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "_cup____infty__",
+                "enabled": "enabled",
+                "name": "\\cup \\{\\infty\\}",
+                "merged": false,
+                "keywords": [
+                  "\\cup \\{\\infty\\}"
+                ],
+                "eventId": "13"
+              },
+              {
+                "type": "show",
+                "id": "Group_23",
+                "enabled": "enabled",
+                "name": "game",
+                "merged": false,
+                "keywords": [
+                  "-6",
+                  "3",
+                  "-5",
+                  "-3",
+                  "2",
+                  "1",
+                  "game"
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "show",
+                "id": "potential",
+                "enabled": "enabled",
+                "name": "potential example",
+                "merged": false,
+                "keywords": [
+                  "3",
+                  "1",
+                  "0",
+                  "potential example"
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "show",
+                "id": "Group_262",
+                "enabled": "enabled",
+                "name": "pot red",
+                "merged": false,
+                "keywords": [
+                  "Potential redution:",
+                  "pot red"
+                ],
+                "eventId": "3"
+              },
+              {
+                "type": "show",
+                "id": "Group_134",
+                "enabled": "enabled",
+                "name": "v",
+                "merged": true,
+                "keywords": [
+                  "v",
+                  "u"
+                ],
+                "eventId": "4"
+              },
+              {
+                "type": "show",
+                "id": "Vector_24",
+                "enabled": "enabled",
+                "name": "Vector 24",
+                "merged": false,
+                "keywords": [
+                  "Vector 24"
+                ],
+                "eventId": "5"
+              },
+              {
+                "type": "show",
+                "id": "Group_137",
+                "enabled": "enabled",
+                "name": "v",
+                "merged": true,
+                "keywords": [
+                  "v",
+                  "u"
+                ],
+                "eventId": "6"
+              },
+              {
+                "type": "show",
+                "id": "Group_1372",
+                "enabled": "enabled",
+                "name": "enter v: pay deposit of φ(v)",
+                "merged": false,
+                "keywords": [
+                  "exit v: take back φ(v)",
+                  "enter v: pay deposit of φ(v)"
+                ],
+                "eventId": "7"
+              },
+              {
+                "type": "show",
+                "id": "Vector_25",
+                "enabled": "enabled",
+                "name": "Vector 25",
+                "merged": false,
+                "keywords": [
+                  "Vector 25"
+                ],
+                "eventId": "8"
+              },
+              {
+                "type": "show",
+                "id": "Group_24",
+                "enabled": "enabled",
+                "name": "-3",
+                "merged": true,
+                "keywords": [
+                  "-3",
+                  "1",
+                  "-2"
+                ],
+                "eventId": "9"
+              },
+              {
+                "type": "show",
+                "id": "Group_1373",
+                "enabled": "enabled",
+                "name": "The sum of cycles does not change!",
+                "merged": false,
+                "keywords": [
+                  "The sum of cycles does not change!",
+                  "(winner preserved)"
+                ],
+                "eventId": "10"
+              },
+              {
+                "type": "show",
+                "id": "Group_1374",
+                "enabled": "enabled",
+                "name": "The energy values may change",
+                "merged": false,
+                "keywords": [
+                  "The energy values may change",
+                  "The game simplifies!"
+                ],
+                "eventId": "11"
+              },
+              {
+                "type": "show",
+                "id": "Group_136",
+                "enabled": "enabled",
+                "name": "energy values",
+                "merged": false,
+                "keywords": [
+                  "5",
+                  "2",
+                  "1",
+                  "0",
+                  "energy values"
+                ],
+                "eventId": "12"
+              }
+            ],
+            "keywords": [
+              "Potential:",
+              "Potential Reductions"
+            ],
+            "eventId": "1",
+            "originalParams": {
+              "Group_23": {
+                "opacity": 1
+              },
+              "potential": {
+                "opacity": 1
+              },
+              "Group_262": {
+                "opacity": 1
+              },
+              "Group_134": {
+                "opacity": 1
+              },
+              "Vector_24": {
+                "opacity": 1
+              },
+              "Group_137": {
+                "opacity": 1
+              },
+              "Group_1372": {
+                "opacity": 1
+              },
+              "Vector_25": {
+                "opacity": 1
+              },
+              "Group_24": {
+                "opacity": 1
+              },
+              "Group_1373": {
+                "opacity": 1
+              },
+              "Group_1374": {
+                "opacity": 1
+              },
+              "Group_136": {
+                "opacity": 1
+              },
+              "_cup____infty__": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "show",
+            "id": "Main_idea",
+            "enabled": "enabled",
+            "name": "Main idea",
+            "merged": false,
+            "keywords": [
+              "Main idea"
+            ],
+            "eventId": "6"
+          },
+          {
+            "type": "show",
+            "id": "Under_approximate_En_v_",
+            "enabled": "enabled",
+            "name": "Under-approximate En(v)",
+            "merged": true,
+            "keywords": [
+              "Under-approximate En(v)"
+            ],
+            "eventId": "7"
+          },
+          {
+            "type": "show",
+            "id": "Apply_potential_reductions_until_trivialising_the_game",
+            "enabled": "enabled",
+            "name": "Apply potential reductions until trivialising the game",
+            "merged": false,
+            "keywords": [
+              "Apply potential reductions until trivialising the game"
+            ],
+            "eventId": "8"
+          },
+          {
+            "type": "child",
+            "name": "reduced games",
+            "id": "reduced_games",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "in_Wmin__Min_can_force_to_only_see_edges___0",
+                "enabled": "enabled",
+                "name": "in Wmin, Min can force to only see edges ≤ 0",
+                "merged": false,
+                "keywords": [
+                  "in Wmin, Min can force to only see edges ≤ 0"
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "show",
+                "id": "in_Wmax__Max_can_force_to_only_see_edges___0",
+                "enabled": "enabled",
+                "name": "in Wmax, Max can force to only see edges ≥ 0",
+                "merged": true,
+                "keywords": [
+                  "in Wmax, Max can force to only see edges ≥ 0"
+                ],
+                "eventId": "3"
+              },
+              {
+                "type": "child",
+                "name": "trivial example",
+                "id": "trivial_example",
+                "enabled": "enabled",
+                "merged": false,
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "Ellipse_7",
+                    "enabled": "enabled",
+                    "name": "Ellipse 7",
+                    "merged": false,
+                    "keywords": [
+                      "Ellipse 7"
+                    ],
+                    "eventId": "4"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Ellipse_8",
+                    "enabled": "enabled",
+                    "name": "Ellipse 8",
+                    "merged": true,
+                    "keywords": [
+                      "Ellipse 8"
+                    ],
+                    "eventId": "5"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Group_1392",
+                    "enabled": "enabled",
+                    "name": "Wmin",
+                    "merged": false,
+                    "keywords": [
+                      "Wmin"
+                    ],
+                    "eventId": "3"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Group_137",
+                    "enabled": "enabled",
+                    "name": "5",
+                    "merged": false,
+                    "keywords": [
+                      "5",
+                      "2",
+                      "0"
+                    ],
+                    "eventId": "1"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Group_139",
+                    "enabled": "enabled",
+                    "name": "always produces a trivial game!!",
+                    "merged": true,
+                    "keywords": [
+                      "Potential reduction with",
+                      "φ = En",
+                      "always produces a trivial game!!"
+                    ],
+                    "eventId": "2"
+                  }
+                ],
+                "keywords": [
+                  "-6",
+                  "3",
+                  "-5",
+                  "-3",
+                  "2",
+                  "1",
+                  "not-trivial",
+                  "trivial",
+                  "-1",
+                  "0",
+                  "-2",
+                  "trivial example"
+                ],
+                "eventId": "1",
+                "originalParams": {
+                  "Group_137": {
+                    "opacity": 1
+                  },
+                  "Group_139": {
+                    "opacity": 1
+                  },
+                  "Group_1392": {
+                    "opacity": 1
+                  },
+                  "Ellipse_7": {
+                    "opacity": 1
+                  },
+                  "Ellipse_8": {
+                    "opacity": 1
+                  }
+                }
+              },
+              {
+                "type": "show",
+                "id": "Group_135",
+                "enabled": "enabled",
+                "name": "It’s easy to check if a game is trivial",
+                "merged": false,
+                "keywords": [
+                  "It’s easy to check if a game is trivial"
+                ],
+                "eventId": "4"
+              },
+              {
+                "type": "show",
+                "id": "Group_136",
+                "enabled": "enabled",
+                "name": "If the game is trivial En(v) = 0, if v ∈ Wmin En(v) = ∞ , if v ∈ Wmax",
+                "merged": false,
+                "keywords": [
+                  "If the game is trivial En(v) = 0, if v ∈ Wmin En(v) = ∞ , if v ∈ Wmax"
+                ],
+                "eventId": "5"
+              }
+            ],
+            "keywords": [
+              "A game is trivial if there is a partition",
+              "Wmin",
+              "Wmax",
+              "reduced games"
+            ],
+            "eventId": "4",
+            "originalParams": {
+              "in_Wmin__Min_can_force_to_only_see_edges___0": {
+                "opacity": 1
+              },
+              "in_Wmax__Max_can_force_to_only_see_edges___0": {
+                "opacity": 1
+              },
+              "Group_135": {
+                "opacity": 1
+              },
+              "Group_136": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "show",
+            "id": "Group_145",
+            "enabled": "enabled",
+            "name": "Depending on how we under-approximate, we get different algorithms!",
+            "merged": false,
+            "keywords": [
+              "Depending on how we under-approximate, we get different algorithms!"
+            ],
+            "eventId": "13"
+          },
+          {
+            "type": "show",
+            "id": "First_example2",
+            "enabled": "enabled",
+            "name": "First example",
+            "merged": false,
+            "keywords": [
+              "First example"
+            ],
+            "eventId": "16"
+          },
+          {
+            "type": "child",
+            "name": "first example",
+            "id": "first_example",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "Group_143",
+                "enabled": "enabled",
+                "name": "Min out-value (or 0 if some negative edge)",
+                "merged": false,
+                "keywords": [
+                  "5",
+                  "8",
+                  "2",
+                  "Min out-value (or 0 if some negative edge)"
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "show",
+                "id": "Group_140",
+                "enabled": "enabled",
+                "name": "2",
+                "merged": false,
+                "keywords": [
+                  "2"
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "show",
+                "id": "Group_1432",
+                "enabled": "enabled",
+                "name": "Max out-value (or 0 if only negative edges)",
+                "merged": false,
+                "keywords": [
+                  "-3",
+                  "8",
+                  "2",
+                  "Max out-value (or 0 if only negative edges)"
+                ],
+                "eventId": "3"
+              },
+              {
+                "type": "show",
+                "id": "Group_141",
+                "enabled": "enabled",
+                "name": "8",
+                "merged": false,
+                "keywords": [
+                  "8"
+                ],
+                "eventId": "4"
+              },
+              {
+                "type": "show",
+                "id": "Group_23",
+                "enabled": "enabled",
+                "name": "game",
+                "merged": false,
+                "keywords": [
+                  "-6",
+                  "3",
+                  "-5",
+                  "-3",
+                  "2",
+                  "1",
+                  "game"
+                ],
+                "eventId": "5"
+              },
+              {
+                "type": "show",
+                "id": "values",
+                "enabled": "enabled",
+                "name": "values",
+                "merged": false,
+                "keywords": [
+                  "1",
+                  "2",
+                  "0",
+                  "values"
+                ],
+                "eventId": "6"
+              },
+              {
+                "type": "show",
+                "id": "Group_145",
+                "enabled": "enabled",
+                "name": "potential reduction",
+                "merged": false,
+                "keywords": [
+                  "potential reduction"
+                ],
+                "eventId": "7"
+              },
+              {
+                "type": "show",
+                "id": "game",
+                "enabled": "enabled",
+                "name": "game",
+                "merged": true,
+                "keywords": [
+                  "-5",
+                  "4",
+                  "-6",
+                  "-1",
+                  "0",
+                  "1",
+                  "game"
+                ],
+                "eventId": "8"
+              },
+              {
+                "type": "show",
+                "id": "Group_147",
+                "enabled": "enabled",
+                "name": "trivial game",
+                "merged": false,
+                "keywords": [
+                  ". . .",
+                  "trivial game"
+                ],
+                "eventId": "9"
+              },
+              {
+                "type": "show",
+                "id": "Group_146",
+                "enabled": "enabled",
+                "name": "sum of potentials in all iterations",
+                "merged": false,
+                "keywords": [
+                  "Energy(v) =",
+                  "sum of potentials in all iterations"
+                ],
+                "eventId": "10"
+              },
+              {
+                "type": "show",
+                "id": "Group_15",
+                "enabled": "enabled",
+                "name": "Value iteration",
+                "merged": false,
+                "keywords": [
+                  "Classical Value Iteration!",
+                  "(BCDGR ‘11)",
+                  "Value iteration"
+                ],
+                "eventId": "11"
+              }
+            ],
+            "keywords": [
+              "Classical under-approximation of Energy",
+              "first example"
+            ],
+            "eventId": "9",
+            "originalParams": {
+              "Group_143": {
+                "opacity": 1
+              },
+              "Group_140": {
+                "opacity": 1
+              },
+              "Group_1432": {
+                "opacity": 1
+              },
+              "Group_141": {
+                "opacity": 1
+              },
+              "Group_23": {
+                "opacity": 1
+              },
+              "values": {
+                "opacity": 1
+              },
+              "Group_145": {
+                "opacity": 1
+              },
+              "game": {
+                "opacity": 1
+              },
+              "Group_147": {
+                "opacity": 1
+              },
+              "Group_146": {
+                "opacity": 1
+              },
+              "Group_15": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "show",
+            "id": "The_meta_algorithm",
+            "enabled": "enabled",
+            "name": "The meta-algorithm",
+            "merged": false,
+            "keywords": [
+              "The meta-algorithm"
+            ],
+            "eventId": "11"
+          },
+          {
+            "type": "child",
+            "name": "The algorithm",
+            "id": "The_algorithm",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "Group_149",
+                "enabled": "enabled",
+                "name": "Formally:",
+                "merged": false,
+                "keywords": [
+                  "Formally:"
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "show",
+                "id": "Group_67",
+                "enabled": "enabled",
+                "name": "%Potential reduction of the game",
+                "merged": false,
+                "keywords": [
+                  "FastValueIteration",
+                  "%Potential reduction of the game"
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "show",
+                "id": "Group_147",
+                "enabled": "enabled",
+                "name": "totalEnergy 0",
+                "merged": false,
+                "keywords": [
+                  "totalEnergy 0"
+                ],
+                "eventId": "3"
+              },
+              {
+                "type": "show",
+                "id": "while_not_trivial_game",
+                "enabled": "enabled",
+                "name": "while not trivial game",
+                "merged": false,
+                "keywords": [
+                  "while not trivial game"
+                ],
+                "eventId": "4"
+              },
+              {
+                "type": "show",
+                "id": "compute___potential__",
+                "enabled": "enabled",
+                "name": "compute Ψ-potential φ",
+                "merged": false,
+                "keywords": [
+                  "compute Ψ-potential φ"
+                ],
+                "eventId": "5"
+              },
+              {
+                "type": "show",
+                "id": "apply_potential_reduction_according_to__",
+                "enabled": "enabled",
+                "name": "apply potential reduction according to φ",
+                "merged": false,
+                "keywords": [
+                  "apply potential reduction according to φ"
+                ],
+                "eventId": "6"
+              },
+              {
+                "type": "show",
+                "id": "Group_148",
+                "enabled": "enabled",
+                "name": "totalEnergy totalEnergy + φ",
+                "merged": false,
+                "keywords": [
+                  "totalEnergy totalEnergy + φ"
+                ],
+                "eventId": "7"
+              },
+              {
+                "type": "show",
+                "id": "Group_146",
+                "enabled": "enabled",
+                "name": "totalEnergy",
+                "merged": false,
+                "keywords": [
+                  "return:",
+                  "totalEnergy"
+                ],
+                "eventId": "8"
+              },
+              {
+                "type": "show",
+                "id": "emoji_eyebrow_1",
+                "enabled": "enabled",
+                "name": "emoji-eyebrow 1",
+                "merged": false,
+                "keywords": [
+                  "emoji-eyebrow 1"
+                ],
+                "eventId": "18"
+              },
+              {
+                "type": "show",
+                "id": "Group_1462",
+                "enabled": "enabled",
+                "name": "3",
+                "merged": false,
+                "keywords": [
+                  "3"
+                ],
+                "eventId": "12"
+              },
+              {
+                "type": "show",
+                "id": "the_algorithm_may_not_terminate__totalEnergy_goes_to___",
+                "enabled": "enabled",
+                "name": "the algorithm may not terminate (totalEnergy goes to ∞)",
+                "merged": true,
+                "keywords": [
+                  "the algorithm may not terminate (totalEnergy goes to ∞)"
+                ],
+                "eventId": "20"
+              },
+              {
+                "type": "show",
+                "id": "__detect_when_totalEnergy_diverges__if____V____MaxWeight__",
+                "enabled": "enabled",
+                "name": "+ detect when totalEnergy diverges (if ≥ |V|⋅ |MaxWeight|)",
+                "merged": false,
+                "keywords": [
+                  "+ detect when totalEnergy diverges (if ≥ |V|⋅ |MaxWeight|)"
+                ],
+                "eventId": "13"
+              },
+              {
+                "type": "hide",
+                "id": "emoji_eyebrow_1",
+                "enabled": "enabled",
+                "name": "emoji-eyebrow 1",
+                "merged": true,
+                "keywords": [
+                  "emoji-eyebrow 1"
+                ],
+                "eventId": "19"
+              },
+              {
+                "type": "hide",
+                "id": "the_algorithm_may_not_terminate__totalEnergy_goes_to___",
+                "enabled": "enabled",
+                "name": "the algorithm may not terminate (totalEnergy goes to ∞)",
+                "merged": true,
+                "keywords": [
+                  "the algorithm may not terminate (totalEnergy goes to ∞)"
+                ],
+                "eventId": "21"
+              },
+              {
+                "type": "hide",
+                "id": "Group_1462",
+                "enabled": "enabled",
+                "name": "3",
+                "merged": true,
+                "keywords": [
+                  "3"
+                ],
+                "eventId": "14"
+              },
+              {
+                "type": "child",
+                "name": "edge cases",
+                "id": "edge_cases",
+                "enabled": "enabled",
+                "merged": false,
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "___Game____0",
+                    "enabled": "enabled",
+                    "name": "Ψ (Game) = 0",
+                    "merged": false,
+                    "keywords": [
+                      "Ψ (Game) = 0"
+                    ],
+                    "eventId": "2"
+                  },
+                  {
+                    "type": "show",
+                    "id": "The_algorithm_never_terminates__iterations_do_nothing_",
+                    "enabled": "enabled",
+                    "name": "The algorithm never terminates (iterations do nothing)",
+                    "merged": false,
+                    "keywords": [
+                      "The algorithm never terminates (iterations do nothing)"
+                    ],
+                    "eventId": "3"
+                  },
+                  {
+                    "type": "show",
+                    "id": "We_need_that___G____0_implies_En_G____0_",
+                    "enabled": "enabled",
+                    "name": "We need that Ψ(G) = 0 implies En(G) = 0.",
+                    "merged": false,
+                    "keywords": [
+                      "We need that Ψ(G) = 0 implies En(G) = 0."
+                    ],
+                    "eventId": "5"
+                  },
+                  {
+                    "type": "show",
+                    "id": "___Game____Energy",
+                    "enabled": "enabled",
+                    "name": "Ψ (Game) = Energy",
+                    "merged": false,
+                    "keywords": [
+                      "Ψ (Game) = Energy"
+                    ],
+                    "eventId": "1"
+                  },
+                  {
+                    "type": "show",
+                    "id": "The_algorithm_terminates_in_1_iteration_Difficult_to_compute__",
+                    "enabled": "enabled",
+                    "name": "The algorithm terminates in 1 iteration Difficult to compute!!",
+                    "merged": false,
+                    "keywords": [
+                      "The algorithm terminates in 1 iteration Difficult to compute!!"
+                    ],
+                    "eventId": "4"
+                  },
+                  {
+                    "type": "show",
+                    "id": "We_want___to_be__easily_computable_",
+                    "enabled": "enabled",
+                    "name": "We want Ψ to be “easily computable”",
+                    "merged": false,
+                    "keywords": [
+                      "We want Ψ to be “easily computable”"
+                    ],
+                    "eventId": "6"
+                  }
+                ],
+                "keywords": [
+                  "edge cases"
+                ],
+                "eventId": "10",
+                "originalParams": {
+                  "___Game____Energy": {
+                    "opacity": 1
+                  },
+                  "___Game____0": {
+                    "opacity": 1
+                  },
+                  "The_algorithm_never_terminates__iterations_do_nothing_": {
+                    "opacity": 1
+                  },
+                  "The_algorithm_terminates_in_1_iteration_Difficult_to_compute__": {
+                    "opacity": 1
+                  },
+                  "We_need_that___G____0_implies_En_G____0_": {
+                    "opacity": 1
+                  },
+                  "We_want___to_be__easily_computable_": {
+                    "opacity": 1
+                  }
+                }
+              }
+            ],
+            "keywords": [
+              "Text 3",
+              "Potential assigner:",
+              "A way to compute potentials of games",
+              "The algorithm"
+            ],
+            "eventId": "3",
+            "originalParams": {
+              "Group_149": {
+                "opacity": 1
+              },
+              "Group_67": {
+                "opacity": 1
+              },
+              "Group_147": {
+                "opacity": 1
+              },
+              "while_not_trivial_game": {
+                "opacity": 1
+              },
+              "compute___potential__": {
+                "opacity": 1
+              },
+              "apply_potential_reduction_according_to__": {
+                "opacity": 1
+              },
+              "Group_148": {
+                "opacity": 1
+              },
+              "Group_146": {
+                "opacity": 1
+              },
+              "Group_1462": {
+                "opacity": 1
+              },
+              "__detect_when_totalEnergy_diverges__if____V____MaxWeight__": {
+                "opacity": 1
+              },
+              "emoji_eyebrow_1": {
+                "opacity": 1
+              },
+              "the_algorithm_may_not_terminate__totalEnergy_goes_to___": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "child",
+            "name": "Master Theorem",
+            "id": "Master_Theorem",
+            "enabled": "enabled",
+            "merged": true,
+            "children": [
+              {
+                "type": "show",
+                "id": "Group_122",
+                "enabled": "enabled",
+                "name": "If Ψ is sound and complete, then Ψ-FVI terminates and computes the energy values of the game.",
+                "merged": false,
+                "keywords": [
+                  "Master Theorem",
+                  "If Ψ is sound and complete, then Ψ-FVI terminates and computes the energy values of the game."
+                ],
+                "eventId": "1"
+              }
+            ],
+            "keywords": [
+              "Ψ is sound if Ψ(G) ≤ En(G).",
+              "Ψ is complete if Ψ(G) = 0 implies En(G) = 0.",
+              "Master Theorem"
+            ],
+            "eventId": "2",
+            "originalParams": {
+              "Group_122": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "show",
+            "id": "First_example",
+            "enabled": "enabled",
+            "name": "Other algorithms",
+            "merged": false,
+            "keywords": [
+              "Other algorithms"
+            ],
+            "eventId": "15"
+          },
+          {
+            "type": "child",
+            "name": "other examples",
+            "id": "other_examples",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "Positive_Path_Iteration",
+                "enabled": "enabled",
+                "name": "Positive Path Iteration",
+                "merged": false,
+                "keywords": [
+                  "Positive Path Iteration"
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "child",
+                "name": "PPI",
+                "id": "PPI",
+                "enabled": "enabled",
+                "merged": false,
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "Group_146",
+                    "enabled": "enabled",
+                    "name": "If Max can force a path of weight w before an edge < 0, then",
+                    "merged": false,
+                    "keywords": [
+                      "If Max can force a path of weight w before an edge < 0, then",
+                      "Energy(v) ≥ w"
+                    ],
+                    "eventId": "2"
+                  },
+                  {
+                    "type": "show",
+                    "id": "__v____Weights_that_Max_can_force_to_see_before_a_negative_edge",
+                    "enabled": "enabled",
+                    "name": "φ(v) = Weights that Max can force to see before a negative edge",
+                    "merged": false,
+                    "keywords": [
+                      "φ(v) = Weights that Max can force to see before a negative edge"
+                    ],
+                    "eventId": "16"
+                  },
+                  {
+                    "type": "child",
+                    "name": "Examples",
+                    "id": "Examples",
+                    "enabled": "enabled",
+                    "merged": false,
+                    "children": [
+                      {
+                        "type": "hide",
+                        "id": "neg_weights",
+                        "enabled": "enabled",
+                        "name": "neg weights",
+                        "merged": false,
+                        "keywords": [
+                          "neg weights"
+                        ],
+                        "eventId": "1"
+                      },
+                      {
+                        "type": "show",
+                        "id": "green_edges",
+                        "enabled": "enabled",
+                        "name": "green edges",
+                        "merged": true,
+                        "keywords": [
+                          "<0",
+                          "green edges"
+                        ],
+                        "eventId": "2"
+                      },
+                      {
+                        "type": "show",
+                        "id": "values",
+                        "enabled": "enabled",
+                        "name": "values",
+                        "merged": false,
+                        "keywords": [
+                          "2",
+                          "5",
+                          "0",
+                          "values"
+                        ],
+                        "eventId": "3"
+                      },
+                      {
+                        "type": "show",
+                        "id": "Example_2",
+                        "enabled": "enabled",
+                        "name": "Example 2",
+                        "merged": false,
+                        "keywords": [
+                          "Example 2"
+                        ],
+                        "eventId": "4"
+                      },
+                      {
+                        "type": "show",
+                        "id": "example_2",
+                        "enabled": "enabled",
+                        "name": "example 2",
+                        "merged": true,
+                        "keywords": [
+                          "3",
+                          "-2",
+                          "-1",
+                          "4",
+                          "example 2"
+                        ],
+                        "eventId": "5"
+                      },
+                      {
+                        "type": "show",
+                        "id": "Group_1462",
+                        "enabled": "enabled",
+                        "name": "values 2",
+                        "merged": false,
+                        "keywords": [
+                          "∞",
+                          "0",
+                          "values 2"
+                        ],
+                        "eventId": "6"
+                      },
+                      {
+                        "type": "hide",
+                        "id": "Group_23",
+                        "enabled": "enabled",
+                        "name": "game",
+                        "merged": false,
+                        "keywords": [
+                          "game"
+                        ],
+                        "eventId": "7"
+                      },
+                      {
+                        "type": "hide",
+                        "id": "Example_1",
+                        "enabled": "enabled",
+                        "name": "Example 1",
+                        "merged": true,
+                        "keywords": [
+                          "Example 1"
+                        ],
+                        "eventId": "8"
+                      },
+                      {
+                        "type": "hide",
+                        "id": "values",
+                        "enabled": "enabled",
+                        "name": "values",
+                        "merged": true,
+                        "keywords": [
+                          "values"
+                        ],
+                        "eventId": "9"
+                      },
+                      {
+                        "type": "hide",
+                        "id": "green_edges",
+                        "enabled": "enabled",
+                        "name": "green edges",
+                        "merged": true,
+                        "keywords": [
+                          "green edges"
+                        ],
+                        "eventId": "10"
+                      },
+                      {
+                        "type": "hide",
+                        "id": "Example_2",
+                        "enabled": "enabled",
+                        "name": "Example 2",
+                        "merged": true,
+                        "keywords": [
+                          "Example 2"
+                        ],
+                        "eventId": "11"
+                      },
+                      {
+                        "type": "hide",
+                        "id": "example_2",
+                        "enabled": "enabled",
+                        "name": "example 2",
+                        "merged": true,
+                        "keywords": [
+                          "example 2"
+                        ],
+                        "eventId": "12"
+                      },
+                      {
+                        "type": "hide",
+                        "id": "Group_1462",
+                        "enabled": "enabled",
+                        "name": "values 2",
+                        "merged": true,
+                        "keywords": [
+                          "values 2"
+                        ],
+                        "eventId": "13"
+                      }
+                    ],
+                    "keywords": [
+                      "3",
+                      "2",
+                      "1",
+                      "-6",
+                      "-5",
+                      "-3",
+                      "Example 1",
+                      "Examples"
+                    ],
+                    "eventId": "13",
+                    "originalParams": {
+                      "neg_weights": {
+                        "opacity": 1
+                      },
+                      "green_edges": {
+                        "opacity": 1
+                      },
+                      "values": {
+                        "opacity": 1
+                      },
+                      "Example_2": {
+                        "opacity": 1
+                      },
+                      "example_2": {
+                        "opacity": 1
+                      },
+                      "Group_1462": {
+                        "opacity": 1
+                      },
+                      "Group_23": {
+                        "opacity": 1
+                      },
+                      "Example_1": {
+                        "opacity": 1
+                      }
+                    }
+                  },
+                  {
+                    "type": "show",
+                    "id": "Group_1472",
+                    "enabled": "enabled",
+                    "name": "Easy to compute! (PTIME, Dijsktra for games)",
+                    "merged": false,
+                    "keywords": [
+                      "Easy to compute! (PTIME, Dijsktra for games)"
+                    ],
+                    "eventId": "14"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Group_1462",
+                    "enabled": "enabled",
+                    "name": "Complete and sound",
+                    "merged": false,
+                    "keywords": [
+                      "Sound and complete (immediate)",
+                      "Complete and sound"
+                    ],
+                    "eventId": "15"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Group_147",
+                    "enabled": "enabled",
+                    "name": "FVI with this potential assigner",
+                    "merged": false,
+                    "keywords": [
+                      "=",
+                      "Positive Path Iteration",
+                      "FVI with this potential assigner"
+                    ],
+                    "eventId": "10"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Group_148",
+                    "enabled": "enabled",
+                    "name": "Optimal Strategy Improvement (Schewe’08)",
+                    "merged": false,
+                    "keywords": [
+                      "=",
+                      "Optimal Strategy Improvement (Schewe’08)"
+                    ],
+                    "eventId": "11"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Group_1463",
+                    "enabled": "enabled",
+                    "name": "Quasi-dominions (BDM’20)",
+                    "merged": false,
+                    "keywords": [
+                      "=",
+                      "Quasi-dominions (BDM’20)"
+                    ],
+                    "eventId": "12"
+                  }
+                ],
+                "keywords": [
+                  "Min needs to see some transition < 0",
+                  "PPI"
+                ],
+                "eventId": "1",
+                "originalParams": {
+                  "Min_needs_to_see_some_transition___0": {
+                    "opacity": 1
+                  },
+                  "Group_146": {
+                    "opacity": 1
+                  },
+                  "Group_147": {
+                    "opacity": 1
+                  },
+                  "Group_148": {
+                    "opacity": 1
+                  },
+                  "Group_1463": {
+                    "opacity": 1
+                  },
+                  "Group_1472": {
+                    "opacity": 1
+                  },
+                  "Group_1462": {
+                    "opacity": 1
+                  },
+                  "__v____Weights_that_Max_can_force_to_see_before_a_negative_edge": {
+                    "opacity": 1
+                  }
+                }
+              },
+              {
+                "type": "show",
+                "id": "Strategy_Improvement",
+                "enabled": "enabled",
+                "name": "Strategy Improvement",
+                "merged": false,
+                "keywords": [
+                  "Strategy Improvement"
+                ],
+                "eventId": "3"
+              },
+              {
+                "type": "child",
+                "name": "Strategy Improvement",
+                "id": "Strategy_Improvement2",
+                "enabled": "enabled",
+                "merged": false,
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "Group_146",
+                    "enabled": "enabled",
+                    "name": "σ0 strategy for Min",
+                    "merged": false,
+                    "keywords": [
+                      "σ0 strategy for Min"
+                    ],
+                    "eventId": "1"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Group_147",
+                    "enabled": "enabled",
+                    "name": "τ0 best counter-strategy for Max",
+                    "merged": false,
+                    "keywords": [
+                      "τ0 best counter-strategy for Max"
+                    ],
+                    "eventId": "2"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Group_148",
+                    "enabled": "enabled",
+                    "name": "σ1 switch profitable edges in Min-strategy",
+                    "merged": false,
+                    "keywords": [
+                      "σ1 switch profitable edges in Min-strategy"
+                    ],
+                    "eventId": "3"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Group_1462",
+                    "enabled": "enabled",
+                    "name": "repeat until fixpoint",
+                    "merged": false,
+                    "keywords": [
+                      "repeat until no profitable edges",
+                      "repeat until fixpoint"
+                    ],
+                    "eventId": "4"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Classical_approach2",
+                    "enabled": "enabled",
+                    "name": "Potential assigner (FVI approach)",
+                    "merged": false,
+                    "keywords": [
+                      "Potential assigner (FVI approach)"
+                    ],
+                    "eventId": "5"
+                  },
+                  {
+                    "type": "show",
+                    "id": "_0_best_counter_strategy_for_Max",
+                    "enabled": "enabled",
+                    "name": "tau strat",
+                    "merged": false,
+                    "keywords": [
+                      "τ any strategy for Max (taking some edges >0)",
+                      "tau strat"
+                    ],
+                    "eventId": "7"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Group_142",
+                    "enabled": "enabled",
+                    "name": "-3",
+                    "merged": true,
+                    "keywords": [
+                      "-3",
+                      "8",
+                      "2"
+                    ],
+                    "eventId": "11"
+                  },
+                  {
+                    "type": "show",
+                    "id": "_1_switch_profitable_edges_in_Min_strategy",
+                    "enabled": "enabled",
+                    "name": "potential compute",
+                    "merged": false,
+                    "keywords": [
+                      "φ(v) = Energy values in the graph where Max plays τ",
+                      "potential compute"
+                    ],
+                    "eventId": "8"
+                  },
+                  {
+                    "type": "show",
+                    "id": "repeat_until_fixpoint",
+                    "enabled": "enabled",
+                    "name": "apply pot red",
+                    "merged": false,
+                    "keywords": [
+                      "apply potential reduction",
+                      "until trivial",
+                      "apply pot red"
+                    ],
+                    "eventId": "9"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Text",
+                    "enabled": "enabled",
+                    "name": "(different vairants according to rules fo pick τ)",
+                    "merged": false,
+                    "keywords": [
+                      "(different vairants according to rules fo pick τ)"
+                    ],
+                    "eventId": "10"
+                  }
+                ],
+                "keywords": [
+                  "Classical approach",
+                  "Strategy Improvement"
+                ],
+                "eventId": "4",
+                "originalParams": {
+                  "Group_146": {
+                    "opacity": 1
+                  },
+                  "Group_147": {
+                    "opacity": 1
+                  },
+                  "Group_148": {
+                    "opacity": 1
+                  },
+                  "Group_1462": {
+                    "opacity": 1
+                  },
+                  "Classical_approach2": {
+                    "opacity": 1
+                  },
+                  "_0_best_counter_strategy_for_Max": {
+                    "opacity": 1
+                  },
+                  "_1_switch_profitable_edges_in_Min_strategy": {
+                    "opacity": 1
+                  },
+                  "repeat_until_fixpoint": {
+                    "opacity": 1
+                  },
+                  "Text": {
+                    "opacity": 1
+                  },
+                  "Group_142": {
+                    "opacity": 1
+                  }
+                }
+              },
+              {
+                "type": "show",
+                "id": "Strategy_Improvement3",
+                "enabled": "enabled",
+                "name": "Strategy Improvement",
+                "merged": false,
+                "keywords": [
+                  "Strategy Improvement"
+                ],
+                "eventId": "5"
+              },
+              {
+                "type": "show",
+                "id": "other_day___",
+                "enabled": "enabled",
+                "name": "other day...",
+                "merged": false,
+                "keywords": [
+                  "other day..."
+                ],
+                "eventId": "6"
+              }
+            ],
+            "keywords": [
+              "Let’s find better under-approximations of Energy!",
+              "other examples"
+            ],
+            "eventId": "14",
+            "originalParams": {
+              "Positive_Path_Iteration": {
+                "opacity": 1
+              },
+              "Strategy_Improvement": {
+                "opacity": 1
+              },
+              "Strategy_Improvement3": {
+                "opacity": 1
+              },
+              "other_day___": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "child",
+            "name": "Comparisons",
+            "id": "Comparisons",
+            "enabled": "enabled",
+            "merged": true,
+            "children": [
+              {
+                "type": "show",
+                "id": "Group_146",
+                "enabled": "enabled",
+                "name": "The potential assigner PositivePathIteration is larger than ClassicalValueIteration and GKK.",
+                "merged": false,
+                "keywords": [
+                  "The potential assigner PositivePathIteration is larger than ClassicalValueIteration and GKK."
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "show",
+                "id": "thm_positionality",
+                "enabled": "enabled",
+                "name": "thm comparison",
+                "merged": false,
+                "keywords": [
+                  "Theorem",
+                  "Over any input game, PositivePathIteration terminates in less iterations than ClassicalValueIteration.",
+                  "thm comparison"
+                ],
+                "eventId": "2"
+              }
+            ],
+            "keywords": [
+              "Comparisons"
+            ],
+            "eventId": "18",
+            "originalParams": {
+              "Group_146": {
+                "opacity": 1
+              },
+              "thm_positionality": {
+                "opacity": 1
+              }
+            }
+          }
+        ],
+        "keywords": [
+          "Potential reductions",
+          "FVI"
+        ],
+        "eventId": "12",
+        "originalParams": {
+          "Main_idea": {
+            "opacity": 1
+          },
+          "Under_approximate_En_v_": {
+            "opacity": 1
+          },
+          "Apply_potential_reductions_until_trivialising_the_game": {
+            "opacity": 1
+          },
+          "First_example": {
+            "opacity": 1
+          },
+          "The_meta_algorithm": {
+            "opacity": 1
+          },
+          "Group_145": {
+            "opacity": 1
+          },
+          "First_example2": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "Conclusions",
+        "id": "Conclusions",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "Group_146",
+            "enabled": "enabled",
+            "name": "Uniform framework",
+            "merged": false,
+            "keywords": [
+              "Uniform framework"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "Group_147",
+            "enabled": "enabled",
+            "name": "straightforward correctness proofs",
+            "merged": false,
+            "keywords": [
+              "straightforward correctness proofs + comparisons",
+              "straightforward correctness proofs"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "Group_149",
+            "enabled": "enabled",
+            "name": "implemented in Oink",
+            "merged": false,
+            "keywords": [
+              "implemented in Oink"
+            ],
+            "eventId": "5"
+          },
+          {
+            "type": "show",
+            "id": "Group_1462",
+            "enabled": "enabled",
+            "name": "room for new",
+            "merged": false,
+            "keywords": [
+              "Room for new algorithms!",
+              "room for new"
+            ],
+            "eventId": "12"
+          },
+          {
+            "type": "show",
+            "id": "Group_150",
+            "enabled": "enabled",
+            "name": "better under-approximations?",
+            "merged": false,
+            "keywords": [
+              "better under-approximations?"
+            ],
+            "eventId": "8"
+          },
+          {
+            "type": "show",
+            "id": "Group_151",
+            "enabled": "enabled",
+            "name": "symmetric variants",
+            "merged": false,
+            "keywords": [
+              "symmetric variants"
+            ],
+            "eventId": "9"
+          },
+          {
+            "type": "child",
+            "name": "Alternating FVI",
+            "id": "Alternating_FVI",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "_varphi_V___mathbb_Z_____0___cup____infty__",
+                "enabled": "enabled",
+                "name": "\\varphi:V→ \\mathbb{Z}_{≤ 0} \\cup\\{-\\infty\\}",
+                "merged": true,
+                "keywords": [
+                  "\\varphi:V→ \\mathbb{Z}_{≤ 0} \\cup\\{-\\infty\\}"
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "show",
+                "id": "Alternate_between_Min_reductions_and_Max_reductions",
+                "enabled": "enabled",
+                "name": "Alternate between Min-reductions and Max-reductions",
+                "merged": false,
+                "keywords": [
+                  "Alternate between Min-reductions and Max-reductions"
+                ],
+                "eventId": "3"
+              },
+              {
+                "type": "show",
+                "id": "_varphi_V___mathbb_Z___cup____infty____infty__",
+                "enabled": "enabled",
+                "name": "\\varphi:V→ \\mathbb{Z} \\cup\\{+\\infty, -\\infty\\}",
+                "merged": true,
+                "keywords": [
+                  "\\varphi:V→ \\mathbb{Z} \\cup\\{+\\infty, -\\infty\\}"
+                ],
+                "eventId": "4"
+              },
+              {
+                "type": "show",
+                "id": "Group_146",
+                "enabled": "enabled",
+                "name": "in practice",
+                "merged": false,
+                "keywords": [
+                  "In practice: Everything works (fast!)",
+                  "in practice"
+                ],
+                "eventId": "5"
+              },
+              {
+                "type": "show",
+                "id": "Group_1462",
+                "enabled": "enabled",
+                "name": "in theory",
+                "merged": false,
+                "keywords": [
+                  "In theory: We understand nothing",
+                  "in theory"
+                ],
+                "eventId": "6"
+              }
+            ],
+            "keywords": [
+              "We can dualize everythin (take the point of view of Max)",
+              "Alternating FVI"
+            ],
+            "eventId": "1",
+            "originalParams": {
+              "We_can_dualize_everythin__take_the_point_of_view_of_Max_": {
+                "opacity": 1
+              },
+              "_varphi_V___mathbb_Z_____0___cup____infty__": {
+                "opacity": 1
+              },
+              "Alternate_between_Min_reductions_and_Max_reductions": {
+                "opacity": 1
+              },
+              "_varphi_V___mathbb_Z___cup____infty____infty__": {
+                "opacity": 1
+              },
+              "Group_146": {
+                "opacity": 1
+              },
+              "Group_1462": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "show",
+            "id": "Group_152",
+            "enabled": "enabled",
+            "name": "extensions",
+            "merged": false,
+            "keywords": [
+              "Extensions to discounted and Simple Stochastic Games",
+              "extensions"
+            ],
+            "eventId": "13"
+          },
+          {
+            "type": "show",
+            "id": "Randomised_versions_and_analysis",
+            "enabled": "enabled",
+            "name": "Randomised versions and analysis",
+            "merged": false,
+            "keywords": [
+              "Randomised versions and analysis"
+            ],
+            "eventId": "14"
+          },
+          {
+            "type": "show",
+            "id": "Thanks_for_your_attention_",
+            "enabled": "enabled",
+            "name": "Thanks for your attention!",
+            "merged": false,
+            "keywords": [
+              "Thanks for your attention!"
+            ],
+            "eventId": "11"
+          }
+        ],
+        "keywords": [
+          "Conclusions and future directions",
+          "Conclusions"
+        ],
+        "eventId": "6",
+        "originalParams": {
+          "Group_146": {
+            "opacity": 1
+          },
+          "Group_147": {
+            "opacity": 1
+          },
+          "Group_149": {
+            "opacity": 1
+          },
+          "Group_150": {
+            "opacity": 1
+          },
+          "Group_151": {
+            "opacity": 1
+          },
+          "Group_152": {
+            "opacity": 1
+          },
+          "Thanks_for_your_attention_": {
+            "opacity": 1
+          },
+          "Group_1462": {
+            "opacity": 1
+          },
+          "Randomised_versions_and_analysis": {
+            "opacity": 1
+          }
+        }
+      }
+    ],
+    "keywords": [
+      "Text 3",
+      "Antonio Casares ⋅ RPTU Kaiserslautern",
+      "Joint work with: Michaël Cadilhac, Pierre Gaillard and Pierre Ohlmann",
+      "Fast Value Iteration A uniform framework for energy games",
+      "IST Austria, 22 October 2025",
+      "TACAS 25",
+      "main"
+    ],
+    "eventId": "root",
+    "originalParams": {
+      "FVI2": {
+        "opacity": 1
+      },
+      "Energy_Games2": {
+        "opacity": 1
+      }
+    }
+  },
+  "treeTimeLine": [],
+  "chronicleTimeLine": []
+}

@@ -963,7 +963,7 @@
                 "id": "potential",
                 "enabled": "enabled",
                 "name": "potential example",
-                "merged": false,
+                "merged": true,
                 "keywords": [
                   "3",
                   "1",
@@ -1074,8 +1074,9 @@
                 "name": "The energy values may change",
                 "merged": false,
                 "keywords": [
-                  "The energy values may change",
-                  "The game simplifies!"
+                  "The energy values decrease",
+                  "The game simplifies!",
+                  "The energy values may change"
                 ],
                 "eventId": "11"
               },
@@ -2246,6 +2247,17 @@
                       "Quasi-dominions (BDM’20)"
                     ],
                     "eventId": "12"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Very_efficient_in_practice__",
+                    "enabled": "enabled",
+                    "name": "Very efficient in practice!!",
+                    "merged": false,
+                    "keywords": [
+                      "Very efficient in practice!!"
+                    ],
+                    "eventId": "17"
                   }
                 ],
                 "keywords": [
@@ -2254,9 +2266,6 @@
                 ],
                 "eventId": "1",
                 "originalParams": {
-                  "Min_needs_to_see_some_transition___0": {
-                    "opacity": 1
-                  },
                   "Group_146": {
                     "opacity": 1
                   },
@@ -2276,6 +2285,9 @@
                     "opacity": 1
                   },
                   "__v____Weights_that_Max_can_force_to_see_before_a_negative_edge": {
+                    "opacity": 1
+                  },
+                  "Very_efficient_in_practice__": {
                     "opacity": 1
                   }
                 }
@@ -2530,7 +2542,8 @@
               }
             ],
             "keywords": [
-              "Comparisons"
+              "Comparisons",
+              "Ψ ≤ Ψ’ ??"
             ],
             "eventId": "18",
             "originalParams": {

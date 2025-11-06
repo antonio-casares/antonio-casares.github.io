@@ -1,0 +1,1794 @@
+{
+  "version": 3.1,
+  "presentation": "LayeredAutomata-GTVerif",
+  "slideDict": {
+    "new_slide": "title",
+    "main": "main_technical",
+    "DFAs": "DFAs",
+    "Infinite_words": "Infinite_words",
+    "Parity_automata": "Parity_automata",
+    "Layered_automata": "Layered_automata",
+    "Alternating_automata": "Alternating_automata",
+    "HD": "HD",
+    "0_1_probabilistic": "0_1_probabilistic",
+    "Subclasses": "Subclasses",
+    "Properties2": "Properties",
+    "Definition2": "Definition",
+    "Morphism": "Morphism",
+    "Semantics2": "Semantics",
+    "Examples": "Examples",
+    "Conclusions_1": "Conclusions_1",
+    "Conclusions_2": "Conclusions_2"
+  },
+  "tree": {
+    "type": "child",
+    "name": "title",
+    "id": "new_slide",
+    "enabled": "enabled",
+    "merged": false,
+    "children": [
+      {
+        "type": "child",
+        "name": "main-technical",
+        "id": "main",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "child",
+            "name": "DFAs",
+            "id": "DFAs",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "Group_43",
+                "enabled": "enabled",
+                "name": "A minimal, canonical DFA for each regular language",
+                "merged": false,
+                "keywords": [
+                  "A minimal, canonical DFA for each regular language"
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "show",
+                "id": "Efficiency_in_applications_2",
+                "enabled": "enabled",
+                "name": "beutiful math",
+                "merged": false,
+                "keywords": [
+                  "beutiful math"
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "show",
+                "id": "Efficiency_in_applications_",
+                "enabled": "enabled",
+                "name": "Efficiency in applications!",
+                "merged": true,
+                "keywords": [
+                  "Efficiency in applications!"
+                ],
+                "eventId": "3"
+              },
+              {
+                "type": "show",
+                "id": "Group_48",
+                "enabled": "enabled",
+                "name": "Minimisation in O(nlogn) (Hopcroft ‘71)",
+                "merged": false,
+                "keywords": [
+                  "Minimisation in O(nlogn) (Hopcroft ‘71)"
+                ],
+                "eventId": "4"
+              },
+              {
+                "type": "show",
+                "id": "Group_49",
+                "enabled": "enabled",
+                "name": "Automata learning (Gold ‘67, Angluin ‘87)",
+                "merged": false,
+                "keywords": [
+                  "Automata learning in PTIME (Gold ‘67, Angluin 87’)",
+                  "Automata learning (Gold ‘67, Angluin ‘87)"
+                ],
+                "eventId": "5"
+              },
+              {
+                "type": "show",
+                "id": "Group_50",
+                "enabled": "enabled",
+                "name": "Decidability of FO-definability (Schützenberger ’65, McNaughton-Papert ’71)",
+                "merged": false,
+                "keywords": [
+                  "Simple characterization of FO-definability",
+                  "Decidability of FO-definability (Schützenberger ’65, McNaughton-Papert ’71)"
+                ],
+                "eventId": "6"
+              },
+              {
+                "type": "show",
+                "id": "___",
+                "enabled": "enabled",
+                "name": "...",
+                "merged": true,
+                "keywords": [
+                  "..."
+                ],
+                "eventId": "8"
+              },
+              {
+                "type": "show",
+                "id": "spongeBob_rainbow_1",
+                "enabled": "enabled",
+                "name": "spongeBob-rainbow 1",
+                "merged": true,
+                "keywords": [
+                  "spongeBob-rainbow 1"
+                ],
+                "eventId": "9"
+              }
+            ],
+            "keywords": [
+              "(Büchi, Elgot, Trakhtenbrot ‘60)",
+              "Finite automata",
+              "MSO-logic",
+              "DFAs"
+            ],
+            "eventId": "1",
+            "originalParams": {
+              "Group_43": {
+                "opacity": 1
+              },
+              "Efficiency_in_applications_2": {
+                "opacity": 1
+              },
+              "Efficiency_in_applications_": {
+                "opacity": 1
+              },
+              "Group_48": {
+                "opacity": 1
+              },
+              "Group_49": {
+                "opacity": 1
+              },
+              "Group_50": {
+                "opacity": 1
+              },
+              "Text_1": {
+                "opacity": 1
+              },
+              "___": {
+                "opacity": 1
+              },
+              "spongeBob_rainbow_1": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "show",
+            "id": "Everybody_loves2",
+            "enabled": "enabled",
+            "name": "Lets generalize",
+            "merged": false,
+            "keywords": [
+              "Lets generalize"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "child",
+            "name": "Infinite words",
+            "id": "Infinite_words",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "Group_522",
+                "enabled": "enabled",
+                "name": "Applications in verification and reactive synthesis",
+                "merged": false,
+                "keywords": [
+                  "Applications in verification and reactive synthesis"
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "child",
+                "name": "Parity automata",
+                "id": "Parity_automata",
+                "enabled": "enabled",
+                "merged": false,
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "Group_53",
+                    "enabled": "enabled",
+                    "name": "abaababbaa...",
+                    "merged": false,
+                    "keywords": [
+                      "Input:",
+                      "abaababbaa...",
+                      "∈ Σω"
+                    ],
+                    "eventId": "5"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Group_119",
+                    "enabled": "enabled",
+                    "name": "min {priority seen infinitely often} is even",
+                    "merged": false,
+                    "keywords": [
+                      "Run accepting if",
+                      "min {priorities seen infinitely often} is even",
+                      "min {priority seen infinitely often} is even"
+                    ],
+                    "eventId": "10"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Group_78",
+                    "enabled": "enabled",
+                    "name": "cross",
+                    "merged": false,
+                    "keywords": [
+                      "cross"
+                    ],
+                    "eventId": "9"
+                  },
+                  {
+                    "type": "show",
+                    "id": "L_A____Fin_a__or_Fin_bb_2",
+                    "enabled": "enabled",
+                    "name": "L(A) = Fin(a) or Fin(bb)",
+                    "merged": false,
+                    "keywords": [
+                      "L(A) = Fin(a) or Fin(bb)"
+                    ],
+                    "eventId": "4"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Acceptance_on_transitions_",
+                    "enabled": "enabled",
+                    "name": "Acceptance on transitions!",
+                    "merged": false,
+                    "keywords": [
+                      "Acceptance on transitions!"
+                    ],
+                    "eventId": "8"
+                  }
+                ],
+                "keywords": [
+                  "Parity automata",
+                  "b:2",
+                  "a:2",
+                  "a:1"
+                ],
+                "eventId": "1",
+                "originalParams": {
+                  "L_A____Fin_a__or_Fin_bb_2": {
+                    "opacity": 1
+                  },
+                  "Group_53": {
+                    "opacity": 1
+                  },
+                  "Acceptance_on_transitions_": {
+                    "opacity": 1
+                  },
+                  "Group_78": {
+                    "opacity": 1
+                  },
+                  "Group_119": {
+                    "opacity": 1
+                  }
+                }
+              },
+              {
+                "type": "show",
+                "id": "Group_43",
+                "enabled": "enabled",
+                "name": "A minimal, canonical DFA for each regular language",
+                "merged": false,
+                "keywords": [
+                  "No unique minimal deterministic automata",
+                  "A minimal, canonical DFA for each regular language"
+                ],
+                "eventId": "3"
+              },
+              {
+                "type": "show",
+                "id": "Use_of___automata_very_costly_in_applications_",
+                "enabled": "enabled",
+                "name": "Use of ω-automata very costly in applications!",
+                "merged": false,
+                "keywords": [
+                  "Use of ω-automata very costly in applications!"
+                ],
+                "eventId": "8"
+              },
+              {
+                "type": "show",
+                "id": "Group_48",
+                "enabled": "enabled",
+                "name": "Minimisation in O(nlogn) (Hopcroft ‘71)",
+                "merged": false,
+                "keywords": [
+                  "Minimisation is NP-complete (Schewe ‘10, AbuRadi-Ehlers ‘25 )",
+                  "Minimisation in O(nlogn) (Hopcroft ‘71)"
+                ],
+                "eventId": "5"
+              },
+              {
+                "type": "show",
+                "id": "Group_53",
+                "enabled": "enabled",
+                "name": "Costly determinization procedures",
+                "merged": false,
+                "keywords": [
+                  "Costly determinization and boolean operations",
+                  "Costly determinization procedures"
+                ],
+                "eventId": "7"
+              },
+              {
+                "type": "show",
+                "id": "Group_49",
+                "enabled": "enabled",
+                "name": "Automata learning (Gold ‘67, Angluin ‘87)",
+                "merged": false,
+                "keywords": [
+                  "No efficient learning of ω-automata",
+                  "Automata learning (Gold ‘67, Angluin ‘87)"
+                ],
+                "eventId": "6"
+              },
+              {
+                "type": "show",
+                "id": "spongeBob_sad_1",
+                "enabled": "enabled",
+                "name": "spongeBob-sad 1",
+                "merged": true,
+                "keywords": [
+                  "spongeBob-sad 1"
+                ],
+                "eventId": "9"
+              }
+            ],
+            "keywords": [
+              "ω-automata",
+              "(Büchi ‘62)",
+              "MSO-logic",
+              "Infinite words"
+            ],
+            "eventId": "3",
+            "originalParams": {
+              "Group_522": {
+                "opacity": 1
+              },
+              "Group_43": {
+                "opacity": 1
+              },
+              "Group_48": {
+                "opacity": 1
+              },
+              "Group_49": {
+                "opacity": 1
+              },
+              "Group_53": {
+                "opacity": 1
+              },
+              "Use_of___automata_very_costly_in_applications_": {
+                "opacity": 1
+              },
+              "spongeBob_sad_1": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "show",
+            "id": "Deterministic_parity_automata_are_not_suitable",
+            "enabled": "enabled",
+            "name": "Deterministic parity automata are not suitable",
+            "merged": false,
+            "keywords": [
+              "Deterministic parity automata are not suitable"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "show",
+            "id": "Group_118",
+            "enabled": "enabled",
+            "name": "Layered Automata",
+            "merged": false,
+            "keywords": [
+              "Layered Automata",
+              "Instead, use"
+            ],
+            "eventId": "5"
+          },
+          {
+            "type": "child",
+            "name": "Layered automata",
+            "id": "Layered_automata",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "Rectangle_30",
+                "enabled": "enabled",
+                "name": "Rectangle 30",
+                "merged": false,
+                "keywords": [
+                  "Rectangle 30"
+                ],
+                "eventId": "12"
+              },
+              {
+                "type": "child",
+                "name": "Alternating automata",
+                "id": "Subclasses",
+                "enabled": "enabled",
+                "merged": false,
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "An_existential_player_tries_to_build_an_accepting_run_",
+                    "enabled": "enabled",
+                    "name": "An existential player tries to build an accepting run.",
+                    "merged": false,
+                    "keywords": [
+                      "An existential player tries to build an accepting run."
+                    ],
+                    "eventId": "5"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Universal_",
+                    "enabled": "enabled",
+                    "name": "Universal:",
+                    "merged": false,
+                    "keywords": [
+                      "Universal:"
+                    ],
+                    "eventId": "3"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Universal_automata__w_is_accepted_if_all_run_are_accepting_",
+                    "enabled": "enabled",
+                    "name": "Universal automata: w is accepted if all run are accepting.",
+                    "merged": true,
+                    "keywords": [
+                      "Universal automata: w is accepted if all run are accepting."
+                    ],
+                    "eventId": "4"
+                  },
+                  {
+                    "type": "show",
+                    "id": "_",
+                    "enabled": "enabled",
+                    "name": "=",
+                    "merged": false,
+                    "keywords": [
+                      "="
+                    ],
+                    "eventId": "10"
+                  },
+                  {
+                    "type": "show",
+                    "id": "w_is_rejected_if_some_run_is_rejecting",
+                    "enabled": "enabled",
+                    "name": "w is rejected if some run is rejecting",
+                    "merged": true,
+                    "keywords": [
+                      "w is rejected if some run is rejecting"
+                    ],
+                    "eventId": "11"
+                  },
+                  {
+                    "type": "show",
+                    "id": "A_universal_player_tries_to_build_a_rejecting_run_",
+                    "enabled": "enabled",
+                    "name": "A universal player tries to build a rejecting run.",
+                    "merged": false,
+                    "keywords": [
+                      "A universal player tries to build a rejecting run."
+                    ],
+                    "eventId": "6"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Alternating_automata",
+                    "enabled": "enabled",
+                    "name": "Alternating automata:",
+                    "merged": false,
+                    "keywords": [
+                      "Alternating automata:"
+                    ],
+                    "eventId": "1"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Group_137",
+                    "enabled": "enabled",
+                    "name": "existential choices",
+                    "merged": true,
+                    "keywords": [
+                      "p",
+                      "a",
+                      "q1",
+                      "q2",
+                      "q3",
+                      "∃",
+                      "existential choices"
+                    ],
+                    "eventId": "14"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Group_138",
+                    "enabled": "enabled",
+                    "name": "universal choices",
+                    "merged": true,
+                    "keywords": [
+                      "p",
+                      "a",
+                      "q1",
+                      "q2",
+                      "q3",
+                      "∀",
+                      "universal choices"
+                    ],
+                    "eventId": "15"
+                  },
+                  {
+                    "type": "show",
+                    "id": "A_word_w_induces_a_parity_game_",
+                    "enabled": "enabled",
+                    "name": "A word w induces a parity game.",
+                    "merged": false,
+                    "keywords": [
+                      "A word w induces a parity game."
+                    ],
+                    "eventId": "2"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Group_117",
+                    "enabled": "enabled",
+                    "name": "if the existential player wins this game.",
+                    "merged": true,
+                    "keywords": [
+                      "if the existential player wins this game."
+                    ],
+                    "eventId": "9"
+                  }
+                ],
+                "keywords": [
+                  "Non deterministic:",
+                  "w is accepted if some run is accepting.",
+                  "Alternating automata"
+                ],
+                "eventId": "2",
+                "originalParams": {
+                  "Alternating_automata": {
+                    "opacity": 1
+                  },
+                  "A_word_w_induces_a_parity_game_": {
+                    "opacity": 1
+                  },
+                  "Universal_": {
+                    "opacity": 1
+                  },
+                  "Universal_automata__w_is_accepted_if_all_run_are_accepting_": {
+                    "opacity": 1
+                  },
+                  "An_existential_player_tries_to_build_an_accepting_run_": {
+                    "opacity": 1
+                  },
+                  "A_universal_player_tries_to_build_a_rejecting_run_": {
+                    "opacity": 1
+                  },
+                  "Group_117": {
+                    "opacity": 1
+                  },
+                  "_": {
+                    "opacity": 1
+                  },
+                  "w_is_rejected_if_some_run_is_rejecting": {
+                    "opacity": 1
+                  },
+                  "Group_137": {
+                    "opacity": 1
+                  },
+                  "Group_138": {
+                    "opacity": 1
+                  }
+                }
+              },
+              {
+                "type": "hide",
+                "id": "Rectangle_30",
+                "enabled": "enabled",
+                "name": "Rectangle 30",
+                "merged": false,
+                "keywords": [
+                  "Rectangle 30"
+                ],
+                "eventId": "13"
+              },
+              {
+                "type": "show",
+                "id": "Group_134",
+                "enabled": "enabled",
+                "name": "Alternating automata are too complex to use in practice",
+                "merged": true,
+                "keywords": [
+                  "Alternating automata are too complex to use in practice"
+                ],
+                "eventId": "8"
+              },
+              {
+                "type": "hide",
+                "id": "Group_134",
+                "enabled": "enabled",
+                "name": "Alternating automata are too complex to use in practice",
+                "merged": false,
+                "keywords": [
+                  "Alternating automata are too complex to use in practice"
+                ],
+                "eventId": "9"
+              },
+              {
+                "type": "show",
+                "id": "Group_1342",
+                "enabled": "enabled",
+                "name": "Some subclasses are usable in verification!!",
+                "merged": true,
+                "keywords": [
+                  "Some subclasses are usable in verification!!"
+                ],
+                "eventId": "10"
+              },
+              {
+                "type": "show",
+                "id": "Group_137",
+                "enabled": "enabled",
+                "name": "well-behaved",
+                "merged": true,
+                "keywords": [
+                  "well-behaved"
+                ],
+                "eventId": "14"
+              },
+              {
+                "type": "child",
+                "name": "Subclasses - HD",
+                "id": "Alternating_automata",
+                "enabled": "enabled",
+                "merged": false,
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "Group_53",
+                    "enabled": "enabled",
+                    "name": "Deterministic",
+                    "merged": false,
+                    "keywords": [
+                      "Deterministic"
+                    ],
+                    "eventId": "1"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Group_532",
+                    "enabled": "enabled",
+                    "name": "History deterministic",
+                    "merged": false,
+                    "keywords": [
+                      "History deterministic"
+                    ],
+                    "eventId": "2"
+                  },
+                  {
+                    "type": "child",
+                    "name": "HD",
+                    "id": "HD",
+                    "enabled": "enabled",
+                    "merged": false,
+                    "children": [
+                      {
+                        "type": "show",
+                        "id": "A_non_deterministic_automaton_is_HD_if_its_non_determinism_can_be_resolved_on_the_fly_",
+                        "enabled": "enabled",
+                        "name": "A non-deterministic automaton is HD if its non-determinism can be resolved on-the-fly.",
+                        "merged": false,
+                        "keywords": [
+                          "A non-deterministic automaton is HD if its non-determinism can be resolved on-the-fly."
+                        ],
+                        "eventId": "2"
+                      },
+                      {
+                        "type": "show",
+                        "id": "Group_88",
+                        "enabled": "enabled",
+                        "name": "letter game 1",
+                        "merged": false,
+                        "keywords": [
+                          "Adam gives letters:",
+                          "Eve takes transitions:",
+                          "letter game 1"
+                        ],
+                        "eventId": "3"
+                      },
+                      {
+                        "type": "show",
+                        "id": "Text",
+                        "enabled": "enabled",
+                        "name": "= If Eve has a winning strategy in the letter game:",
+                        "merged": true,
+                        "keywords": [
+                          "= If Eve has a winning strategy in the letter game:"
+                        ],
+                        "eventId": "4"
+                      },
+                      {
+                        "type": "show",
+                        "id": "Text3",
+                        "enabled": "enabled",
+                        "name": "a",
+                        "merged": false,
+                        "keywords": [
+                          "a"
+                        ],
+                        "eventId": "5"
+                      },
+                      {
+                        "type": "show",
+                        "id": "Group_84",
+                        "enabled": "enabled",
+                        "name": "p0",
+                        "merged": false,
+                        "keywords": [
+                          "p0",
+                          "p1",
+                          "a"
+                        ],
+                        "eventId": "6"
+                      },
+                      {
+                        "type": "show",
+                        "id": "a",
+                        "enabled": "enabled",
+                        "name": "b",
+                        "merged": false,
+                        "keywords": [
+                          "b"
+                        ],
+                        "eventId": "7"
+                      },
+                      {
+                        "type": "show",
+                        "id": "Group_842",
+                        "enabled": "enabled",
+                        "name": "p1",
+                        "merged": false,
+                        "keywords": [
+                          "p1",
+                          "p2",
+                          "b"
+                        ],
+                        "eventId": "8"
+                      },
+                      {
+                        "type": "show",
+                        "id": "Group_882",
+                        "enabled": "enabled",
+                        "name": "rest letter game",
+                        "merged": false,
+                        "keywords": [
+                          "b",
+                          "a",
+                          "p2",
+                          "p3",
+                          "...",
+                          "w ∈ Σω",
+                          "ρ run in the automaton",
+                          "rest letter game"
+                        ],
+                        "eventId": "9"
+                      },
+                      {
+                        "type": "show",
+                        "id": "Group_883",
+                        "enabled": "enabled",
+                        "name": "ρ is accepting",
+                        "merged": false,
+                        "keywords": [
+                          "Eve wins if",
+                          "ρ is accepting"
+                        ],
+                        "eventId": "10"
+                      },
+                      {
+                        "type": "child",
+                        "name": "Examples",
+                        "id": "Examples",
+                        "enabled": "enabled",
+                        "merged": false,
+                        "children": [
+                          {
+                            "type": "show",
+                            "id": "Not_HD",
+                            "enabled": "enabled",
+                            "name": "Not HD",
+                            "merged": false,
+                            "keywords": [
+                              "Not HD"
+                            ],
+                            "eventId": "1"
+                          },
+                          {
+                            "type": "show",
+                            "id": "Group_862",
+                            "enabled": "enabled",
+                            "name": "Example HD",
+                            "merged": false,
+                            "keywords": [
+                              "b,c:2",
+                              "a,c",
+                              "b,c",
+                              "a,c:2",
+                              "b:1",
+                              "a:1",
+                              "L(A) = Fin(a) or Fin(bb)",
+                              "Example HD"
+                            ],
+                            "eventId": "2"
+                          },
+                          {
+                            "type": "show",
+                            "id": "Group_863",
+                            "enabled": "enabled",
+                            "name": "It is HD!",
+                            "merged": false,
+                            "keywords": [
+                              "It is HD!"
+                            ],
+                            "eventId": "3"
+                          }
+                        ],
+                        "keywords": [
+                          "a:2",
+                          "a,b:1",
+                          "L(A) = Fin(a) or Fin(bb)",
+                          "Examples"
+                        ],
+                        "eventId": "1",
+                        "originalParams": {
+                          "Not_HD": {
+                            "opacity": 1
+                          },
+                          "Group_862": {
+                            "opacity": 1
+                          },
+                          "Group_863": {
+                            "opacity": 1
+                          }
+                        }
+                      },
+                      {
+                        "type": "show",
+                        "id": "Group_60",
+                        "enabled": "enabled",
+                        "name": "History-determinism is the key property necessary in applications to verification HD = Good-for-games = “Good for synthesis and verification”",
+                        "merged": false,
+                        "keywords": [
+                          "History-determinism is the key property necessary in applications to verification HD = Good-for-games = “Good for synthesis and verification”"
+                        ],
+                        "eventId": "11"
+                      }
+                    ],
+                    "keywords": [
+                      "Non-deterministic case",
+                      "(For alternating automata → natural generalization)",
+                      "HD"
+                    ],
+                    "eventId": "3",
+                    "originalParams": {
+                      "A_non_deterministic_automaton_is_HD_if_its_non_determinism_can_be_resolved_on_the_fly_": {
+                        "opacity": 1
+                      },
+                      "Group_88": {
+                        "opacity": 1
+                      },
+                      "Text": {
+                        "opacity": 1
+                      },
+                      "Text3": {
+                        "opacity": 1
+                      },
+                      "Group_84": {
+                        "opacity": 1
+                      },
+                      "a": {
+                        "opacity": 1
+                      },
+                      "Group_842": {
+                        "opacity": 1
+                      },
+                      "Group_882": {
+                        "opacity": 1
+                      },
+                      "Group_883": {
+                        "opacity": 1
+                      },
+                      "Group_60": {
+                        "opacity": 1
+                      }
+                    }
+                  },
+                  {
+                    "type": "show",
+                    "id": "Group_533",
+                    "enabled": "enabled",
+                    "name": "0-1 probabilistic",
+                    "merged": false,
+                    "keywords": [
+                      "0-1 probabilistic"
+                    ],
+                    "eventId": "4"
+                  },
+                  {
+                    "type": "child",
+                    "name": "0-1-probabilistic",
+                    "id": "0_1_probabilistic",
+                    "enabled": "enabled",
+                    "merged": false,
+                    "children": [
+                      {
+                        "type": "show",
+                        "id": "Group_137",
+                        "enabled": "enabled",
+                        "name": "Useful in verification of probabilistic systems!",
+                        "merged": false,
+                        "keywords": [
+                          "Useful in verification of probabilistic systems!"
+                        ],
+                        "eventId": "1"
+                      },
+                      {
+                        "type": "show",
+                        "id": "Useful_in_verification_of_probabilistic_systems_",
+                        "enabled": "enabled",
+                        "name": "Useful in verification of probabilistic systems!",
+                        "merged": false,
+                        "keywords": [
+                          "Useful in verification of probabilistic systems!"
+                        ],
+                        "eventId": "2"
+                      },
+                      {
+                        "type": "show",
+                        "id": "Group_60",
+                        "enabled": "enabled",
+                        "name": "History-determinism is the key property necessary in applications to verification HD = Good-for-games = “Good for synthesis and verification”",
+                        "merged": false,
+                        "keywords": [
+                          "Useful in verification of probabilistic systems",
+                          "History-determinism is the key property necessary in applications to verification HD = Good-for-games = “Good for synthesis and verification”"
+                        ],
+                        "eventId": "3"
+                      }
+                    ],
+                    "keywords": [
+                      "An automaton is 0-1 probabilistic if for every w, and a random run ρ over w:",
+                      "0-1-probabilistic"
+                    ],
+                    "eventId": "5",
+                    "originalParams": {
+                      "Group_137": {
+                        "opacity": 1
+                      },
+                      "Useful_in_verification_of_probabilistic_systems_": {
+                        "opacity": 1
+                      },
+                      "Group_60": {
+                        "opacity": 1
+                      }
+                    }
+                  },
+                  {
+                    "type": "show",
+                    "id": "Rectangle_26",
+                    "enabled": "enabled",
+                    "name": "Rectangle 26",
+                    "merged": false,
+                    "keywords": [
+                      "Rectangle 26"
+                    ],
+                    "eventId": "6"
+                  },
+                  {
+                    "type": "show",
+                    "id": "LayeredAutomata",
+                    "enabled": "enabled",
+                    "name": "LayeredAutomata",
+                    "merged": true,
+                    "keywords": [
+                      "Layered Automata",
+                      "LayeredAutomata"
+                    ],
+                    "eventId": "7"
+                  }
+                ],
+                "keywords": [
+                  "Alternating parity automata",
+                  "Subclasses - HD"
+                ],
+                "eventId": "1",
+                "originalParams": {
+                  "Group_53": {
+                    "opacity": 1
+                  },
+                  "Group_532": {
+                    "opacity": 1
+                  },
+                  "Group_533": {
+                    "opacity": 1
+                  },
+                  "Rectangle_26": {
+                    "opacity": 1
+                  },
+                  "LayeredAutomata": {
+                    "opacity": 1
+                  }
+                }
+              },
+              {
+                "type": "show",
+                "id": "Definition",
+                "enabled": "enabled",
+                "name": "Definition",
+                "merged": false,
+                "keywords": [
+                  "Definition"
+                ],
+                "eventId": "3"
+              },
+              {
+                "type": "show",
+                "id": "Properties",
+                "enabled": "enabled",
+                "name": "Properties",
+                "merged": true,
+                "keywords": [
+                  "Properties"
+                ],
+                "eventId": "4"
+              },
+              {
+                "type": "child",
+                "name": "Definition",
+                "id": "Definition2",
+                "enabled": "enabled",
+                "merged": false,
+                "children": [
+                  {
+                    "type": "child",
+                    "name": "Morphism",
+                    "id": "Morphism",
+                    "enabled": "enabled",
+                    "merged": false,
+                    "children": [],
+                    "keywords": [
+                      "p",
+                      "a",
+                      "q",
+                      "μ(p)",
+                      "μ(q)",
+                      "in",
+                      "’",
+                      "Morphism"
+                    ],
+                    "eventId": "1",
+                    "originalParams": {}
+                  },
+                  {
+                    "type": "show",
+                    "id": "incomplete",
+                    "enabled": "enabled",
+                    "name": "incomplete",
+                    "merged": false,
+                    "keywords": [
+                      "incomplete"
+                    ],
+                    "eventId": "3"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Group_129",
+                    "enabled": "enabled",
+                    "name": "a,b,c",
+                    "merged": false,
+                    "keywords": [
+                      "a,b,c"
+                    ],
+                    "eventId": "4"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Group_137",
+                    "enabled": "enabled",
+                    "name": "b,c",
+                    "merged": false,
+                    "keywords": [
+                      "b,c",
+                      "a"
+                    ],
+                    "eventId": "5"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Group_128",
+                    "enabled": "enabled",
+                    "name": "No a-transition",
+                    "merged": false,
+                    "keywords": [
+                      "a",
+                      "No a-transition"
+                    ],
+                    "eventId": "6"
+                  },
+                  {
+                    "type": "hide",
+                    "id": "Group_128",
+                    "enabled": "enabled",
+                    "name": "No a-transition",
+                    "merged": false,
+                    "keywords": [
+                      "No a-transition"
+                    ],
+                    "eventId": "7"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Group_1282",
+                    "enabled": "enabled",
+                    "name": "morph1",
+                    "merged": false,
+                    "keywords": [
+                      "morph1"
+                    ],
+                    "eventId": "8"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Group_1284",
+                    "enabled": "enabled",
+                    "name": "trans3",
+                    "merged": false,
+                    "keywords": [
+                      "a",
+                      "b",
+                      "c",
+                      "trans3"
+                    ],
+                    "eventId": "9"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Group_1283",
+                    "enabled": "enabled",
+                    "name": "morph2",
+                    "merged": false,
+                    "keywords": [
+                      "morph2"
+                    ],
+                    "eventId": "10"
+                  }
+                ],
+                "keywords": [
+                  "Layered automaton:",
+                  "A sequence of deterministic transition systems with morphisms",
+                  "Definition"
+                ],
+                "eventId": "6",
+                "originalParams": {
+                  "incomplete": {
+                    "opacity": 1
+                  },
+                  "Group_129": {
+                    "opacity": 1
+                  },
+                  "Group_137": {
+                    "opacity": 1
+                  },
+                  "Group_128": {
+                    "opacity": 1
+                  },
+                  "Group_1282": {
+                    "opacity": 1
+                  },
+                  "Group_1284": {
+                    "opacity": 1
+                  },
+                  "Group_1283": {
+                    "opacity": 1
+                  }
+                }
+              },
+              {
+                "type": "child",
+                "name": "Semantics",
+                "id": "Semantics2",
+                "enabled": "enabled",
+                "merged": true,
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "Group_137",
+                    "enabled": "enabled",
+                    "name": "States: leaves",
+                    "merged": false,
+                    "keywords": [
+                      "p",
+                      "q",
+                      "s",
+                      "States: leaves"
+                    ],
+                    "eventId": "1"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Group_1372",
+                    "enabled": "enabled",
+                    "name": "p",
+                    "merged": true,
+                    "keywords": [
+                      "p",
+                      "q",
+                      "s"
+                    ],
+                    "eventId": "3"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Group_1366",
+                    "enabled": "enabled",
+                    "name": "Transitions: given by the deepest where the transition exists",
+                    "merged": false,
+                    "keywords": [
+                      "Transitions: given by the deepest where the transition exists"
+                    ],
+                    "eventId": "2"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Group_1352",
+                    "enabled": "enabled",
+                    "name": "3",
+                    "merged": false,
+                    "keywords": [
+                      "3"
+                    ],
+                    "eventId": "4"
+                  },
+                  {
+                    "type": "show",
+                    "id": "b_3",
+                    "enabled": "enabled",
+                    "name": "b:3",
+                    "merged": true,
+                    "keywords": [
+                      "b:3"
+                    ],
+                    "eventId": "5"
+                  },
+                  {
+                    "type": "hide",
+                    "id": "Group_1352",
+                    "enabled": "enabled",
+                    "name": "3",
+                    "merged": false,
+                    "keywords": [
+                      "3"
+                    ],
+                    "eventId": "15"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Group_136",
+                    "enabled": "enabled",
+                    "name": "a:1",
+                    "merged": true,
+                    "keywords": [
+                      "a:1",
+                      "?"
+                    ],
+                    "eventId": "6"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Group_1364",
+                    "enabled": "enabled",
+                    "name": "No a-transition",
+                    "merged": true,
+                    "keywords": [
+                      "a",
+                      "No a-transition"
+                    ],
+                    "eventId": "7"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Ellipse_15",
+                    "enabled": "enabled",
+                    "name": "Ellipse 15",
+                    "merged": true,
+                    "keywords": [
+                      "Ellipse 15"
+                    ],
+                    "eventId": "8"
+                  },
+                  {
+                    "type": "hide",
+                    "id": "Group_136",
+                    "enabled": "enabled",
+                    "name": "a:1",
+                    "merged": false,
+                    "keywords": [
+                      "a:1"
+                    ],
+                    "eventId": "12"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Even___existential_choice",
+                    "enabled": "enabled",
+                    "name": "Odd → existential choice",
+                    "merged": true,
+                    "keywords": [
+                      "Odd → existential choice"
+                    ],
+                    "eventId": "19"
+                  },
+                  {
+                    "type": "hide",
+                    "id": "Group_1364",
+                    "enabled": "enabled",
+                    "name": "No a-transition",
+                    "merged": true,
+                    "keywords": [
+                      "No a-transition"
+                    ],
+                    "eventId": "9"
+                  },
+                  {
+                    "type": "show",
+                    "id": "trans_a_1",
+                    "enabled": "enabled",
+                    "name": "trans a:1",
+                    "merged": true,
+                    "keywords": [
+                      "1",
+                      "trans a:1"
+                    ],
+                    "eventId": "10"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Group_1373",
+                    "enabled": "enabled",
+                    "name": "a:1",
+                    "merged": true,
+                    "keywords": [
+                      "a:1",
+                      "∃"
+                    ],
+                    "eventId": "11"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Odd___universal_choice",
+                    "enabled": "enabled",
+                    "name": "Even → universal choice",
+                    "merged": false,
+                    "keywords": [
+                      "Even → universal choice"
+                    ],
+                    "eventId": "20"
+                  },
+                  {
+                    "type": "hide",
+                    "id": "trans_a_1",
+                    "enabled": "enabled",
+                    "name": "trans a:1",
+                    "merged": true,
+                    "keywords": [
+                      "trans a:1"
+                    ],
+                    "eventId": "13"
+                  },
+                  {
+                    "type": "hide",
+                    "id": "Ellipse_15",
+                    "enabled": "enabled",
+                    "name": "Ellipse 15",
+                    "merged": true,
+                    "keywords": [
+                      "Ellipse 15"
+                    ],
+                    "eventId": "14"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Group_1362",
+                    "enabled": "enabled",
+                    "name": "b:2",
+                    "merged": true,
+                    "keywords": [
+                      "b:2",
+                      "∀"
+                    ],
+                    "eventId": "16"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Group_1363",
+                    "enabled": "enabled",
+                    "name": "2",
+                    "merged": true,
+                    "keywords": [
+                      "2"
+                    ],
+                    "eventId": "17"
+                  },
+                  {
+                    "type": "hide",
+                    "id": "Group_1363",
+                    "enabled": "enabled",
+                    "name": "2",
+                    "merged": false,
+                    "keywords": [
+                      "2"
+                    ],
+                    "eventId": "18"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Group_1365",
+                    "enabled": "enabled",
+                    "name": "+ must correspond to residuals",
+                    "merged": false,
+                    "keywords": [
+                      "+ must correspond to residuals"
+                    ],
+                    "eventId": "21"
+                  }
+                ],
+                "keywords": [
+                  "Alternating Parity Automaton",
+                  "Semantics"
+                ],
+                "eventId": "7",
+                "originalParams": {
+                  "Group_137": {
+                    "opacity": 1
+                  },
+                  "Group_1366": {
+                    "opacity": 1
+                  },
+                  "Group_1372": {
+                    "opacity": 1
+                  },
+                  "Group_1352": {
+                    "opacity": 1
+                  },
+                  "b_3": {
+                    "opacity": 1
+                  },
+                  "Group_136": {
+                    "opacity": 1
+                  },
+                  "Group_1364": {
+                    "opacity": 1
+                  },
+                  "Ellipse_15": {
+                    "opacity": 1
+                  },
+                  "trans_a_1": {
+                    "opacity": 1
+                  },
+                  "Group_1373": {
+                    "opacity": 1
+                  },
+                  "Group_1362": {
+                    "opacity": 1
+                  },
+                  "Group_1363": {
+                    "opacity": 1
+                  },
+                  "Even___existential_choice": {
+                    "opacity": 1
+                  },
+                  "Odd___universal_choice": {
+                    "opacity": 1
+                  },
+                  "Group_1365": {
+                    "opacity": 1
+                  }
+                }
+              },
+              {
+                "type": "child",
+                "name": "Properties",
+                "id": "Properties2",
+                "enabled": "enabled",
+                "merged": false,
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "Theorem_canonical",
+                    "enabled": "enabled",
+                    "name": "Theorem canonical",
+                    "merged": false,
+                    "keywords": [
+                      "Theorem",
+                      "Each ω-regular language admits a canonical minimal layered automaton.",
+                      "It can be computed in PTIME.",
+                      "Theorem canonical"
+                    ],
+                    "eventId": "1"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Group_120",
+                    "enabled": "enabled",
+                    "name": "among layered automata",
+                    "merged": false,
+                    "keywords": [
+                      "among layered automata"
+                    ],
+                    "eventId": "2"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Group_121",
+                    "enabled": "enabled",
+                    "name": "from a given layered automaton",
+                    "merged": false,
+                    "keywords": [
+                      "from a given layered automaton"
+                    ],
+                    "eventId": "3"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Group_1182",
+                    "enabled": "enabled",
+                    "name": "Congruence-based characterisation of the minimal layered automaton.",
+                    "merged": false,
+                    "keywords": [
+                      "Congruence-based characterisation of the minimal layered automaton."
+                    ],
+                    "eventId": "4"
+                  }
+                ],
+                "keywords": [
+                  "Theorem:",
+                  "All layered automata are history deterministic and 0-1 probabilistic.",
+                  "Properties"
+                ],
+                "eventId": "5",
+                "originalParams": {
+                  "Theorem_canonical": {
+                    "opacity": 1
+                  },
+                  "Group_120": {
+                    "opacity": 1
+                  },
+                  "Group_121": {
+                    "opacity": 1
+                  },
+                  "Group_1182": {
+                    "opacity": 1
+                  }
+                }
+              }
+            ],
+            "keywords": [
+              "Formalism to represent a subclass of alternating ω-automata",
+              "Layered automata"
+            ],
+            "eventId": "6",
+            "originalParams": {
+              "Definition": {
+                "opacity": 1
+              },
+              "Properties": {
+                "opacity": 1
+              },
+              "Group_134": {
+                "opacity": 1
+              },
+              "Group_1342": {
+                "opacity": 1
+              },
+              "well_behaved": {
+                "opacity": 1
+              },
+              "Rectangle_30": {
+                "opacity": 1
+              },
+              "Group_137": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "child",
+            "name": "Conclusions 1",
+            "id": "Conclusions_1",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "Group_136",
+                "enabled": "enabled",
+                "name": "Recently, other canonical representations of ω-regular languages have been introduced:",
+                "merged": false,
+                "keywords": [
+                  "Future work",
+                  "Recently, other canonical representations of ω-regular languages have been introduced:",
+                  "Chains of coBüchi automata",
+                  "(Schewe-Ehlers ‘22, Ehlers-Khalimov ‘24)",
+                  "Rerailing automata",
+                  "(Ehlers ‘25)"
+                ],
+                "eventId": "1"
+              }
+            ],
+            "keywords": [
+              "Layered automata admit canonical, minimal automata, computable in polynomial time",
+              "Future work",
+              "Conclusions 1"
+            ],
+            "eventId": "7",
+            "originalParams": {
+              "Group_136": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "child",
+            "name": "Conclusions 2",
+            "id": "Conclusions_2",
+            "enabled": "enabled",
+            "merged": true,
+            "children": [
+              {
+                "type": "show",
+                "id": "Group_119",
+                "enabled": "enabled",
+                "name": "Proved for Büchi and coBüchi!",
+                "merged": false,
+                "keywords": [
+                  "Proved for Büchi and coBüchi!"
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "show",
+                "id": "Group_120",
+                "enabled": "enabled",
+                "name": "Passive and active learning of layered automata",
+                "merged": false,
+                "keywords": [
+                  "Passive and active learning of layered automata"
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "show",
+                "id": "Group_121",
+                "enabled": "enabled",
+                "name": "Implementation, boolean operations, translations from logic...",
+                "merged": false,
+                "keywords": [
+                  "Implementation, boolean operations, translations from logic..."
+                ],
+                "eventId": "3"
+              },
+              {
+                "type": "show",
+                "id": "Rectangle_31",
+                "enabled": "enabled",
+                "name": "Rectangle 31",
+                "merged": false,
+                "keywords": [
+                  "Rectangle 31"
+                ],
+                "eventId": "5"
+              },
+              {
+                "type": "show",
+                "id": "Thanks_for_your_attention_",
+                "enabled": "enabled",
+                "name": "Thanks for your attention!",
+                "merged": false,
+                "keywords": [
+                  "Thanks for your attention!"
+                ],
+                "eventId": "4"
+              }
+            ],
+            "keywords": [
+              "Conjecture",
+              "The minimal layered automaton has a minimal number of states among all equivalent HD alternating parity automata.",
+              "Future work",
+              "Conclusions 2"
+            ],
+            "eventId": "8",
+            "originalParams": {
+              "Group_119": {
+                "opacity": 1
+              },
+              "Group_120": {
+                "opacity": 1
+              },
+              "Group_121": {
+                "opacity": 1
+              },
+              "Thanks_for_your_attention_": {
+                "opacity": 1
+              },
+              "Rectangle_31": {
+                "opacity": 1
+              }
+            }
+          }
+        ],
+        "keywords": [
+          "Everybody loves",
+          "main-technical"
+        ],
+        "eventId": "1",
+        "originalParams": {
+          "Everybody_loves2": {
+            "opacity": 1
+          },
+          "Deterministic_parity_automata_are_not_suitable": {
+            "opacity": 1
+          },
+          "Group_118": {
+            "opacity": 1
+          }
+        }
+      }
+    ],
+    "keywords": [
+      "Antonio Casares ⋅ RPTU Kaiserslautern",
+      "Joint work with: Christof Löding and Igor Walukiewicz",
+      "Layered Automata A canonical model for ω-regular languages",
+      "GT Vérif, 7 Novembre 2025",
+      "title"
+    ],
+    "eventId": "root",
+    "originalParams": {}
+  },
+  "treeTimeLine": [],
+  "chronicleTimeLine": []
+}

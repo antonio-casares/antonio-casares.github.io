@@ -18,7 +18,8 @@
     "Semantics2": "Semantics",
     "Examples": "Examples",
     "Conclusions_1": "Conclusions_1",
-    "Conclusions_2": "Conclusions_2"
+    "Conclusions_2": "Conclusions_2",
+    "Example": "Example"
   },
   "tree": {
     "type": "child",
@@ -979,6 +980,27 @@
                         "eventId": "2"
                       },
                       {
+                        "type": "child",
+                        "name": "Example",
+                        "id": "Example",
+                        "enabled": "enabled",
+                        "merged": false,
+                        "children": [],
+                        "keywords": [
+                          "b,c:2",
+                          "a,c",
+                          "b,c",
+                          "a,c:2",
+                          "b:1",
+                          "a:1",
+                          "L(A) = Fin(a) or Fin(bb)",
+                          "Example:",
+                          "Example"
+                        ],
+                        "eventId": "4",
+                        "originalParams": {}
+                      },
+                      {
                         "type": "show",
                         "id": "Group_60",
                         "enabled": "enabled",
@@ -1645,19 +1667,40 @@
             "children": [
               {
                 "type": "show",
-                "id": "Group_136",
+                "id": "Group_139",
                 "enabled": "enabled",
-                "name": "Recently, other canonical representations of ω-regular languages have been introduced:",
+                "name": "Minimal HD coBüchi automata",
                 "merged": false,
                 "keywords": [
                   "Future work",
-                  "Recently, other canonical representations of ω-regular languages have been introduced:",
+                  "Minimal HD coBüchi automata",
+                  "(Abu Radi-Kupferman ‘19)"
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "show",
+                "id": "Group_138",
+                "enabled": "enabled",
+                "name": "(Schewe-Ehlers ‘22, Ehlers-Khalimov ‘24)",
+                "merged": false,
+                "keywords": [
                   "Chains of coBüchi automata",
-                  "(Schewe-Ehlers ‘22, Ehlers-Khalimov ‘24)",
+                  "(Schewe-Ehlers ‘22, Ehlers-Khalimov ‘24)"
+                ],
+                "eventId": "3"
+              },
+              {
+                "type": "show",
+                "id": "Group_134",
+                "enabled": "enabled",
+                "name": "Rerailing automata",
+                "merged": true,
+                "keywords": [
                   "Rerailing automata",
                   "(Ehlers ‘25)"
                 ],
-                "eventId": "1"
+                "eventId": "4"
               }
             ],
             "keywords": [
@@ -1667,7 +1710,13 @@
             ],
             "eventId": "7",
             "originalParams": {
-              "Group_136": {
+              "Group_139": {
+                "opacity": 1
+              },
+              "Group_138": {
+                "opacity": 1
+              },
+              "Group_134": {
                 "opacity": 1
               }
             }

@@ -39,7 +39,8 @@
     "Borel_games": "Borel_games",
     "Proof_Rabin_with_games": "Proof_Rabin_with_games",
     "proof_games_2": "proof_games_2",
-    "Proof_scheme": "Proof_scheme"
+    "Proof_scheme": "Proof_scheme",
+    "Detail_finite_memory_det": "Detail_finite_memory_det"
   },
   "tree": {
     "type": "child",
@@ -1284,7 +1285,7 @@
                         "id": "Group_117",
                         "enabled": "enabled",
                         "name": "Playerreject",
-                        "merged": false,
+                        "merged": true,
                         "keywords": [
                           "Playerreject",
                           ". . .",
@@ -1297,7 +1298,7 @@
                         "id": "Group_1172",
                         "enabled": "enabled",
                         "name": ". . .",
-                        "merged": false,
+                        "merged": true,
                         "keywords": [
                           ". . .",
                           "1",
@@ -2634,6 +2635,23 @@
               "Thanks for your attention!"
             ],
             "eventId": "3"
+          },
+          {
+            "type": "child",
+            "name": "Detail finite memory det",
+            "id": "Detail_finite_memory_det",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [],
+            "keywords": [
+              "Prioritized Borel games are not positional",
+              "Finite-memory = Winning strategies can be implemented by a finite automaton",
+              "Conjecture",
+              "There exists a function f(n) such that the winner in prioritized Borel games with n internal nodes can win with a strategy given by an automaton of size ≤ f(n).",
+              "Detail finite memory det"
+            ],
+            "eventId": "10",
+            "originalParams": {}
           }
         ],
         "keywords": [

@@ -346,7 +346,7 @@
                 "id": "Group_353",
                 "enabled": "enabled",
                 "name": "unary predicate",
-                "merged": false,
+                "merged": true,
                 "keywords": [
                   "unary predicate"
                 ],
@@ -357,7 +357,7 @@
                 "id": "Group_354",
                 "enabled": "enabled",
                 "name": "relations restricted to singletons",
-                "merged": false,
+                "merged": true,
                 "keywords": [
                   "relations restricted to singletons"
                 ],
@@ -441,6 +441,34 @@
                   "He proved it using . . ."
                 ],
                 "eventId": "2"
+              },
+              {
+                "type": "show",
+                "id": "Group_146",
+                "enabled": "enabled",
+                "name": "Infinite word over the unary alphabet",
+                "merged": false,
+                "keywords": [
+                  "(ℕ, <) =",
+                  ". . .",
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6",
+                  "7",
+                  "8",
+                  "9",
+                  "10",
+                  "11",
+                  "12",
+                  "13",
+                  "14",
+                  "Infinite word over the unary alphabet",
+                  "{ }"
+                ],
+                "eventId": "5"
               }
             ],
             "keywords": [
@@ -453,6 +481,9 @@
             "originalParams": {
               "Group_47": {
                 "opacity": 1
+              },
+              "Group_146": {
+                "opacity": 1
               }
             }
           },
@@ -463,18 +494,6 @@
             "enabled": "enabled",
             "merged": true,
             "children": [
-              {
-                "type": "show",
-                "id": "Group_352",
-                "enabled": "enabled",
-                "name": "run accept",
-                "merged": false,
-                "keywords": [
-                  "Run accepting if a final state is visited infinitely often",
-                  "run accept"
-                ],
-                "eventId": "6"
-              },
               {
                 "type": "show",
                 "id": "Group_1462",
@@ -876,7 +895,7 @@
                     "id": "Group_352",
                     "enabled": "enabled",
                     "name": "{0,1}",
-                    "merged": false,
+                    "merged": true,
                     "keywords": [
                       "{0,1}*",
                       "{0,1}"
@@ -1162,6 +1181,17 @@
                   "(Solving a parity game)"
                 ],
                 "eventId": "6"
+              },
+              {
+                "type": "show",
+                "id": "Decidability",
+                "enabled": "enabled",
+                "name": "Decidability",
+                "merged": false,
+                "keywords": [
+                  "Decidability"
+                ],
+                "eventId": "8"
               }
             ],
             "keywords": [
@@ -1171,9 +1201,6 @@
             ],
             "eventId": "18",
             "originalParams": {
-              "Group_95": {
-                "opacity": 1
-              },
               "emptiness": {
                 "opacity": 1
               },
@@ -1181,6 +1208,9 @@
                 "opacity": 1
               },
               "Group_146": {
+                "opacity": 1
+              },
+              "Decidability": {
                 "opacity": 1
               }
             }
@@ -1234,13 +1264,35 @@
                   },
                   {
                     "type": "show",
-                    "id": "Group_482",
+                    "id": "Group_146",
                     "enabled": "enabled",
-                    "name": "Basic topology!",
+                    "name": "Group 146",
+                    "merged": true,
+                    "keywords": [
+                      "Group 146"
+                    ],
+                    "eventId": "5"
+                  },
+                  {
+                    "type": "hide",
+                    "id": "Group_146",
+                    "enabled": "enabled",
+                    "name": "Group 146",
                     "merged": false,
                     "keywords": [
+                      "Group 146"
+                    ],
+                    "eventId": "6"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Group_482",
+                    "enabled": "enabled",
+                    "name": "modern",
+                    "merged": true,
+                    "keywords": [
                       "Modern presentation: Use games!",
-                      "Basic topology!"
+                      "modern"
                     ],
                     "eventId": "2"
                   },
@@ -1252,6 +1304,28 @@
                     "merged": false,
                     "children": [
                       {
+                        "type": "hide",
+                        "id": "We_have_a_tree_automaton_Objective__Build_an_automaton_for_the_complement_language",
+                        "enabled": "enabled",
+                        "name": "We have a tree automaton Objective: Build an automaton for the complement language",
+                        "merged": false,
+                        "keywords": [
+                          "We have a tree automaton Objective: Build an automaton for the complement language"
+                        ],
+                        "eventId": "16"
+                      },
+                      {
+                        "type": "show",
+                        "id": "Rejection_game",
+                        "enabled": "enabled",
+                        "name": "Rejection game over a given Σ-tree",
+                        "merged": true,
+                        "keywords": [
+                          "Rejection game over a given Σ-tree"
+                        ],
+                        "eventId": "17"
+                      },
+                      {
                         "type": "show",
                         "id": "Group_115",
                         "enabled": "enabled",
@@ -1260,6 +1334,9 @@
                         "keywords": [
                           "a",
                           "node in input tree",
+                          "b",
+                          "c",
+                          ". . .",
                           "node in tree"
                         ],
                         "eventId": "15"
@@ -1303,9 +1380,7 @@
                           ". . .",
                           "1",
                           "2",
-                          "n",
-                          "b",
-                          "c"
+                          "n"
                         ],
                         "eventId": "4"
                       },
@@ -1406,13 +1481,13 @@
                         "merged": false,
                         "keywords": [
                           "Labelling of the tree by functions",
-                          "Positional strategty ="
+                          "Positional strategy ="
                         ],
                         "eventId": "10"
                       }
                     ],
                     "keywords": [
-                      "Rejection game over a given Σ-tree",
+                      "We have a tree automaton Objective: Build an automaton for the complement language",
                       "Proof Rabin with games"
                     ],
                     "eventId": "3",
@@ -1448,6 +1523,12 @@
                         "opacity": 1
                       },
                       "Group_115": {
+                        "opacity": 1
+                      },
+                      "We_have_a_tree_automaton_Objective__Build_an_automaton_for_the_complement_language": {
+                        "opacity": 1
+                      },
+                      "Rejection_game": {
                         "opacity": 1
                       }
                     }
@@ -1544,6 +1625,12 @@
                   },
                   "Group_482": {
                     "opacity": 1
+                  },
+                  "Group_146": {
+                    "opacity": 1
+                  },
+                  "Rectangle_32": {
+                    "opacity": 1
                   }
                 }
               }
@@ -1583,7 +1670,7 @@
             "id": "Group_362",
             "enabled": "enabled",
             "name": "I don’t like automata",
-            "merged": false,
+            "merged": true,
             "keywords": [
               "I don’t like automata"
             ],
@@ -1853,7 +1940,7 @@
                 "id": "_implies",
                 "enabled": "enabled",
                 "name": "\\implies",
-                "merged": false,
+                "merged": true,
                 "keywords": [
                   "\\implies"
                 ],
@@ -2051,7 +2138,8 @@
                         "name": "Every game with a Borel objective is determined",
                         "merged": false,
                         "keywords": [
-                          "Every game with a Borel objective is determined"
+                          "Every game with a Borel objective is determined",
+                          "over 2≤ω"
                         ],
                         "eventId": "2"
                       }
@@ -2298,14 +2386,46 @@
         "id": "This_work___goal",
         "enabled": "enabled",
         "merged": false,
-        "children": [],
+        "children": [
+          {
+            "type": "show",
+            "id": "Group_146",
+            "enabled": "enabled",
+            "name": "(for automata-oriented people)",
+            "merged": false,
+            "keywords": [
+              "Simpler proof",
+              "(for automata-oriented people)"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "Group_482",
+            "enabled": "enabled",
+            "name": "borel tree automata",
+            "merged": false,
+            "keywords": [
+              "Get decidability of MSOBorel over the full binary tree",
+              "borel tree automata"
+            ],
+            "eventId": "2"
+          }
+        ],
         "keywords": [
-          "Show decidability of MSO over the full binary tree with branches via automata methods.",
+          "Show decidability of MSOBorel with automata methods.",
           "Goal",
           "This work - goal"
         ],
         "eventId": "8",
-        "originalParams": {}
+        "originalParams": {
+          "Group_146": {
+            "opacity": 1
+          },
+          "Group_482": {
+            "opacity": 1
+          }
+        }
       },
       {
         "type": "child",
@@ -2460,7 +2580,7 @@
                 "id": "Group_1462",
                 "enabled": "enabled",
                 "name": "States: Q = {1, 2, 3, ..., n}",
-                "merged": false,
+                "merged": true,
                 "keywords": [
                   "States: Q = {1, 2, 3, ..., n}",
                   "Transitions:",
@@ -2481,6 +2601,7 @@
                 "merged": false,
                 "keywords": [
                   "Acceptance:",
+                  "For each α ∈ Σ’ Wα ⊆ [1,n]",
                   "For each α ∈ Σ’ Wα ⊆ Q"
                 ],
                 "eventId": "3"
@@ -2495,6 +2616,17 @@
                   "T is accepted if all branches in T’ are good (for some transduced T’)"
                 ],
                 "eventId": "4"
+              },
+              {
+                "type": "show",
+                "id": "classical_notion__for_all____W____Even_numbers",
+                "enabled": "enabled",
+                "name": "classical notion: for all α, Wα = Even numbers",
+                "merged": false,
+                "keywords": [
+                  "classical notion: for all α, Wα = Even numbers"
+                ],
+                "eventId": "5"
               }
             ],
             "keywords": [
@@ -2523,6 +2655,9 @@
                 "opacity": 1
               },
               "Group_1464": {
+                "opacity": 1
+              },
+              "classical_notion__for_all____W____Even_numbers": {
                 "opacity": 1
               }
             }
@@ -2587,7 +2722,7 @@
                 "id": "Group_144",
                 "enabled": "enabled",
                 "name": "Wins if π ∈ Wi",
-                "merged": false,
+                "merged": true,
                 "keywords": [
                   "Wins if π ∈ Wi"
                 ],
@@ -2686,7 +2821,6 @@
       "Joint work with: Mikołaj Bojańczyk, Sven Manthe and Paweł Parys",
       "An automata model for Borel-MSO",
       "Séminaire Plume, 24 November 2025",
-      "*Slides strongly inspired by the material in the webpage of Mikołaj Bojańczyk",
       "title"
     ],
     "eventId": "root",

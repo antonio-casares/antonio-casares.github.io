@@ -51,51 +51,6 @@
     "children": [
       {
         "type": "child",
-        "name": "Intro Myself",
-        "id": "Intro_Myself",
-        "enabled": "enabled",
-        "merged": false,
-        "children": [],
-        "keywords": [
-          "Who am I?",
-          "Math Bachelor, Valladolid",
-          "PhD, Bordeaux",
-          "(with N. Fijalkow & I. Walukiewicz)",
-          "Master LMFI, Paris",
-          "PostDoc, Warsaw",
-          "(with M. Bojańczyk)",
-          "PostDoc, Kaiserslautern",
-          "(with A. Lin)",
-          "CNRS, LIP",
-          "?",
-          "2019",
-          "2020",
-          "2021",
-          "2022",
-          "2023",
-          "2024",
-          "2025",
-          "2026",
-          "ω-automata",
-          "Games on graphs",
-          "Arithmetic theories",
-          "Graph databases",
-          "Courses in",
-          "Model theory",
-          "Descriptive complexity",
-          "Logic",
-          "Transducers",
-          "Intro Myself"
-        ],
-        "eventId": "1",
-        "originalParams": {
-          "topics_KL": {
-            "opacity": 1
-          }
-        }
-      },
-      {
-        "type": "child",
         "name": "main",
         "id": "main",
         "enabled": "enabled",
@@ -128,7 +83,7 @@
             "id": "Group_32",
             "enabled": "enabled",
             "name": "Deciding the L-theory of S",
-            "merged": false,
+            "merged": true,
             "keywords": [
               "Given",
               ", does",
@@ -163,7 +118,7 @@
                 "id": "Group_353",
                 "enabled": "enabled",
                 "name": "The first-order theory of (ℕ,×) is decidable.",
-                "merged": false,
+                "merged": true,
                 "keywords": [
                   "Theorem",
                   "(Skolem 1930 - Mostowski 1952)",
@@ -1192,6 +1147,448 @@
                   "Decidability"
                 ],
                 "eventId": "8"
+              },
+              {
+                "type": "child",
+                "name": "Proof Rabin tree induction",
+                "id": "Proof_induction2",
+                "enabled": "enabled",
+                "merged": false,
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "Group_94",
+                    "enabled": "enabled",
+                    "name": "easy",
+                    "merged": false,
+                    "keywords": [
+                      "easy"
+                    ],
+                    "eventId": "1"
+                  },
+                  {
+                    "type": "show",
+                    "id": "spongeBob_tired_1",
+                    "enabled": "enabled",
+                    "name": "spongeBob-tired 1",
+                    "merged": false,
+                    "keywords": [
+                      "spongeBob-tired 1"
+                    ],
+                    "eventId": "3"
+                  },
+                  {
+                    "type": "child",
+                    "name": "Complementation trees proof",
+                    "id": "Complementation_trees_proof",
+                    "enabled": "enabled",
+                    "merged": false,
+                    "children": [
+                      {
+                        "type": "show",
+                        "id": "Group_101",
+                        "enabled": "enabled",
+                        "name": "Original proof by Rabin: extremely complex",
+                        "merged": false,
+                        "keywords": [
+                          "Original proof by Rabin: extremely complex"
+                        ],
+                        "eventId": "1"
+                      },
+                      {
+                        "type": "show",
+                        "id": "Group_146",
+                        "enabled": "enabled",
+                        "name": "Group 146",
+                        "merged": true,
+                        "keywords": [
+                          "Group 146"
+                        ],
+                        "eventId": "5"
+                      },
+                      {
+                        "type": "hide",
+                        "id": "Group_146",
+                        "enabled": "enabled",
+                        "name": "Group 146",
+                        "merged": false,
+                        "keywords": [
+                          "Group 146"
+                        ],
+                        "eventId": "6"
+                      },
+                      {
+                        "type": "show",
+                        "id": "Group_482",
+                        "enabled": "enabled",
+                        "name": "modern",
+                        "merged": true,
+                        "keywords": [
+                          "Modern presentation: Use games!",
+                          "modern"
+                        ],
+                        "eventId": "2"
+                      },
+                      {
+                        "type": "child",
+                        "name": "Proof Rabin with games",
+                        "id": "Proof_Rabin_with_games",
+                        "enabled": "enabled",
+                        "merged": false,
+                        "children": [
+                          {
+                            "type": "hide",
+                            "id": "We_have_a_tree_automaton_Objective__Build_an_automaton_for_the_complement_language",
+                            "enabled": "enabled",
+                            "name": "We have a tree automaton Objective: Build an automaton for the complement language",
+                            "merged": false,
+                            "keywords": [
+                              "We have a tree automaton Objective: Build an automaton for the complement language"
+                            ],
+                            "eventId": "16"
+                          },
+                          {
+                            "type": "show",
+                            "id": "Rejection_game",
+                            "enabled": "enabled",
+                            "name": "Rejection game over a given Σ-tree",
+                            "merged": true,
+                            "keywords": [
+                              "Rejection game over a given Σ-tree"
+                            ],
+                            "eventId": "17"
+                          },
+                          {
+                            "type": "show",
+                            "id": "Group_115",
+                            "enabled": "enabled",
+                            "name": "node in tree",
+                            "merged": false,
+                            "keywords": [
+                              "a",
+                              "node in input tree",
+                              "b",
+                              "c",
+                              ". . .",
+                              "node in tree"
+                            ],
+                            "eventId": "15"
+                          },
+                          {
+                            "type": "show",
+                            "id": "Group_116",
+                            "enabled": "enabled",
+                            "name": "Playeraccept",
+                            "merged": false,
+                            "keywords": [
+                              ". . .",
+                              "1",
+                              "i",
+                              "2",
+                              "n",
+                              "Playeraccept"
+                            ],
+                            "eventId": "2"
+                          },
+                          {
+                            "type": "show",
+                            "id": "Group_117",
+                            "enabled": "enabled",
+                            "name": "Playerreject",
+                            "merged": true,
+                            "keywords": [
+                              "Playerreject",
+                              ". . .",
+                              "a"
+                            ],
+                            "eventId": "3"
+                          },
+                          {
+                            "type": "show",
+                            "id": "Group_1172",
+                            "enabled": "enabled",
+                            "name": ". . .",
+                            "merged": true,
+                            "keywords": [
+                              ". . .",
+                              "1",
+                              "2",
+                              "n"
+                            ],
+                            "eventId": "4"
+                          },
+                          {
+                            "type": "show",
+                            "id": "Group_1175",
+                            "enabled": "enabled",
+                            "name": "transitions",
+                            "merged": true,
+                            "keywords": [
+                              "transitions"
+                            ],
+                            "eventId": "12"
+                          },
+                          {
+                            "type": "show",
+                            "id": "Group_1173",
+                            "enabled": "enabled",
+                            "name": "Wins if limsup i is even",
+                            "merged": false,
+                            "keywords": [
+                              "Wins if limsup i is even",
+                              "Wins if limsup i is odd"
+                            ],
+                            "eventId": "5"
+                          },
+                          {
+                            "type": "show",
+                            "id": "T_rejected_by_the_automaton_iff_Preject_has_a_winning_strategy",
+                            "enabled": "enabled",
+                            "name": "T rejected by the automaton iff Preject has a winning strategy",
+                            "merged": false,
+                            "keywords": [
+                              "T rejected by the automaton iff Preject has a winning strategy"
+                            ],
+                            "eventId": "6"
+                          },
+                          {
+                            "type": "show",
+                            "id": "Parity_games_are_positionally_determined_",
+                            "enabled": "enabled",
+                            "name": "Parity games are positionally determined!",
+                            "merged": false,
+                            "keywords": [
+                              "Parity games are positionally determined!"
+                            ],
+                            "eventId": "9"
+                          },
+                          {
+                            "type": "hide",
+                            "id": "T_rejected_by_the_automaton_iff_Preject_has_a_winning_strategy",
+                            "enabled": "enabled",
+                            "name": "T rejected by the automaton iff Preject has a winning strategy",
+                            "merged": false,
+                            "keywords": [
+                              "T rejected by the automaton iff Preject has a winning strategy"
+                            ],
+                            "eventId": "7"
+                          },
+                          {
+                            "type": "show",
+                            "id": "T_rejected_by_the_automaton_iff_Preject_has_a_positional_winning_strategy",
+                            "enabled": "enabled",
+                            "name": "T rejected by the automaton iff Preject has a positional winning strategy",
+                            "merged": true,
+                            "keywords": [
+                              "T rejected by the automaton iff Preject has a positional winning strategy"
+                            ],
+                            "eventId": "8"
+                          },
+                          {
+                            "type": "hide",
+                            "id": "Group_1175",
+                            "enabled": "enabled",
+                            "name": "transitions",
+                            "merged": true,
+                            "keywords": [
+                              "transitions"
+                            ],
+                            "eventId": "13"
+                          },
+                          {
+                            "type": "show",
+                            "id": "transitions",
+                            "enabled": "enabled",
+                            "name": "pos strategy",
+                            "merged": true,
+                            "keywords": [
+                              "pos strategy"
+                            ],
+                            "eventId": "14"
+                          },
+                          {
+                            "type": "show",
+                            "id": "Group_148",
+                            "enabled": "enabled",
+                            "name": "Labelling of the tree by functions",
+                            "merged": false,
+                            "keywords": [
+                              "Labelling of the tree by functions",
+                              "Positional strategy ="
+                            ],
+                            "eventId": "18"
+                          }
+                        ],
+                        "keywords": [
+                          "We have a tree automaton Objective: Build an automaton for the complement language",
+                          "Text",
+                          "Proof Rabin with games"
+                        ],
+                        "eventId": "3",
+                        "originalParams": {
+                          "Group_116": {
+                            "opacity": 1
+                          },
+                          "Group_117": {
+                            "opacity": 1
+                          },
+                          "Group_1172": {
+                            "opacity": 1
+                          },
+                          "Group_1173": {
+                            "opacity": 1
+                          },
+                          "T_rejected_by_the_automaton_iff_Preject_has_a_winning_strategy": {
+                            "opacity": 1
+                          },
+                          "T_rejected_by_the_automaton_iff_Preject_has_a_positional_winning_strategy": {
+                            "opacity": 1
+                          },
+                          "Parity_games_are_positionally_determined_": {
+                            "opacity": 1
+                          },
+                          "Group_1174": {
+                            "opacity": 1
+                          },
+                          "Group_1175": {
+                            "opacity": 1
+                          },
+                          "transitions": {
+                            "opacity": 1
+                          },
+                          "Group_115": {
+                            "opacity": 1
+                          },
+                          "We_have_a_tree_automaton_Objective__Build_an_automaton_for_the_complement_language": {
+                            "opacity": 1
+                          },
+                          "Rejection_game": {
+                            "opacity": 1
+                          },
+                          "Group_148": {
+                            "opacity": 1
+                          }
+                        }
+                      },
+                      {
+                        "type": "child",
+                        "name": "proof games 2",
+                        "id": "proof_games_2",
+                        "enabled": "enabled",
+                        "merged": true,
+                        "children": [
+                          {
+                            "type": "show",
+                            "id": "Group_118",
+                            "enabled": "enabled",
+                            "name": "σ1",
+                            "merged": false,
+                            "keywords": [
+                              "a",
+                              "c",
+                              "b",
+                              "σ1",
+                              "σ2",
+                              "σ3",
+                              "σ4"
+                            ],
+                            "eventId": "1"
+                          },
+                          {
+                            "type": "show",
+                            "id": "L________trees_where_the___s_yield_a_winning_strategy_for_Preject__",
+                            "enabled": "enabled",
+                            "name": "L = { Σ’-trees where the σ’s yield a winning strategy for Preject }",
+                            "merged": false,
+                            "keywords": [
+                              "L = { Σ’-trees where the σ’s yield a winning strategy for Preject }"
+                            ],
+                            "eventId": "2"
+                          },
+                          {
+                            "type": "show",
+                            "id": "L_can_be_recognized_by_a_tree_automaton_",
+                            "enabled": "enabled",
+                            "name": "L can be recognized by a tree automaton!",
+                            "merged": false,
+                            "keywords": [
+                              "L can be recognized by a tree automaton!"
+                            ],
+                            "eventId": "3"
+                          },
+                          {
+                            "type": "show",
+                            "id": "Group_1182",
+                            "enabled": "enabled",
+                            "name": "(Preject guesses a positional strategy)",
+                            "merged": false,
+                            "keywords": [
+                              "projection in the Σ - component",
+                              "(Preject guesses a positional strategy)",
+                              "ND automaton for"
+                            ],
+                            "eventId": "4"
+                          }
+                        ],
+                        "keywords": [
+                          "Enriched alphabet:",
+                          "proof games 2"
+                        ],
+                        "eventId": "4",
+                        "originalParams": {
+                          "Group_118": {
+                            "opacity": 1
+                          },
+                          "L________trees_where_the___s_yield_a_winning_strategy_for_Preject__": {
+                            "opacity": 1
+                          },
+                          "L_can_be_recognized_by_a_tree_automaton_": {
+                            "opacity": 1
+                          },
+                          "Group_1182": {
+                            "opacity": 1
+                          }
+                        }
+                      }
+                    ],
+                    "keywords": [
+                      "Challenge: parity tree-automata do not determinize",
+                      "Complementation trees proof"
+                    ],
+                    "eventId": "2",
+                    "originalParams": {
+                      "Group_101": {
+                        "opacity": 1
+                      },
+                      "Group_482": {
+                        "opacity": 1
+                      },
+                      "Group_146": {
+                        "opacity": 1
+                      },
+                      "Rectangle_32": {
+                        "opacity": 1
+                      }
+                    }
+                  }
+                ],
+                "keywords": [
+                  "Atomic formulas",
+                  "Disjunctions φ ∨ ψ",
+                  "Complementation ¬ φ",
+                  "Quantifiers ∃ X φ(X)",
+                  "Proof Logic → Automata by induction on φ",
+                  "Proof Rabin tree induction"
+                ],
+                "eventId": "9",
+                "originalParams": {
+                  "Group_94": {
+                    "opacity": 1
+                  },
+                  "spongeBob_tired_1": {
+                    "opacity": 1
+                  }
+                }
               }
             ],
             "keywords": [
@@ -1211,444 +1608,6 @@
                 "opacity": 1
               },
               "Decidability": {
-                "opacity": 1
-              }
-            }
-          },
-          {
-            "type": "child",
-            "name": "Proof Rabin tree induction",
-            "id": "Proof_induction2",
-            "enabled": "enabled",
-            "merged": true,
-            "children": [
-              {
-                "type": "show",
-                "id": "Group_94",
-                "enabled": "enabled",
-                "name": "easy",
-                "merged": false,
-                "keywords": [
-                  "easy"
-                ],
-                "eventId": "1"
-              },
-              {
-                "type": "show",
-                "id": "spongeBob_tired_1",
-                "enabled": "enabled",
-                "name": "spongeBob-tired 1",
-                "merged": false,
-                "keywords": [
-                  "spongeBob-tired 1"
-                ],
-                "eventId": "3"
-              },
-              {
-                "type": "child",
-                "name": "Complementation trees proof",
-                "id": "Complementation_trees_proof",
-                "enabled": "enabled",
-                "merged": false,
-                "children": [
-                  {
-                    "type": "show",
-                    "id": "Group_101",
-                    "enabled": "enabled",
-                    "name": "Original proof by Rabin: extremely complex",
-                    "merged": false,
-                    "keywords": [
-                      "Original proof by Rabin: extremely complex"
-                    ],
-                    "eventId": "1"
-                  },
-                  {
-                    "type": "show",
-                    "id": "Group_146",
-                    "enabled": "enabled",
-                    "name": "Group 146",
-                    "merged": true,
-                    "keywords": [
-                      "Group 146"
-                    ],
-                    "eventId": "5"
-                  },
-                  {
-                    "type": "hide",
-                    "id": "Group_146",
-                    "enabled": "enabled",
-                    "name": "Group 146",
-                    "merged": false,
-                    "keywords": [
-                      "Group 146"
-                    ],
-                    "eventId": "6"
-                  },
-                  {
-                    "type": "show",
-                    "id": "Group_482",
-                    "enabled": "enabled",
-                    "name": "modern",
-                    "merged": true,
-                    "keywords": [
-                      "Modern presentation: Use games!",
-                      "modern"
-                    ],
-                    "eventId": "2"
-                  },
-                  {
-                    "type": "child",
-                    "name": "Proof Rabin with games",
-                    "id": "Proof_Rabin_with_games",
-                    "enabled": "enabled",
-                    "merged": false,
-                    "children": [
-                      {
-                        "type": "hide",
-                        "id": "We_have_a_tree_automaton_Objective__Build_an_automaton_for_the_complement_language",
-                        "enabled": "enabled",
-                        "name": "We have a tree automaton Objective: Build an automaton for the complement language",
-                        "merged": false,
-                        "keywords": [
-                          "We have a tree automaton Objective: Build an automaton for the complement language"
-                        ],
-                        "eventId": "16"
-                      },
-                      {
-                        "type": "show",
-                        "id": "Rejection_game",
-                        "enabled": "enabled",
-                        "name": "Rejection game over a given Σ-tree",
-                        "merged": true,
-                        "keywords": [
-                          "Rejection game over a given Σ-tree"
-                        ],
-                        "eventId": "17"
-                      },
-                      {
-                        "type": "show",
-                        "id": "Group_115",
-                        "enabled": "enabled",
-                        "name": "node in tree",
-                        "merged": false,
-                        "keywords": [
-                          "a",
-                          "node in input tree",
-                          "b",
-                          "c",
-                          ". . .",
-                          "node in tree"
-                        ],
-                        "eventId": "15"
-                      },
-                      {
-                        "type": "show",
-                        "id": "Group_116",
-                        "enabled": "enabled",
-                        "name": "Playeraccept",
-                        "merged": false,
-                        "keywords": [
-                          ". . .",
-                          "1",
-                          "i",
-                          "2",
-                          "n",
-                          "Playeraccept"
-                        ],
-                        "eventId": "2"
-                      },
-                      {
-                        "type": "show",
-                        "id": "Group_117",
-                        "enabled": "enabled",
-                        "name": "Playerreject",
-                        "merged": true,
-                        "keywords": [
-                          "Playerreject",
-                          ". . .",
-                          "a"
-                        ],
-                        "eventId": "3"
-                      },
-                      {
-                        "type": "show",
-                        "id": "Group_1172",
-                        "enabled": "enabled",
-                        "name": ". . .",
-                        "merged": true,
-                        "keywords": [
-                          ". . .",
-                          "1",
-                          "2",
-                          "n"
-                        ],
-                        "eventId": "4"
-                      },
-                      {
-                        "type": "show",
-                        "id": "Group_1175",
-                        "enabled": "enabled",
-                        "name": "transitions",
-                        "merged": true,
-                        "keywords": [
-                          "transitions"
-                        ],
-                        "eventId": "12"
-                      },
-                      {
-                        "type": "show",
-                        "id": "Group_1173",
-                        "enabled": "enabled",
-                        "name": "Wins if limsup i is even",
-                        "merged": false,
-                        "keywords": [
-                          "Wins if limsup i is even",
-                          "Wins if limsup i is odd"
-                        ],
-                        "eventId": "5"
-                      },
-                      {
-                        "type": "show",
-                        "id": "T_rejected_by_the_automaton_iff_Preject_has_a_winning_strategy",
-                        "enabled": "enabled",
-                        "name": "T rejected by the automaton iff Preject has a winning strategy",
-                        "merged": false,
-                        "keywords": [
-                          "T rejected by the automaton iff Preject has a winning strategy"
-                        ],
-                        "eventId": "6"
-                      },
-                      {
-                        "type": "show",
-                        "id": "Parity_games_are_positionally_determined_",
-                        "enabled": "enabled",
-                        "name": "Parity games are positionally determined!",
-                        "merged": false,
-                        "keywords": [
-                          "Parity games are positionally determined!"
-                        ],
-                        "eventId": "9"
-                      },
-                      {
-                        "type": "hide",
-                        "id": "T_rejected_by_the_automaton_iff_Preject_has_a_winning_strategy",
-                        "enabled": "enabled",
-                        "name": "T rejected by the automaton iff Preject has a winning strategy",
-                        "merged": false,
-                        "keywords": [
-                          "T rejected by the automaton iff Preject has a winning strategy"
-                        ],
-                        "eventId": "7"
-                      },
-                      {
-                        "type": "show",
-                        "id": "T_rejected_by_the_automaton_iff_Preject_has_a_positional_winning_strategy",
-                        "enabled": "enabled",
-                        "name": "T rejected by the automaton iff Preject has a positional winning strategy",
-                        "merged": true,
-                        "keywords": [
-                          "T rejected by the automaton iff Preject has a positional winning strategy"
-                        ],
-                        "eventId": "8"
-                      },
-                      {
-                        "type": "hide",
-                        "id": "Group_1175",
-                        "enabled": "enabled",
-                        "name": "transitions",
-                        "merged": true,
-                        "keywords": [
-                          "transitions"
-                        ],
-                        "eventId": "13"
-                      },
-                      {
-                        "type": "show",
-                        "id": "transitions",
-                        "enabled": "enabled",
-                        "name": "pos strategy",
-                        "merged": true,
-                        "keywords": [
-                          "pos strategy"
-                        ],
-                        "eventId": "14"
-                      },
-                      {
-                        "type": "show",
-                        "id": "Group_1174",
-                        "enabled": "enabled",
-                        "name": "Labelling of the tree by functions",
-                        "merged": false,
-                        "keywords": [
-                          "Labelling of the tree by functions",
-                          "Positional strategy ="
-                        ],
-                        "eventId": "10"
-                      }
-                    ],
-                    "keywords": [
-                      "We have a tree automaton Objective: Build an automaton for the complement language",
-                      "Proof Rabin with games"
-                    ],
-                    "eventId": "3",
-                    "originalParams": {
-                      "Group_116": {
-                        "opacity": 1
-                      },
-                      "Group_117": {
-                        "opacity": 1
-                      },
-                      "Group_1172": {
-                        "opacity": 1
-                      },
-                      "Group_1173": {
-                        "opacity": 1
-                      },
-                      "T_rejected_by_the_automaton_iff_Preject_has_a_winning_strategy": {
-                        "opacity": 1
-                      },
-                      "T_rejected_by_the_automaton_iff_Preject_has_a_positional_winning_strategy": {
-                        "opacity": 1
-                      },
-                      "Parity_games_are_positionally_determined_": {
-                        "opacity": 1
-                      },
-                      "Group_1174": {
-                        "opacity": 1
-                      },
-                      "Group_1175": {
-                        "opacity": 1
-                      },
-                      "transitions": {
-                        "opacity": 1
-                      },
-                      "Group_115": {
-                        "opacity": 1
-                      },
-                      "We_have_a_tree_automaton_Objective__Build_an_automaton_for_the_complement_language": {
-                        "opacity": 1
-                      },
-                      "Rejection_game": {
-                        "opacity": 1
-                      }
-                    }
-                  },
-                  {
-                    "type": "child",
-                    "name": "proof games 2",
-                    "id": "proof_games_2",
-                    "enabled": "enabled",
-                    "merged": true,
-                    "children": [
-                      {
-                        "type": "show",
-                        "id": "Group_118",
-                        "enabled": "enabled",
-                        "name": "σ1",
-                        "merged": false,
-                        "keywords": [
-                          "a",
-                          "c",
-                          "b",
-                          "σ1",
-                          "σ2",
-                          "σ3",
-                          "σ4"
-                        ],
-                        "eventId": "1"
-                      },
-                      {
-                        "type": "show",
-                        "id": "L________trees_where_the___s_yield_a_winning_strategy_for_Preject__",
-                        "enabled": "enabled",
-                        "name": "L = { Σ’-trees where the σ’s yield a winning strategy for Preject }",
-                        "merged": false,
-                        "keywords": [
-                          "L = { Σ’-trees where the σ’s yield a winning strategy for Preject }"
-                        ],
-                        "eventId": "2"
-                      },
-                      {
-                        "type": "show",
-                        "id": "L_can_be_recognized_by_a_tree_automaton_",
-                        "enabled": "enabled",
-                        "name": "L can be recognized by a tree automaton!",
-                        "merged": false,
-                        "keywords": [
-                          "L can be recognized by a tree automaton!"
-                        ],
-                        "eventId": "3"
-                      },
-                      {
-                        "type": "show",
-                        "id": "Group_1182",
-                        "enabled": "enabled",
-                        "name": "(Preject guesses a positional strategy)",
-                        "merged": false,
-                        "keywords": [
-                          "projection in the Σ - component",
-                          "(Preject guesses a positional strategy)",
-                          "ND automaton for"
-                        ],
-                        "eventId": "4"
-                      }
-                    ],
-                    "keywords": [
-                      "Enriched alphabet:",
-                      "proof games 2"
-                    ],
-                    "eventId": "4",
-                    "originalParams": {
-                      "Group_118": {
-                        "opacity": 1
-                      },
-                      "L________trees_where_the___s_yield_a_winning_strategy_for_Preject__": {
-                        "opacity": 1
-                      },
-                      "L_can_be_recognized_by_a_tree_automaton_": {
-                        "opacity": 1
-                      },
-                      "Group_1182": {
-                        "opacity": 1
-                      }
-                    }
-                  }
-                ],
-                "keywords": [
-                  "Challenge: parity tree-automata do not determinize",
-                  "Complementation trees proof"
-                ],
-                "eventId": "2",
-                "originalParams": {
-                  "Group_101": {
-                    "opacity": 1
-                  },
-                  "Group_482": {
-                    "opacity": 1
-                  },
-                  "Group_146": {
-                    "opacity": 1
-                  },
-                  "Rectangle_32": {
-                    "opacity": 1
-                  }
-                }
-              }
-            ],
-            "keywords": [
-              "Atomic formulas",
-              "Disjunctions φ ∨ ψ",
-              "Complementation ¬ φ",
-              "Quantifiers ∃ X φ(X)",
-              "Proof Logic → Automata by induction on φ",
-              "Proof Rabin tree induction"
-            ],
-            "eventId": "17",
-            "originalParams": {
-              "Group_94": {
-                "opacity": 1
-              },
-              "spongeBob_tired_1": {
                 "opacity": 1
               }
             }
@@ -1735,7 +1694,7 @@
                 "name": "R undecidable",
                 "merged": false,
                 "keywords": [
-                  "Theorem",
+                  "Theorem (ZF+AC)",
                   "(Shelah, 1975)",
                   "The MSO theory of (ℝ, <) is undecidable.",
                   "R undecidable"
@@ -1771,7 +1730,7 @@
                 "name": "full tree undecidable",
                 "merged": false,
                 "keywords": [
-                  "Corollary",
+                  "Corollary (ZF+AC)",
                   "The MSO theory of the full binary tree with branches is undecidable.",
                   "full tree undecidable"
                 ],
@@ -2138,10 +2097,24 @@
                         "name": "Every game with a Borel objective is determined",
                         "merged": false,
                         "keywords": [
-                          "Every game with a Borel objective is determined",
-                          "over 2≤ω"
+                          "Every game is determined",
+                          "over 2≤ω",
+                          "Every game with a Borel objective is determined"
                         ],
                         "eventId": "2"
+                      },
+                      {
+                        "type": "show",
+                        "id": "Group_147",
+                        "enabled": "enabled",
+                        "name": "True in MSO (under Ax. Determinacy)",
+                        "merged": false,
+                        "keywords": [
+                          "True in MSOBorel",
+                          "True in MSO (under Ax. Determinacy)",
+                          "False in MSO (under AC)"
+                        ],
+                        "eventId": "7"
                       }
                     ],
                     "keywords": [
@@ -2167,6 +2140,9 @@
                         "opacity": 1
                       },
                       "definable_in_MSO_": {
+                        "opacity": 1
+                      },
+                      "Group_147": {
                         "opacity": 1
                       }
                     }
@@ -2248,28 +2224,28 @@
             "children": [
               {
                 "type": "show",
-                "id": "The_first_order_theory_of_______is_decidable_",
+                "id": "Proof_using_Shelah_s_compositional_method___Baire_property_of_Borel_sets",
                 "enabled": "enabled",
-                "name": "The first-order theory of (ℕ,+) is decidable.",
+                "name": "Proof using Shelah’s compositional method + Baire property of Borel sets",
                 "merged": false,
                 "keywords": [
-                  "Theorem",
-                  "(Manthe, 2024 )",
-                  "The Boolean combinations of Σ2-sets form an elementary substructure of the Borel sets.",
-                  "The first-order theory of (ℕ,+) is decidable."
+                  "Proof using Shelah’s compositional method + Baire property of Borel sets"
                 ],
-                "eventId": "1"
+                "eventId": "4"
               },
               {
                 "type": "show",
-                "id": "The_RPNI_algorithm_infers_a__reasonable__automaton_in_PTIME_",
+                "id": "Group_148",
                 "enabled": "enabled",
-                "name": "MSOBorel (ℝ, <) ≡ MSOBool(Σ2) (ℝ, <)",
-                "merged": true,
+                "name": "The Boolean combinations of Σ2-sets form an elementary substructure of the Borel sets.",
+                "merged": false,
                 "keywords": [
-                  "MSOBorel (ℝ, <) ≡ MSOBool(Σ2) (ℝ, <)"
+                  "MSOBorel (ℝ, <) ≡ MSOBool(Σ2) (ℝ, <)",
+                  "Theorem",
+                  "(Manthe, 2024 )",
+                  "The Boolean combinations of Σ2-sets form an elementary substructure of the Borel sets."
                 ],
-                "eventId": "3"
+                "eventId": "9"
               },
               {
                 "type": "show",
@@ -2285,25 +2261,17 @@
               },
               {
                 "type": "show",
-                "id": "Group_772",
+                "id": "The_first_order_theory_of_______is_decidable_",
                 "enabled": "enabled",
-                "name": "Decidable by Rabin’s theorem!",
+                "name": "ZF+AD decidable",
                 "merged": false,
                 "keywords": [
-                  "Decidable by Rabin’s theorem!"
+                  "Theorem",
+                  "(Manthe, 2024 )",
+                  "In ZF+AD, the MSO theory of (ℝ, <) is decidable.",
+                  "ZF+AD decidable"
                 ],
-                "eventId": "6"
-              },
-              {
-                "type": "show",
-                "id": "Proof_using_Shelah_s_compositional_method___Baire_property_of_Borel_sets",
-                "enabled": "enabled",
-                "name": "Proof using Shelah’s compositional method + Baire property of Borel sets",
-                "merged": false,
-                "keywords": [
-                  "Proof using Shelah’s compositional method + Baire property of Borel sets"
-                ],
-                "eventId": "4"
+                "eventId": "7"
               },
               {
                 "type": "show",
@@ -2333,16 +2301,13 @@
               "Group_38": {
                 "opacity": 1
               },
-              "The_RPNI_algorithm_infers_a__reasonable__automaton_in_PTIME_": {
-                "opacity": 1
-              },
               "Proof_using_Shelah_s_compositional_method___Baire_property_of_Borel_sets": {
                 "opacity": 1
               },
               "Group_77": {
                 "opacity": 1
               },
-              "Group_772": {
+              "Group_148": {
                 "opacity": 1
               }
             }
@@ -2474,16 +2439,26 @@
           },
           {
             "type": "show",
-            "id": "main_conjecture",
+            "id": "Group_52",
             "enabled": "enabled",
-            "name": "main conjecture",
+            "name": "conj",
             "merged": false,
             "keywords": [
               "Conjecture",
-              "Prioritized Borel-games are finite-memory determined.",
-              "main conjecture"
+              "conj"
             ],
-            "eventId": "8"
+            "eventId": "17"
+          },
+          {
+            "type": "show",
+            "id": "Prioritized_Borel_games_are_finite_memory_determined_",
+            "enabled": "enabled",
+            "name": "Prioritized Borel-games are finite-memory determined.",
+            "merged": true,
+            "keywords": [
+              "Prioritized Borel-games are finite-memory determined."
+            ],
+            "eventId": "20"
           },
           {
             "type": "child",
@@ -2555,6 +2530,17 @@
             "children": [
               {
                 "type": "show",
+                "id": "Group_148",
+                "enabled": "enabled",
+                "name": "Borel labelling",
+                "merged": false,
+                "keywords": [
+                  "Borel labelling"
+                ],
+                "eventId": "6"
+              },
+              {
+                "type": "show",
                 "id": "Group_146",
                 "enabled": "enabled",
                 "name": "A [1,n]-labelled tree. Same branch labeling",
@@ -2601,7 +2587,7 @@
                 "merged": false,
                 "keywords": [
                   "Acceptance:",
-                  "For each α ∈ Σ’ Wα ⊆ [1,n]",
+                  "For each α ∈ Σ’ Wα ⊆ [1,n] Borel set",
                   "For each α ∈ Σ’ Wα ⊆ Q"
                 ],
                 "eventId": "3"
@@ -2659,6 +2645,9 @@
               },
               "classical_notion__for_all____W____Even_numbers": {
                 "opacity": 1
+              },
+              "Group_148": {
+                "opacity": 1
               }
             }
           },
@@ -2688,6 +2677,7 @@
                 "merged": true,
                 "keywords": [
                   "For each i ∈ [1,n]",
+                  "Wi a Borel subset of branches",
                   "Wi a subset of branches"
                 ],
                 "eventId": "2"
@@ -2762,6 +2752,28 @@
           },
           {
             "type": "show",
+            "id": "The_RPNI_algorithm_infers_a__reasonable__automaton_in_PTIME_",
+            "enabled": "enabled",
+            "name": "There exists a function f(n) such that the winner in prioritized Borel games with n internal nodes can win with a strategy given by an automaton of size ≤ f(n).",
+            "merged": false,
+            "keywords": [
+              "There exists a function f(n) such that the winner in prioritized Borel games with n internal nodes can win with a strategy given by an automaton of size ≤ f(n)."
+            ],
+            "eventId": "15"
+          },
+          {
+            "type": "hide",
+            "id": "Prioritized_Borel_games_are_finite_memory_determined_",
+            "enabled": "enabled",
+            "name": "Prioritized Borel-games are finite-memory determined.",
+            "merged": true,
+            "keywords": [
+              "Prioritized Borel-games are finite-memory determined."
+            ],
+            "eventId": "21"
+          },
+          {
+            "type": "show",
             "id": "Thanks_for_your_attention_",
             "enabled": "enabled",
             "name": "Thanks for your attention!",
@@ -2770,23 +2782,6 @@
               "Thanks for your attention!"
             ],
             "eventId": "3"
-          },
-          {
-            "type": "child",
-            "name": "Detail finite memory det",
-            "id": "Detail_finite_memory_det",
-            "enabled": "enabled",
-            "merged": false,
-            "children": [],
-            "keywords": [
-              "Prioritized Borel games are not positional",
-              "Finite-memory = Winning strategies can be implemented by a finite automaton",
-              "Conjecture",
-              "There exists a function f(n) such that the winner in prioritized Borel games with n internal nodes can win with a strategy given by an automaton of size ≤ f(n).",
-              "Detail finite memory det"
-            ],
-            "eventId": "10",
-            "originalParams": {}
           }
         ],
         "keywords": [
@@ -2810,7 +2805,13 @@
           "Basic_topology_": {
             "opacity": 1
           },
-          "main_conjecture": {
+          "The_RPNI_algorithm_infers_a__reasonable__automaton_in_PTIME_": {
+            "opacity": 1
+          },
+          "Prioritized_Borel_games_are_finite_memory_determined_": {
+            "opacity": 1
+          },
+          "Group_52": {
             "opacity": 1
           }
         }
@@ -2820,7 +2821,7 @@
       "Antonio Casares ⋅ RPTU Kaiserslautern",
       "Joint work with: Mikołaj Bojańczyk, Sven Manthe and Paweł Parys",
       "An automata model for Borel-MSO",
-      "Séminaire Plume, 24 November 2025",
+      "Séminaire Move, 28 November 2025",
       "title"
     ],
     "eventId": "root",

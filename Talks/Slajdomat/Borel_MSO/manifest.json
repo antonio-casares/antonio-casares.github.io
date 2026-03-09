@@ -2587,7 +2587,7 @@
                 "merged": false,
                 "keywords": [
                   "Acceptance:",
-                  "For each α ∈ Σ’ Wα ⊆ [1,n] Borel set",
+                  "For each α ∈ Σ’ Wα ⊆ [1,n]",
                   "For each α ∈ Σ’ Wα ⊆ Q"
                 ],
                 "eventId": "3"

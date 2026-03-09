@@ -1,0 +1,11 @@
+@inproceedings{CO26Positional,
+    title      = {Positional {\(\omega\)}-regular languages},
+    author     = {Antonio Casares and Pierre Ohlmann},
+    url        = {https://theoretics.episciences.org/14945},
+    doi        = {10.46298/theoretics.26.5},
+    journal    = {TheoretiCS},
+    issn       = {2751-4838},
+    volume     = {Volume 5},
+    eid        = 5,
+    year       = {2026}
+}

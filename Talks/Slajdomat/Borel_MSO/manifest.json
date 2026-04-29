@@ -40,7 +40,8 @@
     "Proof_Rabin_with_games": "Proof_Rabin_with_games",
     "proof_games_2": "proof_games_2",
     "Proof_scheme": "Proof_scheme",
-    "Detail_finite_memory_det": "Detail_finite_memory_det"
+    "Detail_finite_memory_det": "Detail_finite_memory_det",
+    "Buchi_automata": "Buchi_automata"
   },
   "tree": {
     "type": "child",
@@ -49,6 +50,28 @@
     "enabled": "enabled",
     "merged": false,
     "children": [
+      {
+        "type": "show",
+        "id": "PLEASE__INTERRUPT_",
+        "enabled": "enabled",
+        "name": "PLEASE, INTERRUPT!",
+        "merged": false,
+        "keywords": [
+          "PLEASE, INTERRUPT!"
+        ],
+        "eventId": "10"
+      },
+      {
+        "type": "hide",
+        "id": "PLEASE__INTERRUPT_",
+        "enabled": "enabled",
+        "name": "PLEASE, INTERRUPT!",
+        "merged": false,
+        "keywords": [
+          "PLEASE, INTERRUPT!"
+        ],
+        "eventId": "11"
+      },
       {
         "type": "child",
         "name": "main",
@@ -172,7 +195,8 @@
             "merged": false,
             "keywords": [
               "Structures with just the order relation <",
-              "In this talk:"
+              "In this talk:",
+              "Examples: (ℕ, <) , (ℚ, <) , (ℝ, <)"
             ],
             "eventId": "7"
           },
@@ -385,6 +409,137 @@
             "merged": false,
             "children": [
               {
+                "type": "child",
+                "name": "Expressive power N",
+                "id": "Expressive_power_N",
+                "enabled": "enabled",
+                "merged": false,
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "Group_47",
+                    "enabled": "enabled",
+                    "name": "Successor:",
+                    "merged": false,
+                    "keywords": [
+                      "m = n + 1",
+                      "Successor:"
+                    ],
+                    "eventId": "1"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Group_472",
+                    "enabled": "enabled",
+                    "name": "m is the smaller number strictly greater than n",
+                    "merged": false,
+                    "keywords": [
+                      "m is the smallest number strictly greater than n",
+                      "m is the smaller number strictly greater than n"
+                    ],
+                    "eventId": "2"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Basic_modular_arithmetic_",
+                    "enabled": "enabled",
+                    "name": "Basic modular arithmetic:",
+                    "merged": false,
+                    "keywords": [
+                      "Basic modular arithmetic:"
+                    ],
+                    "eventId": "3"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Group_46",
+                    "enabled": "enabled",
+                    "name": "There are infinitely many n such that",
+                    "merged": false,
+                    "keywords": [
+                      "There are infinitely many n such that",
+                      "n ≡ 1 mod 6 and n ≡ 0 mod 3"
+                    ],
+                    "eventId": "4"
+                  },
+                  {
+                    "type": "show",
+                    "id": "_False_in_________",
+                    "enabled": "enabled",
+                    "name": "(False in (ℕ, <) )",
+                    "merged": false,
+                    "keywords": [
+                      "(False in (ℕ, <) )"
+                    ],
+                    "eventId": "5"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Group_462",
+                    "enabled": "enabled",
+                    "name": "∃ X, X unbounded",
+                    "merged": false,
+                    "keywords": [
+                      "∃ X, X unbounded"
+                    ],
+                    "eventId": "6"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Group_463",
+                    "enabled": "enabled",
+                    "name": "Group 46",
+                    "merged": false,
+                    "keywords": [
+                      "Group 46"
+                    ],
+                    "eventId": "7"
+                  },
+                  {
+                    "type": "show",
+                    "id": "And_that_is_pretty_much_it_all",
+                    "enabled": "enabled",
+                    "name": "And that is pretty much it all",
+                    "merged": false,
+                    "keywords": [
+                      "And that is pretty much it all"
+                    ],
+                    "eventId": "8"
+                  }
+                ],
+                "keywords": [
+                  "What can we say in MSO(ℕ, <) ?",
+                  "Expressive power N"
+                ],
+                "eventId": "8",
+                "originalParams": {
+                  "Group_47": {
+                    "opacity": 1
+                  },
+                  "Group_472": {
+                    "opacity": 1
+                  },
+                  "Basic_modular_arithmetic_": {
+                    "opacity": 1
+                  },
+                  "Group_46": {
+                    "opacity": 1
+                  },
+                  "_False_in_________": {
+                    "opacity": 1
+                  },
+                  "Group_462": {
+                    "opacity": 1
+                  },
+                  "Group_463": {
+                    "opacity": 1
+                  },
+                  "And_that_is_pretty_much_it_all": {
+                    "opacity": 1
+                  }
+                }
+              },
+              {
                 "type": "show",
                 "id": "Group_47",
                 "enabled": "enabled",
@@ -424,6 +579,18 @@
                   "{ }"
                 ],
                 "eventId": "5"
+              },
+              {
+                "type": "show",
+                "id": "Group_77",
+                "enabled": "enabled",
+                "name": "Automata over infinite words",
+                "merged": false,
+                "keywords": [
+                  "MSO(ℕ, <)",
+                  "Automata over infinite words"
+                ],
+                "eventId": "7"
               }
             ],
             "keywords": [
@@ -438,6 +605,58 @@
                 "opacity": 1
               },
               "Group_146": {
+                "opacity": 1
+              },
+              "Group_77": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "child",
+            "name": "Buchi automata",
+            "id": "Buchi_automata",
+            "enabled": "enabled",
+            "merged": true,
+            "children": [
+              {
+                "type": "show",
+                "id": "buchi_condition",
+                "enabled": "enabled",
+                "name": "buchi condition",
+                "merged": false,
+                "keywords": [
+                  "Büchi condition: Accept if",
+                  "visited infinitely often",
+                  "buchi condition"
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "show",
+                "id": "Group_60",
+                "enabled": "enabled",
+                "name": "Words containing ‘aa’ infinitely often",
+                "merged": false,
+                "keywords": [
+                  "Words containing ‘aa’ infinitely often"
+                ],
+                "eventId": "2"
+              }
+            ],
+            "keywords": [
+              "a",
+              "b",
+              "Input: Infinite sequence of letters",
+              "Büchi automata",
+              "Buchi automata"
+            ],
+            "eventId": "19",
+            "originalParams": {
+              "buchi_condition": {
+                "opacity": 1
+              },
+              "Group_60": {
                 "opacity": 1
               }
             }
@@ -560,6 +779,19 @@
                     "children": [
                       {
                         "type": "show",
+                        "id": "Group_149",
+                        "enabled": "enabled",
+                        "name": "Complement: Finitely many “aa”",
+                        "merged": false,
+                        "keywords": [
+                          "Complement: Finitely many “aa”",
+                          "a",
+                          "b"
+                        ],
+                        "eventId": "3"
+                      },
+                      {
+                        "type": "show",
                         "id": "Group_90",
                         "enabled": "enabled",
                         "name": "Using Ramsey theory",
@@ -577,14 +809,16 @@
                         "name": "Determinization to Rabin or parity automata",
                         "merged": false,
                         "keywords": [
-                          "Determinization to Rabin or parity automata",
-                          "(ex: Safra construction 1988)"
+                          "Determinization to Muller or parity automata",
+                          "(ex: Safra construction 1988)",
+                          "Determinization to Rabin or parity automata"
                         ],
                         "eventId": "2"
                       }
                     ],
                     "keywords": [
-                      "Challenge: Büchi automata do not determinize",
+                      "Challenge: Büchi automata",
+                      "do not determinize do not dualize",
                       "Complementation"
                     ],
                     "eventId": "4",
@@ -593,6 +827,9 @@
                         "opacity": 1
                       },
                       "Group_91": {
+                        "opacity": 1
+                      },
+                      "Group_149": {
                         "opacity": 1
                       }
                     }
@@ -623,16 +860,11 @@
               }
             ],
             "keywords": [
-              "MSO(ℕ, <)",
-              "Automata over infinite words",
               "Proof Automata"
             ],
             "eventId": "16",
             "originalParams": {
               "emptiness": {
-                "opacity": 1
-              },
-              "Group_352": {
                 "opacity": 1
               },
               "Group_146": {
@@ -1228,327 +1460,6 @@
                           "modern"
                         ],
                         "eventId": "2"
-                      },
-                      {
-                        "type": "child",
-                        "name": "Proof Rabin with games",
-                        "id": "Proof_Rabin_with_games",
-                        "enabled": "enabled",
-                        "merged": false,
-                        "children": [
-                          {
-                            "type": "hide",
-                            "id": "We_have_a_tree_automaton_Objective__Build_an_automaton_for_the_complement_language",
-                            "enabled": "enabled",
-                            "name": "We have a tree automaton Objective: Build an automaton for the complement language",
-                            "merged": false,
-                            "keywords": [
-                              "We have a tree automaton Objective: Build an automaton for the complement language"
-                            ],
-                            "eventId": "16"
-                          },
-                          {
-                            "type": "show",
-                            "id": "Rejection_game",
-                            "enabled": "enabled",
-                            "name": "Rejection game over a given Σ-tree",
-                            "merged": true,
-                            "keywords": [
-                              "Rejection game over a given Σ-tree"
-                            ],
-                            "eventId": "17"
-                          },
-                          {
-                            "type": "show",
-                            "id": "Group_115",
-                            "enabled": "enabled",
-                            "name": "node in tree",
-                            "merged": false,
-                            "keywords": [
-                              "a",
-                              "node in input tree",
-                              "b",
-                              "c",
-                              ". . .",
-                              "node in tree"
-                            ],
-                            "eventId": "15"
-                          },
-                          {
-                            "type": "show",
-                            "id": "Group_116",
-                            "enabled": "enabled",
-                            "name": "Playeraccept",
-                            "merged": false,
-                            "keywords": [
-                              ". . .",
-                              "1",
-                              "i",
-                              "2",
-                              "n",
-                              "Playeraccept"
-                            ],
-                            "eventId": "2"
-                          },
-                          {
-                            "type": "show",
-                            "id": "Group_117",
-                            "enabled": "enabled",
-                            "name": "Playerreject",
-                            "merged": true,
-                            "keywords": [
-                              "Playerreject",
-                              ". . .",
-                              "a"
-                            ],
-                            "eventId": "3"
-                          },
-                          {
-                            "type": "show",
-                            "id": "Group_1172",
-                            "enabled": "enabled",
-                            "name": ". . .",
-                            "merged": true,
-                            "keywords": [
-                              ". . .",
-                              "1",
-                              "2",
-                              "n"
-                            ],
-                            "eventId": "4"
-                          },
-                          {
-                            "type": "show",
-                            "id": "Group_1175",
-                            "enabled": "enabled",
-                            "name": "transitions",
-                            "merged": true,
-                            "keywords": [
-                              "transitions"
-                            ],
-                            "eventId": "12"
-                          },
-                          {
-                            "type": "show",
-                            "id": "Group_1173",
-                            "enabled": "enabled",
-                            "name": "Wins if limsup i is even",
-                            "merged": false,
-                            "keywords": [
-                              "Wins if limsup i is even",
-                              "Wins if limsup i is odd"
-                            ],
-                            "eventId": "5"
-                          },
-                          {
-                            "type": "show",
-                            "id": "T_rejected_by_the_automaton_iff_Preject_has_a_winning_strategy",
-                            "enabled": "enabled",
-                            "name": "T rejected by the automaton iff Preject has a winning strategy",
-                            "merged": false,
-                            "keywords": [
-                              "T rejected by the automaton iff Preject has a winning strategy"
-                            ],
-                            "eventId": "6"
-                          },
-                          {
-                            "type": "show",
-                            "id": "Parity_games_are_positionally_determined_",
-                            "enabled": "enabled",
-                            "name": "Parity games are positionally determined!",
-                            "merged": false,
-                            "keywords": [
-                              "Parity games are positionally determined!"
-                            ],
-                            "eventId": "9"
-                          },
-                          {
-                            "type": "hide",
-                            "id": "T_rejected_by_the_automaton_iff_Preject_has_a_winning_strategy",
-                            "enabled": "enabled",
-                            "name": "T rejected by the automaton iff Preject has a winning strategy",
-                            "merged": false,
-                            "keywords": [
-                              "T rejected by the automaton iff Preject has a winning strategy"
-                            ],
-                            "eventId": "7"
-                          },
-                          {
-                            "type": "show",
-                            "id": "T_rejected_by_the_automaton_iff_Preject_has_a_positional_winning_strategy",
-                            "enabled": "enabled",
-                            "name": "T rejected by the automaton iff Preject has a positional winning strategy",
-                            "merged": true,
-                            "keywords": [
-                              "T rejected by the automaton iff Preject has a positional winning strategy"
-                            ],
-                            "eventId": "8"
-                          },
-                          {
-                            "type": "hide",
-                            "id": "Group_1175",
-                            "enabled": "enabled",
-                            "name": "transitions",
-                            "merged": true,
-                            "keywords": [
-                              "transitions"
-                            ],
-                            "eventId": "13"
-                          },
-                          {
-                            "type": "show",
-                            "id": "transitions",
-                            "enabled": "enabled",
-                            "name": "pos strategy",
-                            "merged": true,
-                            "keywords": [
-                              "pos strategy"
-                            ],
-                            "eventId": "14"
-                          },
-                          {
-                            "type": "show",
-                            "id": "Group_148",
-                            "enabled": "enabled",
-                            "name": "Labelling of the tree by functions",
-                            "merged": false,
-                            "keywords": [
-                              "Labelling of the tree by functions",
-                              "Positional strategy ="
-                            ],
-                            "eventId": "18"
-                          }
-                        ],
-                        "keywords": [
-                          "We have a tree automaton Objective: Build an automaton for the complement language",
-                          "Text",
-                          "Proof Rabin with games"
-                        ],
-                        "eventId": "3",
-                        "originalParams": {
-                          "Group_116": {
-                            "opacity": 1
-                          },
-                          "Group_117": {
-                            "opacity": 1
-                          },
-                          "Group_1172": {
-                            "opacity": 1
-                          },
-                          "Group_1173": {
-                            "opacity": 1
-                          },
-                          "T_rejected_by_the_automaton_iff_Preject_has_a_winning_strategy": {
-                            "opacity": 1
-                          },
-                          "T_rejected_by_the_automaton_iff_Preject_has_a_positional_winning_strategy": {
-                            "opacity": 1
-                          },
-                          "Parity_games_are_positionally_determined_": {
-                            "opacity": 1
-                          },
-                          "Group_1174": {
-                            "opacity": 1
-                          },
-                          "Group_1175": {
-                            "opacity": 1
-                          },
-                          "transitions": {
-                            "opacity": 1
-                          },
-                          "Group_115": {
-                            "opacity": 1
-                          },
-                          "We_have_a_tree_automaton_Objective__Build_an_automaton_for_the_complement_language": {
-                            "opacity": 1
-                          },
-                          "Rejection_game": {
-                            "opacity": 1
-                          },
-                          "Group_148": {
-                            "opacity": 1
-                          }
-                        }
-                      },
-                      {
-                        "type": "child",
-                        "name": "proof games 2",
-                        "id": "proof_games_2",
-                        "enabled": "enabled",
-                        "merged": true,
-                        "children": [
-                          {
-                            "type": "show",
-                            "id": "Group_118",
-                            "enabled": "enabled",
-                            "name": "σ1",
-                            "merged": false,
-                            "keywords": [
-                              "a",
-                              "c",
-                              "b",
-                              "σ1",
-                              "σ2",
-                              "σ3",
-                              "σ4"
-                            ],
-                            "eventId": "1"
-                          },
-                          {
-                            "type": "show",
-                            "id": "L________trees_where_the___s_yield_a_winning_strategy_for_Preject__",
-                            "enabled": "enabled",
-                            "name": "L = { Σ’-trees where the σ’s yield a winning strategy for Preject }",
-                            "merged": false,
-                            "keywords": [
-                              "L = { Σ’-trees where the σ’s yield a winning strategy for Preject }"
-                            ],
-                            "eventId": "2"
-                          },
-                          {
-                            "type": "show",
-                            "id": "L_can_be_recognized_by_a_tree_automaton_",
-                            "enabled": "enabled",
-                            "name": "L can be recognized by a tree automaton!",
-                            "merged": false,
-                            "keywords": [
-                              "L can be recognized by a tree automaton!"
-                            ],
-                            "eventId": "3"
-                          },
-                          {
-                            "type": "show",
-                            "id": "Group_1182",
-                            "enabled": "enabled",
-                            "name": "(Preject guesses a positional strategy)",
-                            "merged": false,
-                            "keywords": [
-                              "projection in the Σ - component",
-                              "(Preject guesses a positional strategy)",
-                              "ND automaton for"
-                            ],
-                            "eventId": "4"
-                          }
-                        ],
-                        "keywords": [
-                          "Enriched alphabet:",
-                          "proof games 2"
-                        ],
-                        "eventId": "4",
-                        "originalParams": {
-                          "Group_118": {
-                            "opacity": 1
-                          },
-                          "L________trees_where_the___s_yield_a_winning_strategy_for_Preject__": {
-                            "opacity": 1
-                          },
-                          "L_can_be_recognized_by_a_tree_automaton_": {
-                            "opacity": 1
-                          },
-                          "Group_1182": {
-                            "opacity": 1
-                          }
-                        }
                       }
                     ],
                     "keywords": [
@@ -1564,9 +1475,6 @@
                         "opacity": 1
                       },
                       "Group_146": {
-                        "opacity": 1
-                      },
-                      "Rectangle_32": {
                         "opacity": 1
                       }
                     }
@@ -1608,6 +1516,317 @@
                 "opacity": 1
               },
               "Decidability": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "child",
+            "name": "Proof Rabin with games",
+            "id": "Proof_Rabin_with_games",
+            "enabled": "enabled",
+            "merged": true,
+            "children": [
+              {
+                "type": "hide",
+                "id": "We_have_a_tree_automaton_Objective__Build_an_automaton_for_the_complement_language",
+                "enabled": "enabled",
+                "name": "We have a tree automaton Objective: Build an automaton for the complement language",
+                "merged": false,
+                "keywords": [
+                  "We have a tree automaton Objective: Build an automaton for the complement language"
+                ],
+                "eventId": "16"
+              },
+              {
+                "type": "show",
+                "id": "Rejection_game",
+                "enabled": "enabled",
+                "name": "Rejection game over a given Σ-tree",
+                "merged": true,
+                "keywords": [
+                  "Rejection game over a given Σ-tree"
+                ],
+                "eventId": "17"
+              },
+              {
+                "type": "show",
+                "id": "Group_115",
+                "enabled": "enabled",
+                "name": "node in tree",
+                "merged": false,
+                "keywords": [
+                  "a",
+                  "node in input tree",
+                  "b",
+                  "c",
+                  ". . .",
+                  "node in tree"
+                ],
+                "eventId": "15"
+              },
+              {
+                "type": "show",
+                "id": "Group_116",
+                "enabled": "enabled",
+                "name": "Playeraccept",
+                "merged": false,
+                "keywords": [
+                  ". . .",
+                  "1",
+                  "i",
+                  "2",
+                  "n",
+                  "Playeraccept"
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "show",
+                "id": "Group_117",
+                "enabled": "enabled",
+                "name": "Playerreject",
+                "merged": true,
+                "keywords": [
+                  "Playerreject",
+                  ". . .",
+                  "a"
+                ],
+                "eventId": "3"
+              },
+              {
+                "type": "show",
+                "id": "Group_1172",
+                "enabled": "enabled",
+                "name": ". . .",
+                "merged": true,
+                "keywords": [
+                  ". . .",
+                  "1",
+                  "2",
+                  "n"
+                ],
+                "eventId": "4"
+              },
+              {
+                "type": "show",
+                "id": "Group_1175",
+                "enabled": "enabled",
+                "name": "transitions",
+                "merged": true,
+                "keywords": [
+                  "transitions"
+                ],
+                "eventId": "12"
+              },
+              {
+                "type": "show",
+                "id": "Group_1173",
+                "enabled": "enabled",
+                "name": "Wins if limsup i is even",
+                "merged": false,
+                "keywords": [
+                  "Wins if limsup i is even",
+                  "Wins if limsup i is odd"
+                ],
+                "eventId": "5"
+              },
+              {
+                "type": "show",
+                "id": "T_rejected_by_the_automaton_iff_Preject_has_a_winning_strategy",
+                "enabled": "enabled",
+                "name": "T rejected by the automaton iff Preject has a winning strategy",
+                "merged": false,
+                "keywords": [
+                  "T rejected by the automaton iff Preject has a winning strategy"
+                ],
+                "eventId": "6"
+              },
+              {
+                "type": "show",
+                "id": "Parity_games_are_positionally_determined_",
+                "enabled": "enabled",
+                "name": "Parity games are positionally determined!",
+                "merged": false,
+                "keywords": [
+                  "Parity games are positionally determined!"
+                ],
+                "eventId": "9"
+              },
+              {
+                "type": "hide",
+                "id": "T_rejected_by_the_automaton_iff_Preject_has_a_winning_strategy",
+                "enabled": "enabled",
+                "name": "T rejected by the automaton iff Preject has a winning strategy",
+                "merged": false,
+                "keywords": [
+                  "T rejected by the automaton iff Preject has a winning strategy"
+                ],
+                "eventId": "7"
+              },
+              {
+                "type": "show",
+                "id": "T_rejected_by_the_automaton_iff_Preject_has_a_positional_winning_strategy",
+                "enabled": "enabled",
+                "name": "T rejected by the automaton iff Preject has a positional winning strategy",
+                "merged": true,
+                "keywords": [
+                  "T rejected by the automaton iff Preject has a positional winning strategy"
+                ],
+                "eventId": "8"
+              },
+              {
+                "type": "hide",
+                "id": "Group_1175",
+                "enabled": "enabled",
+                "name": "transitions",
+                "merged": true,
+                "keywords": [
+                  "transitions"
+                ],
+                "eventId": "13"
+              },
+              {
+                "type": "show",
+                "id": "transitions",
+                "enabled": "enabled",
+                "name": "pos strategy",
+                "merged": true,
+                "keywords": [
+                  "pos strategy"
+                ],
+                "eventId": "14"
+              },
+              {
+                "type": "show",
+                "id": "Group_148",
+                "enabled": "enabled",
+                "name": "Labelling of the tree by functions",
+                "merged": false,
+                "keywords": [
+                  "Labelling of the tree by functions",
+                  "Positional strategy ="
+                ],
+                "eventId": "18"
+              }
+            ],
+            "keywords": [
+              "We have a tree automaton Objective: Build an automaton for the complement language",
+              "Text",
+              "Proof Rabin with games"
+            ],
+            "eventId": "20",
+            "originalParams": {
+              "Group_116": {
+                "opacity": 1
+              },
+              "Group_117": {
+                "opacity": 1
+              },
+              "Group_1172": {
+                "opacity": 1
+              },
+              "Group_1173": {
+                "opacity": 1
+              },
+              "T_rejected_by_the_automaton_iff_Preject_has_a_winning_strategy": {
+                "opacity": 1
+              },
+              "T_rejected_by_the_automaton_iff_Preject_has_a_positional_winning_strategy": {
+                "opacity": 1
+              },
+              "Parity_games_are_positionally_determined_": {
+                "opacity": 1
+              },
+              "Group_1174": {
+                "opacity": 1
+              },
+              "Group_1175": {
+                "opacity": 1
+              },
+              "transitions": {
+                "opacity": 1
+              },
+              "Group_115": {
+                "opacity": 1
+              },
+              "We_have_a_tree_automaton_Objective__Build_an_automaton_for_the_complement_language": {
+                "opacity": 1
+              },
+              "Rejection_game": {
+                "opacity": 1
+              },
+              "Group_148": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "child",
+            "name": "proof games 2",
+            "id": "proof_games_2",
+            "enabled": "enabled",
+            "merged": true,
+            "children": [
+              {
+                "type": "show",
+                "id": "L________trees_where_the___s_yield_a_winning_strategy_for_Preject__",
+                "enabled": "enabled",
+                "name": "L = { Σ’-trees where the σ’s yield a winning strategy for Preject }",
+                "merged": false,
+                "keywords": [
+                  "L = { Σ’-trees where the σ’s yield a winning strategy for Preject }"
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "show",
+                "id": "L_can_be_recognized_by_a_tree_automaton_",
+                "enabled": "enabled",
+                "name": "L can be recognized by a tree automaton!",
+                "merged": false,
+                "keywords": [
+                  "L can be recognized by a tree automaton!"
+                ],
+                "eventId": "3"
+              },
+              {
+                "type": "show",
+                "id": "Group_1182",
+                "enabled": "enabled",
+                "name": "(Preject guesses a positional strategy)",
+                "merged": false,
+                "keywords": [
+                  "projection in the Σ - component",
+                  "(Preject guesses a positional strategy)",
+                  "ND automaton for"
+                ],
+                "eventId": "4"
+              }
+            ],
+            "keywords": [
+              "Enriched alphabet:",
+              "a",
+              "c",
+              "b",
+              "σ1",
+              "σ2",
+              "σ3",
+              "σ4",
+              "proof games 2"
+            ],
+            "eventId": "21",
+            "originalParams": {
+              "Group_118": {
+                "opacity": 1
+              },
+              "L________trees_where_the___s_yield_a_winning_strategy_for_Preject__": {
+                "opacity": 1
+              },
+              "L_can_be_recognized_by_a_tree_automaton_": {
+                "opacity": 1
+              },
+              "Group_1182": {
                 "opacity": 1
               }
             }
@@ -1800,6 +2019,7 @@
                     "keywords": [
                       "(ℝ, <)",
                       "≃",
+                      "2ω \\ {0ω} and {eventually 11111...}",
                       "2ω \\ Eventually constant sequences"
                     ],
                     "eventId": "5"
@@ -2346,6 +2566,18 @@
         }
       },
       {
+        "type": "show",
+        "id": "Group_148",
+        "enabled": "enabled",
+        "name": "Automata for Borel-MSO",
+        "merged": false,
+        "keywords": [
+          "Automata for Borel-MSO",
+          "(LICS ‘26)"
+        ],
+        "eventId": "9"
+      },
+      {
         "type": "child",
         "name": "This work - goal",
         "id": "This_work___goal",
@@ -2438,29 +2670,6 @@
             "eventId": "2"
           },
           {
-            "type": "show",
-            "id": "Group_52",
-            "enabled": "enabled",
-            "name": "conj",
-            "merged": false,
-            "keywords": [
-              "Conjecture",
-              "conj"
-            ],
-            "eventId": "17"
-          },
-          {
-            "type": "show",
-            "id": "Prioritized_Borel_games_are_finite_memory_determined_",
-            "enabled": "enabled",
-            "name": "Prioritized Borel-games are finite-memory determined.",
-            "merged": true,
-            "keywords": [
-              "Prioritized Borel-games are finite-memory determined."
-            ],
-            "eventId": "20"
-          },
-          {
             "type": "child",
             "name": "Proof scheme",
             "id": "Proof_scheme",
@@ -2510,18 +2719,6 @@
             }
           },
           {
-            "type": "show",
-            "id": "Basic_topology_",
-            "enabled": "enabled",
-            "name": "proof subcases",
-            "merged": false,
-            "keywords": [
-              "Proof in some subcases",
-              "proof subcases"
-            ],
-            "eventId": "5"
-          },
-          {
             "type": "child",
             "name": "Borel-tree automata",
             "id": "Borel_tree_automata",
@@ -2535,7 +2732,8 @@
                 "name": "Borel labelling",
                 "merged": false,
                 "keywords": [
-                  "Borel labelling"
+                  "Borel labelling",
+                  "{branches labelled α} is Borel"
                 ],
                 "eventId": "6"
               },
@@ -2752,6 +2950,29 @@
           },
           {
             "type": "show",
+            "id": "Group_52",
+            "enabled": "enabled",
+            "name": "conj",
+            "merged": false,
+            "keywords": [
+              "Conjecture",
+              "conj"
+            ],
+            "eventId": "17"
+          },
+          {
+            "type": "show",
+            "id": "Prioritized_Borel_games_are_finite_memory_determined_",
+            "enabled": "enabled",
+            "name": "Prioritized Borel-games are finite-memory determined.",
+            "merged": true,
+            "keywords": [
+              "Prioritized Borel-games are finite-memory determined."
+            ],
+            "eventId": "20"
+          },
+          {
+            "type": "show",
             "id": "The_RPNI_algorithm_infers_a__reasonable__automaton_in_PTIME_",
             "enabled": "enabled",
             "name": "There exists a function f(n) such that the winner in prioritized Borel games with n internal nodes can win with a strategy given by an automaton of size ≤ f(n).",
@@ -2771,6 +2992,18 @@
               "Prioritized Borel-games are finite-memory determined."
             ],
             "eventId": "21"
+          },
+          {
+            "type": "show",
+            "id": "Basic_topology_",
+            "enabled": "enabled",
+            "name": "proof subcases",
+            "merged": false,
+            "keywords": [
+              "Proof in some subcases",
+              "proof subcases"
+            ],
+            "eventId": "5"
           },
           {
             "type": "show",
@@ -2819,13 +3052,21 @@
     ],
     "keywords": [
       "Antonio Casares ⋅ RPTU Kaiserslautern",
-      "Joint work with: Mikołaj Bojańczyk, Sven Manthe and Paweł Parys",
-      "An automata model for Borel-MSO",
-      "Séminaire Move, 28 November 2025",
+      "Includes joint work with: Mikołaj Bojańczyk, Sven Manthe and Paweł Parys",
+      "The automata method for the MSO theory of order",
+      "30 Avril 2026",
+      "Séminaire d’informatique théorique de Rouen",
       "title"
     ],
     "eventId": "root",
-    "originalParams": {}
+    "originalParams": {
+      "Group_148": {
+        "opacity": 1
+      },
+      "PLEASE__INTERRUPT_": {
+        "opacity": 1
+      }
+    }
   },
   "treeTimeLine": [],
   "chronicleTimeLine": []

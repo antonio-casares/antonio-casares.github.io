@@ -1,0 +1,657 @@
+{
+  "version": 3.1,
+  "presentation": "AR-FO-modelChecking",
+  "slideDict": {
+    "new_slide": "new_slide",
+    "Model_Checking_Problem": "Model_Checking_Problem",
+    "Examples_Structures": "Examples_Structures",
+    "Previous_lecture": "Previous_lecture",
+    "Finite_models": "Finite_models",
+    "Arithmetic": "Infinite_models",
+    "Examples": "Examples",
+    "Godel_Arithmetic": "Godel_Arithmetic",
+    "Decidable_theories": "Decidable_theories",
+    "Complete_picture": "Complete_picture"
+  },
+  "tree": {
+    "type": "child",
+    "name": "new slide",
+    "id": "new_slide",
+    "enabled": "enabled",
+    "merged": false,
+    "children": [
+      {
+        "type": "child",
+        "name": "Model Checking Problem",
+        "id": "Model_Checking_Problem",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "Group_33",
+            "enabled": "enabled",
+            "name": "Given φ an FO sentence, does ?",
+            "merged": false,
+            "keywords": [
+              "Given φ an first-order sentence, does ?",
+              "Deciding the FO-theory of",
+              "Given φ an FO sentence, does ?"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "Group_170",
+            "enabled": "enabled",
+            "name": "formula with no free variables",
+            "merged": false,
+            "keywords": [
+              "formula with no free variables"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "child",
+            "name": "Examples Structures",
+            "id": "Examples_Structures",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "note__Equality_____in_all_vocabularies",
+                "enabled": "enabled",
+                "name": "note: Equality (=) in all vocabularies",
+                "merged": false,
+                "keywords": [
+                  "note: Equality (=) in all vocabularies"
+                ],
+                "eventId": "9"
+              },
+              {
+                "type": "show",
+                "id": "Group_170",
+                "enabled": "enabled",
+                "name": "A graph",
+                "merged": false,
+                "keywords": [
+                  "A graph"
+                ],
+                "eventId": "6"
+              },
+              {
+                "type": "show",
+                "id": "Group_36",
+                "enabled": "enabled",
+                "name": "(arithmetic)",
+                "merged": false,
+                "keywords": [
+                  "(arithmetic)"
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "show",
+                "id": "Group_40",
+                "enabled": "enabled",
+                "name": "(Presburger arithmetic / LIA linear integer arithmetic)",
+                "merged": false,
+                "keywords": [
+                  "(Presburger arithmetic / LIA linear integer arithmetic)"
+                ],
+                "eventId": "5"
+              },
+              {
+                "type": "show",
+                "id": "Group_37",
+                "enabled": "enabled",
+                "name": "(LIR linear real arithmetic)",
+                "merged": false,
+                "keywords": [
+                  "(LIR linear real arithmetic)"
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "show",
+                "id": "Group_38",
+                "enabled": "enabled",
+                "name": "(real arithmetic / semi-algebraic arithmetic)",
+                "merged": false,
+                "keywords": [
+                  "(non-linear real arithmetic)",
+                  "(real arithmetic / semi-algebraic arithmetic)"
+                ],
+                "eventId": "3"
+              },
+              {
+                "type": "show",
+                "id": "Group_39",
+                "enabled": "enabled",
+                "name": "(polynomials ring)",
+                "merged": false,
+                "keywords": [
+                  "(strings with concatenation) , (polynomials ring)",
+                  "(polynomials ring)"
+                ],
+                "eventId": "4"
+              },
+              {
+                "type": "show",
+                "id": "___",
+                "enabled": "enabled",
+                "name": "...",
+                "merged": true,
+                "keywords": [
+                  "..."
+                ],
+                "eventId": "7"
+              },
+              {
+                "type": "show",
+                "id": "Group_173",
+                "enabled": "enabled",
+                "name": "main focus in next few lectures",
+                "merged": false,
+                "keywords": [
+                  "main focus in next few lectures"
+                ],
+                "eventId": "8"
+              }
+            ],
+            "keywords": [
+              "Examples of structures",
+              "Structure = Set + Relations + Functions",
+              "domain/universe",
+              "Examples Structures"
+            ],
+            "eventId": "1",
+            "originalParams": {
+              "Group_36": {
+                "opacity": 1
+              },
+              "Group_37": {
+                "opacity": 1
+              },
+              "Group_38": {
+                "opacity": 1
+              },
+              "Group_39": {
+                "opacity": 1
+              },
+              "Group_40": {
+                "opacity": 1
+              },
+              "Group_170": {
+                "opacity": 1
+              },
+              "___": {
+                "opacity": 1
+              },
+              "Group_173": {
+                "opacity": 1
+              },
+              "note__Equality_____in_all_vocabularies": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "hide",
+            "id": "Group_170",
+            "enabled": "enabled",
+            "name": "formula with no free variables",
+            "merged": false,
+            "keywords": [
+              "formula with no free variables"
+            ],
+            "eventId": "5"
+          },
+          {
+            "type": "child",
+            "name": "Previous lecture",
+            "id": "Previous_lecture",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "Group_170",
+                "enabled": "enabled",
+                "name": "Given φ an FO sentence, does ?",
+                "merged": false,
+                "keywords": [
+                  "Given φ an FO sentence, does ?",
+                  "Deciding the theory T"
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "show",
+                "id": "T_____T_______Neither_of_the_above",
+                "enabled": "enabled",
+                "name": "T ⊢ φ T ⊢ ¬ φ Neither of the above",
+                "merged": false,
+                "keywords": [
+                  "T ⊢ φ T ⊢ ¬ φ Neither of the above"
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "show",
+                "id": "Group_173",
+                "enabled": "enabled",
+                "name": "All sentences that are true in",
+                "merged": false,
+                "keywords": [
+                  "Today:",
+                  "All sentences that are true in"
+                ],
+                "eventId": "3"
+              },
+              {
+                "type": "show",
+                "id": "_no_explicit_representation_given_",
+                "enabled": "enabled",
+                "name": "(no explicit representation given)",
+                "merged": false,
+                "keywords": [
+                  "(no explicit representation given)"
+                ],
+                "eventId": "7"
+              },
+              {
+                "type": "show",
+                "id": "Complete_theory",
+                "enabled": "enabled",
+                "name": "Complete theory",
+                "merged": false,
+                "keywords": [
+                  "Complete theory"
+                ],
+                "eventId": "5"
+              },
+              {
+                "type": "show",
+                "id": "Group_174",
+                "enabled": "enabled",
+                "name": "T ⊢ φ, or T ⊢ ¬ φ",
+                "merged": false,
+                "keywords": [
+                  "T ⊢ φ , or T ⊢ ¬ φ",
+                  "that is, either:",
+                  "T ⊢ φ, or T ⊢ ¬ φ"
+                ],
+                "eventId": "4"
+              }
+            ],
+            "keywords": [
+              "Previous lecture:",
+              "Fix T a set of axioms",
+              "(ex: EUF)",
+              "Previous lecture"
+            ],
+            "eventId": "4",
+            "originalParams": {
+              "Group_170": {
+                "opacity": 1
+              },
+              "T_____T_______Neither_of_the_above": {
+                "opacity": 1
+              },
+              "Group_173": {
+                "opacity": 1
+              },
+              "Group_174": {
+                "opacity": 1
+              },
+              "Complete_theory": {
+                "opacity": 1
+              },
+              "_no_explicit_representation_given_": {
+                "opacity": 1
+              }
+            }
+          }
+        ],
+        "keywords": [
+          "The model-checking problem (or deciding an FO-theory)",
+          "Fix a logic L and a structure S",
+          "Model Checking Problem"
+        ],
+        "eventId": "1",
+        "originalParams": {
+          "Group_33": {
+            "opacity": 1
+          },
+          "Group_170": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "Finite models",
+        "id": "Finite_models",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "Group_173",
+            "enabled": "enabled",
+            "name": "(for simplicity)",
+            "merged": false,
+            "keywords": [
+              "graphs",
+              "(for simplicity)"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "Group_1732",
+            "enabled": "enabled",
+            "name": "Theorem",
+            "merged": false,
+            "keywords": [
+              "Theorem"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "show",
+            "id": "Group_31",
+            "enabled": "enabled",
+            "name": "The FO-model-checking problem is decidable for G.",
+            "merged": true,
+            "keywords": [
+              "The FO-model-checking problem is decidable for finite graphs.",
+              "The FO-model-checking problem is decidable for G."
+            ],
+            "eventId": "5"
+          },
+          {
+            "type": "hide",
+            "id": "Group_31",
+            "enabled": "enabled",
+            "name": "The FO-model-checking problem is decidable for G.",
+            "merged": false,
+            "keywords": [
+              "The FO-model-checking problem is decidable for G."
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "Group_33",
+            "enabled": "enabled",
+            "name": "There is an algorithm checking whether an FO-sentence is true in G.",
+            "merged": true,
+            "keywords": [
+              "There is an algorithm checking whether a given FO-sentence is true in a given graph G.",
+              "There is an algorithm checking whether an FO-sentence is true in G."
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "Group_1733",
+            "enabled": "enabled",
+            "name": "even when the graph is also given as input",
+            "merged": true,
+            "keywords": [
+              "even when the graph is also given as input"
+            ],
+            "eventId": "10"
+          },
+          {
+            "type": "show",
+            "id": "Each_sentence_a_different_problem_",
+            "enabled": "enabled",
+            "name": "Each sentence a different problem!",
+            "merged": false,
+            "keywords": [
+              "Each sentence a different problem!"
+            ],
+            "eventId": "7"
+          },
+          {
+            "type": "show",
+            "id": "Meta_theorem_",
+            "enabled": "enabled",
+            "name": "Meta-theorem!",
+            "merged": true,
+            "keywords": [
+              "Meta-theorem!"
+            ],
+            "eventId": "9"
+          },
+          {
+            "type": "show",
+            "id": "Proof__check_all_possibilities",
+            "enabled": "enabled",
+            "name": "Proof: check all possibilities",
+            "merged": false,
+            "keywords": [
+              "Proof: check all possibilities"
+            ],
+            "eventId": "8"
+          }
+        ],
+        "keywords": [
+          "Finite models"
+        ],
+        "eventId": "2",
+        "originalParams": {
+          "Group_173": {
+            "opacity": 1
+          },
+          "Group_31": {
+            "opacity": 1
+          },
+          "Group_33": {
+            "opacity": 1
+          },
+          "Group_1732": {
+            "opacity": 1
+          },
+          "Each_sentence_a_different_problem_": {
+            "opacity": 1
+          },
+          "Proof__check_all_possibilities": {
+            "opacity": 1
+          },
+          "Meta_theorem_": {
+            "opacity": 1
+          },
+          "Group_1733": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "Infinite models",
+        "id": "Arithmetic",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "Group_173",
+            "enabled": "enabled",
+            "name": "(arithmetic theories)",
+            "merged": false,
+            "keywords": [
+              "(arithmetic theories)"
+            ],
+            "eventId": "7"
+          },
+          {
+            "type": "child",
+            "name": "Examples",
+            "id": "Examples",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "Group_173",
+                "enabled": "enabled",
+                "name": "Linear constraints, divisibility by constants...",
+                "merged": false,
+                "keywords": [
+                  "Linear constraints, divisibility by constants..."
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "show",
+                "id": "Group_174",
+                "enabled": "enabled",
+                "name": "Arithmetic. Primality. Difficult number theory conjectures!",
+                "merged": false,
+                "keywords": [
+                  "Arithmetic. Primality. Difficult number theory conjectures!"
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "show",
+                "id": "Group_175",
+                "enabled": "enabled",
+                "name": "(Multivariate) systems of polynomial equations",
+                "merged": false,
+                "keywords": [
+                  "(Multivariate) systems of polynomial equations"
+                ],
+                "eventId": "3"
+              },
+              {
+                "type": "show",
+                "id": "Group_1732",
+                "enabled": "enabled",
+                "name": "Completely different!!",
+                "merged": false,
+                "keywords": [
+                  "Completely different!!"
+                ],
+                "eventId": "4"
+              }
+            ],
+            "keywords": [
+              "What can we say in these logics?",
+              "Examples"
+            ],
+            "eventId": "5",
+            "originalParams": {
+              "Group_173": {
+                "opacity": 1
+              },
+              "Group_174": {
+                "opacity": 1
+              },
+              "Group_175": {
+                "opacity": 1
+              },
+              "Group_1732": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "child",
+            "name": "Godel Arithmetic",
+            "id": "Godel_Arithmetic",
+            "enabled": "enabled",
+            "merged": true,
+            "children": [],
+            "keywords": [
+              "Theorem",
+              "(Gödel 1931)",
+              "The first-order theory of (ℕ, +, ×, <) is undecidable.",
+              "Undecidability results",
+              "Godel Arithmetic"
+            ],
+            "eventId": "2",
+            "originalParams": {}
+          },
+          {
+            "type": "child",
+            "name": "Decidable theories",
+            "id": "Decidable_theories",
+            "enabled": "enabled",
+            "merged": true,
+            "children": [],
+            "keywords": [
+              "Decidability results!",
+              "Theorem",
+              "(Presburger 1929)",
+              "The first-order theory of (ℤ, +, <) is decidable.",
+              "(Tarksi 1951)",
+              "The first-order theory of (ℝ, +, ×) is decidable.",
+              "Decidable theories"
+            ],
+            "eventId": "3",
+            "originalParams": {}
+          },
+          {
+            "type": "child",
+            "name": "Complete picture",
+            "id": "Complete_picture",
+            "enabled": "enabled",
+            "merged": true,
+            "children": [],
+            "keywords": [
+              "Undecidable",
+              "Decidable",
+              "(Presburger)",
+              "(Skolem)",
+              "(Tarski)",
+              "(Gödel)",
+              "(Robinson)",
+              "Complete picture"
+            ],
+            "eventId": "4",
+            "originalParams": {}
+          },
+          {
+            "type": "show",
+            "id": "Let_s_prove_some_decidability_results_",
+            "enabled": "enabled",
+            "name": "Let’s prove some decidability results!",
+            "merged": false,
+            "keywords": [
+              "Let’s prove some decidability results!"
+            ],
+            "eventId": "6"
+          }
+        ],
+        "keywords": [
+          "Infinite models"
+        ],
+        "eventId": "3",
+        "originalParams": {
+          "Let_s_prove_some_decidability_results_": {
+            "opacity": 1
+          },
+          "Group_173": {
+            "opacity": 1
+          }
+        }
+      }
+    ],
+    "keywords": [
+      "Decidability results for arithmetic theories",
+      "Antonio Casares",
+      "Automated Reasoning, Week 4",
+      "new slide"
+    ],
+    "eventId": "root",
+    "originalParams": {}
+  },
+  "treeTimeLine": [],
+  "chronicleTimeLine": []
+}

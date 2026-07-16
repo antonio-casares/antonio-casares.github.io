@@ -1,0 +1,2495 @@
+{
+  "version": 3.1,
+  "presentation": "logic-games-IMUVa",
+  "slideDict": {
+    "new_slide": "title",
+    "CV": "CV",
+    "Main": "Main",
+    "Math": "Math",
+    "ComputerScience": "ComputerScience",
+    "Logica": "Logica",
+    "Ejemplo": "Ejemplo",
+    "Resultados_logica_clasicos": "Resultados_logica_clasicos",
+    "MSO": "MSO",
+    "Verificacion_de_programas": "Verificacion_de_programas",
+    "Estrategias_en_juegos": "Estrategias_en_juegos",
+    "Resultados_MSO": "Resultados_MSO",
+    "MSO_R_prueba": "MSO_R_prueba",
+    "MSO_Borel": "MSO_Borel",
+    "Sistemas_Reactivos": "Sistemas_Reactivos",
+    "Juegos": "Juegos",
+    "Sistemas__Juegos": "Sistemas__Juegos",
+    "Estrategias": "Estrategias",
+    "Ejemplo_4_in_a_row": "Ejemplo_4_in_a_row",
+    "Ejemplos": "Ejemplos",
+    "Positional_languages": "Positional_languages",
+    "Reachability": "Reachability",
+    "Contribution": "Contribution",
+    "juegosMSO": "juegosMSO",
+    "juegosMSOBorel": "juegosMSOBorel"
+  },
+  "tree": {
+    "type": "child",
+    "name": "title",
+    "id": "new_slide",
+    "enabled": "enabled",
+    "merged": false,
+    "children": [
+      {
+        "type": "show",
+        "id": "D",
+        "enabled": "enabled",
+        "name": "PLEASE INTERRUPT!",
+        "merged": false,
+        "keywords": [
+          "PLEASE INTERRUPT!"
+        ],
+        "eventId": "6"
+      },
+      {
+        "type": "hide",
+        "id": "D",
+        "enabled": "enabled",
+        "name": "PLEASE INTERRUPT!",
+        "merged": false,
+        "keywords": [
+          "PLEASE INTERRUPT!"
+        ],
+        "eventId": "7"
+      },
+      {
+        "type": "child",
+        "name": "CV",
+        "id": "CV",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "Group_29",
+            "enabled": "enabled",
+            "name": "Theoretical Computer Science",
+            "merged": false,
+            "keywords": [
+              "Matemáticas",
+              "Lógica",
+              "Informática teórica",
+              "Autómatas",
+              "Juegos en grafos",
+              "Bases de datos",
+              "Theoretical Computer Science"
+            ],
+            "eventId": "1"
+          }
+        ],
+        "keywords": [
+          "¿Quién soy?",
+          "Grado en matemáticas Valladolid",
+          "Tesis, Burdeos",
+          "(con T. Colcombet, N. Fijalkow, I. Walukiewicz)",
+          "Master LMFI, París",
+          "PostDoc Varsovia",
+          "(con M. Bojańczyk)",
+          "PostDoc Kaiserslautern",
+          "(con A. Lin)",
+          "Profesor titular, Marsella",
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023",
+          "2024",
+          "2025",
+          "2026",
+          "2027",
+          "CV"
+        ],
+        "eventId": "1",
+        "originalParams": {
+          "Group_29": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "Main",
+        "id": "Main",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [
+          {
+            "type": "child",
+            "name": "Math",
+            "id": "Math",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "Demuestran_teoremas",
+                "enabled": "enabled",
+                "name": "Demuestran teoremas",
+                "merged": false,
+                "keywords": [
+                  "Demuestran teoremas"
+                ],
+                "eventId": "3"
+              },
+              {
+                "type": "show",
+                "id": "Group_329",
+                "enabled": "enabled",
+                "name": "Hay infinitos números primos gemelos (números primos a distancia 2).",
+                "merged": false,
+                "keywords": [
+                  "Conjetura",
+                  "Hay infinitos números primos gemelos (números primos a distancia 2)."
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "hide",
+                "id": "Group_329",
+                "enabled": "enabled",
+                "name": "Hay infinitos números primos gemelos (números primos a distancia 2).",
+                "merged": false,
+                "keywords": [
+                  "Hay infinitos números primos gemelos (números primos a distancia 2)."
+                ],
+                "eventId": "4"
+              },
+              {
+                "type": "hide",
+                "id": "_Qu__hacen_los_matem_ticos_",
+                "enabled": "enabled",
+                "name": "¿Qué hacen los matemáticos?",
+                "merged": true,
+                "keywords": [
+                  "¿Qué hacen los matemáticos?"
+                ],
+                "eventId": "5"
+              },
+              {
+                "type": "hide",
+                "id": "Demuestran_teoremas",
+                "enabled": "enabled",
+                "name": "Demuestran teoremas",
+                "merged": true,
+                "keywords": [
+                  "Demuestran teoremas"
+                ],
+                "eventId": "6"
+              }
+            ],
+            "keywords": [
+              "¿Qué hacen los matemáticos?",
+              "Math"
+            ],
+            "eventId": "1",
+            "originalParams": {
+              "Group_329": {
+                "opacity": 1
+              },
+              "Demuestran_teoremas": {
+                "opacity": 1
+              },
+              "_Qu__hacen_los_matem_ticos_": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "child",
+            "name": "ComputerScience",
+            "id": "ComputerScience",
+            "enabled": "enabled",
+            "merged": true,
+            "children": [
+              {
+                "type": "show",
+                "id": "Escriben_c_digo",
+                "enabled": "enabled",
+                "name": "Escriben código",
+                "merged": false,
+                "keywords": [
+                  "Escriben código"
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "show",
+                "id": "Group_5",
+                "enabled": "enabled",
+                "name": "codigo",
+                "merged": true,
+                "keywords": [
+                  "while true:",
+                  "if isPrime(p):",
+                  "if isPrime(p+2):",
+                  "end if",
+                  "end while",
+                  "p ← p + 1",
+                  "function f(n):",
+                  "return (p, p+2)",
+                  "p ← n",
+                  "codigo"
+                ],
+                "eventId": "6"
+              },
+              {
+                "type": "show",
+                "id": "buenos",
+                "enabled": "enabled",
+                "name": "buenos",
+                "merged": false,
+                "keywords": [
+                  "buenos"
+                ],
+                "eventId": "3"
+              },
+              {
+                "type": "hide",
+                "id": "Escriben_c_digo",
+                "enabled": "enabled",
+                "name": "Escriben código",
+                "merged": true,
+                "keywords": [
+                  "Escriben código"
+                ],
+                "eventId": "8"
+              },
+              {
+                "type": "show",
+                "id": "Group_329",
+                "enabled": "enabled",
+                "name": "escriben codigo sin errores",
+                "merged": false,
+                "keywords": [
+                  "Escriben código",
+                  "sin errores,",
+                  "sin bucles infinitos.",
+                  "escriben codigo sin errores"
+                ],
+                "eventId": "10"
+              },
+              {
+                "type": "show",
+                "id": "Group_330",
+                "enabled": "enabled",
+                "name": "Solo si conjetura",
+                "merged": false,
+                "keywords": [
+                  "Solo si conjetura"
+                ],
+                "eventId": "18"
+              },
+              {
+                "type": "hide",
+                "id": "_Qu__hacen_los_inform_ticos_",
+                "enabled": "enabled",
+                "name": "¿Qué hacen los informáticos?",
+                "merged": false,
+                "keywords": [
+                  "¿Qué hacen los informáticos?"
+                ],
+                "eventId": "11"
+              },
+              {
+                "type": "hide",
+                "id": "Group_329",
+                "enabled": "enabled",
+                "name": "escriben codigo sin errores",
+                "merged": true,
+                "keywords": [
+                  "escriben codigo sin errores"
+                ],
+                "eventId": "12"
+              },
+              {
+                "type": "hide",
+                "id": "buenos",
+                "enabled": "enabled",
+                "name": "buenos",
+                "merged": true,
+                "keywords": [
+                  "buenos"
+                ],
+                "eventId": "15"
+              },
+              {
+                "type": "hide",
+                "id": "Group_5",
+                "enabled": "enabled",
+                "name": "codigo",
+                "merged": true,
+                "keywords": [
+                  "codigo"
+                ],
+                "eventId": "17"
+              },
+              {
+                "type": "hide",
+                "id": "Group_330",
+                "enabled": "enabled",
+                "name": "Solo si conjetura",
+                "merged": true,
+                "keywords": [
+                  "Solo si conjetura"
+                ],
+                "eventId": "20"
+              }
+            ],
+            "keywords": [
+              "¿Qué hacen los informáticos?",
+              "ComputerScience"
+            ],
+            "eventId": "2",
+            "originalParams": {
+              "Escriben_c_digo": {
+                "opacity": 1
+              },
+              "buenos": {
+                "opacity": 1
+              },
+              "Group_5": {
+                "opacity": 1
+              },
+              "Group_329": {
+                "opacity": 1
+              },
+              "_Qu__hacen_los_inform_ticos_": {
+                "opacity": 1
+              },
+              "Group_330": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "hide",
+            "id": "Vector_38",
+            "enabled": "enabled",
+            "name": "Vector 38",
+            "merged": false,
+            "keywords": [
+              "Vector 38"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "Group_329",
+            "enabled": "enabled",
+            "name": "equivalencia",
+            "merged": true,
+            "keywords": [
+              "Demostrar teoremas",
+              "Probar la corrección de programas informáticos",
+              "equivalencia"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "show",
+            "id": "Group_331",
+            "enabled": "enabled",
+            "name": "Objetivo ideal",
+            "merged": false,
+            "keywords": [
+              "Objetivo ideal"
+            ],
+            "eventId": "5"
+          },
+          {
+            "type": "show",
+            "id": "Demostrar_teoremas_de_forma_autom_tica",
+            "enabled": "enabled",
+            "name": "Demostrar teoremas de forma automática",
+            "merged": true,
+            "keywords": [
+              "Demostrar teoremas de forma automática"
+            ],
+            "eventId": "6"
+          },
+          {
+            "type": "hide",
+            "id": "Demostrar_teoremas_de_forma_autom_tica",
+            "enabled": "enabled",
+            "name": "Demostrar teoremas de forma automática",
+            "merged": false,
+            "keywords": [
+              "Demostrar teoremas de forma automática"
+            ],
+            "eventId": "7"
+          },
+          {
+            "type": "show",
+            "id": "Algoritmo",
+            "enabled": "enabled",
+            "name": "Obtener un algoritmo para:",
+            "merged": true,
+            "keywords": [
+              "Obtener un algoritmo para:"
+            ],
+            "eventId": "12"
+          },
+          {
+            "type": "show",
+            "id": "Group_3312",
+            "enabled": "enabled",
+            "name": "Enunciado matemático",
+            "merged": true,
+            "keywords": [
+              "Input:",
+              "Output:",
+              "Enunciado matemático",
+              "true, si cierto,",
+              "false, si falso."
+            ],
+            "eventId": "8"
+          },
+          {
+            "type": "show",
+            "id": "Group_332",
+            "enabled": "enabled",
+            "name": "Fórmula lógica",
+            "merged": false,
+            "keywords": [
+              "Fórmula lógica"
+            ],
+            "eventId": "11"
+          },
+          {
+            "type": "child",
+            "name": "Logica",
+            "id": "Logica",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "Group_332",
+                "enabled": "enabled",
+                "name": "x + y",
+                "merged": false,
+                "keywords": [
+                  "x + y",
+                  "x × y",
+                  "ex",
+                  ". . ."
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "show",
+                "id": "Group_3322",
+                "enabled": "enabled",
+                "name": "Reglas de sintaxis",
+                "merged": false,
+                "keywords": [
+                  "Reglas de sintaxis"
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "show",
+                "id": "Group_3323",
+                "enabled": "enabled",
+                "name": "“o” ...",
+                "merged": false,
+                "keywords": [
+                  "“y” ,",
+                  "“existe un elemento” ...",
+                  "“o” ..."
+                ],
+                "eventId": "3"
+              },
+              {
+                "type": "show",
+                "id": "Group_3324",
+                "enabled": "enabled",
+                "name": "Dominio para las variables:",
+                "merged": false,
+                "keywords": [
+                  "Dominio para las variables:",
+                  ", , , ..."
+                ],
+                "eventId": "4"
+              },
+              {
+                "type": "show",
+                "id": "Group_3325",
+                "enabled": "enabled",
+                "name": "“multiplicación”...",
+                "merged": false,
+                "keywords": [
+                  "“suma” ,",
+                  "“multiplicación”...",
+                  "+",
+                  "×"
+                ],
+                "eventId": "5"
+              },
+              {
+                "type": "child",
+                "name": "Ejemplo",
+                "id": "Ejemplo",
+                "enabled": "enabled",
+                "merged": false,
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "Group_332",
+                    "enabled": "enabled",
+                    "name": "En",
+                    "merged": false,
+                    "keywords": [
+                      "En"
+                    ],
+                    "eventId": "2"
+                  },
+                  {
+                    "type": "show",
+                    "id": "__x_es_un_n_mero_primo__",
+                    "enabled": "enabled",
+                    "name": "“ x es un número primo ”",
+                    "merged": false,
+                    "keywords": [
+                      "“ x es un número primo ”"
+                    ],
+                    "eventId": "1"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Group_333",
+                    "enabled": "enabled",
+                    "name": "En",
+                    "merged": false,
+                    "keywords": [
+                      "En"
+                    ],
+                    "eventId": "4"
+                  },
+                  {
+                    "type": "show",
+                    "id": "__falso__para_todo_x__",
+                    "enabled": "enabled",
+                    "name": "“ falso, para todo x ”",
+                    "merged": false,
+                    "keywords": [
+                      "“ falso, para todo x ”"
+                    ],
+                    "eventId": "3"
+                  }
+                ],
+                "keywords": [
+                  "¿Qué significa?",
+                  "Ejemplo"
+                ],
+                "eventId": "8",
+                "originalParams": {
+                  "__x_es_un_n_mero_primo__": {
+                    "opacity": 1
+                  },
+                  "Group_332": {
+                    "opacity": 1
+                  },
+                  "__falso__para_todo_x__": {
+                    "opacity": 1
+                  },
+                  "Group_333": {
+                    "opacity": 1
+                  },
+                  "_Qu__significa_": {
+                    "opacity": 1
+                  }
+                }
+              },
+              {
+                "type": "show",
+                "id": "_Muchas_variantes_",
+                "enabled": "enabled",
+                "name": "¡Muchas variantes!",
+                "merged": false,
+                "keywords": [
+                  "¡Muchas variantes!"
+                ],
+                "eventId": "6"
+              },
+              {
+                "type": "show",
+                "id": "Group_341",
+                "enabled": "enabled",
+                "name": "Lógica de primer orden (FO)",
+                "merged": false,
+                "keywords": [
+                  "Lógica de primer orden (FO)"
+                ],
+                "eventId": "7"
+              }
+            ],
+            "keywords": [
+              "Símbolos",
+              "+",
+              "Significado",
+              "Logica"
+            ],
+            "eventId": "9",
+            "originalParams": {
+              "Group_332": {
+                "opacity": 1
+              },
+              "Group_3322": {
+                "opacity": 1
+              },
+              "Group_3323": {
+                "opacity": 1
+              },
+              "Group_3324": {
+                "opacity": 1
+              },
+              "Group_3325": {
+                "opacity": 1
+              },
+              "_Muchas_variantes_": {
+                "opacity": 1
+              },
+              "Group_341": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "show",
+            "id": "Un_problema_para_cada_l_gica",
+            "enabled": "enabled",
+            "name": "Un problema para cada lógica",
+            "merged": false,
+            "keywords": [
+              "Un problema para cada lógica"
+            ],
+            "eventId": "14"
+          },
+          {
+            "type": "hide",
+            "id": "Un_problema_para_cada_l_gica",
+            "enabled": "enabled",
+            "name": "Un problema para cada lógica",
+            "merged": false,
+            "keywords": [
+              "Un problema para cada lógica"
+            ],
+            "eventId": "17"
+          },
+          {
+            "type": "child",
+            "name": "Resultados logica clasicos",
+            "id": "Resultados_logica_clasicos",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "Group_52",
+                "enabled": "enabled",
+                "name": "thm Godel",
+                "merged": false,
+                "keywords": [
+                  "Teorema",
+                  "(Gödel 1931)",
+                  "thm Godel"
+                ],
+                "eventId": "3"
+              },
+              {
+                "type": "show",
+                "id": "No_puede_existir_un_algoritmo_que_decida_la_l_gica_de_primer_orden_sobre___________",
+                "enabled": "enabled",
+                "name": "No puede existir un algoritmo que decida la lógica de primer orden sobre (ℕ, +, ×).",
+                "merged": true,
+                "keywords": [
+                  "No puede existir un algoritmo que decida la lógica de primer orden sobre (ℕ, +, ×)."
+                ],
+                "eventId": "7"
+              },
+              {
+                "type": "show",
+                "id": "godel",
+                "enabled": "enabled",
+                "name": "godel",
+                "merged": true,
+                "keywords": [
+                  "godel"
+                ],
+                "eventId": "13"
+              },
+              {
+                "type": "show",
+                "id": "The_RPNI_algorithm_infers_a__reasonable__automaton_in_PTIME_",
+                "enabled": "enabled",
+                "name": "La lógica de primer orden sobre (ℕ, +, ×) es indecidible.",
+                "merged": false,
+                "keywords": [
+                  "La lógica de primer orden sobre (ℕ, +, ×) es indecidible."
+                ],
+                "eventId": "9"
+              },
+              {
+                "type": "hide",
+                "id": "No_puede_existir_un_algoritmo_que_decida_la_l_gica_de_primer_orden_sobre___________",
+                "enabled": "enabled",
+                "name": "No puede existir un algoritmo que decida la lógica de primer orden sobre (ℕ, +, ×).",
+                "merged": true,
+                "keywords": [
+                  "No puede existir un algoritmo que decida la lógica de primer orden sobre (ℕ, +, ×)."
+                ],
+                "eventId": "15"
+              },
+              {
+                "type": "show",
+                "id": "Group_346",
+                "enabled": "enabled",
+                "name": "(Presburger 1929)",
+                "merged": false,
+                "keywords": [
+                  "Teorema",
+                  "(Presburger 1929)"
+                ],
+                "eventId": "24"
+              },
+              {
+                "type": "show",
+                "id": "presburger_1",
+                "enabled": "enabled",
+                "name": "presburger 1",
+                "merged": true,
+                "keywords": [
+                  "presburger 1"
+                ],
+                "eventId": "23"
+              },
+              {
+                "type": "show",
+                "id": "Hay_un_algoritmo_que_decide_la_l_gica_de_primer_orden_sobre________",
+                "enabled": "enabled",
+                "name": "Hay un algoritmo que decide la lógica de primer orden sobre (ℕ, +).",
+                "merged": true,
+                "keywords": [
+                  "Hay un algoritmo que decide la lógica de primer orden sobre (ℕ, +)."
+                ],
+                "eventId": "10"
+              },
+              {
+                "type": "show",
+                "id": "La_l_gica_de_premier_orden_sobre________es_decidible_",
+                "enabled": "enabled",
+                "name": "La lógica de premier orden sobre (ℕ, +) es decidible.",
+                "merged": false,
+                "keywords": [
+                  "La lógica de premier orden sobre (ℕ, +) es decidible."
+                ],
+                "eventId": "8"
+              },
+              {
+                "type": "hide",
+                "id": "Hay_un_algoritmo_que_decide_la_l_gica_de_primer_orden_sobre________",
+                "enabled": "enabled",
+                "name": "Hay un algoritmo que decide la lógica de primer orden sobre (ℕ, +).",
+                "merged": true,
+                "keywords": [
+                  "Hay un algoritmo que decide la lógica de primer orden sobre (ℕ, +)."
+                ],
+                "eventId": "16"
+              },
+              {
+                "type": "show",
+                "id": "Group_356",
+                "enabled": "enabled",
+                "name": "!!!",
+                "merged": false,
+                "keywords": [
+                  "!!!"
+                ],
+                "eventId": "25"
+              },
+              {
+                "type": "show",
+                "id": "thm_coBuchi2",
+                "enabled": "enabled",
+                "name": "thm-skolem",
+                "merged": false,
+                "keywords": [
+                  "Teorema",
+                  "(Skolem 1930 - Mostowski 1952)",
+                  "La lógica de premier orden sobre (ℕ, ×) es decidible.",
+                  "thm-skolem"
+                ],
+                "eventId": "4"
+              },
+              {
+                "type": "show",
+                "id": "ThoralfSkolem",
+                "enabled": "enabled",
+                "name": "ThoralfSkolem",
+                "merged": true,
+                "keywords": [
+                  "ThoralfSkolem"
+                ],
+                "eventId": "11"
+              },
+              {
+                "type": "show",
+                "id": "mostowski",
+                "enabled": "enabled",
+                "name": "mostowski",
+                "merged": true,
+                "keywords": [
+                  "mostowski"
+                ],
+                "eventId": "14"
+              },
+              {
+                "type": "show",
+                "id": "thm_coBuchi3",
+                "enabled": "enabled",
+                "name": "thm-tarski",
+                "merged": false,
+                "keywords": [
+                  "Teorema",
+                  "(Tarksi 1951)",
+                  "La lógica de premier orden sobre (ℝ, +, ×) es decidible.",
+                  "thm-tarski"
+                ],
+                "eventId": "5"
+              },
+              {
+                "type": "show",
+                "id": "tarski",
+                "enabled": "enabled",
+                "name": "tarski",
+                "merged": true,
+                "keywords": [
+                  "tarski"
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "show",
+                "id": "___",
+                "enabled": "enabled",
+                "name": "!!!",
+                "merged": false,
+                "keywords": [
+                  "!!!"
+                ],
+                "eventId": "12"
+              }
+            ],
+            "keywords": [
+              "Algunos resultados clásicos",
+              "Resultados logica clasicos"
+            ],
+            "eventId": "18",
+            "originalParams": {
+              "tarski": {
+                "opacity": 1
+              },
+              "Group_52": {
+                "opacity": 1
+              },
+              "thm_coBuchi2": {
+                "opacity": 1
+              },
+              "thm_coBuchi3": {
+                "opacity": 1
+              },
+              "No_puede_existir_un_algoritmo_que_decida_la_l_gica_de_primer_orden_sobre___________": {
+                "opacity": 1
+              },
+              "La_l_gica_de_premier_orden_sobre________es_decidible_": {
+                "opacity": 1
+              },
+              "The_RPNI_algorithm_infers_a__reasonable__automaton_in_PTIME_": {
+                "opacity": 1
+              },
+              "Hay_un_algoritmo_que_decide_la_l_gica_de_primer_orden_sobre________": {
+                "opacity": 1
+              },
+              "ThoralfSkolem": {
+                "opacity": 1
+              },
+              "___": {
+                "opacity": 1
+              },
+              "godel": {
+                "opacity": 1
+              },
+              "mostowski": {
+                "opacity": 1
+              },
+              "presburger_1": {
+                "opacity": 1
+              },
+              "Group_346": {
+                "opacity": 1
+              },
+              "Group_356": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "child",
+            "name": "MSO",
+            "id": "MSO",
+            "enabled": "enabled",
+            "merged": true,
+            "children": [
+              {
+                "type": "show",
+                "id": "Group_332",
+                "enabled": "enabled",
+                "name": "Lógica FO:",
+                "merged": false,
+                "keywords": [
+                  "Lógica FO:"
+                ],
+                "eventId": "5"
+              },
+              {
+                "type": "show",
+                "id": "Group_333",
+                "enabled": "enabled",
+                "name": "Lógica MSO:",
+                "merged": false,
+                "keywords": [
+                  "Lógica MSO:"
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "show",
+                "id": "Group_3332",
+                "enabled": "enabled",
+                "name": "existe un subconjunto X",
+                "merged": false,
+                "keywords": [
+                  "existe un subconjunto X",
+                  "para todo subconjunto X"
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "show",
+                "id": "__X_____y__exists__x_______x_in__X_____wedge____x_y",
+                "enabled": "enabled",
+                "name": "∃ X \\;∀ y \\exists{}x  \\;\\; x\\in{}X \\; \\wedge \\; x>y",
+                "merged": false,
+                "keywords": [
+                  "∃ X \\;∀ y \\exists{}x  \\;\\; x\\in{}X \\; \\wedge \\; x>y"
+                ],
+                "eventId": "3"
+              },
+              {
+                "type": "show",
+                "id": "Group_352",
+                "enabled": "enabled",
+                "name": "There is an unbounded set",
+                "merged": false,
+                "keywords": [
+                  "Existe un conjunto no acotado",
+                  "There is an unbounded set"
+                ],
+                "eventId": "4"
+              },
+              {
+                "type": "show",
+                "id": "Pero_____no_era_la_l_gica_FO_suficientemente_compleja_",
+                "enabled": "enabled",
+                "name": "Pero... ¿no era la lógica FO suficientemente compleja?",
+                "merged": false,
+                "keywords": [
+                  "Pero... ¿no era la lógica FO suficientemente compleja?"
+                ],
+                "eventId": "6"
+              },
+              {
+                "type": "show",
+                "id": "Estructuras_sin_operaciones_aritm_ticas__S_lo_relaci_n_de_orden",
+                "enabled": "enabled",
+                "name": "Estructuras sin operaciones aritméticas: Sólo relación de orden",
+                "merged": false,
+                "keywords": [
+                  "Estructuras sin operaciones aritméticas: Sólo relación de orden"
+                ],
+                "eventId": "7"
+              },
+              {
+                "type": "show",
+                "id": "Group_343",
+                "enabled": "enabled",
+                "name": "Group 343",
+                "merged": true,
+                "keywords": [
+                  "Group 343"
+                ],
+                "eventId": "9"
+              },
+              {
+                "type": "show",
+                "id": "Group_3333",
+                "enabled": "enabled",
+                "name": "Group 333",
+                "merged": true,
+                "keywords": [
+                  "Group 333"
+                ],
+                "eventId": "8"
+              }
+            ],
+            "keywords": [
+              "Mi investigación: Lógica MSO (monádica de segundo orden)",
+              "MSO"
+            ],
+            "eventId": "19",
+            "originalParams": {
+              "Group_333": {
+                "opacity": 1
+              },
+              "Group_3332": {
+                "opacity": 1
+              },
+              "__X_____y__exists__x_______x_in__X_____wedge____x_y": {
+                "opacity": 1
+              },
+              "Group_352": {
+                "opacity": 1
+              },
+              "Group_332": {
+                "opacity": 1
+              },
+              "Pero_____no_era_la_l_gica_FO_suficientemente_compleja_": {
+                "opacity": 1
+              },
+              "Estructuras_sin_operaciones_aritm_ticas__S_lo_relaci_n_de_orden": {
+                "opacity": 1
+              },
+              "Group_3333": {
+                "opacity": 1
+              },
+              "Group_343": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "child",
+            "name": "Resultados MSO",
+            "id": "Resultados_MSO",
+            "enabled": "enabled",
+            "merged": true,
+            "children": [
+              {
+                "type": "show",
+                "id": "Group_334",
+                "enabled": "enabled",
+                "name": "La lógica MSO sobre (ℕ, <) es decidible.",
+                "merged": false,
+                "keywords": [
+                  "Teorema",
+                  "(Büchi, 1962)",
+                  "La lógica MSO sobre (ℕ, <) es decidible."
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "show",
+                "id": "Group_335",
+                "enabled": "enabled",
+                "name": "La lógica MSO sobre (ℚ, <) es decidible.",
+                "merged": false,
+                "keywords": [
+                  "Teorema",
+                  "(Rabin, 1969)",
+                  "La lógica MSO sobre (ℚ, <) es decidible."
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "show",
+                "id": "Group_336",
+                "enabled": "enabled",
+                "name": "La lógica MSO sobre (ℝ, <) es decidible.",
+                "merged": false,
+                "keywords": [
+                  "Teorema",
+                  "(Shela, 1975)",
+                  "La lógica MSO sobre (ℝ, <) es indecidible.",
+                  "La lógica MSO sobre (ℝ, <) es decidible."
+                ],
+                "eventId": "3"
+              },
+              {
+                "type": "child",
+                "name": "MSO R prueba",
+                "id": "MSO_R_prueba",
+                "enabled": "enabled",
+                "merged": false,
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "Group_344",
+                    "enabled": "enabled",
+                    "name": "fórmula de primer orden en",
+                    "merged": false,
+                    "keywords": [
+                      "Idea de la demostración:",
+                      "fórmula de primer orden en",
+                      "fórmula MSO en"
+                    ],
+                    "eventId": "1"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Group_340",
+                    "enabled": "enabled",
+                    "name": "es cierta en",
+                    "merged": false,
+                    "keywords": [
+                      "es cierta en",
+                      "ssi"
+                    ],
+                    "eventId": "2"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Un_algoritmo_para_MSO_______implicar_a_un_algoritmo_para_________",
+                    "enabled": "enabled",
+                    "name": "Un algoritmo para MSO(ℝ, <) implicaría un algoritmo para (ℕ, +,×)",
+                    "merged": false,
+                    "keywords": [
+                      "Un algoritmo para MSO(ℝ, <) implicaría un algoritmo para (ℕ, +,×)"
+                    ],
+                    "eventId": "3"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Reducci_n",
+                    "enabled": "enabled",
+                    "name": "Reducción",
+                    "merged": true,
+                    "keywords": [
+                      "Reducción"
+                    ],
+                    "eventId": "4"
+                  }
+                ],
+                "keywords": [
+                  "¡Muchas variantes!",
+                  "(conjunto de Vitali, conjunto de Cantor...)",
+                  "MSO R prueba"
+                ],
+                "eventId": "4",
+                "originalParams": {
+                  "Group_344": {
+                    "opacity": 1
+                  },
+                  "Group_340": {
+                    "opacity": 1
+                  },
+                  "Un_algoritmo_para_MSO_______implicar_a_un_algoritmo_para_________": {
+                    "opacity": 1
+                  },
+                  "Reducci_n": {
+                    "opacity": 1
+                  }
+                }
+              }
+            ],
+            "keywords": [
+              "Más resultados clásicos",
+              "Resultados MSO"
+            ],
+            "eventId": "20",
+            "originalParams": {
+              "Group_334": {
+                "opacity": 1
+              },
+              "Group_335": {
+                "opacity": 1
+              },
+              "Group_336": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "child",
+            "name": "MSO Borel",
+            "id": "MSO_Borel",
+            "enabled": "enabled",
+            "merged": true,
+            "children": [
+              {
+                "type": "show",
+                "id": "Group_350",
+                "enabled": "enabled",
+                "name": "MSO Borel",
+                "merged": false,
+                "keywords": [
+                  "Lógica MSOBorel",
+                  "para todo subconjunto Boreliano X",
+                  "existe un subconjunto Boreliano X",
+                  "MSO Borel"
+                ],
+                "eventId": "7"
+              },
+              {
+                "type": "show",
+                "id": "Group_3462",
+                "enabled": "enabled",
+                "name": "“topológicamente razonable”",
+                "merged": false,
+                "keywords": [
+                  "“topológicamente razonable”"
+                ],
+                "eventId": "4"
+              },
+              {
+                "type": "show",
+                "id": "Conj_1",
+                "enabled": "enabled",
+                "name": "Conj 1",
+                "merged": false,
+                "keywords": [
+                  "La lógica MSOBorel sobre (ℝ, <) es decidible.",
+                  "Conjetura",
+                  "(Shela, 1975)",
+                  "Conj 1"
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "show",
+                "id": "Group_348",
+                "enabled": "enabled",
+                "name": "Proyecto duranto mi postdoc en Varsovia:",
+                "merged": false,
+                "keywords": [
+                  "Proyecto duranto mi postdoc en Varsovia:",
+                  "(con M. Bojańczyk, S. Manthe, P. Parys)",
+                  "Estudiar una versión de esta conjetura*",
+                  "(avances parciales, publicados en LICS)"
+                ],
+                "eventId": "5"
+              },
+              {
+                "type": "show",
+                "id": "__La_versi_n_de_la_conjetura_aqu__enunciada_fue_resuelta_por_Manthe_en_2024__En_este_proyecto_estudiamos_una_versi_n_m_s_general_de_la_conjetura__tambi_n_enunciada_por_Shela__la_decidabilidad_de_MSO_sobre_el__rbol_binario_infinito__con_cuantificaci_n_sobre_conjuntos_Borelianos_de_ramas_",
+                "enabled": "enabled",
+                "name": "* La versión de la conjetura aquí enunciada fue resuelta por Manthe en 2024. En este proyecto estudiamos una versión más general de la conjetura, también enunciada por Shela: la decidabilidad de MSO sobre el árbol binario infinito, con cuantificación sobre conjuntos Borelianos de ramas.",
+                "merged": false,
+                "keywords": [
+                  "* La versión de la conjetura aquí enunciada fue resuelta por Manthe en 2024. En este proyecto estudiamos una versión más general de la conjetura, también enunciada por Shela: la decidabilidad de MSO sobre el árbol binario infinito, con cuantificación sobre conjuntos Borelianos de ramas."
+                ],
+                "eventId": "6"
+              }
+            ],
+            "keywords": [
+              "Esto sólo pasa por los",
+              "conjuntos extraños de ℝ!",
+              "MSO Borel"
+            ],
+            "eventId": "27",
+            "originalParams": {
+              "Conj_1": {
+                "opacity": 1
+              },
+              "Group_3462": {
+                "opacity": 1
+              },
+              "Group_348": {
+                "opacity": 1
+              },
+              "__La_versi_n_de_la_conjetura_aqu__enunciada_fue_resuelta_por_Manthe_en_2024__En_este_proyecto_estudiamos_una_versi_n_m_s_general_de_la_conjetura__tambi_n_enunciada_por_Shela__la_decidabilidad_de_MSO_sobre_el__rbol_binario_infinito__con_cuantificaci_n_sobre_conjuntos_Borelianos_de_ramas_": {
+                "opacity": 1
+              },
+              "Group_350": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "child",
+            "name": "verificacion",
+            "id": "Estrategias_en_juegos",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "_mathbb_N____mathbb_Q____mathbb_R____",
+                "enabled": "enabled",
+                "name": "\\mathbb{N}, \\mathbb{Q}, \\mathbb{R}...",
+                "merged": false,
+                "keywords": [
+                  "\\mathbb{N}, \\mathbb{Q}, \\mathbb{R}..."
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "hide",
+                "id": "_mathbb_N____mathbb_Q____mathbb_R____",
+                "enabled": "enabled",
+                "name": "\\mathbb{N}, \\mathbb{Q}, \\mathbb{R}...",
+                "merged": false,
+                "keywords": [
+                  "\\mathbb{N}, \\mathbb{Q}, \\mathbb{R}..."
+                ],
+                "eventId": "3"
+              },
+              {
+                "type": "show",
+                "id": "modelo_de_un_sistema_inform_tico",
+                "enabled": "enabled",
+                "name": "modelo de un sistema informático",
+                "merged": true,
+                "keywords": [
+                  "modelo de un sistema informático"
+                ],
+                "eventId": "4"
+              },
+              {
+                "type": "show",
+                "id": "especificaci_n_de_programa",
+                "enabled": "enabled",
+                "name": "especificación de programa",
+                "merged": true,
+                "keywords": [
+                  "especificación de programa"
+                ],
+                "eventId": "7"
+              },
+              {
+                "type": "show",
+                "id": "Group_395",
+                "enabled": "enabled",
+                "name": "Lógicas dirigidas a la especificación de programas",
+                "merged": false,
+                "keywords": [
+                  "Lógicas dirigidas a la especificación de programas"
+                ],
+                "eventId": "5"
+              },
+              {
+                "type": "show",
+                "id": "Suelen_ser__az_car_sint_ctico__de_FO_y_MSO",
+                "enabled": "enabled",
+                "name": "Suelen ser “azúcar sintáctico” de FO y MSO",
+                "merged": false,
+                "keywords": [
+                  "Suelen ser “azúcar sintáctico” de FO y MSO"
+                ],
+                "eventId": "8"
+              },
+              {
+                "type": "show",
+                "id": "Group_3952",
+                "enabled": "enabled",
+                "name": "Transición de estados, dependiendo del input del usuario",
+                "merged": false,
+                "keywords": [
+                  "Posibles estados durante una ejecucción",
+                  "Transición de estados, dependiendo del input del usuario",
+                  "línea de código",
+                  "valores de las variables",
+                  "Grafo de estados del sistema",
+                  "Vértices:",
+                  "Aristas:"
+                ],
+                "eventId": "6"
+              },
+              {
+                "type": "show",
+                "id": "Mi_investigaci_n__L_gica_MSO__mon_dica_de_segundo_orden_",
+                "enabled": "enabled",
+                "name": "Mi investigación: Sistemas reactivos",
+                "merged": false,
+                "keywords": [
+                  "Mi investigación: Sistemas reactivos"
+                ],
+                "eventId": "9"
+              }
+            ],
+            "keywords": [
+              "estructura matemática",
+              "fórmula lógica",
+              "¿Es cierta en ?",
+              "verificacion"
+            ],
+            "eventId": "22",
+            "originalParams": {
+              "_mathbb_N____mathbb_Q____mathbb_R____": {
+                "opacity": 1
+              },
+              "modelo_de_un_sistema_inform_tico": {
+                "opacity": 1
+              },
+              "Group_395": {
+                "opacity": 1
+              },
+              "Group_3952": {
+                "opacity": 1
+              },
+              "especificaci_n_de_programa": {
+                "opacity": 1
+              },
+              "Suelen_ser__az_car_sint_ctico__de_FO_y_MSO": {
+                "opacity": 1
+              },
+              "Mi_investigaci_n__L_gica_MSO__mon_dica_de_segundo_orden_": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "child",
+            "name": "Sistemas Reactivos",
+            "id": "Sistemas_Reactivos",
+            "enabled": "enabled",
+            "merged": true,
+            "children": [
+              {
+                "type": "show",
+                "id": "Group_395",
+                "enabled": "enabled",
+                "name": "Encender ventiladores de sala 1",
+                "merged": false,
+                "keywords": [
+                  "Acciones de control",
+                  "Encender ventiladores de sala 1",
+                  "Abrir tubería 2"
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "show",
+                "id": "Group_3952",
+                "enabled": "enabled",
+                "name": "La demanda de energía sube",
+                "merged": false,
+                "keywords": [
+                  "Entorno",
+                  "La temperatura baja 5º",
+                  "La demanda de energía sube"
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "show",
+                "id": "Group_3953",
+                "enabled": "enabled",
+                "name": "La temperatura del reactor siempre < 750º, y cada día se cubre la demanda eléctrica.",
+                "merged": false,
+                "keywords": [
+                  "Ejemplo de especificación:",
+                  "La temperatura del reactor siempre < 750º, y cada día se cubre la demanda eléctrica."
+                ],
+                "eventId": "3"
+              }
+            ],
+            "keywords": [
+              "Sistemas que interactúan de forma continua con su entorno",
+              "Sistemas Reactivos"
+            ],
+            "eventId": "23",
+            "originalParams": {
+              "Group_395": {
+                "opacity": 1
+              },
+              "Group_3952": {
+                "opacity": 1
+              },
+              "Group_3953": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "child",
+            "name": "Juegos",
+            "id": "Juegos",
+            "enabled": "enabled",
+            "merged": true,
+            "children": [
+              {
+                "type": "show",
+                "id": "Group_395",
+                "enabled": "enabled",
+                "name": "Acciones del sistema/entorno:",
+                "merged": false,
+                "keywords": [
+                  "Acciones del sistema/entorno:",
+                  "a, b, c..."
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "show",
+                "id": "Ellipse_15",
+                "enabled": "enabled",
+                "name": "initToken",
+                "merged": false,
+                "keywords": [
+                  "initToken"
+                ],
+                "eventId": "8"
+              },
+              {
+                "type": "hide",
+                "id": "Ellipse_15",
+                "enabled": "enabled",
+                "name": "initToken",
+                "merged": false,
+                "keywords": [
+                  "initToken"
+                ],
+                "eventId": "11"
+              },
+              {
+                "type": "show",
+                "id": "arrowUp",
+                "enabled": "enabled",
+                "name": "arrowUp",
+                "merged": true,
+                "keywords": [
+                  "arrowUp"
+                ],
+                "eventId": "7"
+              },
+              {
+                "type": "hide",
+                "id": "arrowUp",
+                "enabled": "enabled",
+                "name": "arrowUp",
+                "merged": false,
+                "keywords": [
+                  "arrowUp"
+                ],
+                "eventId": "12"
+              },
+              {
+                "type": "show",
+                "id": "arrowDown",
+                "enabled": "enabled",
+                "name": "arrowDown",
+                "merged": true,
+                "keywords": [
+                  "arrowDown"
+                ],
+                "eventId": "9"
+              },
+              {
+                "type": "hide",
+                "id": "arrowDown",
+                "enabled": "enabled",
+                "name": "arrowDown",
+                "merged": false,
+                "keywords": [
+                  "arrowDown"
+                ],
+                "eventId": "13"
+              },
+              {
+                "type": "show",
+                "id": "Group_397",
+                "enabled": "enabled",
+                "name": "arrowRight",
+                "merged": true,
+                "keywords": [
+                  "arrowRight"
+                ],
+                "eventId": "10"
+              },
+              {
+                "type": "hide",
+                "id": "Group_397",
+                "enabled": "enabled",
+                "name": "arrowRight",
+                "merged": false,
+                "keywords": [
+                  "arrowRight"
+                ],
+                "eventId": "14"
+              },
+              {
+                "type": "show",
+                "id": "Juegan_por_tiempo_infinito_",
+                "enabled": "enabled",
+                "name": "Juegan por tiempo infinito.",
+                "merged": true,
+                "keywords": [
+                  "Juegan por tiempo infinito."
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "show",
+                "id": "Group_387",
+                "enabled": "enabled",
+                "name": "Producen una secuencia",
+                "merged": false,
+                "keywords": [
+                  "Producen una secuencia",
+                  "abbabbc...",
+                  "∈ {a,b,c}ω"
+                ],
+                "eventId": "3"
+              },
+              {
+                "type": "show",
+                "id": "Group_386",
+                "enabled": "enabled",
+                "name": "Conjunto de sequencias infinitas de letras",
+                "merged": false,
+                "keywords": [
+                  "Especificación:",
+                  "Conjunto de sequencias infinitas de letras"
+                ],
+                "eventId": "4"
+              },
+              {
+                "type": "show",
+                "id": "_normalmente__dado_por_una_f_rmula_l_gica_",
+                "enabled": "enabled",
+                "name": "(normalmente, dado por una fórmula lógica)",
+                "merged": false,
+                "keywords": [
+                  "(normalmente, dado por una fórmula lógica)"
+                ],
+                "eventId": "5"
+              },
+              {
+                "type": "show",
+                "id": "Group_3952",
+                "enabled": "enabled",
+                "name": "El jugador sistema gana si la secuencia pertenece a L",
+                "merged": false,
+                "keywords": [
+                  "Condición de victoria:",
+                  "El jugador sistema gana si la secuencia pertenece a L"
+                ],
+                "eventId": "6"
+              }
+            ],
+            "keywords": [
+              "Sistema",
+              "Entorno",
+              "Dos jugadores:",
+              "c",
+              "b",
+              "a",
+              "Abstracción: Juegos en grafos de duración infinita",
+              "Juegos"
+            ],
+            "eventId": "24",
+            "originalParams": {
+              "Group_395": {
+                "opacity": 1
+              },
+              "Juegan_por_tiempo_infinito_": {
+                "opacity": 1
+              },
+              "Group_387": {
+                "opacity": 1
+              },
+              "Group_386": {
+                "opacity": 1
+              },
+              "_normalmente__dado_por_una_f_rmula_l_gica_": {
+                "opacity": 1
+              },
+              "Group_3952": {
+                "opacity": 1
+              },
+              "arrowUp": {
+                "opacity": 1
+              },
+              "Ellipse_15": {
+                "opacity": 1
+              },
+              "arrowDown": {
+                "opacity": 1
+              },
+              "Group_397": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "child",
+            "name": "Sistemas--Juegos",
+            "id": "Sistemas__Juegos",
+            "enabled": "enabled",
+            "merged": true,
+            "children": [
+              {
+                "type": "show",
+                "id": "Group_362",
+                "enabled": "enabled",
+                "name": "Programa que controla el sistema correctamente",
+                "merged": false,
+                "keywords": [
+                  "Programa que controla el sistema correctamente",
+                  "Estrategia ganadora"
+                ],
+                "eventId": "5"
+              },
+              {
+                "type": "show",
+                "id": "Group_361",
+                "enabled": "enabled",
+                "name": "Obtener algoritmos que, dado un juego",
+                "merged": false,
+                "keywords": [
+                  "Obtener algoritmos que, dado un juego",
+                  "Problema 1",
+                  "decida qué jugador gana,",
+                  "1.",
+                  "calcule una estrategia ganadora.",
+                  "2."
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "show",
+                "id": "No_s_lo_se_verifica_que_un_programa_es_correcto_",
+                "enabled": "enabled",
+                "name": "No sólo se verifica que un programa es correcto.",
+                "merged": false,
+                "keywords": [
+                  "No sólo se verifica que un programa es correcto."
+                ],
+                "eventId": "3"
+              },
+              {
+                "type": "show",
+                "id": "_Se_sintetiza_un_programa_correcto_autom_ticamente_",
+                "enabled": "enabled",
+                "name": "¡Se sintetiza un programa correcto automáticamente!",
+                "merged": true,
+                "keywords": [
+                  "¡Se sintetiza un programa correcto automáticamente!"
+                ],
+                "eventId": "4"
+              }
+            ],
+            "keywords": [
+              "Sistemas--Juegos"
+            ],
+            "eventId": "25",
+            "originalParams": {
+              "Group_361": {
+                "opacity": 1
+              },
+              "No_s_lo_se_verifica_que_un_programa_es_correcto_": {
+                "opacity": 1
+              },
+              "_Se_sintetiza_un_programa_correcto_autom_ticamente_": {
+                "opacity": 1
+              },
+              "Group_362": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "child",
+            "name": "Estrategias",
+            "id": "Estrategias",
+            "enabled": "enabled",
+            "merged": true,
+            "children": [
+              {
+                "type": "show",
+                "id": "_Pueden_ser_muy_complicadas___no_computables_",
+                "enabled": "enabled",
+                "name": "¡Pueden ser muy complicadas! (no computables)",
+                "merged": false,
+                "keywords": [
+                  "¡Pueden ser muy complicadas! (no computables)"
+                ],
+                "eventId": "3"
+              },
+              {
+                "type": "show",
+                "id": "Conj_12",
+                "enabled": "enabled",
+                "name": "Conj 1",
+                "merged": false,
+                "keywords": [
+                  "¿Qué juegos admiten estrategias simples?",
+                  "Problema 2",
+                  "Conj 1"
+                ],
+                "eventId": "12"
+              },
+              {
+                "type": "child",
+                "name": "Ejemplo 4 in a row",
+                "id": "Ejemplo_4_in_a_row",
+                "enabled": "enabled",
+                "merged": false,
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "You_don_t_know_how_we_got_to_this_position",
+                    "enabled": "enabled",
+                    "name": "You don’t know how we got to this position",
+                    "merged": false,
+                    "keywords": [
+                      "You don’t know how we got to this position"
+                    ],
+                    "eventId": "1"
+                  },
+                  {
+                    "type": "show",
+                    "id": "But_the_question_makes_sense_",
+                    "enabled": "enabled",
+                    "name": "But the question makes sense!",
+                    "merged": true,
+                    "keywords": [
+                      "But the question makes sense!"
+                    ],
+                    "eventId": "2"
+                  },
+                  {
+                    "type": "show",
+                    "id": "POSITIONALITY",
+                    "enabled": "enabled",
+                    "name": "POSITIONALITY",
+                    "merged": false,
+                    "keywords": [
+                      "POSITIONALITY"
+                    ],
+                    "eventId": "3"
+                  }
+                ],
+                "keywords": [
+                  "Text 6",
+                  "4 en línea",
+                  "Turno de",
+                  "¿Cómo forzar la victoria?",
+                  "Ejemplo 4 in a row"
+                ],
+                "eventId": "2",
+                "originalParams": {
+                  "You_don_t_know_how_we_got_to_this_position": {
+                    "opacity": 1
+                  },
+                  "But_the_question_makes_sense_": {
+                    "opacity": 1
+                  },
+                  "POSITIONALITY": {
+                    "opacity": 1
+                  }
+                }
+              },
+              {
+                "type": "show",
+                "id": "Group_363",
+                "enabled": "enabled",
+                "name": "Estrategia posicional:",
+                "merged": false,
+                "keywords": [
+                  "Estrategia posicional:"
+                ],
+                "eventId": "11"
+              },
+              {
+                "type": "child",
+                "name": "Ejemplos",
+                "id": "Ejemplos",
+                "enabled": "enabled",
+                "merged": false,
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "Group_363",
+                    "enabled": "enabled",
+                    "name": "El jugador puede ganar, pero no utilizando una estrategia posicional.",
+                    "merged": false,
+                    "keywords": [
+                      "b",
+                      "c",
+                      "El jugador puede ganar, pero no utilizando una estrategia posicional."
+                    ],
+                    "eventId": "1"
+                  }
+                ],
+                "keywords": [
+                  "c",
+                  "b",
+                  "a",
+                  "Estrategia posicional ganadora",
+                  "Secuencias que contienen ‘bc’ una infinidad de veces",
+                  "L =",
+                  "Ejemplos"
+                ],
+                "eventId": "8",
+                "originalParams": {
+                  "Group_363": {
+                    "opacity": 1
+                  }
+                }
+              },
+              {
+                "type": "child",
+                "name": "Positional languages",
+                "id": "Positional_languages",
+                "enabled": "enabled",
+                "merged": true,
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "Group_3642",
+                    "enabled": "enabled",
+                    "name": "Secuencias que contienen ‘bc’ una infinidad de veces",
+                    "merged": false,
+                    "keywords": [
+                      "Secuencias que contienen ‘bc’ una infinidad de veces",
+                      "L =",
+                      "Ejemplo:"
+                    ],
+                    "eventId": "3"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Group_3643",
+                    "enabled": "enabled",
+                    "name": "No es posicional",
+                    "merged": false,
+                    "keywords": [
+                      "No es posicional",
+                      "b",
+                      "c"
+                    ],
+                    "eventId": "4"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Group_364",
+                    "enabled": "enabled",
+                    "name": "Juegos “tipo 4 en línea”",
+                    "merged": false,
+                    "keywords": [
+                      "Ejemplo:",
+                      "Juegos “tipo 4 en línea”"
+                    ],
+                    "eventId": "2"
+                  },
+                  {
+                    "type": "child",
+                    "name": "Reachability",
+                    "id": "Reachability",
+                    "enabled": "enabled",
+                    "merged": false,
+                    "children": [
+                      {
+                        "type": "show",
+                        "id": "Group_395",
+                        "enabled": "enabled",
+                        "name": "Group 395",
+                        "merged": false,
+                        "keywords": [
+                          "Group 395"
+                        ],
+                        "eventId": "1"
+                      },
+                      {
+                        "type": "show",
+                        "id": "Group_396",
+                        "enabled": "enabled",
+                        "name": "Group 396",
+                        "merged": true,
+                        "keywords": [
+                          "Group 396"
+                        ],
+                        "eventId": "2"
+                      },
+                      {
+                        "type": "show",
+                        "id": "Group_381",
+                        "enabled": "enabled",
+                        "name": "Secuencias que contienen el símbolo “ ”",
+                        "merged": false,
+                        "keywords": [
+                          "L =",
+                          "Secuencias que contienen el símbolo “ ”"
+                        ],
+                        "eventId": "3"
+                      },
+                      {
+                        "type": "show",
+                        "id": "No_es_posicional",
+                        "enabled": "enabled",
+                        "name": "Es posicional",
+                        "merged": false,
+                        "keywords": [
+                          "Es posicional"
+                        ],
+                        "eventId": "4"
+                      },
+                      {
+                        "type": "show",
+                        "id": "Group_384",
+                        "enabled": "enabled",
+                        "name": "grafo",
+                        "merged": false,
+                        "keywords": [
+                          "GRAFO",
+                          "grafo"
+                        ],
+                        "eventId": "5"
+                      },
+                      {
+                        "type": "show",
+                        "id": "Group_397",
+                        "enabled": "enabled",
+                        "name": "rect0",
+                        "merged": true,
+                        "keywords": [
+                          "rect0"
+                        ],
+                        "eventId": "6"
+                      },
+                      {
+                        "type": "show",
+                        "id": "rect1",
+                        "enabled": "enabled",
+                        "name": "rect1",
+                        "merged": false,
+                        "keywords": [
+                          "rect1"
+                        ],
+                        "eventId": "13"
+                      },
+                      {
+                        "type": "show",
+                        "id": "Group_3972",
+                        "enabled": "enabled",
+                        "name": "rect2",
+                        "merged": false,
+                        "keywords": [
+                          "rect2"
+                        ],
+                        "eventId": "8"
+                      },
+                      {
+                        "type": "show",
+                        "id": "Group_3973",
+                        "enabled": "enabled",
+                        "name": "resto",
+                        "merged": false,
+                        "keywords": [
+                          "resto"
+                        ],
+                        "eventId": "9"
+                      },
+                      {
+                        "type": "show",
+                        "id": "Group_3974",
+                        "enabled": "enabled",
+                        "name": "0",
+                        "merged": true,
+                        "keywords": [
+                          "0",
+                          "1",
+                          "2",
+                          "n"
+                        ],
+                        "eventId": "10"
+                      },
+                      {
+                        "type": "show",
+                        "id": "Group_383",
+                        "enabled": "enabled",
+                        "name": "Estrategia: reducir la distancia a",
+                        "merged": false,
+                        "keywords": [
+                          "Estrategia: reducir la distancia a"
+                        ],
+                        "eventId": "12"
+                      }
+                    ],
+                    "keywords": [
+                      "Reachability"
+                    ],
+                    "eventId": "1",
+                    "originalParams": {
+                      "Group_395": {
+                        "opacity": 1
+                      },
+                      "Group_396": {
+                        "opacity": 1
+                      },
+                      "Group_381": {
+                        "opacity": 1
+                      },
+                      "No_es_posicional": {
+                        "opacity": 1
+                      },
+                      "Group_384": {
+                        "opacity": 1
+                      },
+                      "Group_397": {
+                        "opacity": 1
+                      },
+                      "Group_3972": {
+                        "opacity": 1
+                      },
+                      "Group_3973": {
+                        "opacity": 1
+                      },
+                      "Group_3974": {
+                        "opacity": 1
+                      },
+                      "Group_383": {
+                        "opacity": 1
+                      },
+                      "rect1": {
+                        "opacity": 1
+                      }
+                    }
+                  }
+                ],
+                "keywords": [
+                  "L es posicional si en todo juego G con condición de victoria L:",
+                  "gana G",
+                  "puede ganar con una estrategia posicional",
+                  "Positional languages"
+                ],
+                "eventId": "9",
+                "originalParams": {
+                  "Group_364": {
+                    "opacity": 1
+                  },
+                  "Group_3642": {
+                    "opacity": 1
+                  },
+                  "Group_3643": {
+                    "opacity": 1
+                  }
+                }
+              },
+              {
+                "type": "child",
+                "name": "Contribution",
+                "id": "Contribution",
+                "enabled": "enabled",
+                "merged": true,
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "entre_aquellos_que_se_pueden_definir_con_la_l_gica_MSO_",
+                    "enabled": "enabled",
+                    "name": "entre aquellos que se pueden definir con la lógica MSO.",
+                    "merged": false,
+                    "keywords": [
+                      "entre aquellos que se pueden definir con la lógica MSO."
+                    ],
+                    "eventId": "2"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Group_388",
+                    "enabled": "enabled",
+                    "name": "¿Qué es una buena caracterización?",
+                    "merged": false,
+                    "keywords": [
+                      "¿Qué es una buena caracterización?"
+                    ],
+                    "eventId": "3"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Group_390",
+                    "enabled": "enabled",
+                    "name": "Que se traduzca en un algoritmo",
+                    "merged": false,
+                    "keywords": [
+                      "En informática:",
+                      "Que se traduzca en un algoritmo"
+                    ],
+                    "eventId": "7"
+                  },
+                  {
+                    "type": "show",
+                    "id": "eficaz_",
+                    "enabled": "enabled",
+                    "name": "eficaz.",
+                    "merged": false,
+                    "keywords": [
+                      "eficaz."
+                    ],
+                    "eventId": "9"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Group_392",
+                    "enabled": "enabled",
+                    "name": "Corolario",
+                    "merged": false,
+                    "keywords": [
+                      "Corolario",
+                      "algoritmo"
+                    ],
+                    "eventId": "5"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Group_391",
+                    "enabled": "enabled",
+                    "name": "Que permita obtener nuevas propriedades.",
+                    "merged": false,
+                    "keywords": [
+                      "En general:",
+                      "Que permita obtener nuevas propriedades."
+                    ],
+                    "eventId": "8"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Group_393",
+                    "enabled": "enabled",
+                    "name": "(resolución de la conjetura de Kopczyński de 2006)",
+                    "merged": false,
+                    "keywords": [
+                      "Corolario",
+                      "algoritmo",
+                      "(resolución de la conjetura de Kopczyński de 2006)"
+                    ],
+                    "eventId": "6"
+                  },
+                  {
+                    "type": "show",
+                    "id": "footnotes",
+                    "enabled": "enabled",
+                    "name": "footnotes",
+                    "merged": false,
+                    "keywords": [
+                      "* La versión de la conjetura aquí enunciada fue resuelta por Manthe en 2024. En este proyecto estudiamos una versión más general de la conjetura, también enunciada por Shela: la decidabilidad de MSO sobre el árbol binario infinito, con cuantificación sobre conjuntos Borelianos de ramas.",
+                      "*",
+                      "**",
+                      "footnotes"
+                    ],
+                    "eventId": "4"
+                  }
+                ],
+                "keywords": [
+                  "Caracterización de los conjuntos de secuencias que son posicionales",
+                  "Contribución Principal",
+                  "(con P. Ohlmann, 2025)",
+                  "Contribution"
+                ],
+                "eventId": "10",
+                "originalParams": {
+                  "The_RPNI_algorithm_infers_a__reasonable__automaton_in_PTIME_": {
+                    "opacity": 1
+                  },
+                  "entre_aquellos_que_se_pueden_definir_con_la_l_gica_MSO_": {
+                    "opacity": 1
+                  },
+                  "Group_388": {
+                    "opacity": 1
+                  },
+                  "footnotes": {
+                    "opacity": 1
+                  },
+                  "Group_392": {
+                    "opacity": 1
+                  },
+                  "Group_393": {
+                    "opacity": 1
+                  },
+                  "Group_390": {
+                    "opacity": 1
+                  },
+                  "Group_391": {
+                    "opacity": 1
+                  },
+                  "eficaz_": {
+                    "opacity": 1
+                  }
+                }
+              }
+            ],
+            "keywords": [
+              "Estrategia:",
+              "Estrategias"
+            ],
+            "eventId": "26",
+            "originalParams": {
+              "_Pueden_ser_muy_complicadas___no_computables_": {
+                "opacity": 1
+              },
+              "Group_363": {
+                "opacity": 1
+              },
+              "Conj_12": {
+                "opacity": 1
+              }
+            }
+          }
+        ],
+        "keywords": [
+          "Informática",
+          "Matemáticas",
+          "Main"
+        ],
+        "eventId": "5",
+        "originalParams": {
+          "Vector_38": {
+            "opacity": 1
+          },
+          "Group_329": {
+            "opacity": 1
+          },
+          "Group_331": {
+            "opacity": 1
+          },
+          "Demostrar_teoremas_de_forma_autom_tica": {
+            "opacity": 1
+          },
+          "Group_3312": {
+            "opacity": 1
+          },
+          "Group_332": {
+            "opacity": 1
+          },
+          "Algoritmo": {
+            "opacity": 1
+          },
+          "Un_problema_para_cada_l_gica": {
+            "opacity": 1
+          },
+          "Hilbert_program": {
+            "opacity": 1
+          },
+          "Thanks_for_your_attention_": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "juegosMSO",
+        "id": "juegosMSO",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "El_estudio_de_este_tipo_de_juegos_se_desarroll__para_simplificar_el_teorema_de_Rabin_de_1969_",
+            "enabled": "enabled",
+            "name": "El estudio de este tipo de juegos se desarrolló para simplificar el teorema de Rabin de 1969.",
+            "merged": false,
+            "keywords": [
+              "El estudio de este tipo de juegos se desarrolló para simplificar el teorema de Rabin de 1969."
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "Group_146",
+            "enabled": "enabled",
+            "name": "Group 146",
+            "merged": false,
+            "keywords": [
+              "Group 146"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "child",
+            "name": "juegosMSOBorel",
+            "id": "juegosMSOBorel",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "Group_395",
+                "enabled": "enabled",
+                "name": "Si en los juegos Borelianos con prioridades se puede jugar de manera óptima utilizando estrategias “sencillas” (con memoria finita), entonces la lógica MSOBorel sobre (ℝ, <) es decidible.",
+                "merged": false,
+                "keywords": [
+                  "Si en los juegos Borelianos con prioridades se puede jugar de manera óptima utilizando estrategias “sencillas” (con memoria finita), entonces la lógica MSOBorel sobre (ℝ, <) es decidible.",
+                  "Teorema",
+                  "(Bojańczyk, C. Manthe, Parys, 2025)"
+                ],
+                "eventId": "2"
+              }
+            ],
+            "keywords": [
+              "Contribución",
+              "Introducimos un nuevo tipo de juego: “juegos Borelianos jerarquizados”",
+              "Reducción de la conjetura de Shela a un problema de estrategias en estos juegos",
+              "juegosMSOBorel"
+            ],
+            "eventId": "3",
+            "originalParams": {
+              "Group_393": {
+                "opacity": 1
+              },
+              "Group_395": {
+                "opacity": 1
+              }
+            }
+          }
+        ],
+        "keywords": [
+          "juegosMSO"
+        ],
+        "eventId": "18",
+        "originalParams": {
+          "El_estudio_de_este_tipo_de_juegos_se_desarroll__para_simplificar_el_teorema_de_Rabin_de_1969_": {
+            "opacity": 1
+          },
+          "Group_146": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "show",
+        "id": "Thanks_for_your_attention_",
+        "enabled": "enabled",
+        "name": "Thanks for your attention!",
+        "merged": false,
+        "keywords": [
+          "Thanks for your attention!"
+        ],
+        "eventId": "19"
+      }
+    ],
+    "keywords": [
+      "Lógica y juegos para la verificación formal",
+      "Antonio Casares Santos ⋅ RPTU Kaiserslautern",
+      "Ateneo IMUVa, 16 de Julio de 2026",
+      "title"
+    ],
+    "eventId": "root",
+    "originalParams": {
+      "D": {
+        "opacity": 1
+      },
+      "Thanks_for_your_attention_": {
+        "opacity": 1
+      }
+    }
+  },
+  "treeTimeLine": [],
+  "chronicleTimeLine": []
+}

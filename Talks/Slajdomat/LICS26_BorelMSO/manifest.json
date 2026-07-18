@@ -1,0 +1,1857 @@
+{
+  "version": 3.1,
+  "presentation": "LICS26-BorelMSO",
+  "slideDict": {
+    "new_slide": "title",
+    "main": "main",
+    "MSO": "MSO_definition",
+    "MSO___FO_powerset": "MSO___FO_powerset",
+    "MSO_definition": "MSO_main",
+    "_N___": "_N___",
+    "Expressive_power_N": "Expressive_power_N",
+    "Buchi_automata": "Buchi_automata",
+    "Proof_Automata": "Proof_Automata",
+    "Proof_induction": "Proof_induction",
+    "Complementation": "Complementation",
+    "_Q___": "_Q___",
+    "Expressive_power_MSO_Q": "Expressive_power_MSO_Q",
+    "Full_binary_tree": "Full_binary_tree",
+    "Proof": "Proof_Rabin_trees",
+    "Definition_tree_automata": "Definition_tree_automata",
+    "Definition_acceptance": "Definition_acceptance",
+    "Proof_induction2": "Proof_Rabin_tree_induction",
+    "Complementation_trees_proof": "Complementation_trees_proof",
+    "Proof_Rabin_with_games": "Proof_Rabin_with_games",
+    "proof_games_2": "proof_games_2",
+    "_R___": "_R___",
+    "Full_tree": "Full_tree_with_branches",
+    "Conjectures_Shelah": "Conjectures_Shelah",
+    "Borel_MSO": "Borel_MSO",
+    "Interest_of_Borel_MSO": "Interest_of_Borel_MSO",
+    "Borel_MSO_defines_more": "Borel_MSO_defines_more",
+    "Borel__R___": "Borel__R___",
+    "This_work___goal": "This_work___goal",
+    "This_work": "This_work___contributions",
+    "Proof_scheme": "Proof_scheme",
+    "Borel_tree_automata": "Borel_tree_automata",
+    "Borel_games": "Borel_games"
+  },
+  "tree": {
+    "type": "child",
+    "name": "title",
+    "id": "new_slide",
+    "enabled": "enabled",
+    "merged": false,
+    "children": [
+      {
+        "type": "child",
+        "name": "main",
+        "id": "main",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "Fix_a_logic_L_and_a_structure_S",
+            "enabled": "enabled",
+            "name": "Fix a logic L and a structure S",
+            "merged": false,
+            "keywords": [
+              "Fix a logic L and a structure S"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "show",
+            "id": "example__FO______and________",
+            "enabled": "enabled",
+            "name": "example: FO(+,×) and (ℕ,+,×)",
+            "merged": true,
+            "keywords": [
+              "example: FO(+,×) and (ℕ,+,×)"
+            ],
+            "eventId": "5"
+          },
+          {
+            "type": "show",
+            "id": "Group_32",
+            "enabled": "enabled",
+            "name": "Deciding the L-theory of S",
+            "merged": true,
+            "keywords": [
+              "Given",
+              ", does",
+              "?",
+              "Deciding the L-theory of S"
+            ],
+            "eventId": "6"
+          },
+          {
+            "type": "show",
+            "id": "Group_151",
+            "enabled": "enabled",
+            "name": "(ℕ, <) , (ℚ, <) , (ℝ, <)",
+            "merged": false,
+            "keywords": [
+              "Structures:",
+              "In this talk:",
+              "(ℕ, <) , (ℚ, <) , (ℝ, <)",
+              "Ordered sets"
+            ],
+            "eventId": "10"
+          },
+          {
+            "type": "show",
+            "id": "Group_1512",
+            "enabled": "enabled",
+            "name": "Monadic Second Order Logic (MSO)",
+            "merged": false,
+            "keywords": [
+              "Monadic Second Order Logic (MSO)",
+              "Logic:"
+            ],
+            "eventId": "11"
+          }
+        ],
+        "keywords": [
+          "Decidability results in logic",
+          "main"
+        ],
+        "eventId": "2",
+        "originalParams": {
+          "Fix_a_logic_L_and_a_structure_S": {
+            "opacity": 1
+          },
+          "example__FO______and________": {
+            "opacity": 1
+          },
+          "Group_32": {
+            "opacity": 1
+          },
+          "Monadic_Second_Order_Logic": {
+            "opacity": 1
+          },
+          "Group_151": {
+            "opacity": 1
+          },
+          "Group_1512": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "MSO-definition",
+        "id": "MSO",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "Group_35",
+            "enabled": "enabled",
+            "name": "Quantification over sets",
+            "merged": false,
+            "keywords": [
+              "Quantification over sets"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "__X_____y__exists__x_______x_in__X_____wedge____x_y",
+            "enabled": "enabled",
+            "name": "∃ X \\;∀ y \\exists{}x  \\;\\; x\\in{}X \\; \\wedge \\; x>y",
+            "merged": false,
+            "keywords": [
+              "∃ X \\;∀ y \\exists{}x  \\;\\; x\\in{}X \\; \\wedge \\; x>y"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "Group_352",
+            "enabled": "enabled",
+            "name": "There is an unbounded set",
+            "merged": false,
+            "keywords": [
+              "There is an unbounded set"
+            ],
+            "eventId": "4"
+          }
+        ],
+        "keywords": [
+          "First order logic connectives",
+          "MSO-definition"
+        ],
+        "eventId": "4",
+        "originalParams": {
+          "Group_35": {
+            "opacity": 1
+          },
+          "__X_____y__exists__x_______x_in__X_____wedge____x_y": {
+            "opacity": 1
+          },
+          "Group_352": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "MSO-main",
+        "id": "MSO_definition",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "Group_35",
+            "enabled": "enabled",
+            "name": "MSO theory of (ℕ, <)",
+            "merged": false,
+            "keywords": [
+              "Büchi, 1962",
+              "MSO theory of (ℕ, <)"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "child",
+            "name": "(N,<)",
+            "id": "_N___",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "Group_47",
+                "enabled": "enabled",
+                "name": "He proved it using . . .",
+                "merged": false,
+                "keywords": [
+                  "Büchi proved it using . . .",
+                  "automata!",
+                  "He proved it using . . ."
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "show",
+                "id": "Group_146",
+                "enabled": "enabled",
+                "name": "Infinite word over the unary alphabet",
+                "merged": false,
+                "keywords": [
+                  "(ℕ, <) =",
+                  ". . .",
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6",
+                  "7",
+                  "8",
+                  "9",
+                  "10",
+                  "11",
+                  "12",
+                  "13",
+                  "14",
+                  "Infinite word over the unary alphabet",
+                  "{ }"
+                ],
+                "eventId": "5"
+              },
+              {
+                "type": "show",
+                "id": "Group_77",
+                "enabled": "enabled",
+                "name": "Automata over infinite words",
+                "merged": false,
+                "keywords": [
+                  "MSO(ℕ, <)",
+                  "Automata over infinite words"
+                ],
+                "eventId": "7"
+              }
+            ],
+            "keywords": [
+              "Theorem",
+              "(Büchi, 1962)",
+              "The MSO theory of (ℕ, <) is decidable.",
+              "(N,<)"
+            ],
+            "eventId": "2",
+            "originalParams": {
+              "Group_47": {
+                "opacity": 1
+              },
+              "Group_146": {
+                "opacity": 1
+              },
+              "Group_77": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "child",
+            "name": "Proof Automata",
+            "id": "Proof_Automata",
+            "enabled": "enabled",
+            "merged": true,
+            "children": [
+              {
+                "type": "show",
+                "id": "Group_1462",
+                "enabled": "enabled",
+                "name": "For each sentence φ there is an automaton Aφ such that",
+                "merged": false,
+                "keywords": [
+                  "computable!",
+                  "For each sentence φ there is an automaton Aφ such that"
+                ],
+                "eventId": "10"
+              },
+              {
+                "type": "show",
+                "id": "emptiness",
+                "enabled": "enabled",
+                "name": "emptiness",
+                "merged": false,
+                "keywords": [
+                  "Emptiness of automata over infinite words is decidable",
+                  "emptiness"
+                ],
+                "eventId": "3"
+              },
+              {
+                "type": "show",
+                "id": "Group_146",
+                "enabled": "enabled",
+                "name": "Decidability",
+                "merged": false,
+                "keywords": [
+                  "Therefore:",
+                  "Decidability of MSO(ℕ, <)",
+                  "Decidability"
+                ],
+                "eventId": "7"
+              }
+            ],
+            "keywords": [
+              "Proof Automata"
+            ],
+            "eventId": "16",
+            "originalParams": {
+              "emptiness": {
+                "opacity": 1
+              },
+              "Group_146": {
+                "opacity": 1
+              },
+              "Group_1462": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "show",
+            "id": "Group_36",
+            "enabled": "enabled",
+            "name": "MSO theory of (ℚ, <) and the full binary tree",
+            "merged": false,
+            "keywords": [
+              "Rabin, 1969",
+              "MSO theory of (ℚ, <) and the full binary tree"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "child",
+            "name": "(Q,<)",
+            "id": "_Q___",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "The_first_order_theory_of_______is_decidable_",
+                "enabled": "enabled",
+                "name": "The first-order theory of (ℕ,+) is decidable.",
+                "merged": false,
+                "keywords": [
+                  "Theorem",
+                  "(Rabin, 1969)",
+                  "The MSO theory of the full binary tree is decidable.",
+                  "The first-order theory of (ℕ,+) is decidable."
+                ],
+                "eventId": "4"
+              },
+              {
+                "type": "show",
+                "id": "_implies",
+                "enabled": "enabled",
+                "name": "\\implies",
+                "merged": true,
+                "keywords": [
+                  "\\implies"
+                ],
+                "eventId": "6"
+              },
+              {
+                "type": "child",
+                "name": "Full binary tree",
+                "id": "Full_binary_tree",
+                "enabled": "enabled",
+                "merged": false,
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "_2____left__right_",
+                    "enabled": "enabled",
+                    "name": "(2<ω, left, right)",
+                    "merged": false,
+                    "keywords": [
+                      "(2<ω, left, right)"
+                    ],
+                    "eventId": "2"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Group_352",
+                    "enabled": "enabled",
+                    "name": "{0,1}",
+                    "merged": true,
+                    "keywords": [
+                      "{0,1}*",
+                      "{0,1}"
+                    ],
+                    "eventId": "3"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Group_63",
+                    "enabled": "enabled",
+                    "name": "x is on the left of y or x is a descendent of y",
+                    "merged": false,
+                    "keywords": [
+                      "x < y if x on the left of y",
+                      "We can define the lexicographic order:",
+                      "x is on the left of y or x is a descendent of y"
+                    ],
+                    "eventId": "4"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Group_64",
+                    "enabled": "enabled",
+                    "name": "01",
+                    "merged": false,
+                    "keywords": [
+                      "1",
+                      "01",
+                      "<"
+                    ],
+                    "eventId": "1"
+                  },
+                  {
+                    "type": "show",
+                    "id": "The_RPNI_algorithm_infers_a__reasonable__automaton_in_PTIME_",
+                    "enabled": "enabled",
+                    "name": "(ℚ, <) ≃ (2<ω, <)",
+                    "merged": false,
+                    "keywords": [
+                      "(ℚ, <) ≃ (2<ω, <)"
+                    ],
+                    "eventId": "5"
+                  },
+                  {
+                    "type": "show",
+                    "id": "The_rational_numbers_can_be_interpreted_in_2__",
+                    "enabled": "enabled",
+                    "name": "The rational numbers can be interpreted in 2<ω",
+                    "merged": false,
+                    "keywords": [
+                      "The rational numbers can be interpreted in 2<ω"
+                    ],
+                    "eventId": "6"
+                  }
+                ],
+                "keywords": [
+                  "0",
+                  "00",
+                  "01",
+                  "10",
+                  "11",
+                  "1",
+                  "ε",
+                  "Full binary tree"
+                ],
+                "eventId": "2",
+                "originalParams": {
+                  "Group_64": {
+                    "opacity": 1
+                  },
+                  "_2____left__right_": {
+                    "opacity": 1
+                  },
+                  "Group_352": {
+                    "opacity": 1
+                  },
+                  "Group_63": {
+                    "opacity": 1
+                  },
+                  "The_RPNI_algorithm_infers_a__reasonable__automaton_in_PTIME_": {
+                    "opacity": 1
+                  },
+                  "The_rational_numbers_can_be_interpreted_in_2__": {
+                    "opacity": 1
+                  }
+                }
+              },
+              {
+                "type": "show",
+                "id": "Group_63",
+                "enabled": "enabled",
+                "name": "Rabin proved it using . . .",
+                "merged": false,
+                "keywords": [
+                  "Rabin proved it using . . .",
+                  "tree automata!"
+                ],
+                "eventId": "5"
+              },
+              {
+                "type": "child",
+                "name": "Definition tree automata",
+                "id": "Definition_tree_automata",
+                "enabled": "enabled",
+                "merged": false,
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "States__Q____1__2__3_______n_",
+                    "enabled": "enabled",
+                    "name": "States: Q = {1, 2, 3, ..., n}",
+                    "merged": false,
+                    "keywords": [
+                      "States: Q = {1, 2, 3, ..., n}"
+                    ],
+                    "eventId": "2"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Group_1002",
+                    "enabled": "enabled",
+                    "name": "Transitions:",
+                    "merged": false,
+                    "keywords": [
+                      "Transitions:",
+                      "a",
+                      "3",
+                      "5",
+                      "2",
+                      "left",
+                      "right"
+                    ],
+                    "eventId": "3"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Group_100",
+                    "enabled": "enabled",
+                    "name": "A [1,n]-labelled tree",
+                    "merged": false,
+                    "keywords": [
+                      "3",
+                      "5",
+                      "2",
+                      "1",
+                      "4",
+                      "Output:",
+                      "A [1,n]-labelled tree",
+                      "ND transduction",
+                      "T’"
+                    ],
+                    "eventId": "1"
+                  }
+                ],
+                "keywords": [
+                  "a",
+                  "c",
+                  "b",
+                  "Input:",
+                  "A Σ-labelled tree",
+                  "T",
+                  "Automata over infinite trees",
+                  "Definition tree automata"
+                ],
+                "eventId": "7",
+                "originalParams": {
+                  "Group_100": {
+                    "opacity": 1
+                  },
+                  "States__Q____1__2__3_______n_": {
+                    "opacity": 1
+                  },
+                  "Group_1002": {
+                    "opacity": 1
+                  }
+                }
+              },
+              {
+                "type": "child",
+                "name": "Definition acceptance",
+                "id": "Definition_acceptance",
+                "enabled": "enabled",
+                "merged": true,
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "Group_123",
+                    "enabled": "enabled",
+                    "name": "A branch π in T’ is good if",
+                    "merged": false,
+                    "keywords": [
+                      "A branch π in T’ is good if",
+                      "is even"
+                    ],
+                    "eventId": "4"
+                  },
+                  {
+                    "type": "show",
+                    "id": "T_is_accepted_if_all_branches_in_T__are_good__for_some_transduced_T__",
+                    "enabled": "enabled",
+                    "name": "T is accepted if all branches in T’ are good (for some transduced T’)",
+                    "merged": false,
+                    "keywords": [
+                      "T is accepted if all branches in T’ are good (for some transduced T’)"
+                    ],
+                    "eventId": "3"
+                  }
+                ],
+                "keywords": [
+                  "Acceptance: Parity condition",
+                  "Definition acceptance"
+                ],
+                "eventId": "8",
+                "originalParams": {
+                  "Group_100": {
+                    "opacity": 1
+                  },
+                  "T_is_accepted_if_all_branches_in_T__are_good__for_some_transduced_T__": {
+                    "opacity": 1
+                  },
+                  "Group_123": {
+                    "opacity": 1
+                  }
+                }
+              }
+            ],
+            "keywords": [
+              "Theorem",
+              "(Rabin, 1969)",
+              "The MSO theory of (ℚ, <) is decidable.",
+              "(Q,<)"
+            ],
+            "eventId": "4",
+            "originalParams": {
+              "The_first_order_theory_of_______is_decidable_": {
+                "opacity": 1
+              },
+              "Group_63": {
+                "opacity": 1
+              },
+              "_implies": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "child",
+            "name": "Proof Rabin trees",
+            "id": "Proof",
+            "enabled": "enabled",
+            "merged": true,
+            "children": [
+              {
+                "type": "show",
+                "id": "Group_146",
+                "enabled": "enabled",
+                "name": "For each sentence φ there is an automaton Aφ such that",
+                "merged": false,
+                "keywords": [
+                  "(2<ω, left, right)",
+                  "For each sentence φ there is an automaton Aφ such that"
+                ],
+                "eventId": "7"
+              },
+              {
+                "type": "show",
+                "id": "emptiness",
+                "enabled": "enabled",
+                "name": "emptiness",
+                "merged": false,
+                "keywords": [
+                  "Emptiness of automata over infinite trees is decidable",
+                  "emptiness"
+                ],
+                "eventId": "4"
+              },
+              {
+                "type": "show",
+                "id": "_Solving_a_parity_game_",
+                "enabled": "enabled",
+                "name": "(Solving a parity game)",
+                "merged": true,
+                "keywords": [
+                  "(Solving a parity game)"
+                ],
+                "eventId": "6"
+              },
+              {
+                "type": "show",
+                "id": "Decidability",
+                "enabled": "enabled",
+                "name": "Decidability",
+                "merged": false,
+                "keywords": [
+                  "Decidability"
+                ],
+                "eventId": "8"
+              },
+              {
+                "type": "child",
+                "name": "Proof Rabin tree induction",
+                "id": "Proof_induction2",
+                "enabled": "enabled",
+                "merged": false,
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "Group_94",
+                    "enabled": "enabled",
+                    "name": "easy",
+                    "merged": false,
+                    "keywords": [
+                      "easy"
+                    ],
+                    "eventId": "1"
+                  },
+                  {
+                    "type": "show",
+                    "id": "spongeBob_tired_1",
+                    "enabled": "enabled",
+                    "name": "spongeBob-tired 1",
+                    "merged": false,
+                    "keywords": [
+                      "spongeBob-tired 1"
+                    ],
+                    "eventId": "3"
+                  },
+                  {
+                    "type": "child",
+                    "name": "Complementation trees proof",
+                    "id": "Complementation_trees_proof",
+                    "enabled": "enabled",
+                    "merged": false,
+                    "children": [
+                      {
+                        "type": "show",
+                        "id": "Group_101",
+                        "enabled": "enabled",
+                        "name": "Original proof by Rabin: extremely complex",
+                        "merged": false,
+                        "keywords": [
+                          "Original proof by Rabin: extremely complex"
+                        ],
+                        "eventId": "1"
+                      },
+                      {
+                        "type": "show",
+                        "id": "Group_482",
+                        "enabled": "enabled",
+                        "name": "modern",
+                        "merged": true,
+                        "keywords": [
+                          "Modern presentation: Using games!",
+                          "modern"
+                        ],
+                        "eventId": "2"
+                      },
+                      {
+                        "type": "show",
+                        "id": "Group_151",
+                        "enabled": "enabled",
+                        "name": "finite-memory determinacy of ω-regular games",
+                        "merged": false,
+                        "keywords": [
+                          "Key ingredient:",
+                          "finite-memory determinacy of ω-regular games"
+                        ],
+                        "eventId": "8"
+                      }
+                    ],
+                    "keywords": [
+                      "Challenge: parity tree-automata do not determinize",
+                      "Complementation trees proof"
+                    ],
+                    "eventId": "2",
+                    "originalParams": {
+                      "Group_101": {
+                        "opacity": 1
+                      },
+                      "Group_482": {
+                        "opacity": 1
+                      },
+                      "Group_151": {
+                        "opacity": 1
+                      }
+                    }
+                  }
+                ],
+                "keywords": [
+                  "Atomic formulas",
+                  "Disjunctions φ ∨ ψ",
+                  "Complementation ¬ φ",
+                  "Quantifiers ∃ X φ(X)",
+                  "Proof Logic → Automata by induction on φ",
+                  "Proof Rabin tree induction"
+                ],
+                "eventId": "9",
+                "originalParams": {
+                  "Group_94": {
+                    "opacity": 1
+                  },
+                  "spongeBob_tired_1": {
+                    "opacity": 1
+                  }
+                }
+              }
+            ],
+            "keywords": [
+              "(2<ω, left, right)",
+              "Automata over infinite trees",
+              "Proof Rabin trees"
+            ],
+            "eventId": "18",
+            "originalParams": {
+              "emptiness": {
+                "opacity": 1
+              },
+              "_Solving_a_parity_game_": {
+                "opacity": 1
+              },
+              "Group_146": {
+                "opacity": 1
+              },
+              "Decidability": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "show",
+            "id": "Group_37",
+            "enabled": "enabled",
+            "name": "MSO theory of (ℝ, <)",
+            "merged": false,
+            "keywords": [
+              "Shelah, 1975",
+              "MSO theory of (ℝ, <)"
+            ],
+            "eventId": "5"
+          },
+          {
+            "type": "child",
+            "name": "(R,<)",
+            "id": "_R___",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "Group_64",
+                "enabled": "enabled",
+                "name": "Ramsey theory",
+                "merged": false,
+                "keywords": [
+                  "Ramsey theory",
+                  "Semigroups"
+                ],
+                "eventId": "3"
+              },
+              {
+                "type": "show",
+                "id": "Group_352",
+                "enabled": "enabled",
+                "name": "R undecidable",
+                "merged": false,
+                "keywords": [
+                  "Theorem (ZF+AC)",
+                  "(Shelah, 1975)",
+                  "The MSO theory of (ℝ, <) is undecidable.",
+                  "R undecidable"
+                ],
+                "eventId": "4"
+              },
+              {
+                "type": "show",
+                "id": "The_first_order_theory_of_______is_decidable_",
+                "enabled": "enabled",
+                "name": "full tree undecidable",
+                "merged": false,
+                "keywords": [
+                  "Corollary (ZF+AC)",
+                  "The MSO theory of the full binary tree with branches is undecidable.",
+                  "full tree undecidable"
+                ],
+                "eventId": "5"
+              },
+              {
+                "type": "child",
+                "name": "Full tree with branches",
+                "id": "Full_tree",
+                "enabled": "enabled",
+                "merged": false,
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "Group_64",
+                    "enabled": "enabled",
+                    "name": "(2≤ω, < , )",
+                    "merged": false,
+                    "keywords": [
+                      "(2≤ω, < , )"
+                    ],
+                    "eventId": "1"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Group_77",
+                    "enabled": "enabled",
+                    "name": "≃ Cantor space",
+                    "merged": true,
+                    "keywords": [
+                      "2<ω",
+                      "2ω",
+                      "≃ Cantor space"
+                    ],
+                    "eventId": "2"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Group_352",
+                    "enabled": "enabled",
+                    "name": "{0,1}",
+                    "merged": false,
+                    "keywords": [
+                      "lexicographic order",
+                      "prefix relation",
+                      "{0,1}"
+                    ],
+                    "eventId": "3"
+                  },
+                  {
+                    "type": "show",
+                    "id": "_allows_to_say_node___branch_",
+                    "enabled": "enabled",
+                    "name": "(allows to say node ∈ branch)",
+                    "merged": true,
+                    "keywords": [
+                      "(allows to say node ∈ branch)"
+                    ],
+                    "eventId": "4"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Group_45",
+                    "enabled": "enabled",
+                    "name": "2ω \\ Eventually constant sequences",
+                    "merged": false,
+                    "keywords": [
+                      "(ℝ, <)",
+                      "≃",
+                      "2ω \\ {0ω} and {eventually 11111...}",
+                      "2ω \\ Eventually constant sequences"
+                    ],
+                    "eventId": "5"
+                  },
+                  {
+                    "type": "show",
+                    "id": "The_real_line_can_be_interpreted_in_2__",
+                    "enabled": "enabled",
+                    "name": "The real line can be interpreted in 2≤ω",
+                    "merged": false,
+                    "keywords": [
+                      "The real line can be interpreted in 2≤ω"
+                    ],
+                    "eventId": "6"
+                  }
+                ],
+                "keywords": [
+                  "Branches",
+                  "Nodes",
+                  "0",
+                  "00",
+                  "01",
+                  "10",
+                  "11",
+                  "1",
+                  "ε",
+                  "Full tree with branches"
+                ],
+                "eventId": "8",
+                "originalParams": {
+                  "Group_64": {
+                    "opacity": 1
+                  },
+                  "Group_77": {
+                    "opacity": 1
+                  },
+                  "Group_352": {
+                    "opacity": 1
+                  },
+                  "_allows_to_say_node___branch_": {
+                    "opacity": 1
+                  },
+                  "Group_45": {
+                    "opacity": 1
+                  },
+                  "The_real_line_can_be_interpreted_in_2__": {
+                    "opacity": 1
+                  }
+                }
+              }
+            ],
+            "keywords": [
+              "New decidability proof for MSO (ℚ, <). Compositional method",
+              "(R,<)"
+            ],
+            "eventId": "6",
+            "originalParams": {
+              "Group_64": {
+                "opacity": 1
+              },
+              "Group_352": {
+                "opacity": 1
+              },
+              "The_first_order_theory_of_______is_decidable_": {
+                "opacity": 1
+              },
+              "First__subject_to_the_continuum_hypothesis__then_this_requirement_was_removed__Gurevich__Shelah__88_": {
+                "opacity": 1
+              },
+              "Crazy_encoding_of_arithmetic": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "child",
+            "name": "Conjectures Shelah",
+            "id": "Conjectures_Shelah",
+            "enabled": "enabled",
+            "merged": true,
+            "children": [
+              {
+                "type": "child",
+                "name": "Borel-MSO",
+                "id": "Borel_MSO",
+                "enabled": "enabled",
+                "merged": false,
+                "children": [
+                  {
+                    "type": "show",
+                    "id": "MSOBorel__",
+                    "enabled": "enabled",
+                    "name": "MSOBorel :",
+                    "merged": false,
+                    "keywords": [
+                      "MSOBorel :"
+                    ],
+                    "eventId": "3"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Group_77",
+                    "enabled": "enabled",
+                    "name": "There exists X that is Borel and φ(X)",
+                    "merged": true,
+                    "keywords": [
+                      "≡",
+                      "There exists X that is Borel and φ(X)"
+                    ],
+                    "eventId": "1"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Group_78",
+                    "enabled": "enabled",
+                    "name": "For every Borel X, φ(X)",
+                    "merged": false,
+                    "keywords": [
+                      "≡",
+                      "For every Borel set X, φ(X)",
+                      "For every Borel X, φ(X)"
+                    ],
+                    "eventId": "10"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Why_MSOBorel_",
+                    "enabled": "enabled",
+                    "name": "Why MSOBorel?",
+                    "merged": false,
+                    "keywords": [
+                      "Why MSOBorel?"
+                    ],
+                    "eventId": "11"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Group_39",
+                    "enabled": "enabled",
+                    "name": "Borel sets are very natural",
+                    "merged": true,
+                    "keywords": [
+                      "Borel sets are very natural"
+                    ],
+                    "eventId": "12"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Group_40",
+                    "enabled": "enabled",
+                    "name": "The undecidability proof uses non-Borel, complex sets",
+                    "merged": false,
+                    "keywords": [
+                      "The undecidability proof uses non-Borel, complex sets"
+                    ],
+                    "eventId": "13"
+                  },
+                  {
+                    "type": "show",
+                    "id": "Group_41",
+                    "enabled": "enabled",
+                    "name": "MSOBorel can express things not expressible in MSO!!",
+                    "merged": false,
+                    "keywords": [
+                      "Sentences in MSOBorel have a different (interesting) meaning!!",
+                      "MSOBorel can express things not expressible in MSO!!"
+                    ],
+                    "eventId": "14"
+                  }
+                ],
+                "keywords": [
+                  "≡",
+                  "Borel",
+                  "Topologically reasonable",
+                  "Borel-MSO"
+                ],
+                "eventId": "1",
+                "originalParams": {
+                  "Group_77": {
+                    "opacity": 1
+                  },
+                  "MSOBorel__": {
+                    "opacity": 1
+                  },
+                  "Group_78": {
+                    "opacity": 1
+                  },
+                  "Why_MSOBorel_": {
+                    "opacity": 1
+                  },
+                  "Group_39": {
+                    "opacity": 1
+                  },
+                  "Group_40": {
+                    "opacity": 1
+                  },
+                  "Group_41": {
+                    "opacity": 1
+                  }
+                }
+              },
+              {
+                "type": "show",
+                "id": "Deciding_the_L_theory_of_S",
+                "enabled": "enabled",
+                "name": "Conj 2",
+                "merged": false,
+                "keywords": [
+                  "The MSO theory of (2≤ω, < , ) is decidable if the set quantification is restricted to Borel subsets of branches.",
+                  "Conjecture 2",
+                  "Conj 2"
+                ],
+                "eventId": "3"
+              },
+              {
+                "type": "show",
+                "id": "_implies",
+                "enabled": "enabled",
+                "name": "\\implies",
+                "merged": true,
+                "keywords": [
+                  "\\implies"
+                ],
+                "eventId": "4"
+              }
+            ],
+            "keywords": [
+              "The MSO theory of (ℝ, <) is decidable if the set quantification is restricted to Borel sets.",
+              "Conjecture 1",
+              "Conjectures Shelah"
+            ],
+            "eventId": "15",
+            "originalParams": {
+              "Deciding_the_L_theory_of_S": {
+                "opacity": 1
+              },
+              "_implies": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "hide",
+            "id": "Some_classic_results",
+            "enabled": "enabled",
+            "name": "Some classic results",
+            "merged": false,
+            "keywords": [
+              "Some classic results"
+            ],
+            "eventId": "13"
+          },
+          {
+            "type": "show",
+            "id": "Some_historical_brand_new_results_",
+            "enabled": "enabled",
+            "name": "Some classic brand new results!",
+            "merged": true,
+            "keywords": [
+              "Some classic brand new results!"
+            ],
+            "eventId": "14"
+          },
+          {
+            "type": "show",
+            "id": "Group_38",
+            "enabled": "enabled",
+            "name": "MSOBorel theory of (ℝ, <)",
+            "merged": false,
+            "keywords": [
+              "Manthe, 2024",
+              "MSOBorel theory of (ℝ, <)"
+            ],
+            "eventId": "7"
+          },
+          {
+            "type": "child",
+            "name": "Borel (R,<)",
+            "id": "Borel__R___",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "Proof_using_Shelah_s_compositional_method___Baire_property_of_Borel_sets",
+                "enabled": "enabled",
+                "name": "Proof using Shelah’s compositional method + Baire property of Borel sets",
+                "merged": false,
+                "keywords": [
+                  "Proof using Shelah’s compositional method + Baire property of Borel sets"
+                ],
+                "eventId": "4"
+              },
+              {
+                "type": "show",
+                "id": "Group_148",
+                "enabled": "enabled",
+                "name": "The Boolean combinations of Σ2-sets form an elementary substructure of the Borel sets.",
+                "merged": false,
+                "keywords": [
+                  "MSOBorel (ℝ, <) ≡ MSOBool(Σ2) (ℝ, <)",
+                  "Theorem",
+                  "(Manthe, 2024 )",
+                  "The Boolean combinations of Σ2-sets form an elementary substructure of the Borel sets."
+                ],
+                "eventId": "9"
+              },
+              {
+                "type": "show",
+                "id": "Group_77",
+                "enabled": "enabled",
+                "name": "= Fσ = countable unions of closed sets",
+                "merged": false,
+                "keywords": [
+                  "= Fσ = countable unions of closed sets = suuper simple",
+                  "= Fσ = countable unions of closed sets"
+                ],
+                "eventId": "5"
+              },
+              {
+                "type": "show",
+                "id": "Group_38",
+                "enabled": "enabled",
+                "name": "Does not generalize to the binary tree with branches (2≤ω, <)",
+                "merged": false,
+                "keywords": [
+                  "Highly involved",
+                  "Does not generalize to the binary tree with branches",
+                  "Does not generalize to the binary tree with branches (2≤ω, <)"
+                ],
+                "eventId": "2"
+              }
+            ],
+            "keywords": [
+              "Theorem",
+              "(Manthe, 2024 , under review)",
+              "The MSOBorel theory of (ℝ, <) is decidable.",
+              "Borel (R,<)"
+            ],
+            "eventId": "8",
+            "originalParams": {
+              "The_first_order_theory_of_______is_decidable_": {
+                "opacity": 1
+              },
+              "Group_38": {
+                "opacity": 1
+              },
+              "Proof_using_Shelah_s_compositional_method___Baire_property_of_Borel_sets": {
+                "opacity": 1
+              },
+              "Group_77": {
+                "opacity": 1
+              },
+              "Group_148": {
+                "opacity": 1
+              }
+            }
+          }
+        ],
+        "keywords": [
+          "Some classic results",
+          "MSO-main"
+        ],
+        "eventId": "5",
+        "originalParams": {
+          "Group_35": {
+            "opacity": 1
+          },
+          "Group_36": {
+            "opacity": 1
+          },
+          "Group_37": {
+            "opacity": 1
+          },
+          "Group_38": {
+            "opacity": 1
+          },
+          "Group_352": {
+            "opacity": 1
+          },
+          "Some_classic_results": {
+            "opacity": 1
+          },
+          "Some_historical_brand_new_results_": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "This work - goal",
+        "id": "This_work___goal",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "Group_146",
+            "enabled": "enabled",
+            "name": "(for automata-oriented people)",
+            "merged": false,
+            "keywords": [
+              "Simpler proof",
+              "(for automata-oriented people)"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "Group_482",
+            "enabled": "enabled",
+            "name": "borel tree automata",
+            "merged": false,
+            "keywords": [
+              "Get decidability of MSOBorel over the full binary tree",
+              "borel tree automata"
+            ],
+            "eventId": "2"
+          }
+        ],
+        "keywords": [
+          "Show decidability of MSOBorel with automata methods.",
+          "Goal",
+          "This work - goal"
+        ],
+        "eventId": "8",
+        "originalParams": {
+          "Group_146": {
+            "opacity": 1
+          },
+          "Group_482": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "This work - contributions",
+        "id": "This_work",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "Group_482",
+            "enabled": "enabled",
+            "name": "borel tree automata",
+            "merged": false,
+            "keywords": [
+              "Introduction of Borel-tree automata",
+              "borel tree automata"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "Basic_topology_2",
+            "enabled": "enabled",
+            "name": "prioritized Borel games",
+            "merged": false,
+            "keywords": [
+              "Introduction of prioritized Borel games",
+              "prioritized Borel games"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "child",
+            "name": "Borel-tree automata",
+            "id": "Borel_tree_automata",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "Group_148",
+                "enabled": "enabled",
+                "name": "Borel labelling",
+                "merged": false,
+                "keywords": [
+                  "Borel labelling",
+                  "{branches labelled α} is Borel"
+                ],
+                "eventId": "6"
+              },
+              {
+                "type": "show",
+                "id": "Group_146",
+                "enabled": "enabled",
+                "name": "A [1,n]-labelled tree. Same branch labeling",
+                "merged": false,
+                "keywords": [
+                  "Output:",
+                  "A [1,n]-labelled tree. Same branch labelling",
+                  "ND transduction",
+                  "3",
+                  "5",
+                  "2",
+                  "1",
+                  "4",
+                  "T’",
+                  "β",
+                  "α",
+                  "γ",
+                  "A [1,n]-labelled tree. Same branch labeling"
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "show",
+                "id": "Group_1462",
+                "enabled": "enabled",
+                "name": "States: Q = {1, 2, 3, ..., n}",
+                "merged": true,
+                "keywords": [
+                  "States: Q = {1, 2, 3, ..., n}",
+                  "Transitions:",
+                  "a",
+                  "3",
+                  "5",
+                  "2",
+                  "left",
+                  "right"
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "show",
+                "id": "Group_1463",
+                "enabled": "enabled",
+                "name": "For each α ∈ Σ’ Wα ⊆ Q",
+                "merged": false,
+                "keywords": [
+                  "Acceptance:",
+                  "For each α ∈ Σ’ Wα ⊆ [1,n]",
+                  "For each α ∈ Σ’ Wα ⊆ Q"
+                ],
+                "eventId": "3"
+              },
+              {
+                "type": "show",
+                "id": "Group_1464",
+                "enabled": "enabled",
+                "name": "T is accepted if all branches in T’ are good (for some transduced T’)",
+                "merged": false,
+                "keywords": [
+                  "T is accepted if all branches in T’ are good (for some transduced T’)"
+                ],
+                "eventId": "4"
+              },
+              {
+                "type": "show",
+                "id": "classical_notion__for_all____W____Even_numbers",
+                "enabled": "enabled",
+                "name": "classical notion: for all α, Wα = Even numbers",
+                "merged": false,
+                "keywords": [
+                  "classical notion: for all α, Wα = Even numbers"
+                ],
+                "eventId": "5"
+              }
+            ],
+            "keywords": [
+              "Input:",
+              "T",
+              "Σ = Labels of nodes",
+              "Σ’ = Labels of branches",
+              "b",
+              "c",
+              "a",
+              "β",
+              "α",
+              "γ",
+              "Borel tree automata",
+              "Borel-tree automata"
+            ],
+            "eventId": "6",
+            "originalParams": {
+              "Group_146": {
+                "opacity": 1
+              },
+              "Group_1462": {
+                "opacity": 1
+              },
+              "Group_1463": {
+                "opacity": 1
+              },
+              "Group_1464": {
+                "opacity": 1
+              },
+              "classical_notion__for_all____W____Even_numbers": {
+                "opacity": 1
+              },
+              "Group_148": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "child",
+            "name": "Borel games",
+            "id": "Borel_games",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "Winning_condition",
+                "enabled": "enabled",
+                "name": "Winning condition",
+                "merged": false,
+                "keywords": [
+                  "Winning condition"
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "show",
+                "id": "Group_142",
+                "enabled": "enabled",
+                "name": "Wi a subset of branches",
+                "merged": true,
+                "keywords": [
+                  "For each i ∈ [1,n]",
+                  "Wi a Borel subset of branches",
+                  "Wi a subset of branches"
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "show",
+                "id": "Group_145",
+                "enabled": "enabled",
+                "name": "1342342342... ∈ [1,n]ω",
+                "merged": false,
+                "keywords": [
+                  "A play produces:",
+                  "1342342342... ∈ [1,n]ω",
+                  "and a branch π"
+                ],
+                "eventId": "3"
+              },
+              {
+                "type": "show",
+                "id": "Group_138",
+                "enabled": "enabled",
+                "name": "limsup",
+                "merged": false,
+                "keywords": [
+                  "limsup",
+                  "i"
+                ],
+                "eventId": "4"
+              },
+              {
+                "type": "show",
+                "id": "Group_144",
+                "enabled": "enabled",
+                "name": "Wins if π ∈ Wi",
+                "merged": true,
+                "keywords": [
+                  "Wins if π ∈ Wi"
+                ],
+                "eventId": "5"
+              }
+            ],
+            "keywords": [
+              ". . .",
+              "4",
+              "2",
+              "1",
+              "3",
+              "5",
+              "Player 1",
+              "Player 2",
+              "Prioritized Borel games",
+              "Borel games"
+            ],
+            "eventId": "7",
+            "originalParams": {
+              "Winning_condition": {
+                "opacity": 1
+              },
+              "Group_142": {
+                "opacity": 1
+              },
+              "Group_145": {
+                "opacity": 1
+              },
+              "Group_138": {
+                "opacity": 1
+              },
+              "Group_144": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "show",
+            "id": "Group_352",
+            "enabled": "enabled",
+            "name": "thm",
+            "merged": false,
+            "keywords": [
+              "Theorem",
+              "If prioritized Borel-games are finite-memory determined, then MSOBorel(2≤ω) ≡ MSOBool(Σ2) (2≤ω) ≡ Borel-tree-automata and this theory is decidable.",
+              "thm"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "child",
+            "name": "Proof scheme",
+            "id": "Proof_scheme",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "Group_94",
+                "enabled": "enabled",
+                "name": "easy",
+                "merged": false,
+                "keywords": [
+                  "easy"
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "show",
+                "id": "Group_118",
+                "enabled": "enabled",
+                "name": "Uses a conjecture on prioritized Borel games",
+                "merged": false,
+                "keywords": [
+                  "Uses finite-memory of prioritized Borel games",
+                  "Uses a conjecture on prioritized Borel games"
+                ],
+                "eventId": "2"
+              }
+            ],
+            "keywords": [
+              "Proof MSOBorel → Automata by induction on φ",
+              "Atomic formulas",
+              "Disjunctions φ ∨ ψ",
+              "Complementation ¬ φ",
+              "Quantifiers ∃ X φ(X)",
+              "Proof scheme"
+            ],
+            "eventId": "9",
+            "originalParams": {
+              "Group_94": {
+                "opacity": 1
+              },
+              "Group_118": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "show",
+            "id": "Group_52",
+            "enabled": "enabled",
+            "name": "conj",
+            "merged": false,
+            "keywords": [
+              "Conjecture",
+              "conj"
+            ],
+            "eventId": "17"
+          },
+          {
+            "type": "show",
+            "id": "Prioritized_Borel_games_are_finite_memory_determined_",
+            "enabled": "enabled",
+            "name": "Prioritized Borel-games are finite-memory determined.",
+            "merged": true,
+            "keywords": [
+              "Prioritized Borel-games are finite-memory determined."
+            ],
+            "eventId": "20"
+          },
+          {
+            "type": "show",
+            "id": "The_RPNI_algorithm_infers_a__reasonable__automaton_in_PTIME_",
+            "enabled": "enabled",
+            "name": "There exists a function f(n) such that the winner in prioritized Borel games with n internal nodes can win with a strategy given by an automaton of size ≤ f(n).",
+            "merged": false,
+            "keywords": [
+              "There exists a function f(n) such that the winner in prioritized Borel games with n internal nodes can win with a strategy given by an automaton of size ≤ f(n)."
+            ],
+            "eventId": "15"
+          },
+          {
+            "type": "hide",
+            "id": "Prioritized_Borel_games_are_finite_memory_determined_",
+            "enabled": "enabled",
+            "name": "Prioritized Borel-games are finite-memory determined.",
+            "merged": true,
+            "keywords": [
+              "Prioritized Borel-games are finite-memory determined."
+            ],
+            "eventId": "21"
+          },
+          {
+            "type": "show",
+            "id": "Basic_topology_",
+            "enabled": "enabled",
+            "name": "proof subcases",
+            "merged": false,
+            "keywords": [
+              "Proof in some subcases",
+              "proof subcases"
+            ],
+            "eventId": "5"
+          },
+          {
+            "type": "show",
+            "id": "Thanks_for_your_attention_",
+            "enabled": "enabled",
+            "name": "Thanks for your attention!",
+            "merged": false,
+            "keywords": [
+              "Thanks for your attention!"
+            ],
+            "eventId": "3"
+          }
+        ],
+        "keywords": [
+          "Contributions",
+          "This work - contributions"
+        ],
+        "eventId": "6",
+        "originalParams": {
+          "Group_482": {
+            "opacity": 1
+          },
+          "Group_352": {
+            "opacity": 1
+          },
+          "Thanks_for_your_attention_": {
+            "opacity": 1
+          },
+          "Basic_topology_2": {
+            "opacity": 1
+          },
+          "Basic_topology_": {
+            "opacity": 1
+          },
+          "The_RPNI_algorithm_infers_a__reasonable__automaton_in_PTIME_": {
+            "opacity": 1
+          },
+          "Prioritized_Borel_games_are_finite_memory_determined_": {
+            "opacity": 1
+          },
+          "Group_52": {
+            "opacity": 1
+          }
+        }
+      }
+    ],
+    "keywords": [
+      "Mikołaj Bojańczyk, Antonio Casares, Sven Manthe and Paweł Parys",
+      "Automata for MSO over Infinite Trees with Quantification over Borel Sets of Branches",
+      "University of Warsaw",
+      "University of Münster",
+      "RPTU Kaiserslautern",
+      "title"
+    ],
+    "eventId": "root",
+    "originalParams": {
+      "Group_148": {
+        "opacity": 1
+      }
+    }
+  },
+  "treeTimeLine": [],
+  "chronicleTimeLine": []
+}

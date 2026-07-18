@@ -1886,18 +1886,6 @@
             "children": [
               {
                 "type": "show",
-                "id": "Group_147",
-                "enabled": "enabled",
-                "name": "(C., Löding, Prakash, Walukiewicz , ongoing)",
-                "merged": false,
-                "keywords": [
-                  "Theorem",
-                  "(C., Löding, Prakash, Walukiewicz , ongoing)"
-                ],
-                "eventId": "5"
-              },
-              {
-                "type": "show",
                 "id": "Group_120",
                 "enabled": "enabled",
                 "name": "Passive and active learning of layered automata",
@@ -1934,13 +1922,11 @@
               "Conjecture",
               "The minimal layered automaton has a minimal number of states among all equivalent HD alternating parity automata.",
               "Future work",
+              "(ongoing work with Löding, Prakash andWalukiewicz )",
               "Conclusions 2"
             ],
             "eventId": "21",
             "originalParams": {
-              "Group_119": {
-                "opacity": 1
-              },
               "Group_120": {
                 "opacity": 1
               },

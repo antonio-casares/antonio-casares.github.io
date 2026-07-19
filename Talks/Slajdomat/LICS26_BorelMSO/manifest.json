@@ -305,18 +305,6 @@
             "children": [
               {
                 "type": "show",
-                "id": "Group_1462",
-                "enabled": "enabled",
-                "name": "For each sentence φ there is an automaton Aφ such that",
-                "merged": false,
-                "keywords": [
-                  "computable!",
-                  "For each sentence φ there is an automaton Aφ such that"
-                ],
-                "eventId": "10"
-              },
-              {
-                "type": "show",
                 "id": "emptiness",
                 "enabled": "enabled",
                 "name": "emptiness",
@@ -342,6 +330,8 @@
               }
             ],
             "keywords": [
+              "computable!",
+              "For each sentence φ there is an automaton Aφ such that",
               "Proof Automata"
             ],
             "eventId": "16",
@@ -775,7 +765,7 @@
                         "id": "Group_482",
                         "enabled": "enabled",
                         "name": "modern",
-                        "merged": true,
+                        "merged": false,
                         "keywords": [
                           "Modern presentation: Using games!",
                           "modern"
@@ -872,18 +862,6 @@
             "enabled": "enabled",
             "merged": false,
             "children": [
-              {
-                "type": "show",
-                "id": "Group_64",
-                "enabled": "enabled",
-                "name": "Ramsey theory",
-                "merged": false,
-                "keywords": [
-                  "Ramsey theory",
-                  "Semigroups"
-                ],
-                "eventId": "3"
-              },
               {
                 "type": "show",
                 "id": "Group_352",
@@ -1025,24 +1003,31 @@
                     "opacity": 1
                   }
                 }
+              },
+              {
+                "type": "show",
+                "id": "Crazy_encoding_of_arithmetic",
+                "enabled": "enabled",
+                "name": "Crazy encoding of arithmetic",
+                "merged": false,
+                "keywords": [
+                  "Crazy encoding of arithmetic"
+                ],
+                "eventId": "9"
               }
             ],
             "keywords": [
               "New decidability proof for MSO (ℚ, <). Compositional method",
+              "Ramsey theory",
+              "Semigroups",
               "(R,<)"
             ],
             "eventId": "6",
             "originalParams": {
-              "Group_64": {
-                "opacity": 1
-              },
               "Group_352": {
                 "opacity": 1
               },
               "The_first_order_theory_of_______is_decidable_": {
-                "opacity": 1
-              },
-              "First__subject_to_the_continuum_hypothesis__then_this_requirement_was_removed__Gurevich__Shelah__88_": {
                 "opacity": 1
               },
               "Crazy_encoding_of_arithmetic": {
@@ -1378,7 +1363,7 @@
             "name": "(for automata-oriented people)",
             "merged": false,
             "keywords": [
-              "Simpler proof",
+              "Simpler proof for (ℝ, <)",
               "(for automata-oriented people)"
             ],
             "eventId": "1"
@@ -1425,7 +1410,7 @@
             "name": "borel tree automata",
             "merged": false,
             "keywords": [
-              "Introduction of Borel-tree automata",
+              "Introduction of automata over Borel trees",
               "borel tree automata"
             ],
             "eventId": "1"
@@ -1675,13 +1660,58 @@
           },
           {
             "type": "show",
+            "id": "Group_52",
+            "enabled": "enabled",
+            "name": "conj",
+            "merged": false,
+            "keywords": [
+              "Conjecture",
+              "conj"
+            ],
+            "eventId": "17"
+          },
+          {
+            "type": "show",
+            "id": "Prioritized_Borel_games_are_finite_memory_determined_",
+            "enabled": "enabled",
+            "name": "Prioritized Borel-games are finite-memory determined.",
+            "merged": true,
+            "keywords": [
+              "Prioritized Borel-games are finite-memory determined."
+            ],
+            "eventId": "20"
+          },
+          {
+            "type": "show",
+            "id": "The_RPNI_algorithm_infers_a__reasonable__automaton_in_PTIME_",
+            "enabled": "enabled",
+            "name": "There exists a function f(n) such that the winner in prioritized Borel games with n internal nodes can win with a strategy given by an automaton of size ≤ f(n).",
+            "merged": false,
+            "keywords": [
+              "There exists a function f(n) such that the winner in prioritized Borel games with n internal nodes can win with a strategy given by an automaton of size ≤ f(n)."
+            ],
+            "eventId": "15"
+          },
+          {
+            "type": "hide",
+            "id": "Prioritized_Borel_games_are_finite_memory_determined_",
+            "enabled": "enabled",
+            "name": "Prioritized Borel-games are finite-memory determined.",
+            "merged": true,
+            "keywords": [
+              "Prioritized Borel-games are finite-memory determined."
+            ],
+            "eventId": "21"
+          },
+          {
+            "type": "show",
             "id": "Group_352",
             "enabled": "enabled",
             "name": "thm",
             "merged": false,
             "keywords": [
               "Theorem",
-              "If prioritized Borel-games are finite-memory determined, then MSOBorel(2≤ω) ≡ MSOBool(Σ2) (2≤ω) ≡ Borel-tree-automata and this theory is decidable.",
+              "If prioritized Borel-games are finite-memory determined, then MSOBorel(2≤ω) ≡ MSOBool(Σ2) (2≤ω) ≡ Automata over Borel trees and this theory is decidable.",
               "thm"
             ],
             "eventId": "2"
@@ -1734,51 +1764,6 @@
                 "opacity": 1
               }
             }
-          },
-          {
-            "type": "show",
-            "id": "Group_52",
-            "enabled": "enabled",
-            "name": "conj",
-            "merged": false,
-            "keywords": [
-              "Conjecture",
-              "conj"
-            ],
-            "eventId": "17"
-          },
-          {
-            "type": "show",
-            "id": "Prioritized_Borel_games_are_finite_memory_determined_",
-            "enabled": "enabled",
-            "name": "Prioritized Borel-games are finite-memory determined.",
-            "merged": true,
-            "keywords": [
-              "Prioritized Borel-games are finite-memory determined."
-            ],
-            "eventId": "20"
-          },
-          {
-            "type": "show",
-            "id": "The_RPNI_algorithm_infers_a__reasonable__automaton_in_PTIME_",
-            "enabled": "enabled",
-            "name": "There exists a function f(n) such that the winner in prioritized Borel games with n internal nodes can win with a strategy given by an automaton of size ≤ f(n).",
-            "merged": false,
-            "keywords": [
-              "There exists a function f(n) such that the winner in prioritized Borel games with n internal nodes can win with a strategy given by an automaton of size ≤ f(n)."
-            ],
-            "eventId": "15"
-          },
-          {
-            "type": "hide",
-            "id": "Prioritized_Borel_games_are_finite_memory_determined_",
-            "enabled": "enabled",
-            "name": "Prioritized Borel-games are finite-memory determined.",
-            "merged": true,
-            "keywords": [
-              "Prioritized Borel-games are finite-memory determined."
-            ],
-            "eventId": "21"
           },
           {
             "type": "show",

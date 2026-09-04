@@ -1,0 +1,554 @@
+{
+  "version": 3.1,
+  "presentation": "Intro-ALF2026",
+  "slideDict": {
+    "new_slide": "main",
+    "Logistique2": "Logistique",
+    "Evaluation": "Evaluation",
+    "ce_qu_on_attend_de_vous": "ce_qu_on_attend_de_vous",
+    "Intro_langages": "Intro_langages",
+    "cliche": "cliche",
+    "Notion__mot": "Notion__mot",
+    "Applications": "Applications",
+    "Programme": "Programme",
+    "Objectifs": "Objectifs",
+    "Automata_Tutro": "Automata_Tutro"
+  },
+  "tree": {
+    "type": "child",
+    "name": "main",
+    "id": "new_slide",
+    "enabled": "enabled",
+    "merged": false,
+    "children": [
+      {
+        "type": "show",
+        "id": "Logistique",
+        "enabled": "enabled",
+        "name": "Logistique",
+        "merged": false,
+        "keywords": [
+          "Logistique"
+        ],
+        "eventId": "10"
+      },
+      {
+        "type": "child",
+        "name": "Logistique",
+        "id": "Logistique2",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "_ou_presque_",
+            "enabled": "enabled",
+            "name": "(ou presque)",
+            "merged": false,
+            "keywords": [
+              "(ou presque)"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "Group_4",
+            "enabled": "enabled",
+            "name": "Lundi : 9h-10h30 10h45-12h15 14h-15h30",
+            "merged": false,
+            "keywords": [
+              "Emploi du temps",
+              "Lundi : 9h-10h30 10h45-12h15 14h-15h30",
+              "Il sera probablement modifié !"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "show",
+            "id": "TPs",
+            "enabled": "enabled",
+            "name": "TPs",
+            "merged": false,
+            "keywords": [
+              "TPs",
+              "4 séances de TP en octobre/novembre (creneau habituel)",
+              "en python"
+            ],
+            "eventId": "5"
+          }
+        ],
+        "keywords": [
+          "Infos générales",
+          "6 ECTS 46h CM/TP + 8h TP sur 12 semaines",
+          "Cours intégré Cours au tableu",
+          "Logistique"
+        ],
+        "eventId": "1",
+        "originalParams": {
+          "_ou_presque_": {
+            "opacity": 1
+          },
+          "Group_4": {
+            "opacity": 1
+          },
+          "TPs": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "Automata Tutro",
+        "id": "Automata_Tutro",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "Group_5",
+            "enabled": "enabled",
+            "name": "outil online pour faire des exercices",
+            "merged": false,
+            "keywords": [
+              "Automata tutor",
+              "outil online pour faire des exercices",
+              "lien sur AMeTICE"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "s_inscrire_avec_mail_etu_univ_amu_fr",
+            "enabled": "enabled",
+            "name": "s’inscrire avec mail etu.univ-amu.fr",
+            "merged": false,
+            "keywords": [
+              "s’inscrire avec mail etu.univ-amu.fr"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "travail_autonome__participation_prise_en_compte_pour_la_note_finale",
+            "enabled": "enabled",
+            "name": "travail autonome, participation prise en compte pour la note finale",
+            "merged": false,
+            "keywords": [
+              "travail autonome, participation prise en compte pour la note finale"
+            ],
+            "eventId": "3"
+          }
+        ],
+        "keywords": [
+          "Page du cours AMeTICE",
+          "polycopié du cours",
+          "feuilles de TD/TP",
+          "toutes les infos pertinantes",
+          "Vous y trouverez :",
+          "[26-27]-L2 Info - Automates et Langages Formels",
+          "Automata Tutro"
+        ],
+        "eventId": "13",
+        "originalParams": {
+          "Group_5": {
+            "opacity": 1
+          },
+          "s_inscrire_avec_mail_etu_univ_amu_fr": {
+            "opacity": 1
+          },
+          "travail_autonome__participation_prise_en_compte_pour_la_note_finale": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "Evaluation",
+        "id": "Evaluation",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "Group_4",
+            "enabled": "enabled",
+            "name": "TP = Partiel programmation (jeudi 12 novembre, 15h45 - 16h45)",
+            "merged": false,
+            "keywords": [
+              "ET = Examen terminal",
+              "P = Partiel : mercredi 4 novembre, 14h",
+              "TP = Partiel programmation sur papier + note Automata Tutor",
+              "Partiel TP : jeudi 12 novembre, 15h45",
+              "TP = Partiel programmation (jeudi 12 novembre, 15h45 - 16h45)"
+            ],
+            "eventId": "1"
+          }
+        ],
+        "keywords": [
+          "Modalités d’évaluation",
+          "Note finale = max { (3*ET + P + TP) / 5 , ET }",
+          "Evaluation"
+        ],
+        "eventId": "4",
+        "originalParams": {
+          "Group_4": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "ce qu'on attend de vous",
+        "id": "ce_qu_on_attend_de_vous",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "Arriver___l_heure___retard_de__5_minutes_non_toler_",
+            "enabled": "enabled",
+            "name": "Arriver à l’heure : retard de +5 minutes non toleré",
+            "merged": false,
+            "keywords": [
+              "Arriver à l’heure : retard de +5 minutes non toleré"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "Group_4",
+            "enabled": "enabled",
+            "name": "Travail autonome à la maison (1h-2h par semaine + révision examens)",
+            "merged": false,
+            "keywords": [
+              "Travail autonome à la maison (1h-2h par semaine + révision examens)",
+              "(1h-2h par semaine + automata tutor + révision examens)"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "show",
+            "id": "Posez_de_questions__",
+            "enabled": "enabled",
+            "name": "Posez de questions !",
+            "merged": false,
+            "keywords": [
+              "Posez de questions !"
+            ],
+            "eventId": "3"
+          }
+        ],
+        "keywords": [
+          "Ce qu’on attend de vous",
+          "Assister aux séances de CM/TD/TP",
+          "Travail actif pendant ces séances (pas de téléphone)",
+          "ce qu'on attend de vous"
+        ],
+        "eventId": "9",
+        "originalParams": {
+          "Arriver___l_heure___retard_de__5_minutes_non_toler_": {
+            "opacity": 1
+          },
+          "Posez_de_questions__": {
+            "opacity": 1
+          },
+          "Group_4": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "show",
+        "id": "Contenu_du_cours",
+        "enabled": "enabled",
+        "name": "Thématique et contenu",
+        "merged": false,
+        "keywords": [
+          "Thématique et contenu"
+        ],
+        "eventId": "11"
+      },
+      {
+        "type": "child",
+        "name": "Intro langages",
+        "id": "Intro_langages",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "Group_2",
+            "enabled": "enabled",
+            "name": "def est_premier(n):↩if n < 2:↩False↩for i ...",
+            "merged": false,
+            "keywords": [
+              "Une liste de caractères !",
+              "def est_premier(n):↩if n < 2:↩False↩for i ..."
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "Comment_on_r_presente_un_nombre_sur_un_ordinateur__",
+            "enabled": "enabled",
+            "name": "Comment on répresente un nombre sur un ordinateur ?",
+            "merged": false,
+            "keywords": [
+              "Comment on répresente un nombre sur un ordinateur ?"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "Group_22",
+            "enabled": "enabled",
+            "name": "Une liste de 0 et 1 !",
+            "merged": false,
+            "keywords": [
+              "Une liste de 0 et 1 !",
+              "13 →1101"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "show",
+            "id": "Quelles_sont_les_entr_es_pour_lesquels_le_programme_ci_dessus_renvoie__True___",
+            "enabled": "enabled",
+            "name": "Quelles sont les entrées pour lesquels le programme ci-dessus renvoie “True” ?",
+            "merged": false,
+            "keywords": [
+              "Quelles sont les entrées pour lesquels le programme ci-dessus renvoie “True” ?"
+            ],
+            "eventId": "5"
+          },
+          {
+            "type": "show",
+            "id": "Group_23",
+            "enabled": "enabled",
+            "name": "{ 2, 3, 5, 7, 11, ... } → { 0010, 0011, 0101, 0111, 1011, ... }",
+            "merged": false,
+            "keywords": [
+              "Ensemble de listes de 0 et 1",
+              "{ 2, 3, 5, 7, 11, ... } → { 0010, 0011, 0101, 0111, 1011, ... }"
+            ],
+            "eventId": "6"
+          }
+        ],
+        "keywords": [
+          "def est_premier(n): if n < 2: return False for i in range(2, n):  if n % i == 0:  return False return True",
+          "C’est quoi un programme informatique ?",
+          "Intro langages"
+        ],
+        "eventId": "2",
+        "originalParams": {
+          "Group_2": {
+            "opacity": 1
+          },
+          "Comment_on_r_presente_un_nombre_sur_un_ordinateur__": {
+            "opacity": 1
+          },
+          "Group_22": {
+            "opacity": 1
+          },
+          "Quelles_sont_les_entr_es_pour_lesquels_le_programme_ci_dessus_renvoie__True___": {
+            "opacity": 1
+          },
+          "Group_23": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "cliche",
+        "id": "cliche",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [],
+        "keywords": [
+          "IT’S ALL ONES AND ZEROS",
+          "cliche"
+        ],
+        "eventId": "8",
+        "originalParams": {}
+      },
+      {
+        "type": "child",
+        "name": "Notion: mot",
+        "id": "Notion__mot",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "Ex___1101_aba_maison_p4_3___",
+            "enabled": "enabled",
+            "name": "Ex : 1101 aba maison p4&3_!?",
+            "merged": false,
+            "keywords": [
+              "Ex : 1101 aba maison p4&3_!?"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "langage___ensemble_de_mots",
+            "enabled": "enabled",
+            "name": "langage = ensemble de mots",
+            "merged": false,
+            "keywords": [
+              "langage = ensemble de mots"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "Ex____maison__cl___chat__Mots_qui_finissent_par_b",
+            "enabled": "enabled",
+            "name": "Ex : {maison, clé, chat} Mots qui finissent par b",
+            "merged": false,
+            "keywords": [
+              "Ex : {maison, clé, chat} Mots qui finissent par b"
+            ],
+            "eventId": "3"
+          }
+        ],
+        "keywords": [
+          "Notions centrales du cours :",
+          "mot = suite de symboles",
+          "Notion: mot"
+        ],
+        "eventId": "7",
+        "originalParams": {
+          "Ex___1101_aba_maison_p4_3___": {
+            "opacity": 1
+          },
+          "langage___ensemble_de_mots": {
+            "opacity": 1
+          },
+          "Ex____maison__cl___chat__Mots_qui_finissent_par_b": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "Applications",
+        "id": "Applications",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "Group_2",
+            "enabled": "enabled",
+            "name": "Quels dispositifs de calcul sont adaptés à un traitement algorithmique efficace",
+            "merged": false,
+            "keywords": [
+              "Deux points de vue explorés dans ce cours :",
+              "Spécification",
+              "Opérationnel",
+              "Comment décrire un langage",
+              "Quels dispositifs de calcul sont adaptés à un traitement algorithmique efficace"
+            ],
+            "eventId": "1"
+          }
+        ],
+        "keywords": [
+          "Applications en :",
+          "programmation, compilation, vérification, calculabilité, complexité, logique, traitement automatique du langage naturel, etc...",
+          "Applications"
+        ],
+        "eventId": "12",
+        "originalParams": {
+          "Group_2": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "Programme",
+        "id": "Programme",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "Group_3",
+            "enabled": "enabled",
+            "name": "Automates finis et langages réguliers",
+            "merged": false,
+            "keywords": [
+              "Intro",
+              "Automates finis et langages réguliers",
+              "Langages algébriques"
+            ],
+            "eventId": "1"
+          }
+        ],
+        "keywords": [
+          "Programme des 12 semaines",
+          "1. Mots, langages, expressions régulières 2. Automates finis 3. Déterminisation 4. Algorithme des automates 5. Théorème de Kleene 6. Automate des résiduels 7. Critères de (non) régularité 8. Automates à pile 9. Grammaires algébriques 10. Equivalence grammaires algébriques/automates à pile 11. Problèmes d’appartenance 12. Révisions",
+          "Programme"
+        ],
+        "eventId": "3",
+        "originalParams": {
+          "Group_3": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "Objectifs",
+        "id": "Objectifs",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [
+          {
+            "type": "show",
+            "id": "r_diger_des_preuves_math_matiques_s_exprimer_avec_une_terminologie_pr_cise_comprendre_le_fonctionnement_d_algorithmes",
+            "enabled": "enabled",
+            "name": "rédiger des preuves mathématiques s’exprimer avec une terminologie précise comprendre le fonctionnement d’algorithmes",
+            "merged": false,
+            "keywords": [
+              "rédiger des preuves mathématiques s’exprimer avec une terminologie précise comprendre le fonctionnement d’algorithmes"
+            ],
+            "eventId": "1"
+          }
+        ],
+        "keywords": [
+          "Disclaimer :",
+          "cours théorique !",
+          "Objectifs"
+        ],
+        "eventId": "6",
+        "originalParams": {
+          "r_diger_des_preuves_math_matiques_s_exprimer_avec_une_terminologie_pr_cise_comprendre_le_fonctionnement_d_algorithmes": {
+            "opacity": 1
+          }
+        }
+      }
+    ],
+    "keywords": [
+      "Automates et Langages Formels",
+      "Antonio CASARES",
+      "antonio.casares-santos@univ-amu.fr",
+      "2026/2027",
+      "AMU – L2 Informatique – Luminy",
+      "main"
+    ],
+    "eventId": "root",
+    "originalParams": {
+      "Logistique": {
+        "opacity": 1
+      },
+      "Contenu_du_cours": {
+        "opacity": 1
+      }
+    }
+  },
+  "treeTimeLine": [],
+  "chronicleTimeLine": []
+}
